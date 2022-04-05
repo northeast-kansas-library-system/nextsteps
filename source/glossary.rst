@@ -1,3 +1,5 @@
+.. include:: include.rst
+
 Glossary
 ========
 
@@ -24,8 +26,14 @@ Software, languages, and outside services:
 
 .. glossary::
 
+    Integrated library system
+      (**AKA: ILS; Library management system (LMS); Integrated library management system (ILMS)**) |br| A software system that, at a minumum, integrates a library's bibliographic catalog and it's borrower records in order to manage circulaiton.  Integrated library systems may also include components or modules that help manage acquisitions, serials, requests, authorities, public access catalogs; and other components to help automate and computerize library services.
+
     Koha
       Koha is the name of the open source integrated library system software used by Next Search Catalog.  You can learn more about Koha at `the Koha Community website <https://koha-community.org/>`_
+
+    ShareIt
+      (***AKA Agent***) |br| The software system used to manage the statewide ILL service.
 
     SIP
       Standard Interchange Protocol - A protocol for sending messages between an ILS and third party software.  SIP was originally developed by 3M in the 1980s.
@@ -94,8 +102,17 @@ Abbreviations
 
 .. glossary::
 
+    ILS
+      Abbreviation for :term:`Integrated library system`
+
+    ILMS
+      Abbreviation for :term:`Integrated library management system<Integrated library system>`
+
     IMLS
       Abbreviation for :term:`Institute of Museum and Library Services`
+
+    LMS
+      Abbreviation for :term:`Library management system<Integrated library system>`
 
     KLE
       Abbreviation for :term:`Kansas Library Express`

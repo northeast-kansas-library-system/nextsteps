@@ -123,7 +123,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'NextSearchCatalog.tex', 'Next Search Catalog',
+    (master_doc, 'NextSteps.tex', 'Next Search Catalog',
      'NEKLS Staff', 'manual'),
 ]
 
@@ -180,15 +180,3 @@ class PatchedHTMLTranslator(HTMLTranslator):
 
 def setup(app):
     app.set_translator('html', PatchedHTMLTranslator)
-
-{
-    'hoverxref': 'modal',
-    'ref': 'modal',  # for hoverxref_auto_ref config
-    'confval': 'tooltip',  # for custom object
-    'mod': 'tooltip',  # for Python Sphinx Domain
-    'class': 'tooltip',  # for Python Sphinx Domain
-}
-
-hoverxref_roles = [
-    'term'
-]
