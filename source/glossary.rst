@@ -1,11 +1,13 @@
 .. include:: include.rst
 
+
+########
 Glossary
-========
+########
 
 
 Agencies:
----------
+=========
 
 .. glossary::
 
@@ -22,12 +24,19 @@ Agencies:
       The State Library of Kansas (AKA :term:`SLK`) acts as the library for the governmental offices of Kansas and helps provide library services to all residents of the state of Kansas.  You can learn more about the State Library of Kansas at the `State Library of Kansas website <https://kslib.info/>`_
 
 Software, languages, and outside services:
-------------------------------------------
+==========================================
 
 .. glossary::
 
     Integrated library system
-      (**AKA: ILS; Library management system (LMS); Integrated library management system (ILMS)**) |br| A software system that, at a minumum, integrates a library's bibliographic catalog and it's borrower records in order to manage circulaiton.  Integrated library systems may also include components or modules that help manage acquisitions, serials, requests, authorities, public access catalogs; and other components to help automate and computerize library services.
+      **AKA:**
+
+      - ILS
+      - IMLS
+      - LMS
+      - Library management system
+      - Integrated library management system
+      A software system that, at a minumum, integrates a library's bibliographic catalog and it's borrower records in order to manage circulaiton.  Integrated library systems may also include components or modules that help manage acquisitions, serials, requests, authorities, public access catalogs; and other components to help automate and computerize library services.
 
     Koha
       Koha is the name of the open source integrated library system software used by Next Search Catalog.  You can learn more about Koha at `the Koha Community website <https://koha-community.org/>`_
@@ -42,7 +51,7 @@ Software, languages, and outside services:
       Standard Interchange Protocol, version 2 - A protocol for sending messages between an ILS and third party software.  An update to the original SIP protocol developed by 3M in the 1980s.
 
 System related terms:
----------------------
+=====================
 
 .. glossary::
 
@@ -72,7 +81,7 @@ Item statuses:
       An item is considered "Overdue" when it is checked out to a patron beyond its due date.
 
 Lost item statuses
-^^^^^^^^^^^^^^^^^^
+------------------
 
 .. glossary::
 
@@ -86,7 +95,7 @@ Lost item statuses
       An item is considered "Claims returned" when an item is checked out to a patron, but the patron claims that they have returned it, and library staff are unable to locate the item on the shelf.
 
 Notices and slips
-^^^^^^^^^^^^^^^^^
+-----------------
 
 .. glossary::
 
@@ -98,7 +107,7 @@ Notices and slips
       - Please note that a *valid* email address does not necessarily mean the first *working* email address -- *valid* just means the email address meets the IETF standards for a properly formatted email address (see `Valid email address format <https://help.xmatters.com/ondemand/trial/valid_email_format.htm>`_ for more information)
 
 Abbreviations
-^^^^^^^^^^^^^
+=============
 
 .. glossary::
 

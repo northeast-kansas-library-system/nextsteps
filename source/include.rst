@@ -1,8 +1,10 @@
-.. image includes file for next
+.. include these commands in all files
 
 .. |br| raw:: html
 
     <br />
 
-.. |default.png| image:: /images/default.png
+.. include all of these images in all files
+
+.. |soon| image:: /images/default.png
     :alt: Image coming soon
