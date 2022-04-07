@@ -117,3 +117,5 @@ History of Next Search Catalog
 - 2022
 
  - January - Upgrade to Koha 21.05
+
+.. - September - NEKLS hosts the joint koha-US/KohaCon22 conference in Lawrence, KS
