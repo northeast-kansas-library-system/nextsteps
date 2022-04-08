@@ -4,6 +4,10 @@
 About Next Search Catalog
 #########################
 
+.. include:: \pages\contact.rst
+
+.. include:: \pages\team.rst
+
 .. include:: \pages\about.rst
 
 .. include:: \pages\members.rst
