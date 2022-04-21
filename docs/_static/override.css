@@ -1,3 +1,7 @@
+body {
+  background: #2457b2 !important;
+}
+
 /* Override 800 pixel column width */
 .wy-nav-content {
   max-width: 80%;
@@ -5,7 +9,7 @@
 
 /* Override top left header color */
 .wy-side-nav-search {
-  background-color: #1f9bde !important;
+  background-color: #4c9ad8 !important;
 }
 
 /* Override navbar background color */

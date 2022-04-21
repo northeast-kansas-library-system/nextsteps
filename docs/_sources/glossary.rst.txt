@@ -67,6 +67,9 @@ System related terms:
     Permission
       User permissions are set by the Next Search Catalog system administrators and determine which components of the system staff members have access to when they log in.
 
+    Password
+      (***AKA PIN***) |br| 
+
     Shelving location
       Shelving locations describe where an item is located in the library.  Next Search Catalog uses 3 basic shelving locations, Adult, Childrens, and Young adult.  For a full list of shelving locations, run report
 
