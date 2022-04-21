@@ -33,33 +33,26 @@ Currently there are dozens of integrated library systems used throughout the wor
 - Verso
 - World Share
 
+The ILS we use in Next Search Catalog is Koha.
 
-History
-=======
+
+A Brief History of the Integrated Library System
+================================================
 
 Library catalogs have been around as long as libraries have.  In its most basic form, a library catalog is a list of all of the titles owned by a library.
 
-Up until the late 1780s, most early library catalogs consisted of books containing lists of the titles that were housed in a library and those books were updated from time to time.  The problem with storing catalog information in a book comes when you add or remove books from the library's collection.  Adding or deleting a title means that you have to edit the book.  This all changed in the late 1780s.
+The earliest form of library catalog was the librarian.  In the ancient world, the easiest way to locate an item in the library was to ask the librarian.  The problem with this, of course, is that the catalog was only as good as the librarian and it only lasted as long as the librarian did.  To help manage their collections and their memories, librarians wrote stuff down.
 
-During the French Revolution, the Revolutionary government seized books from all kinds of places.  Books from private, academic, monastic libraries, and other institutions and private collectors were confiscated in an effort to make knowledge more accessible to the general public.  Librarians dealt with the chaos created by the flood of confiscated books by writing down bibliographic information on the backs of playing cards.  Playing cards were readily available and, at that time, the backs of cards were usually blank.  Because cards were more durable than slips of paper and because they were easy to sort, file, and resort when new books were added to a collection, within about 30 years card catalogs were widely adopted by libraries as the standard form of catalog.  By 1900 the Library of Congress had become the de-facto national library of the USA and engaged in the business of selling library catalog cards to public libraries throughout the US.  At the end of each month librarians would send the Library of Congress a list of titles they had added to their collections and, for a small fee, the Library of Congress would print cards to go with those titles for the requesting library.  This made library catalogs throughout the US very consistent.
+Up until the late 1780s, most early library catalogs consisted of books containing lists of the titles that were housed in a library and those catalog books were updated from time to time.  The problem with storing catalog information in a book comes when you add or remove books from the library's collection.  After the invention of the printing press and the mass production of books began, keeping a catalog in a book either meant that the book needed to be updated and re-printed regularly (which was costly and time consuming) or libraries had to keep lists of new titles in supplemental volumes (which makes searching cumbersome).  This all changed in the 1790s.
 
-By the 1960s, though, computers were becoming more available for business solutions.  Really large libraries like the Library of Congress and large university libraries were facing serious space issues caused by their large card catalogs.  At some point some cataloger somewhere said "Hey, wouldn't it be great if we could put all of this catalog information on a computer?"
+During the French Revolution, the Revolutionary government seized property from the church including books and libraries and those books were used to create a French national library system.  Librarians had to come up with a way to quickly and easily train people in local communities how to manage their newly acquired library collections which were really in a state of chaos.  Librarians dealt with the turmoil created by the flood of confiscated books by writing down bibliographic information on the backs of playing cards.  Playing cards were readily available and, at that time, the backs of cards were usually blank.  Because cards were more durable than slips of paper and because cards were easy to sort, file, and resort when new books were added to a collection, within 50 years card catalogs were being widely adopted by libraries around the world as the standard form of maintaining a catalog.
 
-At the same time catalogers were struggling with card catalogs, circulation staff had similar issues with patron data.  By the 1960s most libraries kept borrower information on cards similar to card catalog cards and had similar issues as catalogers.  Someone at a circulation desk somewhere said "Hey, wouldn't it be great if we could put all of this borrower information on a computer?"
+In the USA, by 1900 the Library of Congress had become the de-facto national library of the United States and they had a division that was devoted just to the production of library catalog cards.  It's important to know, though, that they didn't just produce cards for the catalog at the Library of Congress.  It was possible (up until the 1990s) for libraries in the USA to purchase copies of existing Library of Congress catalog cards for use in their own public libraries through the Cataloging Distribution Service.
 
-The library of congress tackled the first issue in the late 1960s when they developed the Marc cataloging format.  Marc stands for Machine Readable Code and it's very similar to the file format that we are still using 55 years later.  And at some point, someone in the cataloging department ran into someone from the circulation department and the two of them started talking about their goals of computerizing their data.
+The problem for the Library of Congress was that, by the mid 1960s, they had acquired close to 9 million titles and their card catalog was taking up a massive amount of space.
 
-And then one of them said "What if we integrated the cataloging information and the borrower information?  Then we could use the computer to track who has something checked out and when it's due."
+At the same time as the catalogers were trying to figure out how to create, organize, and store information about the library's holdings, other libraries also had to start dealing with the question of how to create, organize, and store information about library users.  Up until around 1800, most libraries did not loan their materials and when they did there were so few borrowers that keeping track of circulation was not too difficult.  When libraries began to let most users borrow books, it became necessary to set up systems for inventory control.  Most of these systems again involved books.  Most libraries used ledgers that included a page for each registered library user.  Then, underneath their registration information would be a list of what they had checked out, when it was due, etc.  Similarly to using books for the library catalog, this practice had a lot of disadvantages.
 
-This was the beginning of the integrated library system.
+A change happened in the 1930s with the invention of the library card.  Users were no longer tracked by names on sheet of paper in a ledger, circulation cards were added to books and borrowers were tracked by numbers in new circulation filing systems.
 
-A cataloging system for storing information about books and other library materials.
-A patron information system for storing information about the people who borrow the books and other materials.
-Integration of the two systems so that you can track which borrower has borrowed which book.
-
-Since that basic integration, other components have been added.  Most Integrated Library Systems include:
-
-- Holds module - tracks requests for materials
-- Serials module - helps track magazine subscriptions
-- Acquisitions module - helps track materials budgets and ordering information
-- OPAC - Online Public Access Catalog - allows patrons to search the catalog and manage their account
+Computerization came along in the

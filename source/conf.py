@@ -85,7 +85,7 @@ pygments_style = 'sphinx'
 
 html_theme = "sphinx_rtd_theme"
 
-html_logo = 'next.grey.small.png'
+html_logo = 'next.steps.logo.dark.1.1.png'
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -95,7 +95,7 @@ html_static_path = ['_static']
 
 html_context = {
     'css_files': [
-        '_static/override.css',  # overrides for wide tables in RTD theme
+        '_static/override.css',  # overrides for wide tables and colors in RTD theme
         ],
     }
 
