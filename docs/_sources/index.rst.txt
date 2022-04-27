@@ -12,6 +12,7 @@ Welcome to Next Search Catalog Training!
 
 
    about_us
+   /usergroup/index
 
 Indices and tables
 ==================
