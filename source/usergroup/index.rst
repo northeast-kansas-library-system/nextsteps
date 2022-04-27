@@ -4,6 +4,8 @@ Usergroup meetings
 
 .. include:: /usergroup/2022.meeting.schedule.rst
 
+-----
+
 .. toctree::
    :glob:
    :maxdepth: 1
