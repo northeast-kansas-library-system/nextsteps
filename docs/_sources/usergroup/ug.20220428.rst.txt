@@ -13,6 +13,10 @@ No recording of this meeting will be made |br|
 
 2. Next Steps
   - Roadmap for new training site
+  .. https://drive.google.com/file/d/1l_Ia2hKLAWPP3Ocypx6DEj6xb2Vdk30_/view?usp=sharing
+  .. Creation - April-July
+  .. Testing - August-September
+  .. Evaluation - More creation - Modification - More testing
 
 3. Rewriting the "Restricted item types" clause in the Participation Agreement for 2022 and removing 4 item types:
   - Book (local requests only)
