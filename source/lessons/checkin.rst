@@ -1,4 +1,4 @@
-.. include:: include.rst
+.. include:: /include.rst
 
 *****************
 Checking items in
@@ -59,8 +59,8 @@ Normal check-in (item not checked out)
 
 |checkin.0020|
 
-In transit (recieving an item from another library)
------------------
+In transit (receiving an item from another library)
+---------------------------------------------------
 
 |checkin.0030|
 
