@@ -1,10 +1,8 @@
 .. include:: /include.rst
 
-*****************
-Checking items in
-*****************
-
-**(AKA Checkin is your friend)**
+***********************
+Check-in is your friend
+***********************
 
 
 Overview of check-in
@@ -22,34 +20,34 @@ Checking items in accomplishes many things in Next Search Catalog:
 
 The bottom line is that, if you're not sure what to do with an item, checking it in will get the system to tell you what to do with it.
 
-.. include:: /pages/checkin/finding.checkin.rst
+.. include:: /pages/checkin_docs/finding.checkin.rst
 
 Checkin settings
 ================
 
-.. include:: /pages/checkin/checkin.forgive.rst
+.. include:: /pages/checkin_docs/checkin.forgive.rst
 
-.. include:: /pages/checkin/checkin.bookdrop.rst
+.. include:: /pages/checkin_docs/checkin.bookdrop.rst
 
 Checking in items
 =================
 
-.. include:: /pages/checkin/checkin.checkedout.rst
+.. include:: /pages/checkin_docs/checkin.checkedout.rst
 
-.. include:: /pages/checkin/checkin.checkedin.rst
+.. include:: /pages/checkin_docs/checkin.checkedin.rst
 
-.. include:: /pages/checkin/checkin.intransreceived.rst
+.. include:: /pages/checkin_docs/checkin.intransreceived.rst
 
-.. include:: /pages/checkin/checkin.intransship.rst
+.. include:: /pages/checkin_docs/checkin.intransship.rst
 
-.. include:: /pages/checkin/checkin.holdhere.rst
+.. include:: /pages/checkin_docs/checkin.holdhere.rst
 
-.. include:: /pages/checkin/checkin.holdthere.rst
+.. include:: /pages/checkin_docs/checkin.holdthere.rst
 
-.. include:: /pages/checkin/checkin.lostmissing.rst
+.. include:: /pages/checkin_docs/checkin.lostmissing.rst
 
-.. include:: /pages/checkin/checkin.damaged.rst
+.. include:: /pages/checkin_docs/checkin.damaged.rst
 
-.. include:: /pages/checkin/checkin.withdrawn.rst
+.. include:: /pages/checkin_docs/checkin.withdrawn.rst
 
-.. include:: /pages/checkin/checkin.nobcfound.rst
+.. include:: /pages/checkin_docs/checkin.nobcfound.rst

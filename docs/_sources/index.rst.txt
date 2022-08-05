@@ -10,7 +10,7 @@ Welcome to Next Search Catalog Training!
    :maxdepth: 1
    :caption: Contents:
 
-
+   basic
    about_us
    /usergroup/index
 
