@@ -55,8 +55,8 @@ Book drop mode
 Checking in items
 =================
 
-Normal check-in (item being returned)
--------------------------------------
+Normal check-in (borrowed item returned)
+----------------------------------------
 
 |checkin.0010|
 
