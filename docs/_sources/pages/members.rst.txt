@@ -21,13 +21,11 @@ That makes the grand total 53 locations.
 - Carbondale City Library
 - Centralia Community Library
 - Corning City Library |br| |br|
-
-- Doniphan County Library District #1
+- Doniphan County Library District #1 (4 locations)
     - Doniphan County Library - Elwood
     - Doniphan County Library - Highland
-    - Doniphan County Library - Troy
+    - Doniphan County Library - Troy (District headquarters)
     - Doniphan County Library - Wathena
-
 - Effingham Community Library
 - Eudora Community Library
 - Everest, Barnes Reading Room
@@ -51,14 +49,12 @@ That makes the grand total 53 locations.
 - Overbrook Public Library
 - Paola Free Library
 - Perry-Lecompton Community Library |br| |br|
-
-- Prairie Hills Unified School District 113
+- Prairie Hills Unified School District 113 (5 locations)
     - Prairie Hills Schools - Axtell Public School
     - Prairie Hills Schools - Sabetha Elementary School
     - Prairie Hills Schools - Sabetha High School
     - Prairie Hills Schools - Sabetha Middle School
     - Prairie Hills Schools - Wetmore Academic Center
-
 - Pomona Community Library
 - Richmond Public Library
 - Rossville Community Library
