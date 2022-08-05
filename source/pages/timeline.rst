@@ -1,4 +1,4 @@
-.. include:: include.rst
+.. include:: /include.rst
 
 ******************************
 History of Next Search Catalog
