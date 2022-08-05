@@ -117,5 +117,7 @@ History of Next Search Catalog
 - 2022
 
  - January - Upgrade to Koha 21.05
+ - August - Upgrade to Koha 21.11
 
 .. - September - NEKLS hosts the joint koha-US/KohaCon22 conference in Lawrence, KS
+    .. - Jim Minges and Liz Rea (former NEKLS staff members) deliver the Keynote address at the joint koha-US/KohaCon22
