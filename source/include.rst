@@ -43,3 +43,21 @@
 
 .. |checkin.0100| image:: /images/lessons/checkin.0100.png
     :alt: Barcode not found
+
+.. |checkin.0110| image:: /images/lessons/checkin.0110.png
+    :alt: Locate the check in menu via the navigation menu or the home page
+
+.. |checkin.0120| image:: /images/lessons/checkin.0120.png
+    :alt: Find the check in icon on the circulation menu
+
+.. |checkin.0130| image:: /images/lessons/checkin.0130.png
+    :alt: Use the flexible search box to go to check in
+
+.. |checkin.0140| image:: /images/lessons/checkin.0140.png
+    :alt: Checking in an item loads the check in menu
+
+.. |checkin.0150| image:: /images/lessons/checkin.0150.png
+    :alt: "Forgive overdue charges" removes any currently accruing late fees
+
+.. |checkin.0160| image:: /images/lessons/checkin.0160.png
+    :alt: "Book drop mode" sets the date back to the last open date on the calendar
