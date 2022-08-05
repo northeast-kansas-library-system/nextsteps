@@ -24,7 +24,12 @@ The bottom line is that, if you're not sure what to do with an item, checking it
 
 .. include:: /pages/checkin/finding.checkin.rst
 
-.. include:: /pages/checkin/checkin.settings.rst
+Checkin settings
+================
+
+.. include:: /pages/checkin/checkin.forgive.rst
+
+.. include:: /pages/checkin/checkin.bookdrop.rst
 
 Checking in items
 =================
