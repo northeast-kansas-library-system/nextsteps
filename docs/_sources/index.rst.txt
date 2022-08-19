@@ -13,6 +13,7 @@ Welcome to Next Search Catalog Training!
    basic
    about_us
    /usergroup/index
+   /upgrades/21.11/index
 
 Indices and tables
 ==================

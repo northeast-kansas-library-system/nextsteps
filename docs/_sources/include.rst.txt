@@ -61,3 +61,51 @@
 
 .. |checkin.0160| image:: /images/pages/checkin/checkin.0160.png
     :alt: "Book drop mode" sets the date back to the last open date on the calendar
+
+.. upgrades
+
+.. upgrades
+
+.. |clear_cache_0010.jpg| image:: /images/upgrades/clear_cache_0010.jpg
+    :alt: Clear cache in Firefox with keystrokes - steps 1-5
+
+.. |clear_cache_0020.jpg| image:: /images/upgrades/clear_cache_0020.jpg
+    :alt: Clear cache in Chrome with keystrokes - steps 1-5
+
+.. |clear_cache_0030.jpg| image:: /images/upgrades/clear_cache_0030.jpg
+    :alt: Clear cache in Firevox with the options menu - steps 1-3
+
+.. |clear_cache_0040.jpg| image:: /images/upgrades/clear_cache_0040.jpg
+    :alt: Clear cache in Firevox with the options menu - steps 4-5
+
+.. |clear_cache_0050.jpg| image:: /images/upgrades/clear_cache_0050.jpg
+    :alt: Clear cache in Firevox with the options menu - steps 5-6
+
+.. |clear_cache_0060.jpg| image:: /images/upgrades/clear_cache_0060.jpg
+    :alt: Clear cache in Chrome with the options menu - steps 1-4
+
+.. |clear_cache_0070.jpg| image:: /images/upgrades/clear_cache_0070.jpg
+    :alt: Clear cache in Firevox with the options menu - steps 5-7
+
+.. |clear_cache_0080.jpg| image:: /images/upgrades/clear_cache_0080.jpg
+    :alt: Set Firefox to clear cache every day - steps 1-2
+
+.. |clear_cache_0090.jpg| image:: /images/upgrades/clear_cache_0090.jpg
+    :alt: Set Firefox to clear cache every day - steps 3-5
+
+.. |clear_cache_0100.jpg| image:: /images/upgrades/clear_cache_0100.jpg
+    :alt: Set Firefox to clear cache every day - steps 6-8
+
+.. upgrades/21.11
+
+.. |unified.search.0010| image:: /images/upgrades/21.11/unified.search.0010.png
+    :alt: "Old version options"
+
+.. |unified.search.0020| image:: /images/upgrades/21.11/unified.search.0020.png
+  :alt: "Old check out"
+
+.. |unified.search.0030| image:: /images/upgrades/21.11/unified.search.0030.png
+    :alt: "Old patron search"
+
+.. |unified.search.0040| image:: /images/upgrades/21.11/unified.search.0040.png
+    :alt: "New look of unified search"
