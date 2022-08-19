@@ -1,13 +1,14 @@
 .. include:: /include.rst
 
 ################
-Pages index
+Upgrades index
 ################
 
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Contents:
 
    *
+   */*
