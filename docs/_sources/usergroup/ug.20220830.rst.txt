@@ -8,13 +8,19 @@ No recording of this meeting will be made |br|
 
 `Click here to suggest an item for the agenda <mailto:nexthelp@nekls.org?subject=Next%20meeting%20%2d%20August%2030%2c%202022%20%2d%20Agenda%20item&body=Please%20add%20this%20topic%20to%20the%20August%2030%2c%202022%20Next%20Search%20Catalog%20users%20group%20agenda%3a>`_
 
-#. Announcements, news, brief items, etc.
+- Announcements, news, brief items, etc.
   - Introductions
   - Additions to the agenda
 
-98. Locations needed for 2023 meetings
+- New Feature - Digital Library Card - Coming October 3
 
-99. Next meetings in 2022
+- Next Steps
+
+- Searching strategies (Lori - Ottawa)
+
+- Locations needed for 2023 meetings
+
+- Next meetings in 2022
   - November 17 (Thursday 10:00 a.m.) - Leavenworth Public Library / online
 
 .. |ss| raw:: html
