@@ -3,7 +3,7 @@
 Integrated Library Systems
 --------------------------
 
-An **I**ntegrated **L**ibrary **S**ystem is a computer system designed to put all of the different types of software a library might use to conduct its business into one integrated piece of software.
+An **I** ntegrated **L** ibrary **S** ystem is a computer system designed to put all of the different types of software a library might use to conduct its business into one integrated piece of software.
 
 term::`Integrated library systems<Integrated library system>` are also known as:
 

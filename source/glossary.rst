@@ -36,6 +36,7 @@ Software, languages, and outside services:
       - LMS
       - Library management system
       - Integrated library management system
+
       A software system that, at a minumum, integrates a library's bibliographic catalog and it's borrower records in order to manage circulaiton.  Integrated library systems may also include components or modules that help manage acquisitions, serials, requests, authorities, public access catalogs; and other components to help automate and computerize library services.
 
     Koha
