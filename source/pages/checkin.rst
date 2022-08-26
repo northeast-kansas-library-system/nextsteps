@@ -4,7 +4,6 @@
 Check-in is your friend
 ***********************
 
-
 Overview of check-in
 ====================
 

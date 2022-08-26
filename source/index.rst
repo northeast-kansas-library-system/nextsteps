@@ -7,11 +7,12 @@ Welcome to Next Search Catalog Training!
 ========================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Contents:
 
-   basic
-   about_us
+   /foundations
+   /basic
+   /about_us
    /usergroup/index
    /upgrades/21.11/index
 

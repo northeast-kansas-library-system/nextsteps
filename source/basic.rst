@@ -1,11 +1,14 @@
 .. include:: /include.rst
 
-################################
-Basic training for library staff
-################################
+#############################
+Koha basics for library staff
+#############################
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :caption: Contents:
 
-   /pages/checkin
+    /pages/logging_in
+    /pages/walk_through
+    /pages/checkin
+    /pages/checkout

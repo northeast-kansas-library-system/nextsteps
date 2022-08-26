@@ -1,3 +1,8 @@
+
+####   ****
+Root / sub1 sections in sub1 / sub2 sections in sub2 subsections in sub2
+####   **** ================   ---- ^^^^^^^^^^^^^^^^ """""""""""""""""""
+
 ###########
 Style guide
 ###########

@@ -12,7 +12,7 @@
 .. |nexthelp| image:: /images/nexthelp.svg
     :alt: Next help @ nekls.org e-mail address
 
-.. lessons/checkin
+.. pages/checkin
 
 .. |checkin.0010| image:: /images/pages/checkin/checkin.0010.png
     :alt: Normal check-in (item being returned)
@@ -61,6 +61,48 @@
 
 .. |checkin.0160| image:: /images/pages/checkin/checkin.0160.png
     :alt: "Book drop mode" sets the date back to the last open date on the calendar
+
+.. pages/lofging_in
+
+.. |staff.login.0010.png| image:: /images/pages/logging_in/staff.login.0010.png
+    :alt: Login page
+
+.. |staff.login.0020.png| image:: /images/pages/logging_in/staff.login.0020.png
+    :alt: Login page example
+
+.. |staff.login.0030.png| image:: /images/pages/logging_in/staff.login.0030.png
+    :alt: Home page
+
+.. |staff.login.0040.png| image:: /images/pages/logging_in/staff.login.0040.png
+    :alt: Login page with password error message
+
+.. |opac.password.reset.0010.png| image:: /images/pages/logging_in/opac.password.reset.0010.png
+    :alt:
+
+.. |opac.password.reset.0020.png| image:: /images/pages/logging_in/opac.password.reset.0020.png
+    :alt:
+
+.. |opac.password.reset.0030.png| image:: /images/pages/logging_in/opac.password.reset.0030.png
+    :alt:
+
+.. |opac.password.reset.0040.png| image:: /images/pages/logging_in/opac.password.reset.0040.png
+    :alt:
+
+.. |opac.password.reset.0050.png| image:: /images/pages/logging_in/opac.password.reset.0050.png
+    :alt:
+
+.. |opac.password.reset.0060.png| image:: /images/pages/logging_in/opac.password.reset.0060.png
+    :alt:
+
+.. |opac.password.reset.0070.png| image:: /images/pages/logging_in/opac.password.reset.0070.png
+    :alt:
+
+.. |opac.password.reset.0080.png| image:: /images/pages/logging_in/opac.password.reset.0080.png
+    :alt:
+
+.. |opac.password.reset.0090.png| image:: /images/pages/logging_in/opac.password.reset.0090.png
+    :alt:
+
 
 .. upgrades
 

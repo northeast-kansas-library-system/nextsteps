@@ -7,7 +7,6 @@ Usergroup meetings
 -----
 
 .. toctree::
-   :glob:
    :maxdepth: 1
    :caption: 2021:
 
@@ -19,7 +18,6 @@ Usergroup meetings
 -----
 
 .. toctree::
-   :glob:
    :maxdepth: 1
    :caption: 2020:
 

@@ -1,43 +1,7 @@
 .. include:: /include.rst
 
-**************************
-Integrated Library Systems
-**************************
-
-An **I**ntegrated **L**ibrary **S**ystem is a computer system designed to put all of the different types of software a library might use to conduct its business into one integrated piece of software.
-
-term::`Integrated library systems<Integrated library system>` are also known as:
-
-- ILS
-- Library Management System
-- LMS
-- Integrated Library Management System
-- ILMS (not to be confused with term::`IMLS<Institute of Museum and Library Services>`)
-- The catalog
-- The staff catalog
-
-Currently there are dozens of integrated library systems used throughout the world including:
-
-- Alma
-- Apollo
-- Atrium
-- Carl
-- Destiny
-- Evergreen
-- Koha
-- Library.Solution
-- OPALS
-- Polaris
-- Sierra
-- Symphony
-- Verso
-- World Share
-
-The ILS we use in Next Search Catalog is Koha.
-
-
-A Brief History of the Integrated Library System
-================================================
+Very brief history of Integrated Library Systems
+------------------------------------------------
 
 Library catalogs have been around as long as libraries have.  In its most basic form, a library catalog is a list of all of the titles owned by a library.
 
