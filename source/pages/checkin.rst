@@ -51,3 +51,26 @@ Checking in items
 .. include:: /pages/checkin_docs/checkin.withdrawn.rst
 
 .. include:: /pages/checkin_docs/checkin.nobcfound.rst
+
+Video on YouTube
+================
+
+Watch "Check-in is your friend" on YouTube
+
+.. only:: html
+
+  .. raw:: html
+
+        <div class="ytcontainer">
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/1uGkMhfPNvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+.. only:: latex
+
+   https://youtu.be/1uGkMhfPNvk
+
+|br|
+
+Go directly to the video on YouTube `<https://youtu.be/1uGkMhfPNvk>`_
+
+-----
