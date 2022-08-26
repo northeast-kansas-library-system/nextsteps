@@ -1,13 +1,17 @@
 .. include:: /include.rst
 
-################
-Pages index
-################
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :caption: Contents of this folder:
+
+   *
+
 
 
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Contents:
+   :caption: Contents of this folder's sub-folders:
 
-   *
+   */*
