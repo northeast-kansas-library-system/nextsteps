@@ -1,4 +1,4 @@
-.. include:: /images.rst
+.. include:: /include.rst
 
 2021.09.02 - Agenda and notes
 =============================

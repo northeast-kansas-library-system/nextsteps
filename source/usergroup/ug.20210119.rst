@@ -1,3 +1,5 @@
+.. include:: /include.rst
+
 2021.01.19 - Agenda and notes
 =============================
 
