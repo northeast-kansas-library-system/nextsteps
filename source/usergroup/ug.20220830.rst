@@ -12,6 +12,8 @@ No recording of this meeting will be made |br|
 
 - 2023 participation agreement draft
 
+- 2023 Privacy and confidentiality statement draft
+
 - New Feature - Digital Library Card - Coming October 3
 
 - Next Steps progress
@@ -25,7 +27,9 @@ No recording of this meeting will be made |br|
   - We have upgraded our search engine from Zebra to ElasticSearch
   - ElasticSearch has features Zebra did not
 
-- Email/text message issues
+- Claims returned questions (Lori - Ottawa)
+
+- Email/text message issues (Several people)
 
 - Locations needed for 2023 meetings
 
