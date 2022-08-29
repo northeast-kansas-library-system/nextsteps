@@ -1,8 +1,8 @@
 .. include:: /include.rst
 
-**************
-What is an ILS
-**************
+********************************************
+What is an Integrated Library System (I*L*S)
+********************************************
 
 .. include:: /pages/ils_docs/ils.definition.rst
 

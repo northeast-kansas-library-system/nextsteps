@@ -62,6 +62,81 @@
 .. |checkin.0160| image:: /images/pages/checkin/checkin.0160.png
     :alt: "Book drop mode" sets the date back to the last open date on the calendar
 
+.. pages/checkout
+
+.. |checkout.0010.png| image:: /images/pages/checkout/checkout.0010.png
+    :alt:
+
+.. |checkout.0020.png| image:: /images/pages/checkout/checkout.0010.png
+    :alt:
+
+.. |checkout.0030.png| image:: /images/pages/checkout/checkout.0020.png
+    :alt:
+
+.. |checkout.0040.png| image:: /images/pages/checkout/checkout.0030.png
+    :alt:
+
+.. |checkout.0040.png| image:: /images/pages/checkout/checkout.0040.png
+    :alt:
+
+.. |checkout.0050.png| image:: /images/pages/checkout/checkout.0050.png
+    :alt:
+
+.. |checkout.0060.png| image:: /images/pages/checkout/checkout.0060.png
+    :alt:
+
+.. |checkout.0070.png| image:: /images/pages/checkout/checkout.0070.png
+    :alt:
+
+.. |checkout.0080.png| image:: /images/pages/checkout/checkout.0080.png
+    :alt:
+
+.. |checkout.0090.png| image:: /images/pages/checkout/checkout.0090.png
+    :alt:
+
+.. |checkout.0100.png| image:: /images/pages/checkout/checkout.0100.png
+    :alt:
+
+.. |checkout.0110.png| image:: /images/pages/checkout/checkout.0110.png
+    :alt:
+
+.. |checkout.0120.png| image:: /images/pages/checkout/checkout.0120.png
+    :alt:
+
+.. |checkout.0130.png| image:: /images/pages/checkout/checkout.0130.png
+    :alt:
+
+.. |checkout.0140.png| image:: /images/pages/checkout/checkout.0140.png
+    :alt:
+
+.. |checkout.0150.png| image:: /images/pages/checkout/checkout.0150.png
+    :alt:
+
+.. |checkout.0160.png| image:: /images/pages/checkout/checkout.0160.png
+    :alt:
+
+.. |checkout.0170.png| image:: /images/pages/checkout/checkout.0170.png
+    :alt:
+
+.. |checkout.0180.png| image:: /images/pages/checkout/checkout.0180.png
+    :alt:
+
+.. |checkout.0190.png| image:: /images/pages/checkout/checkout.0190.png
+    :alt:
+
+.. |checkout.0200.png| image:: /images/pages/checkout/checkout.0200.png
+    :alt:
+
+.. |checkout.0210.png| image:: /images/pages/checkout/checkout.0210.png
+    :alt:
+
+.. |checkout.0220.png| image:: /images/pages/checkout/checkout.0220.png
+    :alt:
+
+.. |checkout.0230.png| image:: /images/pages/checkout/checkout.0230.png
+    :alt:
+
+
 .. pages/lofging_in
 
 .. |staff.login.0010.png| image:: /images/pages/logging_in/staff.login.0010.png

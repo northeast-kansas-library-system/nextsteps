@@ -8,6 +8,16 @@ Usergroup meetings
 
 .. toctree::
    :maxdepth: 1
+   :caption: 2022:
+
+   ug.20220830
+   ug.20220428
+   ug.20220127
+
+-----
+
+.. toctree::
+   :maxdepth: 1
    :caption: 2021:
 
    ug.20211109
@@ -22,4 +32,6 @@ Usergroup meetings
    :caption: 2020:
 
    ug.20201105.notes
+   ug.20201105.a
+   ug.20201105
    ug.20200908

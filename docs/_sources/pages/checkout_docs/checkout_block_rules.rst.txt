@@ -1,0 +1,4 @@
+.. include:: /include.rst
+
+Checkout blocked by circulation rules
+=====================================

@@ -21,10 +21,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
-        <script src="../_static/language_data.js"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -84,19 +85,46 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../foundations.html">Foundations</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../basic.html">Koha basics for library staff</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="logging_in.html">Logging in and staff account types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="walk_through.html">Staff interface walk-through</a></li>
 <li class="toctree-l2"><a class="reference internal" href="checkin.html">Check-in is your friend</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Checking out items</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Checking out items</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#finding-check-out">Finding check out</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#finding-checkout">Finding checkout</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#normal-check-out">Normal check out</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#to-check-items-out">To check items out:</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-checkout-s-table">The “Checkout(s)” table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#checkout-settings">Checkout settings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#renewing-an-item-through-check-out">Renewing an item through check-out</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#scanning-a-library-card-number-at-check-out">Scanning a library card number at check-out</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#clear-screen-icons">Clear screen icons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#printing-options-at-check-out">Printing options at check out</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#obstacles-to-checking-items-out">Obstacles to checking items out</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#checkout-blocked-by-circulation-rules">Checkout blocked by circulation rules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#checkout-blocked-not-for-loan-status">Checkout blocked: not-for-loan status</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#checkout-blocked-item-already-checked-out-to-someone-else">Checkout blocked: item already checked out to someone else</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#checkout-blocked-un-triggered-request">Checkout blocked: un-triggered request</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#checkout-blocked-on-hold-in-transit">Checkout blocked: on hold in transit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#checkout-blocked-on-hold-wating-for-someone-else">Checkout blocked: on hold wating for someone else</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#checkout-blocked-barcode-not-found">Checkout blocked: barcode not found</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#video-on-youtube">Video on YouTube</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../about_us.html">About Next Search Catalog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../usergroup/index.html">Usergroup meetings</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../upgrades/21.11/index.html">21.11 Upgrade</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../upgrades/21.11/master.html">21.11 Upgrade</a></li>
 </ul>
 
             
@@ -164,8 +192,247 @@
            <div itemprop="articleBody">
             
   <div class="section" id="checking-out-items">
-<h1>Checking out items<a class="headerlink" href="#checking-out-items" title="Permalink to this headline">¶</a></h1>
-<p>Under construction</p>
+<h1>Checking out items<a class="headerlink" href="#checking-out-items" title="Permalink to this heading">¶</a></h1>
+<div class="section" id="finding-check-out">
+<h2>Finding check out<a class="headerlink" href="#finding-check-out" title="Permalink to this heading">¶</a></h2>
+<div class="section" id="finding-checkout">
+<h3>Finding checkout<a class="headerlink" href="#finding-checkout" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>The main check-out menu can be found from the circulation menu:</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0010.png" /></p>
+<ul class="simple">
+<li>From the circulation menu, the check-out menu is the top item on the left:</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0010.png" /></p>
+<ul class="simple">
+<li>The check-out menu is incredibly simple:</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0020.png" /></p>
+<ul class="simple">
+<li>Checkout is one of the options on the flexible search bar in these menus:<ul>
+<li>Circulation</li>
+<li>Patrons</li>
+<li>Advanced search</li>
+<li>Item search</li>
+<li>Lists</li>
+<li>Course reserves</li>
+<li>Cataloging</li>
+<li>Serials</li>
+<li>Reports</li>
+<li>Tools</li>
+<li>Koha administration</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0040.png" /></p>
+</div>
+</div>
+<div class="section" id="normal-check-out">
+<h2>Normal check out<a class="headerlink" href="#normal-check-out" title="Permalink to this heading">¶</a></h2>
+<div class="section" id="to-check-items-out">
+<h3>To check items out:<a class="headerlink" href="#to-check-items-out" title="Permalink to this heading">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Scan the borrower’s library card number in the flexible search bar that’s set to “Check out”</p>
+<blockquote>
+<div><ul class="simple">
+<li>You can also type in a card number to look up a borrower’s account</li>
+<li>You can also type in a name to search for a borrower</li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+<p><img alt="" src="../_images/checkout.0050.png" /></p>
+<ol class="arabic" start="2">
+<li><p class="first">Scan an item barcode in the “Enter item barcode” input box</p>
+<blockquote>
+<div><ul class="simple">
+<li>You can also type in an item barcode number</li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+<p><img alt="" src="../_images/checkout.0060.png" /></p>
+<ol class="arabic simple" start="3">
+<li>The “Checked out” area will update with the title and barcode number of the item and the item’s due date</li>
+</ol>
+<p><img alt="" src="../_images/checkout.0070.png" /></p>
+</div>
+<div class="section" id="the-checkout-s-table">
+<h3>The “Checkout(s)” table<a class="headerlink" href="#the-checkout-s-table" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>The “Checkout(s)” table appears on the “Checkout(s)” tab under the “Checking out to …” box<ul>
+<li>If the “Checkout(s)” table does not appear you may need to click the “Show checkouts” button</li>
+<li>You can make the “Checkout(s)” table appear by default by checking the checkbox that says “Always show checkouts immediately”</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0070.png" /></p>
+</div>
+<div class="section" id="checkout-settings">
+<h3>Checkout settings<a class="headerlink" href="#checkout-settings" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>Due dates follow the circulation rules established for your library</li>
+<li>Staff have the ability to set a specific due date if necessary
+- The specific due date <strong>must</strong> be set <strong>before</strong> you check an item out</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0120.png" /></p>
+<ul class="simple">
+<li>The specified due date will remain in effect until either<ol class="upperalpha">
+<li>You click the red “X” next to the specified due date</li>
+<li>You switch to a different borrower</li>
+</ol>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0130.png" /></p>
+<ul class="simple">
+<li>The “Use this date until the browser is closed” checkbox will specify this due date for <em>every borrower</em> that you check out items to until either<ol class="upperalpha">
+<li>You un-check the checkbox and click on the red “X” next to the specified due date to clear it</li>
+<li>You close the browser and re-start</li>
+</ol>
+</li>
+</ul>
+<p><img alt="Image coming soon" src="../_images/default.png" /></p>
+</div>
+<div class="section" id="renewing-an-item-through-check-out">
+<h3>Renewing an item through check-out<a class="headerlink" href="#renewing-an-item-through-check-out" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>If you scan an item that is already checked out to the current borrower, the system will ask you to confirm that you want to renew that item</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0160.png" /></p>
+</div>
+<div class="section" id="scanning-a-library-card-number-at-check-out">
+<h3>Scanning a library card number at check-out<a class="headerlink" href="#scanning-a-library-card-number-at-check-out" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>If you scan an active library card in the “Enter item barcode” input box, the system should automatically switch you to the new borrower</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0150.png" /></p>
+</div>
+<div class="section" id="clear-screen-icons">
+<h3>Clear screen icons<a class="headerlink" href="#clear-screen-icons" title="Permalink to this heading">¶</a></h3>
+<p>When you’ve finished checking items out to a borrower, a great deal of confidential information is left on the screen.  The best practice is to clear the screen after you’ve finished checking materials out to the borrower.</p>
+<ul class="simple">
+<li>To clear the screen, click the “X” icon on the right hand side of the “Checking out to …” area</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0090.png" /></p>
+<ul class="simple">
+<li>The printer icon to the left of the “X” serves two functions<ul>
+<li>It prints the “Receipt-today’s checkouts” receipt when clicked</li>
+<li>It also clears the confidential data from the screen</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0100.png" /></p>
+</div>
+<div class="section" id="printing-options-at-check-out">
+<h3>Printing options at check out<a class="headerlink" href="#printing-options-at-check-out" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>There are 3 print options for check out<ul>
+<li>“Full page summary” prints an 8 1/2 x 11 summary of current checkouts and account information</li>
+<li>“Receipt-all checkouts” prints a receipt sized list of all items the borrower currently has checked out</li>
+<li>“Receipt-today’s checkouts” prints a receipted list of the items the patron has borrowed today</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0110.png" /></p>
+</div>
+</div>
+<div class="section" id="obstacles-to-checking-items-out">
+<h2>Obstacles to checking items out<a class="headerlink" href="#obstacles-to-checking-items-out" title="Permalink to this heading">¶</a></h2>
+<div class="section" id="checkout-blocked-by-circulation-rules">
+<h3>Checkout blocked by circulation rules<a class="headerlink" href="#checkout-blocked-by-circulation-rules" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>If the circulation rules at your library don’t allow the patron to borrow the item you’re trying to check out, you will see a message similar to this one<ul>
+<li>This block can be overridden by some library staff</li>
+<li>How you proceed will depend on the situation and on the policies and procedures at your library</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0170.png" /></p>
+</div>
+<div class="section" id="checkout-blocked-not-for-loan-status">
+<h3>Checkout blocked: not-for-loan status<a class="headerlink" href="#checkout-blocked-not-for-loan-status" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>If the item has a “Not for loan” status, you will see a message similar to this one<ul>
+<li>This block <strong>can not</strong> be overridden by library staff - the only way to get around it is to change the not-for-loan status or item type of the item</li>
+<li>All items cataloged with the following item types are, by default, considred to have a not-for-loan status:<ul>
+<li>E-content : Digital content</li>
+<li>E-content : E-learning course</li>
+<li>Reference material</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0180.png" /></p>
+</div>
+<div class="section" id="checkout-blocked-item-already-checked-out-to-someone-else">
+<h3>Checkout blocked: item already checked out to someone else<a class="headerlink" href="#checkout-blocked-item-already-checked-out-to-someone-else" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>If an item is checked out to one borrower and you try to check it out to a different borrower, you should see a message similar to this one<ul>
+<li>This block can be overridden by some library staff</li>
+<li>How you proceed will depend on the situation and on the policies and procedures at your library</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0190.png" /></p>
+</div>
+<div class="section" id="checkout-blocked-un-triggered-request">
+<h3>Checkout blocked: un-triggered request<a class="headerlink" href="#checkout-blocked-un-triggered-request" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>If a borrower has placed a request on a title and that request has not been triggered, you should see a message similar to this one<ul>
+<li>This block can be overridden by some library staff</li>
+<li>How you proceed will depend on the situation and on the policies and procedures at your library</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0200.png" /></p>
+</div>
+<div class="section" id="checkout-blocked-on-hold-in-transit">
+<h3>Checkout blocked: on hold in transit<a class="headerlink" href="#checkout-blocked-on-hold-in-transit" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>If a borrower has placed a request on a title and the item has already been shipped to another library, you should see this message<ul>
+<li>This situation usually means that someone made a mistake when checking an item in</li>
+<li>This block can be overridden by some library staff</li>
+<li>How you proceed will depend on the situation and on the policies and procedures at your library</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0210.png" /></p>
+</div>
+<div class="section" id="checkout-blocked-on-hold-wating-for-someone-else">
+<h3>Checkout blocked: on hold wating for someone else<a class="headerlink" href="#checkout-blocked-on-hold-wating-for-someone-else" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>If you try to check out an item from the hold shelf to a library card other than the one that has requested it, you should see this message<ul>
+<li>One of the most typical causes of this message is when one member of a family places a request and asks a different family member to pick up the item</li>
+<li>This block can be overridden by some library staff</li>
+<li>How you proceed will depend on the situation and on the policies and procedures at your library</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0220.png" /></p>
+</div>
+<div class="section" id="checkout-blocked-barcode-not-found">
+<h3>Checkout blocked: barcode not found<a class="headerlink" href="#checkout-blocked-barcode-not-found" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li>If an item is not in the catalog, you should see this message<ul>
+<li>One cause of this error is if you accidentally scan the wrong barcode on an item</li>
+<li>Another cause is when an item has been deleted from the system and then finds its way back onto the library’s shelves</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../_images/checkout.0230.png" /></p>
+</div>
+</div>
+<div class="section" id="video-on-youtube">
+<h2>Video on YouTube<a class="headerlink" href="#video-on-youtube" title="Permalink to this heading">¶</a></h2>
+<p>Watch “Checking items out” on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/aJGVcMlK4Bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a class="reference external" href="https://youtu.be/aJGVcMlK4Bg" target="_blank">https://youtu.be/aJGVcMlK4Bg</a></p>
+<hr class="docutils" />
+</div>
 </div>
 
 

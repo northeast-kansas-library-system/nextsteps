@@ -21,10 +21,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
-        <script src="../_static/language_data.js"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -84,33 +85,19 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../foundations.html">Foundations</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../basic.html">Koha basics for library staff</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="logging_in.html">Logging in and staff account types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="walk_through.html">Staff interface walk-through</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Check-in is your friend</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#overview-of-check-in">Overview of check-in</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#finding-the-check-in-menu">Finding the Check-in menu</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#checkin-settings">Checkin settings</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#forgive-overdue-charges">Forgive overdue charges</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#book-drop-mode">Book drop mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#overview-of-check-in">Overview of check-in</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#finding-the-check-in-menu">Finding the Check-in menu</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#checking-in-items">Checking in items</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#normal-check-in-borrowed-item-returned">Normal check-in (borrowed item returned)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#normal-check-in-item-not-checked-out">Normal check-in (item not checked out)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#in-transit-receiving-an-item-from-another-library">In transit (receiving an item from another library)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#in-transit-ship-to-another-library">In transit (ship to another library)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#requested-item-hold-at-this-library">Requested item (hold at this library)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#requested-item-ship-to-another-library">Requested item (ship to another library)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#lost-missing-status-removal">Lost/missing status removal</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#damaged-item-status-exception">Damaged item status exception</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#withdrawn-item-exception">Withdrawn item exception</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#barcode-not-found">Barcode not found</a></li>
-</ul>
-</li>
+<li class="toctree-l3"><a class="reference internal" href="#checkin-settings">Checkin settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#checking-in-items">Checking in items</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#video-on-youtube">Video on YouTube</a></li>
 </ul>
 </li>
@@ -119,7 +106,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../about_us.html">About Next Search Catalog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../usergroup/index.html">Usergroup meetings</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../upgrades/21.11/index.html">21.11 Upgrade</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../upgrades/21.11/master.html">21.11 Upgrade</a></li>
 </ul>
 
             
@@ -187,9 +174,9 @@
            <div itemprop="articleBody">
             
   <div class="section" id="check-in-is-your-friend">
-<h1>Check-in is your friend<a class="headerlink" href="#check-in-is-your-friend" title="Permalink to this headline">¶</a></h1>
+<h1>Check-in is your friend<a class="headerlink" href="#check-in-is-your-friend" title="Permalink to this heading">¶</a></h1>
 <div class="section" id="overview-of-check-in">
-<h2>Overview of check-in<a class="headerlink" href="#overview-of-check-in" title="Permalink to this headline">¶</a></h2>
+<h2>Overview of check-in<a class="headerlink" href="#overview-of-check-in" title="Permalink to this heading">¶</a></h2>
 <p>Checking items in accomplishes many things in Next Search Catalog:</p>
 <ul class="simple">
 <li>Check-in puts items that have been borrowed back into circulation</li>
@@ -201,9 +188,8 @@
 <li>Check-in updates an items “Last seen” date to the current date</li>
 </ul>
 <p>The bottom line is that, if you’re not sure what to do with an item, checking it in will get the system to tell you what to do with it.</p>
-</div>
 <div class="section" id="finding-the-check-in-menu">
-<h2>Finding the Check-in menu<a class="headerlink" href="#finding-the-check-in-menu" title="Permalink to this headline">¶</a></h2>
+<h3>Finding the Check-in menu<a class="headerlink" href="#finding-the-check-in-menu" title="Permalink to this heading">¶</a></h3>
 <p>The check-in menu can be found on the circulation menu</p>
 <p><img alt="Locate the check in menu via the navigation menu or the home page" src="../_images/checkin.0110.png" /></p>
 <p><img alt="Find the check in icon on the circulation menu" src="../_images/checkin.0120.png" /></p>
@@ -212,72 +198,37 @@
 <p>After you enter a barcode number through “Check in” on the flexible search box, that item will be checked in and you will be taken to the check-in menu.</p>
 <p><img alt="Checking in an item loads the check in menu" src="../_images/checkin.0140.png" /></p>
 </div>
-<div class="section" id="checkin-settings">
-<h2>Checkin settings<a class="headerlink" href="#checkin-settings" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="forgive-overdue-charges">
-<h3>Forgive overdue charges<a class="headerlink" href="#forgive-overdue-charges" title="Permalink to this headline">¶</a></h3>
-<p><img alt="&quot;Forgive overdue charges&quot; removes any currently accruing late fees" src="../_images/checkin.0150.png" /></p>
 </div>
-<div class="section" id="book-drop-mode">
-<h3>Book drop mode<a class="headerlink" href="#book-drop-mode" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="checkin-settings">
+<h2>Checkin settings<a class="headerlink" href="#checkin-settings" title="Permalink to this heading">¶</a></h2>
+<p><img alt="&quot;Forgive overdue charges&quot; removes any currently accruing late fees" src="../_images/checkin.0150.png" /></p>
 <p><img alt="&quot;Book drop mode&quot; sets the date back to the last open date on the calendar" src="../_images/checkin.0160.png" /></p>
 </div>
-</div>
 <div class="section" id="checking-in-items">
-<h2>Checking in items<a class="headerlink" href="#checking-in-items" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="normal-check-in-borrowed-item-returned">
-<h3>Normal check-in (borrowed item returned)<a class="headerlink" href="#normal-check-in-borrowed-item-returned" title="Permalink to this headline">¶</a></h3>
+<h2>Checking in items<a class="headerlink" href="#checking-in-items" title="Permalink to this heading">¶</a></h2>
 <p>After the item is checked in, follow the procedures at your library for re-shelving the item.</p>
 <p><img alt="Normal check-in (item being returned)" src="../_images/checkin.0010.png" /></p>
-</div>
-<div class="section" id="normal-check-in-item-not-checked-out">
-<h3>Normal check-in (item not checked out)<a class="headerlink" href="#normal-check-in-item-not-checked-out" title="Permalink to this headline">¶</a></h3>
 <p>After the item is checked in, follow the procedures at your library for re-shelving the item.</p>
 <p><img alt="Normal check-in (item not checked out)" src="../_images/checkin.0020.png" /></p>
-</div>
-<div class="section" id="in-transit-receiving-an-item-from-another-library">
-<h3>In transit (receiving an item from another library)<a class="headerlink" href="#in-transit-receiving-an-item-from-another-library" title="Permalink to this headline">¶</a></h3>
 <p>After the item is checked in, follow the procedures at your library for re-shelving the item.</p>
 <p><img alt="In transit (receiving an item from another library)" src="../_images/checkin.0030.png" /></p>
-</div>
-<div class="section" id="in-transit-ship-to-another-library">
-<h3>In transit (ship to another library)<a class="headerlink" href="#in-transit-ship-to-another-library" title="Permalink to this headline">¶</a></h3>
 <p>After the item is checked in, follow the procedures at your library for shipping the item to its destination.</p>
 <p><img alt="In transit (ship to another library)" src="../_images/checkin.0040.png" /></p>
-</div>
-<div class="section" id="requested-item-hold-at-this-library">
-<h3>Requested item (hold at this library)<a class="headerlink" href="#requested-item-hold-at-this-library" title="Permalink to this headline">¶</a></h3>
 <p>After the item is checked in, follow the procedures at your library for requested items.</p>
 <p><img alt="Requested item (hold at this library)" src="../_images/checkin.0050.png" /></p>
-</div>
-<div class="section" id="requested-item-ship-to-another-library">
-<h3>Requested item (ship to another library)<a class="headerlink" href="#requested-item-ship-to-another-library" title="Permalink to this headline">¶</a></h3>
 <p>After the item is checked in, follow the procedures at your library for shipping the item to its destination.</p>
 <p><img alt="Requested item (ship to another library)" src="../_images/checkin.0060.png" /></p>
-</div>
-<div class="section" id="lost-missing-status-removal">
-<h3>Lost/missing status removal<a class="headerlink" href="#lost-missing-status-removal" title="Permalink to this headline">¶</a></h3>
 <p>After the item is checked in, follow the procedures at your library for handling lost/missing items.</p>
 <p><img alt="Lost/missing status removal" src="../_images/checkin.0070.png" /></p>
-</div>
-<div class="section" id="damaged-item-status-exception">
-<h3>Damaged item status exception<a class="headerlink" href="#damaged-item-status-exception" title="Permalink to this headline">¶</a></h3>
 <p>After the item is checked in, follow the procedures at your library for items with a damaged status.</p>
 <p><img alt="Damaged item status exception" src="../_images/checkin.0080.png" /></p>
-</div>
-<div class="section" id="withdrawn-item-exception">
-<h3>Withdrawn item exception<a class="headerlink" href="#withdrawn-item-exception" title="Permalink to this headline">¶</a></h3>
 <p>After the item is checked in, follow the procedures at your library for withdrawn items.</p>
 <p><img alt="Withdrawn item exception" src="../_images/checkin.0090.png" /></p>
-</div>
-<div class="section" id="barcode-not-found">
-<h3>Barcode not found<a class="headerlink" href="#barcode-not-found" title="Permalink to this headline">¶</a></h3>
 <p>After the item is checked in, follow the procedures at your library for items that are not in the catalog.</p>
 <p><img alt="Barcode not found" src="../_images/checkin.0100.png" /></p>
 </div>
-</div>
 <div class="section" id="video-on-youtube">
-<h2>Video on YouTube<a class="headerlink" href="#video-on-youtube" title="Permalink to this headline">¶</a></h2>
+<h2>Video on YouTube<a class="headerlink" href="#video-on-youtube" title="Permalink to this heading">¶</a></h2>
 <p>Watch “Check-in is your friend” on YouTube</p>
 <div class="ytcontainer">
   <iframe class="responsive-iframe" src="https://www.youtube.com/embed/1uGkMhfPNvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

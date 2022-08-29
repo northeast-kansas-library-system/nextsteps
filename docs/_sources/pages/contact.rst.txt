@@ -4,7 +4,6 @@
 Contact Next Search Catalog
 ***************************
 
-
 NEKLS office: 785-838-4090
 
 (toll free: 888-296-6963)
