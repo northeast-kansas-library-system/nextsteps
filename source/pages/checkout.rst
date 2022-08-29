@@ -1,33 +1,42 @@
 .. include:: /include.rst
 
-******************
+##################
 Checking out items
-******************
+##################
 
-Finding check-out
+*****************
+Finding check out
+*****************
 
-Normal checkout
+.. include:: \pages\checkout_docs\checkout_finding.rst
 
-  Checking out
-  Checkout(s) table
-  Checkout settings
-  Renewing an item through check-out
-  Scanning a library card number at check-out
-  X and Printer icons
-  Print drop-down
+****************
+Normal check out
+****************
 
+.. include:: \pages\checkout_docs\checkout_normal.rst
+.. include:: \pages\checkout_docs\checkout_table.rst
+.. include:: \pages\checkout_docs\checkout_settings.rst
+.. include:: \pages\checkout_docs\checkout_renew.rst
+.. include:: \pages\checkout_docs\checkout_librarycard.rst
+.. include:: \pages\checkout_docs\checkout_clear_screen.rst
+.. include:: \pages\checkout_docs\checkout_print.rst
+
+*******************************
 Obstacles to checking items out
+*******************************
 
-  Blocked by circulation rules
-  Not-for-loan items
-  Item already checked out to someone else
-  Un-triggered request
-  On hold in transit
-  Being held for someone else
-  Barcode not found
+.. include:: \pages\checkout_docs\checkout_blocked_rules.rst
+.. include:: \pages\checkout_docs\checkout_blocked_nfl.rst
+.. include:: \pages\checkout_docs\checkout_blocked_ckotoanother.rst
+.. include:: \pages\checkout_docs\checkout_blocked_requested.rst
+.. include:: \pages\checkout_docs\checkout_blocked_ohit.rst
+.. include:: \pages\checkout_docs\checkout_blocked_waiting.rst
+.. include:: \pages\checkout_docs\checkout_blocked_bcnotfound.rst
 
+****************
 Video on YouTube
-================
+****************
 
 Watch "Checking items out" on YouTube
 

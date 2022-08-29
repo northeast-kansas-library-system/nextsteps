@@ -1,11 +1,12 @@
 .. include:: /include.rst
 
-***********************
+#######################
 Check-in is your friend
-***********************
+#######################
 
+********************
 Overview of check-in
-====================
+********************
 
 Checking items in accomplishes many things in Next Search Catalog:
 
@@ -21,15 +22,17 @@ The bottom line is that, if you're not sure what to do with an item, checking it
 
 .. include:: /pages/checkin_docs/finding.checkin.rst
 
+****************
 Checkin settings
-================
+****************
 
 .. include:: /pages/checkin_docs/checkin.forgive.rst
 
 .. include:: /pages/checkin_docs/checkin.bookdrop.rst
 
+******************
 Checking in items
-=================
+******************
 
 .. include:: /pages/checkin_docs/checkin.checkedout.rst
 
@@ -51,8 +54,9 @@ Checking in items
 
 .. include:: /pages/checkin_docs/checkin.nobcfound.rst
 
+****************
 Video on YouTube
-================
+****************
 
 Watch "Check-in is your friend" on YouTube
 

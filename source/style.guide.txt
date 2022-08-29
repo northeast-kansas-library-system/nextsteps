@@ -1,7 +1,15 @@
 
-####   ****
-Root / sub1 sections in sub1 / sub2 sections in sub2 subsections in sub2
-####   **** ================   ---- ^^^^^^^^^^^^^^^^ """""""""""""""""""
+#######  **********
+Root h1  chapter h2  sections h3  heading4 heading5 heding6
+#######  **********  ===========  -------- ^^^^^^^^ """""""
+
+#######  **********
+SUB1 h1  chapter h2  sections h3  heading4 heading5 heding6
+#######  **********  ===========  -------- ^^^^^^^^ """""""
+
+*******
+SUB2 h2  sections h3  heading4 heading5 heding6
+*******  ===========  -------- ^^^^^^^^ """""""
 
 ###########
 Style guide
