@@ -1,7 +1,7 @@
 .. include:: /include.rst
 
 Log in to the staff interface
------------------------------
+=============================
 
 #. Open staff.nextkansas.org
 
@@ -22,7 +22,7 @@ Log in to the staff interface
   |staff.login.0040.png|
 
 Logging in video on YouTube
----------------------------
+===========================
 
 Watch "Check-in is your friend" on YouTube
 

@@ -1,0 +1,5 @@
+Elastic search
+
+See Andrew's notes at
+
+https://bywatersolutions.com/education/elastic-searching
