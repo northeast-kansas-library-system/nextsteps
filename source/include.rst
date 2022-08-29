@@ -133,7 +133,7 @@
 .. |checkout.0230.png| image:: /images/pages/checkout/checkout.0230.png
     :alt: Barcode not found message
 
-.. |checkout.0240.png| image:: /images/pages/checkout/checkout.0230.png
+.. |checkout.0240.png| image:: /images/pages/checkout/checkout.0240.png
     :alt: The "Use this date until the browser is closed" checkbox specifies the due date for all items checked out to all borrowers until the browser is closed
 
 .. pages/lofging_in

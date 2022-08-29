@@ -11,7 +11,7 @@ When you've finished checking items out to a borrower, a great deal of confident
 
 - The printer icon to the left of the "X" serves two functions
 
-  - It prints the "Receipt-today's checkouts" receipt when clicked
-  - It also clears the confidential data from the screen
+  #. It prints the "Receipt-today's checkouts" receipt when clicked
+  #. It also clears the confidential data from the screen
 
 |checkout.0100.png|

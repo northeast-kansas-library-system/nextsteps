@@ -13,7 +13,7 @@ What is an Integrated Library System (I*L*S)
 
 
 Video on YouTube
-----------------
+================
 
 Watch "Check-in is your friend" on YouTube
 
