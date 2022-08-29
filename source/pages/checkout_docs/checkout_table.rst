@@ -8,4 +8,4 @@ The "Checkout(s)" table
   - If the "Checkout(s)" table does not appear you may need to click the "Show checkouts" button
   - You can make the "Checkout(s)" table appear by default by checking the checkbox that says "Always show checkouts immediately"
 
-|checkout.0070.png|
+|checkout.0080.png|
