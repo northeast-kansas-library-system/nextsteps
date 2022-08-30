@@ -40,6 +40,8 @@ No recording of this meeting will be made |br|
 
 7. New Feature - Digital Library Card - Coming October 3
 
+  - Barcode scanner update - If you don't have them, they will be delivered soon
+
 8. Next Steps progress
 
   - See https://nekls.mclms.net/en/package/10290/view
@@ -55,16 +57,21 @@ No recording of this meeting will be made |br|
 
 11. Email/text message issues (Several people)
 
-12. Follow-up on Inter-Koha ILL (NEKLS/SEKLS/CKLS sharing outside of ShareIt)
+12. Password reset walk-through
 
-13. Locations needed for 2023 meetings
+  - Director accounts
+  - Any staff account with an e-mail address
+
+13. Follow-up on Inter-Koha ILL (NEKLS/SEKLS/CKLS sharing outside of ShareIt)
+
+14. Locations needed for 2023 meetings
 
   - Meeting in January at NEKLS (January 24 (Tu) or 26 (TH))
   - Meeting in April -TBA- (April 18, 20, 25 or 27 are possible dates)
   - Meeting in August -TBA- (August 22, 24, 29 or 31 are possible dates)
   - Meeting in November -TBA- (November 7, 9, 14, or 16 are possible dates)
 
-14. Next meetings in 2022
+15. Next meetings in 2022
   - November 17 (Thursday 10:00 a.m.) - Leavenworth Public Library / online
 
 .. |ss| raw:: html
