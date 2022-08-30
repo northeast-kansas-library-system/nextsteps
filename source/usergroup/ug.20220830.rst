@@ -40,6 +40,8 @@ No recording of this meeting will be made |br|
 
 7. New Feature - Digital Library Card - Coming October 3
 
+  - Barcode scanner update - If you don't have them, they will be delivered soon
+
 8. Next Steps progress
 
   - See https://nekls.mclms.net/en/package/10290/view
