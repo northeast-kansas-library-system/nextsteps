@@ -17,21 +17,13 @@
   
 
   
-  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
-  
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-        <script src="../_static/doctools.js"></script>
-    
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
+  
+  
     
 
   
+
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/override.css" type="text/css" />
@@ -39,16 +31,21 @@
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Checking out items" href="checkout.html" />
     <link rel="prev" title="Staff interface walk-through" href="walk_through.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
+
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <div class="wy-side-nav-search">
           
 
           
@@ -85,7 +82,7 @@
               
             
             
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+              <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../foundations.html">Foundations</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../basic.html">Koha basics for library staff</a><ul class="current">
@@ -96,15 +93,31 @@
 <li class="toctree-l4"><a class="reference internal" href="#finding-the-check-in-menu">Finding the Check-in menu</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#checkin-settings">Checkin settings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#checking-in-items">Checking in items</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#checkin-settings">Checkin settings</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#forgive-overdue-charges">Forgive overdue charges</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#book-drop-mode">Book drop mode</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#checking-in-items">Checking in items</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#normal-check-in-borrowed-item-returned">Normal check-in (borrowed item returned)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#normal-check-in-item-not-checked-out">Normal check-in (item not checked out)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#in-transit-receiving-an-item-from-another-library">In transit (receiving an item from another library)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#in-transit-ship-to-another-library">In transit (ship to another library)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#requested-item-hold-at-this-library">Requested item (hold at this library)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#requested-item-ship-to-another-library">Requested item (ship to another library)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#lost-missing-status-removal">Lost/missing status removal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#damaged-item-status-exception">Damaged item status exception</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#withdrawn-item-exception">Withdrawn item exception</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#barcode-not-found">Barcode not found</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#video-on-youtube">Video on YouTube</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="checkout.html">Checking out items</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../about_us.html">About Next Search Catalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about_us.html">About us</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../usergroup/index.html">Usergroup meetings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../upgrades/21.11/master.html">21.11 Upgrade</a></li>
 </ul>
@@ -174,9 +187,9 @@
            <div itemprop="articleBody">
             
   <div class="section" id="check-in-is-your-friend">
-<h1>Check-in is your friend<a class="headerlink" href="#check-in-is-your-friend" title="Permalink to this heading">¶</a></h1>
+<h1>Check-in is your friend<a class="headerlink" href="#check-in-is-your-friend" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="overview-of-check-in">
-<h2>Overview of check-in<a class="headerlink" href="#overview-of-check-in" title="Permalink to this heading">¶</a></h2>
+<h2>Overview of check-in<a class="headerlink" href="#overview-of-check-in" title="Permalink to this headline">¶</a></h2>
 <p>Checking items in accomplishes many things in Next Search Catalog:</p>
 <ul class="simple">
 <li>Check-in puts items that have been borrowed back into circulation</li>
@@ -189,46 +202,119 @@
 </ul>
 <p>The bottom line is that, if you’re not sure what to do with an item, checking it in will get the system to tell you what to do with it.</p>
 <div class="section" id="finding-the-check-in-menu">
-<h3>Finding the Check-in menu<a class="headerlink" href="#finding-the-check-in-menu" title="Permalink to this heading">¶</a></h3>
-<p>The check-in menu can be found on the circulation menu</p>
+<h3>Finding the Check-in menu<a class="headerlink" href="#finding-the-check-in-menu" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>The check-in menu can be found on the circulation menu</li>
+</ul>
 <p><img alt="Locate the check in menu via the navigation menu or the home page" src="../_images/checkin.0110.png" /></p>
 <p><img alt="Find the check in icon on the circulation menu" src="../_images/checkin.0120.png" /></p>
-<p>The check-in menu can also be found by checking an item in using the flexible search box (which can be found at the top of almost every page).</p>
+<ul class="simple">
+<li>The check-in menu can also be found by checking an item in using the flexible search box (which can be found at the top of almost every page).</li>
+</ul>
 <p><img alt="Use the flexible search box to go to check in" src="../_images/checkin.0130.png" /></p>
-<p>After you enter a barcode number through “Check in” on the flexible search box, that item will be checked in and you will be taken to the check-in menu.</p>
+<ul class="simple">
+<li>After you enter a barcode number through “Check in” on the flexible search box, that item will be checked in and you will be taken to the check-in menu.</li>
+</ul>
 <p><img alt="Checking in an item loads the check in menu" src="../_images/checkin.0140.png" /></p>
 </div>
 </div>
 <div class="section" id="checkin-settings">
-<h2>Checkin settings<a class="headerlink" href="#checkin-settings" title="Permalink to this heading">¶</a></h2>
+<h2>Checkin settings<a class="headerlink" href="#checkin-settings" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="forgive-overdue-charges">
+<h3>Forgive overdue charges<a class="headerlink" href="#forgive-overdue-charges" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>If you check the “Forgive overdue charges” checkbox, any currently accruing late fees for any items being checked in will be written off<ul>
+<li>For example, if a borrower is returning a copy of DAY OF THE JACKAL that is currently accruing a $.10 late fee for each day it is overdue, those fees will not be assessed when the item is checked in</li>
+<li>However, if a borrower returned that same copy of DAY OF THE JACKAL 2 years ago and received a total fee of $2.10 for that item, that fee will remain on that borrower’s account</li>
+<li>Only the <em>currently accruing fee</em> will be forgiven</li>
+</ul>
+</li>
+</ul>
 <p><img alt="&quot;Forgive overdue charges&quot; removes any currently accruing late fees" src="../_images/checkin.0150.png" /></p>
+</div>
+<div class="section" id="book-drop-mode">
+<h3>Book drop mode<a class="headerlink" href="#book-drop-mode" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>If you check the “Book drop mode” checkbox, the items being checked in will be returned as if the date was 11:59 p.m. on the last day that the system calendar indicates that your library was open</li>
+</ul>
 <p><img alt="&quot;Book drop mode&quot; sets the date back to the last open date on the calendar" src="../_images/checkin.0160.png" /></p>
 </div>
+</div>
 <div class="section" id="checking-in-items">
-<h2>Checking in items<a class="headerlink" href="#checking-in-items" title="Permalink to this heading">¶</a></h2>
-<p>After the item is checked in, follow the procedures at your library for re-shelving the item.</p>
+<h2>Checking in items<a class="headerlink" href="#checking-in-items" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="normal-check-in-borrowed-item-returned">
+<h3>Normal check-in (borrowed item returned)<a class="headerlink" href="#normal-check-in-borrowed-item-returned" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>After the item is checked in, follow the procedures at your library for re-shelving the item.</li>
+</ul>
 <p><img alt="Normal check-in (item being returned)" src="../_images/checkin.0010.png" /></p>
-<p>After the item is checked in, follow the procedures at your library for re-shelving the item.</p>
+</div>
+<div class="section" id="normal-check-in-item-not-checked-out">
+<h3>Normal check-in (item not checked out)<a class="headerlink" href="#normal-check-in-item-not-checked-out" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>After the item is checked in, follow the procedures at your library for re-shelving the item.</li>
+</ul>
 <p><img alt="Normal check-in (item not checked out)" src="../_images/checkin.0020.png" /></p>
-<p>After the item is checked in, follow the procedures at your library for re-shelving the item.</p>
+</div>
+<div class="section" id="in-transit-receiving-an-item-from-another-library">
+<h3>In transit (receiving an item from another library)<a class="headerlink" href="#in-transit-receiving-an-item-from-another-library" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>After the item is checked in, follow the procedures at your library for re-shelving the item.</li>
+</ul>
 <p><img alt="In transit (receiving an item from another library)" src="../_images/checkin.0030.png" /></p>
-<p>After the item is checked in, follow the procedures at your library for shipping the item to its destination.</p>
+</div>
+<div class="section" id="in-transit-ship-to-another-library">
+<h3>In transit (ship to another library)<a class="headerlink" href="#in-transit-ship-to-another-library" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>After the item is checked in, follow the procedures at your library for shipping the item to its destination.</li>
+</ul>
 <p><img alt="In transit (ship to another library)" src="../_images/checkin.0040.png" /></p>
-<p>After the item is checked in, follow the procedures at your library for requested items.</p>
+</div>
+<div class="section" id="requested-item-hold-at-this-library">
+<h3>Requested item (hold at this library)<a class="headerlink" href="#requested-item-hold-at-this-library" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>After the item is checked in, follow the procedures at your library for requested items.</li>
+</ul>
 <p><img alt="Requested item (hold at this library)" src="../_images/checkin.0050.png" /></p>
-<p>After the item is checked in, follow the procedures at your library for shipping the item to its destination.</p>
+</div>
+<div class="section" id="requested-item-ship-to-another-library">
+<h3>Requested item (ship to another library)<a class="headerlink" href="#requested-item-ship-to-another-library" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>After the item is checked in, follow the procedures at your library for shipping the item to its destination.</li>
+</ul>
 <p><img alt="Requested item (ship to another library)" src="../_images/checkin.0060.png" /></p>
-<p>After the item is checked in, follow the procedures at your library for handling lost/missing items.</p>
+</div>
+<div class="section" id="lost-missing-status-removal">
+<h3>Lost/missing status removal<a class="headerlink" href="#lost-missing-status-removal" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>After the item is checked in, follow the procedures at your library for handling lost/missing items.</li>
+</ul>
 <p><img alt="Lost/missing status removal" src="../_images/checkin.0070.png" /></p>
-<p>After the item is checked in, follow the procedures at your library for items with a damaged status.</p>
+</div>
+<div class="section" id="damaged-item-status-exception">
+<h3>Damaged item status exception<a class="headerlink" href="#damaged-item-status-exception" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>After the item is checked in, follow the procedures at your library for items with a damaged status.</li>
+</ul>
 <p><img alt="Damaged item status exception" src="../_images/checkin.0080.png" /></p>
-<p>After the item is checked in, follow the procedures at your library for withdrawn items.</p>
+</div>
+<div class="section" id="withdrawn-item-exception">
+<h3>Withdrawn item exception<a class="headerlink" href="#withdrawn-item-exception" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>After the item is checked in, follow the procedures at your library for withdrawn items.</li>
+</ul>
 <p><img alt="Withdrawn item exception" src="../_images/checkin.0090.png" /></p>
-<p>After the item is checked in, follow the procedures at your library for items that are not in the catalog.</p>
+</div>
+<div class="section" id="barcode-not-found">
+<h3>Barcode not found<a class="headerlink" href="#barcode-not-found" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>After the item is checked in, follow the procedures at your library for items that are not in the catalog.</li>
+</ul>
 <p><img alt="Barcode not found" src="../_images/checkin.0100.png" /></p>
 </div>
+</div>
 <div class="section" id="video-on-youtube">
-<h2>Video on YouTube<a class="headerlink" href="#video-on-youtube" title="Permalink to this heading">¶</a></h2>
+<h2>Video on YouTube<a class="headerlink" href="#video-on-youtube" title="Permalink to this headline">¶</a></h2>
 <p>Watch “Check-in is your friend” on YouTube</p>
 <div class="ytcontainer">
   <iframe class="responsive-iframe" src="https://www.youtube.com/embed/1uGkMhfPNvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -249,7 +335,7 @@
         <a href="checkout.html" class="btn btn-neutral float-right" title="Checking out items" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="walk_through.html" class="btn btn-neutral float-left" title="Staff interface walk-through" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="walk_through.html" class="btn btn-neutral" title="Staff interface walk-through" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -280,16 +366,35 @@
   
 
 
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'1.0',
+              LANGUAGE:'en',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>

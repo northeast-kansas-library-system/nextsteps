@@ -1,7 +1,7 @@
 .. include:: /include.rst
 
 Very brief history of Integrated Library Systems
-------------------------------------------------
+================================================
 
 Library catalogs have been around as long as libraries have.  In its most basic form, a library catalog is a list of all of the titles owned by a library.
 

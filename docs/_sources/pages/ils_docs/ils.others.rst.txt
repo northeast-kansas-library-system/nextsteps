@@ -1,7 +1,7 @@
 .. include:: /include.rst
 
 ILSes currently in use include:
--------------------------------
+===============================
 
 Currently there are dozens of integrated library systems used throughout the world including:
 

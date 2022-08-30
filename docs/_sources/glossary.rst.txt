@@ -32,7 +32,7 @@ Software, languages, and outside services:
       **AKA:**
 
       - ILS
-      - IMLS
+      - ILMS
       - LMS
       - Library management system
       - Integrated library management system

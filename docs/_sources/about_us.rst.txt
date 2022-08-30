@@ -1,8 +1,8 @@
 .. include:: /include.rst
 
-#########################
-About Next Search Catalog
-#########################
+########
+About us
+########
 
 .. include:: \pages\contact.rst
 
