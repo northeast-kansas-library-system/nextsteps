@@ -3,23 +3,62 @@
 Report 3658 - Missing in transit items
 ======================================
 
-This report generates a list of items that are considered "Missing in transit" - i.e. items that have been in transit from one library to another for more than 7 days.
+Purpose
+-------
+
+The purpose of this report is to help staff at member libraries find materials that have been missing in transit for more than 7 days.
+
+The best practice for finding materials that are missing in transit is to run this report once a week and then:
+
+1. Search for the items at your library - checking in any items found
+2. E-mailing the other libraries involved in the transfer if the items are not found and asking them to do a shelf check
+3. Contacting the courier coordinator at NEKLS following the courier guidelines when necessary
+4. Marking un-found items as "Missing (unable to locate on shelf)" after all attempts by all libraries and the courier have been made
+
+Function
+--------
+
+This report generates a list of items that have been in transit from one library to another for more than 7 days.
 
 The report will show you results for:
 
-- All items owned by the selected library
-- All items in transit *to* the selected library
-- All items in transit *from* the selected library
+- All items **owned** by the selected library
+- All items in transit **to** the selected library
+- All items in transit **from** the selected library
 
-This report includes a "mailto:" button.  In other words, if you click on the "Send e-mail" button and you have a default e-mail client set up on your computer, the report will trigger an e-mail that you can send to the owning, sending, and receiving libraries asking them to check their shelves for the in-transit item.
+This report includes a "mailto:" button.  If you click on the "Send e-mail" button and you have a default e-mail client set up on your computer, the report will auto-populate an e-mail that you can send to the owning, sending, and receiving libraries asking them to check their shelves for the in-transit item.
 
-To run this report:
+Running the report
+------------------
 
 Follow the normal steps for finding the report
 ----------------------------------------------
 
-You can sort this report by call number first or by item home library first - the default is by item home library first
------------------------------------------------------------------------------------------------------------------------
+See :doc:`/pages/reports/finding` if you don't know how to find a report by number.
+
+You will be asked to choose a sort order
+----------------------------------------
+
+"Normal sort order including home library" (this is the default sort order) sorts the results by:
+
+- Home library
+- Permanent location
+- Item type
+- Collection code
+- Call number
+- Author
+- Title
+
+"Normal sort order without item home library" sorts the results by:
+
+- Permanent location
+- Item type
+- Collection code
+- Call number
+- Author
+- Title
+
+Sorting without the home library creates a shelf-list that may be easier for staff to print and use when searching the shelves at your library.
 
 |r3658.0050.png|
 

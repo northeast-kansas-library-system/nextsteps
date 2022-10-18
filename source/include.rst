@@ -191,6 +191,20 @@
 .. |r3658.0080.png| image:: /images/pages/reports/3658/r3658.0080.png
     :alt: If you have a default e-mail client installed, it should pre-populate an e-mail asking for a shelf-check
 
+.. pages/reports/finding
+
+.. |rfinding010.png| image:: /images/pages/reports/finding/rfinding010.png
+    :alt: Click on "Reports"
+
+.. |rfinding020.png| image:: /images/pages/reports/finding/rfinding020.png
+    :alt: Click on "Saved reports"
+
+.. |rfinding030.png| image:: /images/pages/reports/finding/rfinding030.png
+    :alt: Search for the report number
+
+.. |rfinding040.png| image:: /images/pages/reports/finding/rfinding040.png
+    :alt: Click on "Run" to start the report
+
 
 .. upgrades
 
