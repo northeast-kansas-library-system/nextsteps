@@ -179,25 +179,16 @@
 
 .. pages/reports/3658
 
-.. |r3658.0010.png| image:: /images/pages/reports/3658/r3658.0010.png
-    :alt: Go to reports
-
-.. |r3658.0020.png| image:: /images/pages/reports/3658/r3658.0020.png
-    :alt: Click on "Saved reports"
-
-.. |r3658.0030.png| image:: /images/pages/reports/3658/r3658.0030.png
-    :alt: Search for report 3658
-
-.. |r3658.0040.png| image:: /images/pages/reports/3658/r3658.0040.png
+.. |r3658.0050.png| image:: /images/pages/reports/3658/r3658.0050.png
     :alt: Choose the type of sorting
 
-.. |r3658.0050.png| image:: /images/pages/reports/3658/r3658.0050.png
+.. |r3658.0060.png| image:: /images/pages/reports/3658/r3658.0060.png
     :alt: Choose your library
 
-.. |r3658.0060.png| image:: /images/pages/reports/3658/r3658.0060.png
+.. |r3658.0070.png| image:: /images/pages/reports/3658/r3658.0070.png
     :alt: Trigger an e-mail by clicking on the "Send e-mail" button
 
-.. |r3658.0070.png| image:: /images/pages/reports/3658/r3658.0070.png
+.. |r3658.0080.png| image:: /images/pages/reports/3658/r3658.0080.png
     :alt: If you have a default e-mail client installed, it should pre-populate an e-mail asking for a shelf-check
 
 

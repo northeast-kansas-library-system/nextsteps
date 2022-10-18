@@ -15,16 +15,27 @@ This report includes a "mailto:" button.  In other words, if you click on the "S
 
 To run this report:
 
-|r3658.0010.png|
+Follow the normal steps for finding the report
+----------------------------------------------
 
-|r3658.0020.png|
-
-|r3658.0030.png|
-
-|r3658.0040.png|
+You can sort this report by call number first or by item home library first - the default is by item home library first
+-----------------------------------------------------------------------------------------------------------------------
 
 |r3658.0050.png|
 
+You must choose a library to run this report - after you've chosen a library, click "Run the report"
+----------------------------------------------------------------------------------------------------
+
 |r3658.0060.png|
 
+Click on "Send e-mail" to send the item data to the owning library, sending library, and receiving library
+----------------------------------------------------------------------------------------------------------
+
+This feature will only work if you have a default e-mail program set up on the computer you're using.
+
 |r3658.0070.png|
+
+This is a sample of the e-mail that will be sent
+------------------------------------------------
+
+|r3658.0080.png|
