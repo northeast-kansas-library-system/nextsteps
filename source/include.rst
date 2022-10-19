@@ -12,6 +12,23 @@
 .. |nexthelp| image:: /images/nexthelp.svg
     :alt: Next help @ nekls.org e-mail address
 
+.. bugs
+
+.. |ff106.0010.jpg| image:: /images/bugs/2022_printing/ff106.0010.jpg
+    :alt: Receipt with bad left margin
+
+.. |ff106.0020.png| image:: /images/bugs/2022_printing/ff106.0020.png
+    :alt: Go to "about:config" in Firefox and click on "Accept the Risk and Continue"
+
+.. |ff106.0030.png| image:: /images/bugs/2022_printing/ff106.0030.png
+    :alt: Search for "print.printer"
+
+.. |ff106.0040.png| image:: /images/bugs/2022_printing/ff106.0040.png
+    :alt: Then look for "print.printer" and the name of your receipt printer
+
+.. |ff106.0050.png| image:: /images/bugs/2022_printing/ff106.0050.png
+    :alt: Make sure your Firefox matches these settings
+
 .. pages/checkin
 
 .. |checkin.0010| image:: /images/pages/checkin/checkin.0010.png
