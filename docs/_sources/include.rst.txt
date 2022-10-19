@@ -12,6 +12,23 @@
 .. |nexthelp| image:: /images/nexthelp.svg
     :alt: Next help @ nekls.org e-mail address
 
+.. bugs
+
+.. |ff106.0010.jpg| image:: /images/bugs/2022_printing/ff106.0010.jpg
+    :alt: Receipt with bad left margin
+
+.. |ff106.0020.png| image:: /images/bugs/2022_printing/ff106.0020.png
+    :alt: Go to "about:config" in Firefox and click on "Accept the Risk and Continue"
+
+.. |ff106.0030.png| image:: /images/bugs/2022_printing/ff106.0030.png
+    :alt: Search for "print.printer"
+
+.. |ff106.0040.png| image:: /images/bugs/2022_printing/ff106.0040.png
+    :alt: Then look for "print.printer" and the name of your receipt printer
+
+.. |ff106.0050.png| image:: /images/bugs/2022_printing/ff106.0050.png
+    :alt: Make sure your Firefox matches these settings
+
 .. pages/checkin
 
 .. |checkin.0010| image:: /images/pages/checkin/checkin.0010.png
@@ -176,6 +193,34 @@
 
 .. |opac.password.reset.0090.png| image:: /images/pages/logging_in/opac.password.reset.0090.png
     :alt:
+
+.. pages/reports/3658
+
+.. |r3658.0050.png| image:: /images/pages/reports/3658/r3658.0050.png
+    :alt: Choose the type of sorting
+
+.. |r3658.0060.png| image:: /images/pages/reports/3658/r3658.0060.png
+    :alt: Choose your library
+
+.. |r3658.0070.png| image:: /images/pages/reports/3658/r3658.0070.png
+    :alt: Trigger an e-mail by clicking on the "Send e-mail" button
+
+.. |r3658.0080.png| image:: /images/pages/reports/3658/r3658.0080.png
+    :alt: If you have a default e-mail client installed, it should pre-populate an e-mail asking for a shelf-check
+
+.. pages/reports/finding
+
+.. |rfinding010.png| image:: /images/pages/reports/finding/rfinding010.png
+    :alt: Click on "Reports"
+
+.. |rfinding020.png| image:: /images/pages/reports/finding/rfinding020.png
+    :alt: Click on "Saved reports"
+
+.. |rfinding030.png| image:: /images/pages/reports/finding/rfinding030.png
+    :alt: Search for the report number
+
+.. |rfinding040.png| image:: /images/pages/reports/finding/rfinding040.png
+    :alt: Click on "Run" to start the report
 
 
 .. upgrades

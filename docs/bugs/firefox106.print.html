@@ -1,0 +1,244 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Firefox 106 printer margin problem &mdash; Next Steps 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/override.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Next Steps
+          
+
+          
+            
+            <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../foundations.html">Foundations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic.html">Koha basics for library staff</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pages/reports.html">Reports</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about_us.html">About us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usergroup/index.html">Usergroup meetings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../upgrades/21.11/master.html">21.11 Upgrade</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Next Steps</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Firefox 106 printer margin problem</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/bugs/firefox106.print.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="firefox-106-printer-margin-problem">
+<h1>Firefox 106 printer margin problem<a class="headerlink" href="#firefox-106-printer-margin-problem" title="Permalink to this heading">¶</a></h1>
+<p>There is a change in the way some of the newer versions of Firefox are handling printing and it’s creating situations where the left margin of a receipt is not printing properly.  Additionally, the header and the footer may print unintended blank spaces at the top and bottom of the page.</p>
+<p><img alt="Receipt with bad left margin" src="../_images/ff106.0010.jpg" /></p>
+<p>In order to fix these problems, you can do the following:</p>
+<ol class="arabic simple">
+<li>Open a new window in Firefox and type “<a class="reference external" href="about:config" target="_blank">about:config</a>” and click on the button that says “Accept the Risk and Continue”</li>
+</ol>
+<p><img alt="Go to &quot;about:config&quot; in Firefox and click on &quot;Accept the Risk and Continue&quot;" src="../_images/ff106.0020.png" /></p>
+<ol class="arabic simple" start="2">
+<li>Type “print.printer” in the search bar</li>
+</ol>
+<p><img alt="Search for &quot;print.printer&quot;" src="../_images/ff106.0030.png" /></p>
+<ol class="arabic simple" start="3">
+<li>Scroll through the results looking for the name of your receipt printer after “print.printer” - in my case my receipt printer is named “EPSON_TM-T88III_ReceiptE4”</li>
+</ol>
+<p><img alt="Then look for &quot;print.printer&quot; and the name of your receipt printer" src="../_images/ff106.0040.png" /></p>
+<ol class="arabic simple" start="4">
+<li>Set all of the following settings for your printer to:</li>
+</ol>
+<ul class="simple">
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_bgcolor = false</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_bgimages = false</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_footercenter = (blank)</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_footerleft = (blank)</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_footerright = (blank)</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_headercenter = (blank)</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_headerleft = (blank)</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_headerright = (blank)</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_ignore_unwriteable_margins = false</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_margin_bottom = 0</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_margin_left = 0</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_margin_right = 0</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_margin_top = 0</li>
+<li>print.printer_YOUR_RECEIPT_PRINTER.print_shrink_to_fit = true</li>
+</ul>
+<p>There may be other “print.printer_YOUR_RECEIPT_PRINTER” settings, but, in general, they can be ignored so long as these are set correctly.</p>
+<p><img alt="Make sure your Firefox matches these settings" src="../_images/ff106.0050.png" /></p>
+<p>If this does not solve your problem or if you have other printing issues please let us know at <img alt="Next help &#64; nekls.org e-mail address" src="../_images/nexthelp.svg" /></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2022, Northeast Kansas Library System
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+    <p><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+    <p>Next Search Catalog contact info:<br />NEKLS: 785-838-4090<br />(toll free: 888-296-6963)<br />After hours: 785-813-1356</p>
+     <img src="https://raw.githubusercontent.com/northeast-kansas-library-system/nextimages/master/nexthelp.svg" alt="Nexthelp email address" />
+     
+
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

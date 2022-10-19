@@ -13,6 +13,7 @@ Welcome to Next Steps: a training site for Next Search Catalog
 
    /foundations
    /basic
+   /pages/reports
    /about_us
    /usergroup/index
    /upgrades/21.11/master
