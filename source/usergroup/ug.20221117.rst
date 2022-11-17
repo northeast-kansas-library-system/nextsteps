@@ -20,12 +20,12 @@ No recording of this meeting will be made |br|
 #. Personal IDs in 2023
     - Due to some security issues in the last 2 years, all generic BRANCHTECH/BRANCHCIRC accounts will be replaced with personal staff logins in 2023.
     - The process will be managed based on library size - Major service center III first / Major service center II next / Major service center I after that , etc. etc.
-#. Claims returned
-#. Public Lists - guidelines needed
-    - Lists can no longer contain punctuation at the beginning of the list (enforced by Koha)
 #. Password reset walk-through
     - Director accounts
     - Any staff account with an e-mail address
+#. Claims returned
+#. Public Lists - guidelines needed
+    - Lists can no longer contain punctuation at the beginning of the list (enforced by Koha)
 #. Next Steps progress
     - See https://nekls.mclms.net/en/package/10290/view
     - See https://northeast-kansas-library-system.github.io/nextsteps/
