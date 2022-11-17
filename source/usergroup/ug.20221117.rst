@@ -12,9 +12,9 @@ No recording of this meeting will be made |br|
     - Introductions
     - Additions to the agenda
 2. 2023 participation agreement (final)
-    - `2023 final agreement <https://raw.githubusercontent.com/northeast-kansas-library-system/nextimages/master/pdf/2023.participation.agreement.draft.pdf>`_
+    - `2023 final agreement <https://staff.nextkansas.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=801505>`_
 3. 2023 Privacy and confidentiality statement (final)
-    - `2023 final privacy and confidentiality statement <https://raw.githubusercontent.com/northeast-kansas-library-system/nextimages/master/pdf/2023.privacy.statement.draft.pdf>`_
+    - `2023 final privacy and confidentiality statement <https://staff.nextkansas.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=801505>`_
 #. Pay Pal
 #. Authority Control
 #. Personal IDs in 2023
