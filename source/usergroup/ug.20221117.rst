@@ -34,12 +34,13 @@ No recording of this meeting will be made |br|
 #. Email/text message issues (Several people)
 #. Follow-up on Inter-Koha ILL (NEKLS/SEKLS/CKLS sharing outside of ShareIt)
 #. Locations needed for 2023 meetings
-    - Meeting in January at NEKLS (January 26 (TH))
-    - Meeting in April at Osage City Public Library (April 18, 20, 25 or 27 are possible dates) 10:00 a.m. - 12:00 p.m.
-    - Meeting in August at Seneca Free Library August 29 (Tuesday) 10:00 a.m. - 12:00 p.m.
-    - Meeting in November at Atchison Public Library November 14 (Thursday) 10:00 a.m. - 12:00 p.m.
+    - Meeting in January at NEKLS - January 26 (Thursday) 10:00 a.m. - 12:00 p.m. - Statistical Survey Help to follow
+    - Meeting in April at Osage City Public Library - April 18 (Tuesday) 10:00 a.m. - 12:00 p.m.
+    - Meeting in August at Seneca Free Library - August 29 (Tuesday) 10:00 a.m. - 12:00 p.m.
+    - Meeting in November at Atchison Public Library - November 14 (Thursday) 10:00 a.m. - 12:00 p.m.
 #. Next meeting
     - Meeting at NEKLS: January 26 (Thursday) 10:00 a.m. - 12:00 p.m. with Statistical Survey Help to follow
+
 
 .. |ss| raw:: html
 
