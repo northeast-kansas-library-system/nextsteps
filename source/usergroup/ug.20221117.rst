@@ -3,7 +3,7 @@
 2022.11.17 - Agenda and notes
 =============================
 
-2022.11.17 - (Thursday) 10:00 a.m. - 12:00 p.m. - Leavenworth Public Library / online|br|
+2022.11.17 - (Thursday) 10:00 a.m. - 12:00 p.m. - Leavenworth Public Library / online |br|
 `Zoom link <https://kslib.zoom.us/j/95957714840?pwd=RVpjMnBVemZmYkthZGxxV294Zm84Zz09>`_ |br|
 Zoom passcode 7858384090 |br|
 No recording of this meeting will be made |br|
@@ -39,7 +39,7 @@ No recording of this meeting will be made |br|
     - Meeting in August at Seneca Free Library - August 29 (Tuesday) 10:00 a.m. - 12:00 p.m.
     - Meeting in November at Atchison Public Library - November 14 (Thursday) 10:00 a.m. - 12:00 p.m.
 #. Next meeting
-    - Meeting at NEKLS: January 26 (Thursday) 10:00 a.m. - 12:00 p.m. with Statistical Survey Help to follow
+    - Meeting at NEKLS: January 26 (Thursday) 10:00 a.m. - 12:00 p.m. with Statistical Survey Help Session to follow
 
 
 .. |ss| raw:: html
