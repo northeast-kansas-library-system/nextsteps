@@ -4,7 +4,7 @@ body {
 
 /* Override 800 pixel column width */
 .wy-nav-content {
-  max-width: 80%;
+  max-width: 85%;
 }
 
 /* Override top left header color */
