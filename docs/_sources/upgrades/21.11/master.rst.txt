@@ -4,14 +4,6 @@
 21.11 Upgrade
 #############
 
-
-.. toctree::
-   :glob:
-   :maxdepth: 2
-   :caption: Contents:
-
-   index
-
 ********
 Overview
 ********

@@ -4,13 +4,13 @@
 Next meeting
 ------------
 
-2022.11.17 - (Thursday) Leavenworth Public Library / online - Leavenworth
+2023.01.26 - (Thursday) 10:00 a.m. - 12:00 p.m. - NEKLS / online
 
-  :doc:`ug.20221117` |br|
-  `Zoom link <https://kslib.zoom.us/j/95957714840?pwd=RVpjMnBVemZmYkthZGxxV294Zm84Zz09>`_
+  :doc:`ug.20230126` |br|
+  `Zoom link <https://kslib.zoom.us/j/94801614890?pwd=MGFXY1hBUDBudTJCU3NxR29JZUtqdz09>`_ |br|
   Zoom passcode 7858384090 |br|
 
-Upcoming 2023 meetings
+Upcoming meetings
 ----------------------
 
 2023.01.26 - (Thursday) 10:00 a.m. - 12:00 p.m. - NEKLS / online |br|
@@ -23,18 +23,6 @@ Upcoming 2023 meetings
 Past meetings
 -------------
 
-
-2022.01.27 - (Thursday) 10:00 a.m. - 12:00 p.m. |ss| NEKLS office |se| + **meeting changed to online only**
-
-  :doc:`ug.20220127` |br|
-
-2022.04.28 - (Thursday) 10:00 a.m. - 12:00 p.m. online only
-
-  :doc:`ug.20220428` |br|
-
-2022.08.30 - (Tuesday) 10:00 a.m. - 12:00 p.m. NEKLS office
-
-  :doc:`ug.20220830` |br|
 
 
 .. |ss| raw:: html
