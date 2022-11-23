@@ -86,8 +86,12 @@ html_logo = 'next.steps.logo.dark.1.1.png'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-def setup(app):
-    app.add_css_file('override.css')
+html_css_files = [
+    'override.css',
+]
+
+# def setup(app):
+#    app.add_css_file('override.css')
 
 # -- Options for LaTeX output ------------------------------------------------
 

@@ -14,7 +14,6 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
 # -- Project information -----------------------------------------------------
 
 project = 'Next Steps'
@@ -41,10 +40,15 @@ extensions = [
 ]
 
 # Display todos by setting to True
-todo_include_todos = 'True'
+todo_include_todos = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This pattern also affects html_static_path and html_extra_path.
+exclude_patterns = []
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -62,17 +66,8 @@ master_doc = 'index'
 # Usually you set "language" from the command line for these cases.
 language = 'en'
 
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
-
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
-
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
-
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -80,24 +75,23 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 #
 
-
 # html_theme = 'classic'
 
 html_theme = "sphinx_rtd_theme"
 
 html_logo = 'next.steps.logo.dark.1.1.png'
 
-
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_context = {
-    'css_files': [
-        '_static/override.css',  # overrides for wide tables and colors in RTD theme
-        ],
-    }
+html_css_files = [
+    'override.css'
+]
+
+# def setup(app):
+#    app.add_css_file('override.css')
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -136,7 +130,6 @@ man_pages = [
      [author], 1)
 ]
 
-
 # -- Options for Texinfo output ----------------------------------------------
 
 # Grouping the document tree into Texinfo files. List of tuples
@@ -146,7 +139,6 @@ texinfo_documents = [
     (master_doc, 'NextSearchCatalog', 'Next Search Catalog Staff',
      author, 'NextSearchCatalog'),
 ]
-
 
 # -- Options for Epub output -------------------------------------------------
 
@@ -167,7 +159,6 @@ epub_copyright = copyright
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
 
 # -- Extension configuration -------------------------------------------------
 
