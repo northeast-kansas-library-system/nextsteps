@@ -12,6 +12,17 @@
 .. |nexthelp| image:: /images/nexthelp.svg
     :alt: Next help @ nekls.org e-mail address
 
+.. find modules
+
+.. |find_tools| image:: /images/pages/tools/find_tools.png
+    :alt: Pointer showing the tools modlue on the staff interface home page
+
+.. find modules / tools
+
+.. |find_calendar|  image:: /images/pages/tools/calendar/find_calendar.png
+    :alt: Pointer showing the calendar tool on the tools home page
+
+
 .. bugs
 
 .. |ff106.0010.jpg| image:: /images/bugs/2022_printing/ff106.0010.jpg
@@ -221,6 +232,67 @@
 
 .. |rfinding040.png| image:: /images/pages/reports/finding/rfinding040.png
     :alt: Click on "Run" to start the report
+
+.. Pages / Tools
+
+.. Pages / tools / calendar
+
+.. |date_range_0010.png| image:: /images/pages/tools/calendar/date_range_0010.png
+    :alt:
+
+.. |date_range_0020.png| image:: /images/pages/tools/calendar/date_range_0020.png
+    :alt:
+
+.. |date_range_0030.png| image:: /images/pages/tools/calendar/date_range_0030.png
+    :alt:
+
+.. |date_range_0040.png| image:: /images/pages/tools/calendar/date_range_0040.png
+    :alt:
+
+.. |date_range_0050.png| image:: /images/pages/tools/calendar/date_range_0050.png
+    :alt:
+
+.. |date_range_0060.png| image:: /images/pages/tools/calendar/date_range_0060.png
+    :alt:
+
+.. |date_range_0070.png| image:: /images/pages/tools/calendar/date_range_0070.png
+    :alt:
+
+.. |repeating_weekday_0010.png| image:: /images/pages/tools/calendar/repeating_weekday_0010.png
+    :alt:
+
+.. |repeating_weekday_0020.png| image:: /images/pages/tools/calendar/repeating_weekday_0020.png
+    :alt:
+
+.. |repeating_weekday_0030.png| image:: /images/pages/tools/calendar/repeating_weekday_0030.png
+    :alt:
+
+.. |repeating_weekday_0040.png| image:: /images/pages/tools/calendar/repeating_weekday_0040.png
+    :alt:
+
+.. |repeating_weekday_0050.png| image:: /images/pages/tools/calendar/repeating_weekday_0050.png
+    :alt:
+
+.. |repeating_weekday_0060.png| image:: /images/pages/tools/calendar/repeating_weekday_0060.png
+    :alt:
+
+.. |single_date_0010.png| image:: /images/pages/tools/calendar/single_date_0010.png
+    :alt:
+
+.. |single_date_0020.png| image:: /images/pages/tools/calendar/single_date_0020.png
+    :alt:
+
+.. |single_date_0030.png| image:: /images/pages/tools/calendar/single_date_0030.png
+    :alt:
+
+.. |single_date_0040.png| image:: /images/pages/tools/calendar/single_date_0040.png
+    :alt:
+
+.. |single_date_0050.png| image:: /images/pages/tools/calendar/single_date_0050.png
+    :alt:
+
+.. |single_date_0060.png| image:: /images/pages/tools/calendar/single_date_0060.png
+    :alt:
 
 
 .. upgrades
