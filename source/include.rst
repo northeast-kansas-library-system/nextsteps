@@ -237,61 +237,61 @@
 
 .. Pages / tools / calendar
 
-.. |date_range_0010.png| image:: /images/pages/tools/calendar/date_range_0010.png
+.. |date_range_0010| image:: /images/pages/tools/calendar/date_range_0010.png
+    :alt: Click on the start date on the "Calendar information" tool
+
+.. |date_range_0020| image:: /images/pages/tools/calendar/date_range_0020.png
+    :alt: Give the closure a name in the "Title" field
+
+.. |date_range_0030| image:: /images/pages/tools/calendar/date_range_0030.png
+    :alt: Add a description in the "Description" field (optional)
+
+.. |date_range_0040| image:: /images/pages/tools/calendar/date_range_0040.png
+    :alt: Set the radio button to "Holidays on a range"
+
+.. |date_range_0050| image:: /images/pages/tools/calendar/date_range_0050.png
+    :alt: Click on the end date in the "To date" field
+
+.. |date_range_0060| image:: /images/pages/tools/calendar/date_range_0060.png
+    :alt: Click on "Save"
+
+.. |date_range_0070| image:: /images/pages/tools/calendar/date_range_0070.png
+    :alt: Confirm the closure in the "Unique holidays" table
+
+.. |repeating_weekday_0010| image:: /images/pages/tools/calendar/repeating_weekday_0010.png
     :alt:
 
-.. |date_range_0020.png| image:: /images/pages/tools/calendar/date_range_0020.png
+.. |repeating_weekday_0020| image:: /images/pages/tools/calendar/repeating_weekday_0020.png
     :alt:
 
-.. |date_range_0030.png| image:: /images/pages/tools/calendar/date_range_0030.png
+.. |repeating_weekday_0030| image:: /images/pages/tools/calendar/repeating_weekday_0030.png
     :alt:
 
-.. |date_range_0040.png| image:: /images/pages/tools/calendar/date_range_0040.png
+.. |repeating_weekday_0040| image:: /images/pages/tools/calendar/repeating_weekday_0040.png
     :alt:
 
-.. |date_range_0050.png| image:: /images/pages/tools/calendar/date_range_0050.png
+.. |repeating_weekday_0050| image:: /images/pages/tools/calendar/repeating_weekday_0050.png
     :alt:
 
-.. |date_range_0060.png| image:: /images/pages/tools/calendar/date_range_0060.png
+.. |repeating_weekday_0060| image:: /images/pages/tools/calendar/repeating_weekday_0060.png
     :alt:
 
-.. |date_range_0070.png| image:: /images/pages/tools/calendar/date_range_0070.png
+.. |single_date_0010| image:: /images/pages/tools/calendar/single_date_0010.png
     :alt:
 
-.. |repeating_weekday_0010.png| image:: /images/pages/tools/calendar/repeating_weekday_0010.png
+.. |single_date_0020| image:: /images/pages/tools/calendar/single_date_0020.png
     :alt:
 
-.. |repeating_weekday_0020.png| image:: /images/pages/tools/calendar/repeating_weekday_0020.png
+.. |single_date_0030| image:: /images/pages/tools/calendar/single_date_0030.png
     :alt:
 
-.. |repeating_weekday_0030.png| image:: /images/pages/tools/calendar/repeating_weekday_0030.png
+.. |single_date_0040| image:: /images/pages/tools/calendar/single_date_0040.png
     :alt:
 
-.. |repeating_weekday_0040.png| image:: /images/pages/tools/calendar/repeating_weekday_0040.png
+.. |single_date_0050| image:: /images/pages/tools/calendar/single_date_0050.png
     :alt:
 
-.. |repeating_weekday_0050.png| image:: /images/pages/tools/calendar/repeating_weekday_0050.png
-    :alt:
-
-.. |repeating_weekday_0060.png| image:: /images/pages/tools/calendar/repeating_weekday_0060.png
-    :alt:
-
-.. |single_date_0010.png| image:: /images/pages/tools/calendar/single_date_0010.png
-    :alt:
-
-.. |single_date_0020.png| image:: /images/pages/tools/calendar/single_date_0020.png
-    :alt:
-
-.. |single_date_0030.png| image:: /images/pages/tools/calendar/single_date_0030.png
-    :alt:
-
-.. |single_date_0040.png| image:: /images/pages/tools/calendar/single_date_0040.png
-    :alt:
-
-.. |single_date_0050.png| image:: /images/pages/tools/calendar/single_date_0050.png
-    :alt:
-
-.. |single_date_0060.png| image:: /images/pages/tools/calendar/single_date_0060.png
+.. |single_date_0060| image:: /images/pages/tools/calendar/single_date_0060.png
     :alt:
 
 

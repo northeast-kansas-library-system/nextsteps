@@ -17,6 +17,8 @@ Administrator
 
 - Administrators have access to all adminstrative functions of the system
 
+.. _director_permissions:
+
 Director
 --------
 

@@ -1,18 +1,11 @@
+.. include:: /include.rst
 
-
-##############################################################
-Welcome to Next Steps: a training site for Next Search Catalog
-##############################################################
+Bugs
+====
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :glob:
+    :maxdepth: 2
+    :caption: Current bugs:
 
-     /bugs/*
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    /bugs/firefox106.print

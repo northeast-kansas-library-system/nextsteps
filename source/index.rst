@@ -16,7 +16,38 @@ Welcome to Next Steps: a training site for Next Search Catalog
    /pages/reports
    /about_us
    /usergroup/index
+
+----------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Highlighted training:
+
+   /pages/tools/calendar/index
+
+----------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Upgrades:
+
    /upgrades/21.11/master
+
+----------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Bugs:
+
+   /bugs/index
+
+----------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Special documents:
+
+   /glossary
 
 Indices and tables
 ==================

@@ -1,3 +1,5 @@
+.. include:: /include.rst
+
 ******************
 Usergroup meetings
 ******************
@@ -5,28 +7,26 @@ Usergroup meetings
 .. include:: /usergroup/2023.meeting.schedule.rst
 
 
+Past meetings
+=============
 
 .. toctree::
    :maxdepth: 1
-   :caption: 2023:
+   :caption: 2023 meetings:
 
-   ug.20230126
-   ug.20230418
-   ug.20230829
-   ug.20231114
-   
-
+   .. ug.20231114
+   .. ug.20230829
+   .. ug.20230418
+   .. ug.20230126
 
 .. toctree::
    :maxdepth: 1
    :caption: 2022:
 
+   ug.20221117
    ug.20220830
    ug.20220428
    ug.20220127
-   ug.20221117
-
-
 
 .. toctree::
    :maxdepth: 1
@@ -36,8 +36,6 @@ Usergroup meetings
    ug.20210902
    ug.20210401
    ug.20210119
-
-
 
 .. toctree::
    :maxdepth: 1

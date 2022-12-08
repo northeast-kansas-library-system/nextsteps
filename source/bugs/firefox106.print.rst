@@ -1,8 +1,8 @@
 .. include:: /include.rst
 
-**********************************
-Firefox 106 printer margin problem
-**********************************
+*************************************************
+October 2022 - Firefox 106 printer margin problem
+*************************************************
 
 There is a change in the way some of the newer versions of Firefox are handling printing and it's creating situations where the left margin of a receipt is not printing properly.  Additionally, the header and the footer may print unintended blank spaces at the top and bottom of the page.
 
