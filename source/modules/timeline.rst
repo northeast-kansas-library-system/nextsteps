@@ -117,5 +117,7 @@ History of Next Search Catalog
 - 2022
 
  - January - Upgrade to Koha 21.05
-
-.. - September - NEKLS hosts the joint koha-US/KohaCon22 conference in Lawrence, KS
+ - June - Upgrade to Koha 21.11
+ - September - NEKLS hosts the joint koha-US/KohaCon22 conference in Lawrence, KS
+ - END OF YEAR: Next Search Catalog includes 44 public libraries; 1 school district; and 1 community college library
+ - END OF YEAR: Total circulation - 1073284 \| Total patrons - 108652 \| Total titles -  403279 \| Total items - 1005962

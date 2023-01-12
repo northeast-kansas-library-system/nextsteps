@@ -111,6 +111,7 @@ History of Next Search Catalog
  - February - Upgrade to Koha 20.05
  - August - patch to Koha version 20.05.14.000 (Updated 2021-08-19)
  - August - George Williams from NEKLS and Christopher Brannon from Coeur d'Alene Public Library begin the second season of their video training series for koha-US `See https://koha-us.org/learn/ for more information <https://koha-us.org/learn/>`_
+ - December - George Williams from NEKLS talks, via Zoom, about Next Search Catalog and koha-US at KohaCon21 in Pakistan
  - END OF YEAR: Next Search Catalog includes 44 public libraries; 1 school district; and 1 community college library
  - END OF YEAR: Total circulation - 990017 \| Total patrons - 115455 \| Total titles - 402030 \| Total items - 1011992
 
@@ -120,3 +121,5 @@ History of Next Search Catalog
  - August - Upgrade to Koha 21.11
  - September - NEKLS hosts the joint koha-US/KohaCon22 conference in Lawrence, KS
  - Jim Minges and Liz Rea (former NEKLS staff members) deliver the Keynote address at the joint koha-US/KohaCon22
+ - END OF YEAR: Next Search Catalog includes 44 public libraries; 1 school district; and 1 community college library
+ - END OF YEAR: Total circulation - 1073284 \| Total patrons - 108652 \| Total titles -  403279 \| Total items - 1005962
