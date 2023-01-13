@@ -20,6 +20,7 @@ No recording of this meeting will be made |br|
     - Evaluation - Modification - More creation - More testing: Beyond September
 
 3. Rewriting the "Restricted item types" clause in the Participation Agreement for 2022 and removing 4 item types:
+
     - Book (local requests only)
     - Book (no requests allowed)
     - Video (Local requests only)
@@ -28,7 +29,9 @@ No recording of this meeting will be made |br|
 
       - **Note from meeting** *after discussing it, we decided that there's no reason to modify these rules or eliminate these item types at this time*
 
+
 4. State parks pass item type
+
   - Can be used to catalog Kansas State Parks Pass if your library is participating in that program
   - Advantage for using - if you check out a State Parks Pass to a borrower, it will be recorded in Koha
   - Item type uses new "Automatic check-in" feature - 1 hour after the item is checked out, the item is checked in

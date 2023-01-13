@@ -40,6 +40,18 @@
 .. |ff106.0050.png| image:: /images/bugs/2022_printing/ff106.0050.png
     :alt: Make sure your Firefox matches these settings
 
+.. pages/cataloging_original_brief
+
+.. |cataloging_original_brief_010| image:: /images/pages/cataloging_original_brief/cataloging_original_brief_010.png
+    :alt: Find Cataloging on the home page
+
+.. |cataloging_original_brief_020| image:: /images/pages/cataloging_original_brief/cataloging_original_brief_020.png
+    :alt: Choose Brief Records from the "+New record" drop-down
+
+.. |cataloging_original_brief_030| image:: /images/pages/cataloging_original_brief/cataloging_original_brief_030.png
+    :alt: Fill out the "Add MARC record" form 
+
+
 .. pages/checkin
 
 .. |checkin.0010| image:: /images/pages/checkin/checkin.0010.png

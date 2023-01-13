@@ -22,6 +22,7 @@ That makes the grand total 53 locations.
 - Centralia Community Library
 - Corning City Library |br| |br|
 - Doniphan County Library District #1 (4 locations)
+
     - Doniphan County Library - Elwood
     - Doniphan County Library - Highland
     - Doniphan County Library - Troy (District headquarters)
@@ -48,8 +49,9 @@ That makes the grand total 53 locations.
 - Ottawa Library
 - Overbrook Public Library
 - Paola Free Library
-- Perry-Lecompton Community Library |br| |br|
+- Perry-Lecompton Community Library |br| |br| 
 - Prairie Hills Unified School District 113 (5 locations)
+
     - Prairie Hills Schools - Axtell Public School
     - Prairie Hills Schools - Sabetha Elementary School
     - Prairie Hills Schools - Sabetha High School
