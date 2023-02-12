@@ -49,7 +49,7 @@
     :alt: Choose Brief Records from the "+New record" drop-down
 
 .. |cataloging_original_brief_030| image:: /images/pages/cataloging_original_brief/cataloging_original_brief_030.png
-    :alt: Fill out the "Add MARC record" form 
+    :alt: Fill out the "Add MARC record" form
 
 
 .. pages/checkin
@@ -175,6 +175,66 @@
 
 .. |checkout.0240.png| image:: /images/pages/checkout/checkout.0240.png
     :alt: The "Use this date until the browser is closed" checkbox specifies the due date for all items checked out to all borrowers until the browser is closed
+
+.. pages/lists
+
+.. |lists_adding_deleting_0010.png| image:: /images/pages/lists/lists_adding_deleting_0010.png
+    :alt:
+
+.. |lists_adding_deleting_0015.png| image:: /images/pages/lists/lists_adding_deleting_0015.png
+    :alt:
+
+.. |lists_adding_deleting_0020.png| image:: /images/pages/lists/lists_adding_deleting_0020.png
+    :alt:
+
+.. |lists_adding_deleting_0030.png| image:: /images/pages/lists/lists_adding_deleting_0030.png
+    :alt:
+
+.. |lists_adding_deleting_0040.png| image:: /images/pages/lists/lists_adding_deleting_0040.png
+    :alt:
+
+
+.. |lists_managing_0010.png| image:: /images/pages/lists/lists_managing_0010.png
+    :alt:
+
+.. |lists_managing_0020.png| image:: /images/pages/lists/lists_managing_0020.png
+    :alt:
+
+.. |lists_managing_0030.png| image:: /images/pages/lists/lists_managing_0030.png
+    :alt:
+
+.. |lists_creating_0010.png| image:: /images/pages/lists/lists_creating_0010.png
+    :alt:
+
+.. |lists_creating_0020.png| image:: /images/pages/lists/lists_creating_0020.png
+    :alt:
+
+.. |lists_creating_0025.png| image:: /images/pages/lists/lists_creating_0025.png
+    :alt:
+
+.. |lists_creating_0030.png| image:: /images/pages/lists/lists_creating_0030.png
+    :alt:
+
+.. |lists_definition_0010.png| image:: /images/pages/lists/lists_definition_0010.png
+    :alt:
+
+.. |lists_definition_0020.png| image:: /images/pages/lists/lists_definition_0020.png
+    :alt:
+
+.. |lists_definition_0030.png| image:: /images/pages/lists/lists_definition_0030.png
+    :alt:
+
+.. |lists_definition_0040.png| image:: /images/pages/lists/lists_definition_0040.png
+    :alt:
+
+.. |lists_finding_0010.png| image:: /images/pages/lists/lists_finding_0010.png
+    :alt: Find lists on the staff interface home page
+
+.. |lists_finding_0020.png| image:: /images/pages/lists/lists_finding_0020.png
+    :alt: Find lists from the "More" menu
+
+.. |lists_finding_0030.png| image:: /images/pages/lists/lists_finding_0030.png
+    :alt:  New lists; Your lists; Public lists - all on the "Lists" menu
 
 .. pages/lofging_in
 
