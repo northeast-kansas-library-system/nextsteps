@@ -12,3 +12,4 @@ Koha basics for library staff
     /pages/walk_through
     /pages/checkin
     /pages/checkout
+    /pages/lists
