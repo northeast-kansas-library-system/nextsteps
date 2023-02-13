@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Staff interface walk-through &mdash; Next Steps 1.0 documentation</title>
+  <title>Staff account permissions &mdash; Next Steps 1.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/override.css" type="text/css" />
@@ -19,9 +19,7 @@
         <script src="../_static/sphinx_highlight.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Check-in is your friend" href="checkin.html" />
-    <link rel="prev" title="Logging in and staff account types" href="logging_in.html" /> 
+    <link rel="search" title="Search" href="../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -41,24 +39,16 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../foundations.html">Foundations</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../basic.html">Koha basics for library staff</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="logging_in.html">Logging in and staff account types</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Staff interface walk-through</a></li>
-<li class="toctree-l2"><a class="reference internal" href="checkin.html">Check-in is your friend</a></li>
-<li class="toctree-l2"><a class="reference internal" href="checkout.html">Checking out items</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lists.html">Lists</a></li>
-<li class="toctree-l2"><a class="reference internal" href="item_status.html">Item statuses</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="reports.html">Reports</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic.html">Koha basics for library staff</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pages/reports.html">Reports</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../about_us.html">About us</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../usergroup/index.html">Usergroup meetings</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Highlighted training:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="tools/calendar/index.html">Set your calendar for the new year</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pages/tools/calendar/index.html">Set your calendar for the new year</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Upgrades:</span></p>
 <ul>
@@ -87,10 +77,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a></li>
-          <li class="breadcrumb-item"><a href="../basic.html">Koha basics for library staff</a></li>
-      <li class="breadcrumb-item active">Staff interface walk-through</li>
+      <li class="breadcrumb-item active">Staff account permissions</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/pages/walk_through.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/staff_instruction_sheets/staff_permission_for_new_staff.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -98,18 +87,40 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="staff-interface-walk-through">
-<h1>Staff interface walk-through<a class="headerlink" href="#staff-interface-walk-through" title="Permalink to this heading"></a></h1>
-<p>Under construction</p>
+  <div class="section" id="staff-account-permissions">
+<h1>Staff account permissions<a class="headerlink" href="#staff-account-permissions" title="Permalink to this heading"></a></h1>
+<p>To give a new account permission to access the staff client:</p>
+<ol class="arabic simple">
+<li>Have the library director create an account for the new user using a dummy account</li>
+<li>Have the director send you the account’s userid</li>
+<li>Make sure the account has the “Staff - system login (exempt)” category</li>
+<li>Log into Koha using the NEKLSADMIN account</li>
+<li>Check the account and make sure everything is correctly set up</li>
+<li>Add the account to the appropriate staff account list</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>Currently these are:<ul>
+<li>Z-Staff-1-director</li>
+<li>Z-Staff-2-tech</li>
+<li>Z-staff-3-circ</li>
+<li>Z-Staff-4-assistant</li>
+<li>Z-Staff-5-self-check</li>
+<li>Z-Staff-6-superlibrarian</li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="7">
+<li>Go to the template account associated with that list, click on “Set perissions” for that template, and then click on “Save”</li>
+<li>Clicking on “Save” should automatically update the permissions on all borrowers associated with this template</li>
+</ol>
 </div>
 
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="logging_in.html" class="btn btn-neutral float-left" title="Logging in and staff account types" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="checkin.html" class="btn btn-neutral float-right" title="Check-in is your friend" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 

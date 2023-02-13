@@ -16,6 +16,7 @@
         <script src="../_static/underscore.js"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" /> 
@@ -75,8 +76,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Move from generic logins to individualized logins</li>
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Move from generic logins to individualized logins</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/projects/login_changeover.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -88,8 +89,21 @@
              
   <div class="section" id="move-from-generic-logins-to-individualized-logins">
 <h1>Move from generic logins to individualized logins<a class="headerlink" href="#move-from-generic-logins-to-individualized-logins" title="Permalink to this heading"></a></h1>
-<div class="section" id="pre-planning">
-<h2>Pre-planning<a class="headerlink" href="#pre-planning" title="Permalink to this heading"></a></h2>
+<p>Due to security concerns, all Next Search Catalog staff accounts used to access the staff interface will be moved from generic logins to individual logins during 2023 with few exceptions.</p>
+<p>As far as the security concerns go, in Kansas, library records regarding individual library users are not considered public records and are not available for public inspection.  In short, a person’s library record is considered confidential.  Accessing a patron’s confidential information for anything other than normal library business is a breach of confidentialty and, in fact, a crime.  In the past year we have had several instances where former library staff members have accessed the staff interface using their library’s generic login and password.</p>
+<p>Currently libraries generally have the following accounts:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://northeast-kansas-library-system.github.io/nextsteps/pages/logging_in.html#director" target="_blank">BRANCHDIRECTOR</a></li>
+<li><a class="reference external" href="https://northeast-kansas-library-system.github.io/nextsteps/pages/logging_in.html#technical-services" target="_blank">BRANCHTECH</a></li>
+<li><a class="reference external" href="https://northeast-kansas-library-system.github.io/nextsteps/pages/logging_in.html#circulation" target="_blank">BRANCHCIRC</a></li>
+<li><a class="reference external" href="https://northeast-kansas-library-system.github.io/nextsteps/pages/logging_in.html#aide" target="_blank">BRANCHAIDE</a></li>
+<li><a class="reference external" href="https://northeast-kansas-library-system.github.io/nextsteps/pages/logging_in.html#self-checkout" target="_blank">BRANCHSELFCHECK</a></li>
+</ul>
+<p>When this project is completed, only the BRANCHAIDE and BRANCHSELFCHECK accounts will remain.  All other staff will be given an individualized login to use when accessing the staff interface.</p>
+<div class="section" id="pre-planning-by-library-directors">
+<h2>Pre-planning by library directors<a class="headerlink" href="#pre-planning-by-library-directors" title="Permalink to this heading"></a></h2>
+<p>In order to move forward with this project, each library director will need to take some steps before the work can begin.</p>
+<p>When we contact you to tell you that we will begin working on this project with your library, we will ask library directors to do the following:</p>
 <ol class="arabic simple">
 <li>Make a list of all staff at your library that need to access the staff interface in Next Search Catalog</li>
 <li>Decide what type of account they will need - Director, Tech, Circ, or Aide</li>
@@ -165,22 +179,22 @@
 </div>
 <div class="section" id="coordinate-with-nekls-staff">
 <h3>Coordinate with NEKLS staff<a class="headerlink" href="#coordinate-with-nekls-staff" title="Permalink to this heading"></a></h3>
-<p>After NEKLS receives the list of userids and account types, NEKLS staff will contact you with any questions.  Once any questions are resolved, NEKLS staff will set a date for the changeover.  On the date of the changeover, all of you new staff accounts will work and the old staff accounts will be converted to “Aide” accounts - i.e. they will lose most of their priveliges.  7 days after the changeover the old BRANCHTECH, BRANCHCIRC, BRANCHDIRECTOR accounts will no longer be able to access the staff interface.</p>
+<p>After NEKLS receives the list of userids and account types, NEKLS staff will contact you with any questions.  Once any questions are resolved, NEKLS staff will set a date for the changeover.  On the date of the changeover, all of you new staff accounts will work and the old staff accounts will have their permissions set to match the “Aide” accounts - i.e. they will lose the ability to do anything except check out and check in materials.  7 days after the changeover the old BRANCHTECH, BRANCHCIRC, BRANCHDIRECTOR accounts will no longer be able to access the staff interface.</p>
 </div>
 </div>
 <div class="section" id="faq">
 <h2>FAQ<a class="headerlink" href="#faq" title="Permalink to this heading"></a></h2>
 <p>Q: Why don’t we leave things the way they are now?</p>
-<p>A: There have been some security issues with the way things are now.  In a couple of instances, security has been breached by former employees because there has been a long-standing lack of strong password security.</p>
+<p>A: As stated at the beginning of this document, there have been some security issues with the way things are now.  In a couple of instances, security has been breached by former employees because there has been a lack of security with accounts and passwords.</p>
 <hr class="docutils" />
 <p>Q: Won’t this be difficult for staff?</p>
 <p>A: At libraries where this has already been implemented, reports are that it takes about 1-2 weeks for staff to become used to the change.</p>
 <hr class="docutils" />
 <p>Q: What if I get new staff?</p>
-<p>A: The dummy accounts arean’t going away.  All you have to do when you hire new staff is create an account for them, determine their account type, and then pass that information along to <a class="reference external" href="mailto:nexthelp&#37;&#52;&#48;nekls&#46;org" target="_blank">nexthelp<span>&#64;</span>nekls<span>&#46;</span>org</a>.  This is actually easier for NEKLS staff than the old method of creating a new staff account.</p>
+<p>A: The dummy accounts will remain in place.  All you have to do when you hire new staff is create an account for them, determine their account security type (Director, Technical services, Circulation, Aide, or Self-checkout), and then pass that information along to <a class="reference external" href="mailto:nexthelp&#37;&#52;&#48;nekls&#46;org" target="_blank">nexthelp<span>&#64;</span>nekls<span>&#46;</span>org</a>.  This is actually easier for NEKLS staff than the old method of creating a new staff account.</p>
 <hr class="docutils" />
 <p>Q: I’ve made lists using our BRANCHTECH account.  What will happen to those lists?</p>
-<p>A: NEKLS staff will run report to determine which existing “Staff - system login (exempt)” accounts own lists before deleting them.  If an account has lists connected to it, we will convert the account category from “Staff - system login (exempt)” to “Staff - in house use (exempt).”</p>
+<p>A: NEKLS staff will run report to determine which existing “Staff - system login (exempt)” accounts own lists before deleting them.  If an account has lists connected to it, we will set the security permissions on that account to “Aide.”  This will allow that account an extremely limited set of permissions.</p>
 <hr class="docutils" />
 <p>Q: What if someone forgets their password?</p>
 <p>A: All “Director” type accounts currently have the ability to reset passwords for staff.  Additionally, if you add the staff member’s e-mail address to their new staff account, they will be able to use the built-in “Forgot your password” function in Next Search Catalog.  Additionally, you can also call NEKLS and ask for help at any time.  Just be aware that NEKLS Staff cannot reset a password back to what it used to be - you will be receiving a completely new password if you ask us for help.</p>
