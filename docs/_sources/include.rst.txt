@@ -179,10 +179,10 @@
 .. pages/item_status
 
 .. |item_status_available_0010.png| image:: /images/pages/item_status/item_status_available_0010.png
-    :alt: 
+    :alt:
 
 .. |item_status_available_0020.png| image:: /images/pages/item_status/item_status_available_0020.png
-    :alt: 
+    :alt:
 
 .. |item_status_checked_out_0010.png| image:: /images/pages/item_status/item_status_checked_out_0010.png
     :alt:
@@ -194,13 +194,13 @@
     :alt:
 
 .. |item_status_damaged_0010.png| image:: /images/pages/item_status/item_status_damaged_0010.png
-    :alt: 
+    :alt:
 
 .. |item_status_damaged_0020.png| image:: /images/pages/item_status/item_status_damaged_0020.png
-    :alt: 
+    :alt:
 
 .. |item_status_damaged_0030.png| image:: /images/pages/item_status/item_status_damaged_0030.png
-    :alt: 
+    :alt:
 
 .. |item_status_on_hold_0010.png| image:: /images/pages/item_status/item_status_on_hold_0010.png
     :alt:
@@ -435,13 +435,13 @@
 .. |single_date_0060| image:: /images/pages/tools/calendar/single_date_0060.png
     :alt:
 
-.. projects 
+.. projects
 
 .. |login_changeover_0010.png| image:: /images/projects/login_changeover/login_changeover_0010.png
-    :alt: 
+    :alt:
 
 .. |login_changeover_0020.png| image:: /images/projects/login_changeover/login_changeover_0020.png
-    :alt: 
+    :alt:
 
 .. upgrades
 
@@ -490,3 +490,47 @@
 
 .. |unified.search.0040| image:: /images/upgrades/21.11/unified.search.0040.png
     :alt: "New look of unified search"
+
+.. upgrades/22_05
+
+.. |advanced_search_edit_0010| image:: /images/upgrades/22_05/advanced_search_edit_0010.png
+    :alt:
+
+.. |advanced_search_edit_0020| image:: /images/upgrades/22_05/advanced_search_edit_0020.png
+    :alt:
+
+.. |advanced_search_edit_0030| image:: /images/upgrades/22_05/advanced_search_edit_0030.png
+    :alt:
+
+.. |age_enhancement_0010| image:: /images/upgrades/22_05/age_enhancement_0010.png
+    :alt:
+
+.. |age_enhancement_0020| image:: /images/upgrades/22_05/age_enhancement_0020.png
+    :alt:
+
+.. |email_enhancement_0010| image:: /images/upgrades/22_05/email_enhancement_0010.png
+    :alt:
+
+.. |notices_enhancement_0010| image:: /images/upgrades/22_05/notices_enhancement_0010.png
+    :alt:
+
+.. |notices_enhancement_0020| image:: /images/upgrades/22_05/notices_enhancement_0020.png
+    :alt:
+
+.. |notices_enhancement_0030| image:: /images/upgrades/22_05/notices_enhancement_0030.png
+    :alt:
+
+.. |notices_enhancement_0040| image:: /images/upgrades/22_05/notices_enhancement_0040.png
+    :alt:
+
+.. |reports_enhancement_0010| image:: /images/upgrades/22_05/reports_enhancement_0010.png
+    :alt:
+
+.. |reports_enhancement_0020| image:: /images/upgrades/22_05/reports_enhancement_0020.png
+    :alt:
+
+.. |reports_enhancement_0030| image:: /images/upgrades/22_05/reports_enhancement_0030.png
+    :alt:
+
+.. |reports_enhancement_0040| image:: /images/upgrades/22_05/reports_enhancement_0040.png
+    :alt:
