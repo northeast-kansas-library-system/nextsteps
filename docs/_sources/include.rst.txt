@@ -176,6 +176,75 @@
 .. |checkout.0240.png| image:: /images/pages/checkout/checkout.0240.png
     :alt: The "Use this date until the browser is closed" checkbox specifies the due date for all items checked out to all borrowers until the browser is closed
 
+.. pages/item_status
+
+.. |item_status_available_0010.png| image:: /images/pages/item_status/item_status_available_0010.png
+    :alt: 
+
+.. |item_status_available_0020.png| image:: /images/pages/item_status/item_status_available_0020.png
+    :alt: 
+
+.. |item_status_checked_out_0010.png| image:: /images/pages/item_status/item_status_checked_out_0010.png
+    :alt:
+
+.. |item_status_checked_out_0020.png| image:: /images/pages/item_status/item_status_checked_out_0020.png
+    :alt:
+
+.. |item_status_checked_out_0030.png| image:: /images/pages/item_status/item_status_checked_out_0030.png
+    :alt:
+
+.. |item_status_damaged_0010.png| image:: /images/pages/item_status/item_status_damaged_0010.png
+    :alt: 
+
+.. |item_status_damaged_0020.png| image:: /images/pages/item_status/item_status_damaged_0020.png
+    :alt: 
+
+.. |item_status_damaged_0030.png| image:: /images/pages/item_status/item_status_damaged_0030.png
+    :alt: 
+
+.. |item_status_on_hold_0010.png| image:: /images/pages/item_status/item_status_on_hold_0010.png
+    :alt:
+
+.. |item_status_on_hold_0020.png| image:: /images/pages/item_status/item_status_on_hold_0020.png
+    :alt:
+
+.. |item_status_in_transit_0010.png| image:: /images/pages/item_status/item_status_in_transit_0010.png
+    :alt:
+
+.. |item_status_in_transit_0020.png| image:: /images/pages/item_status/item_status_in_transit_0020.png
+    :alt:
+
+.. |item_status_in_transit_0030.png| image:: /images/pages/item_status/item_status_in_transit_0030.png
+    :alt:
+
+.. |item_status_in_transit_0040.png| image:: /images/pages/item_status/item_status_in_transit_0040.png
+    :alt:
+
+
+.. |item_status_lost_0010.png| image:: /images/pages/item_status/item_status_lost_0010.png
+    :alt:
+
+.. |item_status_lost_0020.png| image:: /images/pages/item_status/item_status_lost_0020.png
+    :alt:
+
+.. |item_status_lost_0030.png| image:: /images/pages/item_status/item_status_lost_0030.png
+    :alt:
+
+.. |item_status_recently_returned_0010.png| image:: /images/pages/item_status/item_status_recently_returned_0010.png
+    :alt:
+
+.. |item_status_not_for_loan_0010.png| image:: /images/pages/item_status/item_status_lost_0030.png
+    :alt:
+
+.. |item_status_withdrawn_0010.png| image:: /images/pages/item_status/item_status_withdrawn_0010.png
+    :alt: From the item details page, choose the status from the drop down then click on Set status
+
+.. |item_status_withdrawn_0020.png| image:: /images/pages/item_status/item_status_withdrawn_0020.png
+    :alt: From the add/edit items page, choose the status from the drop down then click on Save changes
+
+.. |item_status_withdrawn_0030.png| image:: /images/pages/item_status/item_status_withdrawn_0030.png
+    :alt:
+
 .. pages/lists
 
 .. |lists_adding_deleting_0010.png| image:: /images/pages/lists/lists_adding_deleting_0010.png
@@ -366,6 +435,13 @@
 .. |single_date_0060| image:: /images/pages/tools/calendar/single_date_0060.png
     :alt:
 
+.. projects 
+
+.. |login_changeover_0010.png| image:: /images/projects/login_changeover/login_changeover_0010.png
+    :alt: 
+
+.. |login_changeover_0020.png| image:: /images/projects/login_changeover/login_changeover_0020.png
+    :alt: 
 
 .. upgrades
 

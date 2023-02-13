@@ -13,3 +13,4 @@ Koha basics for library staff
     /pages/checkin
     /pages/checkout
     /pages/lists
+    /pages/item_status
