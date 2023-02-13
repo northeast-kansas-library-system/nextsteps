@@ -13,32 +13,31 @@ No recording of this meeting will be made |br|
     - Introductions
     - Additions to the agenda
 
-#. Still working on Authority Control - this project was pushed back due to illness 
+2. Still working on Authority Control - this project was pushed back due to illness
 
-#. Next Steps update 
+3. Next Steps update
 
   - Training available on learning management system
 
-#. Changes to statistical data collection for 2023
+4. Changes to statistical data collection for 2023
 
   - Data on the home page
-  - Data on the reports page 
-  - New spreadsheet - Circulation by borrower category 
+  - Data on the reports page
+  - New spreadsheet - Circulation by borrower category
   - Additional data to be reported on 2023 survey sheet
 
-#. Password changeover
+5. Password changeover
 
   - Additional information
   - Document at `<https://northeast-kansas-library-system.github.io/nextsteps/projects/login_changeover.html>`_
 
-#. Training for upgrade on February 25
+6. Training for upgrade on February 25
 
-  - Koha 22.05 
-  - I will go over the high-points during the meeting
+  - Koha 22.05
 
-#. Next meeting
+7. Next meeting
 
-    - Meeting at Osage City Public Library: April 18 (Tuesday) 10:00 a.m. - 12:00 p.m.
+  - Meeting at Osage City Public Library: April 18 (Tuesday) 10:00 a.m. - 12:00 p.m.
 
 .. |ss| raw:: html
 
