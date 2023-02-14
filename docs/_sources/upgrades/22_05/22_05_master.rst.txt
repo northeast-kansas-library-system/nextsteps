@@ -131,7 +131,7 @@ In the new version this one date field has been split into a "Hold expiration da
 
     |hold_bug_0020|
 
-  - After 
+  - After
 
     |hold_bug_0040|
 
@@ -139,16 +139,22 @@ In the new version this one date field has been split into a "Hold expiration da
 
     |hold_bug_0060|
 
-    
+
 
 Hold expiration dates will be required
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In Koha 22.05, an expiration date for new requests will be required.  The default expiration date is 1 year from the date the request is placed.
 
-  - After 
+  - Before
 
     |hold_expiration_required_0010|
+
+    |hold_expiration_required_0020|
+
+  - after
+
+    |hold_expiration_required_0030|
 
 
 
@@ -159,8 +165,17 @@ Changes to the suggestion form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Can search for title details in Google Books by entering ISBN
-2. Limit on itemtypes
+2. Limit on item types is improved
 3. Fewer fields on the page
+
+  - Before
+
+    |suggestion_form_enhancement_0010|
+
+  - After
+
+    |suggestion_form_enhancement_0020|
+
 
 Holds history in the OPAC
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -171,7 +186,25 @@ Holds history in the OPAC
   - If a patron has their reading history set to "Previous 13 months" their reading **and holds** history will be kept for the previous 13 months
   - If a patron has their reading history set to "Never" their reading **and holds** history will be deleted as soon as they return items they've checked out
 
+  - Before
+
+    |holds_history_enhcancement_0010|
+
+    |holds_history_enhcancement_0015|
+
+  - After
+
+    |holds_history_enhcancement_0020|
+
+    |holds_history_enhcancement_0030|
+
+    |holds_history_enhcancement_0040|
+
 OPACMySummaryNote
 ^^^^^^^^^^^^^^^^^
 
 HTML from this system preference currently appears on a patron's "My summary" page in the OPAC.  Beginning in 22.05, this will be moved to the library customizations area and it will be able to be modified on a library-by-library basis.  If you would like to have this message customized for your libary, please contact nexthelp@nekls.org.
+
+  - After
+
+    |summary_enhancement_0010|

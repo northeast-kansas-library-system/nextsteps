@@ -532,6 +532,27 @@
 .. |hold_expiration_required_0010| image:: /images/upgrades/22_05/hold_expiration_required_0010.png
     :alt:
 
+.. |hold_expiration_required_0020| image:: /images/upgrades/22_05/hold_expiration_required_0020.png
+    :alt:
+
+.. |hold_expiration_required_0030| image:: /images/upgrades/22_05/hold_expiration_required_0030.png
+    :alt:
+
+
+.. |holds_history_enhcancement_0010| image:: /images/upgrades/22_05/hold_expiration_required_0030.png
+    :alt:
+
+.. |holds_history_enhcancement_0015| image:: /images/upgrades/22_05/holds_history_enhcancement_0015.png
+    :alt:
+
+.. |holds_history_enhcancement_0020| image:: /images/upgrades/22_05/holds_history_enhcancement_0020.png
+    :alt:
+
+.. |holds_history_enhcancement_0030| image:: /images/upgrades/22_05/holds_history_enhcancement_0030.png
+    :alt:
+
+.. |holds_history_enhcancement_0040| image:: /images/upgrades/22_05/holds_history_enhcancement_0040.png
+    :alt:
 
 .. |notices_enhancement_0010| image:: /images/upgrades/22_05/notices_enhancement_0010.png
     :alt:
@@ -555,4 +576,13 @@
     :alt:
 
 .. |reports_enhancement_0040| image:: /images/upgrades/22_05/reports_enhancement_0040.png
+    :alt:
+
+.. |summary_enhancement_0010| image:: /images/upgrades/22_05/summary_enhancement_0010.png
+    :alt:
+
+.. |suggestion_form_enhancement_0010| image:: /images/upgrades/22_05/suggestion_form_enhancement_0010.png
+    :alt:
+
+.. |suggestion_form_enhancement_0020| image:: /images/upgrades/22_05/suggestion_form_enhancement_0020.png
     :alt:

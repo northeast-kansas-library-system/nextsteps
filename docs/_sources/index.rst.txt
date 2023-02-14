@@ -32,6 +32,7 @@ Welcome to Next Steps: a training site for Next Search Catalog
    :caption: Upgrades:
 
    /upgrades/21.11/master
+   /upgrades/22_05/22_05_master
 
 ----------
 
