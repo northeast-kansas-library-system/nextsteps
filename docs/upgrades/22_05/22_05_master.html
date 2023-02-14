@@ -16,7 +16,6 @@
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../../_static/doctools.js"></script>
-        <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" /> 
@@ -76,8 +75,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../../index.html" class="icon icon-home"></a></li>
-      <li class="breadcrumb-item active">22.05 Upgrade</li>
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>22.05 Upgrade</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/upgrades/22_05/22_05_master.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -219,11 +218,31 @@
 <p>This fixes a long standing problem.  When you place a request, Koha sets a “Hold expiration date” (called a “Not needed after” date in the OPAC).  When the item arrives and gets set on the hold shelf, this date is updated to reflect the date that the item’s time on the hold shelf will expire.</p>
 <p>The bugginess of this situation comes into play when a patron arrives to pick up a request and the item is not on the hold shelf where it’s supposed to be.  If staff rever the request from “Waiting” to “Pending” the expiration date remains the date that was set when the item was placed on the hold shelf.</p>
 <p>In the new version this one date field has been split into a “Hold expiration date” and a “Pickup expiration date.”  This should solve this problem.</p>
+<blockquote>
+<div><ul>
+<li><p class="first">Before</p>
+<p><img alt="" src="../../_images/hold_bug_0010.png" /></p>
+<p><img alt="" src="../../_images/hold_bug_0020.png" /></p>
+<p><img alt="" src="../../_images/hold_bug_0020.png" /></p>
+</li>
+<li><p class="first">After</p>
+<p><img alt="" src="../../_images/hold_bug_0040.png" /></p>
+<p><img alt="" src="../../_images/hold_bug_0050.png" /></p>
+<p><img alt="" src="../../_images/hold_bug_0060.png" /></p>
+</li>
+</ul>
+</div></blockquote>
 </div>
-<div class="section" id="hold-start-and-end-dates-will-be-required">
-<h3>Hold start and end dates will be required<a class="headerlink" href="#hold-start-and-end-dates-will-be-required" title="Permalink to this heading"></a></h3>
-<p>Currently a hold’s start date is automatically filled in when a request is placed.  An expiration date is not required.  We use custom code to set a hold expiration date when a request is placed.  However, if a staff member or a borrower deletes the expiration date, the request can still be placed.</p>
-<p>In Koha 22.05, an expiration date will be required.</p>
+<div class="section" id="hold-expiration-dates-will-be-required">
+<h3>Hold expiration dates will be required<a class="headerlink" href="#hold-expiration-dates-will-be-required" title="Permalink to this heading"></a></h3>
+<p>In Koha 22.05, an expiration date for new requests will be required.  The default expiration date is 1 year from the date the request is placed.</p>
+<blockquote>
+<div><ul>
+<li><p class="first">After</p>
+<p><img alt="" src="images/upgrades/22_05/hold_expiration_required_0010.png" /></p>
+</li>
+</ul>
+</div></blockquote>
 </div>
 </div>
 <div class="section" id="opac">

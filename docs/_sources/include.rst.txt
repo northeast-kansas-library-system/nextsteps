@@ -511,6 +511,28 @@
 .. |email_enhancement_0010| image:: /images/upgrades/22_05/email_enhancement_0010.png
     :alt:
 
+.. |hold_bug_0010| image:: /images/upgrades/22_05/hold_bug_0010.png
+    :alt:
+
+.. |hold_bug_0020| image:: /images/upgrades/22_05/hold_bug_0020.png
+    :alt:
+
+.. |hold_bug_0030| image:: /images/upgrades/22_05/hold_bug_0030.png
+    :alt:
+
+.. |hold_bug_0040| image:: /images/upgrades/22_05/hold_bug_0040.png
+    :alt:
+
+.. |hold_bug_0050| image:: /images/upgrades/22_05/hold_bug_0050.png
+    :alt:
+
+.. |hold_bug_0060| image:: /images/upgrades/22_05/hold_bug_0060.png
+    :alt:
+
+.. |hold_expiration_required_0010| image:: /images/upgrades/22_05/hold_expiration_required_0010.png
+    :alt:
+
+
 .. |notices_enhancement_0010| image:: /images/upgrades/22_05/notices_enhancement_0010.png
     :alt:
 
