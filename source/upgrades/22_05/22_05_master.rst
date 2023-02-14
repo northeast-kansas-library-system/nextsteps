@@ -123,12 +123,32 @@ The bugginess of this situation comes into play when a patron arrives to pick up
 
 In the new version this one date field has been split into a "Hold expiration date" and a "Pickup expiration date."  This should solve this problem.
 
-Hold start and end dates will be required
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  - Before
 
-Currently a hold's start date is automatically filled in when a request is placed.  An expiration date is not required.  We use custom code to set a hold expiration date when a request is placed.  However, if a staff member or a borrower deletes the expiration date, the request can still be placed.
+    |hold_bug_0010|
 
-In Koha 22.05, an expiration date will be required.
+    |hold_bug_0020|
+
+    |hold_bug_0020|
+
+  - After 
+
+    |hold_bug_0040|
+
+    |hold_bug_0050|
+
+    |hold_bug_0060|
+
+    
+
+Hold expiration dates will be required
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In Koha 22.05, an expiration date for new requests will be required.  The default expiration date is 1 year from the date the request is placed.
+
+  - After 
+
+    |hold_expiration_required_0010|
 
 
 
