@@ -16,7 +16,6 @@
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../../_static/doctools.js"></script>
-        <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -58,23 +57,39 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">22.05 Upgrade</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#staff-interface">Staff interface</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#send-password-reset-and-welcome-email-directly-from-the-staff-client">Send “Password reset” and “Welcome” email directly from the staff client</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#video-on-youtube">Video on YouTube</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#changes-in-how-patron-notices-are-rendered">Changes in how patron “Notices” are rendered</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Video on YouTube</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#direct-links-built-into-some-reports">Direct links built into some reports</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Video on YouTube</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#automatic-item-modifications-by-age-enhancement">Automatic item modifications by age enhancement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Video on YouTube</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#opac-and-staff-interface">OPAC and Staff interface</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#edit-advanced-searches">Edit advanced searches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Video on YouTube</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#hold-expiration-dates-vs-hold-pickup-expiration">Hold expiration dates vs hold pickup expiration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Video on YouTube</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#hold-expiration-dates-will-be-required">Hold expiration dates will be required</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Video on YouTube</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#opac">OPAC</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#changes-to-the-suggestion-form">Changes to the suggestion form</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Video on YouTube</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#holds-history-in-the-opac">Holds history in the OPAC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Video on YouTube</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#opacmysummarynote">OPACMySummaryNote</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#questions-from-training-sessions">Questions from training sessions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#password-reset-and-welcome-email-questions">“Password reset” and “Welcome” email questions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hold-expiration-dates-questions">Hold expiration dates questions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hold-history-questions">Hold history questions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#mega-video-on-youtube">Mega-video on YouTube</a></li>
 </ul>
 </li>
 </ul>
@@ -100,8 +115,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../../index.html" class="icon icon-home"></a></li>
-      <li class="breadcrumb-item active">22.05 Upgrade</li>
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>22.05 Upgrade</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/upgrades/22_05/22_05_master.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -129,6 +144,17 @@
 </div></blockquote>
 </li>
 </ol>
+<ul class="simple">
+<li>See <a class="reference internal" href="#password-reset-and-welcome-email-questions">“Password reset” and “Welcome” email questions</a> below</li>
+</ul>
+</div>
+<div class="section" id="video-on-youtube">
+<h3>Video on YouTube<a class="headerlink" href="#video-on-youtube" title="Permalink to this heading"></a></h3>
+<p>Watch <strong>“Password reset” and “Welcome” email</strong> on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Hag1aoLTTQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a class="reference external" href="https://youtu.be/Hag1aoLTTQo" target="_blank">https://youtu.be/Hag1aoLTTQo</a></p>
 </div>
 <div class="section" id="changes-in-how-patron-notices-are-rendered">
 <h3>Changes in how patron “Notices” are rendered<a class="headerlink" href="#changes-in-how-patron-notices-are-rendered" title="Permalink to this heading"></a></h3>
@@ -167,10 +193,18 @@
 <blockquote>
 <div><ul>
 <li><p class="first">By moving the message content into the pop-up, some of our older messages become invisible.  This is because we have many messages that have CSS inside of the message content.  We are working on putting the CSS into an external stylesheet so that the message content is always visible. We are also working on some jQuery to make the content on older notices visible whle we work on the CSS issue.</p>
-<p><a href="#id1"><span class="problematic" id="id2">|notices_enhancement_0050|</span></a></p>
+<p><a href="#id9"><span class="problematic" id="id10">|notices_enhancement_050|</span></a></p>
 </li>
 </ul>
 </div></blockquote>
+</div>
+<div class="section" id="id1">
+<h3>Video on YouTube<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h3>
+<p>Watch <strong>Notice rendering changes</strong> on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/KopnRMjOo6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a class="reference external" href="https://youtu.be/KopnRMjOo6M" target="_blank">https://youtu.be/KopnRMjOo6M</a></p>
 </div>
 <div class="section" id="direct-links-built-into-some-reports">
 <h3>Direct links built into some reports<a class="headerlink" href="#direct-links-built-into-some-reports" title="Permalink to this heading"></a></h3>
@@ -187,6 +221,14 @@
 </li>
 </ul>
 </div></blockquote>
+</div>
+<div class="section" id="id2">
+<h3>Video on YouTube<a class="headerlink" href="#id2" title="Permalink to this heading"></a></h3>
+<p>Watch <strong>Direct links in reports</strong> on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/dBOHk-r51no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a href="#id11"><span class="problematic" id="id12">`&lt;https://youtu.be/dBOHk-r51no &gt;`_</span></a></p>
 </div>
 <div class="section" id="automatic-item-modifications-by-age-enhancement">
 <h3>Automatic item modifications by age enhancement<a class="headerlink" href="#automatic-item-modifications-by-age-enhancement" title="Permalink to this heading"></a></h3>
@@ -215,6 +257,14 @@
 </ul>
 </div></blockquote>
 </div>
+<div class="section" id="id3">
+<h3>Video on YouTube<a class="headerlink" href="#id3" title="Permalink to this heading"></a></h3>
+<p>Watch <strong>Automatic item modifications by age enhancement</strong> on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Y07lEcOob5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a class="reference external" href="https://youtu.be/Y07lEcOob5A" target="_blank">https://youtu.be/Y07lEcOob5A</a></p>
+</div>
 </div>
 <div class="section" id="opac-and-staff-interface">
 <h2>OPAC and Staff interface<a class="headerlink" href="#opac-and-staff-interface" title="Permalink to this heading"></a></h2>
@@ -222,10 +272,10 @@
 <h3>Edit advanced searches<a class="headerlink" href="#edit-advanced-searches" title="Permalink to this heading"></a></h3>
 <ol class="arabic simple">
 <li>Go to advanced search</li>
+<li>Set some search parameters</li>
+<li>From the results page click on “Edit search” (in the OPAC click on “Return to the last advanced search”)</li>
+<li>All of the options you selected in step 2 will remain set</li>
 </ol>
-<p>2. Set some search parameters
-2. From the results page click on “Edit search” (in the OPAC click on “Return to the last advanced search”)
-3. All of the options you selected in step 2 will remain set</p>
 <blockquote>
 <div><ul>
 <li><p class="first">Before</p>
@@ -237,6 +287,14 @@
 </li>
 </ul>
 </div></blockquote>
+</div>
+<div class="section" id="id4">
+<h3>Video on YouTube<a class="headerlink" href="#id4" title="Permalink to this heading"></a></h3>
+<p>Watch <strong>Edit advanced searches</strong> on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/CD3bCW89OZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a class="reference external" href="https://youtu.be/CD3bCW89OZs" target="_blank">https://youtu.be/CD3bCW89OZs</a></p>
 </div>
 <div class="section" id="hold-expiration-dates-vs-hold-pickup-expiration">
 <h3>Hold expiration dates vs hold pickup expiration<a class="headerlink" href="#hold-expiration-dates-vs-hold-pickup-expiration" title="Permalink to this heading"></a></h3>
@@ -257,6 +315,17 @@
 </li>
 </ul>
 </div></blockquote>
+<ul class="simple">
+<li>See <a class="reference internal" href="#hold-expiration-dates-questions">Hold expiration dates questions</a> below</li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h3>Video on YouTube<a class="headerlink" href="#id5" title="Permalink to this heading"></a></h3>
+<p>Watch <strong>Hold expiration dates vs hold pickup expiration</strong> on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/6bcra4lsaH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a class="reference external" href="https://youtu.be/6bcra4lsaH0" target="_blank">https://youtu.be/6bcra4lsaH0</a></p>
 </div>
 <div class="section" id="hold-expiration-dates-will-be-required">
 <h3>Hold expiration dates will be required<a class="headerlink" href="#hold-expiration-dates-will-be-required" title="Permalink to this heading"></a></h3>
@@ -272,6 +341,17 @@
 </li>
 </ul>
 </div></blockquote>
+<ul class="simple">
+<li>See <a class="reference internal" href="#hold-expiration-dates-questions">Hold expiration dates questions</a> below</li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h3>Video on YouTube<a class="headerlink" href="#id6" title="Permalink to this heading"></a></h3>
+<p>Watch <strong>Hold expiration dates will be required</strong> on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/PUDEupNT52w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a class="reference external" href="https://youtu.be/PUDEupNT52w" target="_blank">https://youtu.be/PUDEupNT52w</a></p>
 </div>
 </div>
 <div class="section" id="opac">
@@ -293,6 +373,14 @@
 </li>
 </ul>
 </div></blockquote>
+</div>
+<div class="section" id="id7">
+<h3>Video on YouTube<a class="headerlink" href="#id7" title="Permalink to this heading"></a></h3>
+<p>Watch <strong>Changes to the suggestion form</strong> on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ta5O27-838Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a class="reference external" href="https://youtu.be/ta5O27-838Y" target="_blank">https://youtu.be/ta5O27-838Y</a></p>
 </div>
 <div class="section" id="holds-history-in-the-opac">
 <h3>Holds history in the OPAC<a class="headerlink" href="#holds-history-in-the-opac" title="Permalink to this heading"></a></h3>
@@ -318,18 +406,63 @@
 </li>
 </ul>
 </div></blockquote>
+<ul class="simple">
+<li>See <a class="reference internal" href="#hold-history-questions">Hold history questions</a> below</li>
+</ul>
+</div>
+<div class="section" id="id8">
+<h3>Video on YouTube<a class="headerlink" href="#id8" title="Permalink to this heading"></a></h3>
+<p>Watch <strong>Holds history in the OPAC</strong> on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/kx-E38Pd31s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a class="reference external" href="https://youtu.be/kx-E38Pd31s" target="_blank">https://youtu.be/kx-E38Pd31s</a></p>
 </div>
 <div class="section" id="opacmysummarynote">
 <h3>OPACMySummaryNote<a class="headerlink" href="#opacmysummarynote" title="Permalink to this heading"></a></h3>
-<p>HTML from this system preference currently appears on a patron’s “My summary” page in the OPAC.  Beginning in 22.05, this will be moved to the library customizations area and it will be able to be modified on a library-by-library basis.  If you would like to have this message customized for your libary, please contact <a class="reference external" href="mailto:nexthelp&#37;&#52;&#48;nekls&#46;org" target="_blank">nexthelp<span>&#64;</span>nekls<span>&#46;</span>org</a>.</p>
-<blockquote>
-<div><ul>
-<li><p class="first">After</p>
-<p><img alt="" src="../../_images/summary_enhancement_0010.png" /></p>
-</li>
-</ul>
-</div></blockquote>
+<p>After further testing this appears to have a bug and isn’t working as expected.</p>
+<p><strike>
+HTML from this system preference currently appears on a patron’s “My summary” page in the OPAC.  Beginning in 22.05, this will be moved to the library customizations area and it will be able to be modified on a library-by-library basis.  If you would like to have this message customized for your libary, please contact <a class="reference external" href="mailto:nexthelp&#37;&#52;&#48;nekls&#46;org" target="_blank">nexthelp<span>&#64;</span>nekls<span>&#46;</span>org</a>.
+</strike></p>
 </div>
+</div>
+<div class="section" id="questions-from-training-sessions">
+<h2>Questions from training sessions<a class="headerlink" href="#questions-from-training-sessions" title="Permalink to this heading"></a></h2>
+<div class="section" id="password-reset-and-welcome-email-questions">
+<h3>“Password reset” and “Welcome” email questions<a class="headerlink" href="#password-reset-and-welcome-email-questions" title="Permalink to this heading"></a></h3>
+<p>Q: Can I edit the “Welcome” email for my library?</p>
+<p>A: Yes, but you need to know HTML, CSS, and how to use Template Toolkit with Koha in order to really get any kind of result.  NEKLS staff can modify the “Welcome” email for your library if you would like not to have to deal with it.</p>
+<hr class="docutils" />
+<p>Q: What what does the “Welcome” email from my library say?</p>
+<p>A: NEKLS staff can send you a copy of the template being used by your library if you ask at <a class="reference external" href="mailto:nexthelp&#37;&#52;&#48;nekls&#46;org" target="_blank">nexthelp<span>&#64;</span>nekls<span>&#46;</span>org</a>.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="hold-expiration-dates-questions">
+<h3>Hold expiration dates questions<a class="headerlink" href="#hold-expiration-dates-questions" title="Permalink to this heading"></a></h3>
+<p>Q: Can you revert a hold when an item is “In transit”</p>
+<p>A: No.  “In transit” is a special circumstance in Koha and, well, there are a lot of things you can’t do to an item while it’s in transit from one library to another.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="hold-history-questions">
+<h3>Hold history questions<a class="headerlink" href="#hold-history-questions" title="Permalink to this heading"></a></h3>
+<p>Q: If a borrower deletes their holds history; or their checkout history; or sets their privacy rule to “Never,” can staff still see their history?</p>
+<p>A: No.  If a borrower deletes any of their history or sets their privacy rule to “Never,” that data is removed from the staff interface and the OPAC.</p>
+<hr class="docutils" />
+<p>Q: What if a I have an item that was damaged by the last borrower but their history has been deleted?</p>
+<p>A: No matter what else is done, the item record always remembers the last borrower.  “Borrower checkout history” and “Borrower hold history” are stored in one place in the database.  Separately in the item record, the item remembers the last borrower the item was checked out to.</p>
+<hr class="docutils" />
+<p>Q: What if the checkout history has been deleted and the item was damaged by a patron who had it 5 patrons ago.</p>
+<p>A: The best practice is to check items to make sure all of the pieces have been returned and that there is no damage <strong>before</strong> you check the items in.  If you take care of damaged items and missing pieces before the item is checked in, you know exactly who the item was checked out to because it’s still checked out to them.</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="mega-video-on-youtube">
+<h2>Mega-video on YouTube<a class="headerlink" href="#mega-video-on-youtube" title="Permalink to this heading"></a></h2>
+<p>Watch <strong>See the full Koha 22.05 video (contains all other videos spliced together)</strong> on YouTube</p>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/c10IJhexDqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the video on YouTube <a class="reference external" href="https://youtu.be/c10IJhexDqE" target="_blank">https://youtu.be/c10IJhexDqE</a></p>
 </div>
 </div>
 

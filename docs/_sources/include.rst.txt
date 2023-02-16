@@ -4,6 +4,14 @@
 
     <br />
 
+.. |ss| raw:: html
+
+    <strike>
+
+.. |se| raw:: html
+
+    </strike>
+
 .. include all of these images in all files
 
 .. |soon| image:: /images/default.png
