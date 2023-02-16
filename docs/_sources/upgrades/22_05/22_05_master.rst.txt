@@ -20,17 +20,15 @@ Send "Password reset" and "Welcome" email directly from the staff client
 
 - See `"Password reset" and "Welcome" email questions`_ below
 
-Video on YouTube
-^^^^^^^^^^^^^^^^
-
-Watch **"Password reset" and "Welcome" email** on YouTube
+"Password reset" and "Welcome" email video
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. only:: html
 
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Hag1aoLTTQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Hag1aoLTTQo" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
@@ -39,7 +37,7 @@ Watch **"Password reset" and "Welcome" email** on YouTube
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/Hag1aoLTTQo>`_
+Go directly to the Video on YouTube `<https://youtu.be/Hag1aoLTTQo>`_
 
 Changes in how patron "Notices" are rendered
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -74,17 +72,15 @@ A borrower's sent messages will be displayed differently after the upgrade.
 
     |notices_enhancement_050|
 
-Video on YouTube
-^^^^^^^^^^^^^^^^
-
-Watch **Notice rendering changes** on YouTube
+Notice rendering changes video
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. only:: html
 
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/KopnRMjOo6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/KopnRMjOo6M" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
@@ -93,7 +89,7 @@ Watch **Notice rendering changes** on YouTube
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/KopnRMjOo6M>`_
+Go directly to the Video on YouTube `<https://youtu.be/KopnRMjOo6M>`_
 
   
 Direct links built into some reports
@@ -113,17 +109,15 @@ The reports module has been enhanced to allow for built-in links to bibliographi
 
     |reports_enhancement_0040|
 
-Video on YouTube
-^^^^^^^^^^^^^^^^
-
-Watch **Direct links in reports** on YouTube
+Direct links in reports video
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. only:: html
 
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/dBOHk-r51no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/dBOHk-r51no" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
@@ -132,7 +126,7 @@ Watch **Direct links in reports** on YouTube
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/dBOHk-r51no >`_
+Go directly to the Video on YouTube `<https://youtu.be/dBOHk-r51no >`_
 
 
 
@@ -161,17 +155,15 @@ If you would like a modification to happen to items in your collection based on 
 
     |age_enhancement_0020|
 
-Video on YouTube
-^^^^^^^^^^^^^^^^
-
-Watch **Automatic item modifications by age enhancement** on YouTube
+Automatic item modifications by age video
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. only:: html
 
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Y07lEcOob5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Y07lEcOob5A" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
@@ -180,7 +172,7 @@ Watch **Automatic item modifications by age enhancement** on YouTube
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/Y07lEcOob5A>`_
+Go directly to the Video on YouTube `<https://youtu.be/Y07lEcOob5A>`_
 
 OPAC and Staff interface
 ========================
@@ -203,17 +195,15 @@ Edit advanced searches
 
     |advanced_search_edit_0030|
 
-Video on YouTube
-^^^^^^^^^^^^^^^^
-
-Watch **Edit advanced searches** on YouTube
+Edit advanced searches video
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. only:: html
 
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/CD3bCW89OZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/CD3bCW89OZs" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
@@ -222,7 +212,7 @@ Watch **Edit advanced searches** on YouTube
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/CD3bCW89OZs>`_
+Go directly to the Video on YouTube `<https://youtu.be/CD3bCW89OZs>`_
 
 Hold expiration dates vs hold pickup expiration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -251,17 +241,15 @@ In the new version this one date field has been split into a "Hold expiration da
 
 - See `Hold expiration dates questions`_ below
 
-Video on YouTube
-^^^^^^^^^^^^^^^^
-
-Watch **Hold expiration dates vs hold pickup expiration** on YouTube
+Hold expiratHion dates vs hold pickup expiration video
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. only:: html
 
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/6bcra4lsaH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/6bcra4lsaH0" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
@@ -270,7 +258,7 @@ Watch **Hold expiration dates vs hold pickup expiration** on YouTube
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/6bcra4lsaH0>`_
+Go directly to the Video on YouTube `<https://youtu.be/6bcra4lsaH0>`_
 
 
 Hold expiration dates will be required
@@ -290,17 +278,15 @@ In Koha 22.05, an expiration date for new requests will be required.  The defaul
 
 - See `Hold expiration dates questions`_ below
 
-Video on YouTube
-^^^^^^^^^^^^^^^^
-
-Watch **Hold expiration dates will be required** on YouTube
+Hold expiration dates required video
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. only:: html
 
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/PUDEupNT52w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/PUDEupNT52w" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
@@ -309,7 +295,7 @@ Watch **Hold expiration dates will be required** on YouTube
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/PUDEupNT52w>`_
+Go directly to the Video on YouTube `<https://youtu.be/PUDEupNT52w>`_
 
 
 OPAC
@@ -330,17 +316,15 @@ Changes to the suggestion form
 
     |suggestion_form_enhancement_0020|
 
-Video on YouTube
-^^^^^^^^^^^^^^^^
-
-Watch **Changes to the suggestion form** on YouTube
+Changes to the suggestion form video
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. only:: html
 
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ta5O27-838Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ta5O27-838Y" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
@@ -349,7 +333,7 @@ Watch **Changes to the suggestion form** on YouTube
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ta5O27-838Y>`_
+Go directly to the Video on YouTube `<https://youtu.be/ta5O27-838Y>`_
 
 
 Holds history in the OPAC
@@ -377,17 +361,15 @@ Holds history in the OPAC
 
 - See `Hold history questions`_ below
 
-Video on YouTube
-^^^^^^^^^^^^^^^^
-
-Watch **Holds history in the OPAC** on YouTube
+Holds history in the OPAC video
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. only:: html
 
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/kx-E38Pd31s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/kx-E38Pd31s" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
@@ -396,7 +378,7 @@ Watch **Holds history in the OPAC** on YouTube
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/kx-E38Pd31s>`_
+Go directly to the Video on YouTube `<https://youtu.be/kx-E38Pd31s>`_
 
 OPACMySummaryNote
 ^^^^^^^^^^^^^^^^^
@@ -455,17 +437,15 @@ A: The best practice is to check items to make sure all of the pieces have been 
 
 -----
 
-Mega-video on YouTube
-=====================
-
-Watch **See the full Koha 22.05 video (contains all other videos spliced together)** on YouTube
+Full Koha 22.05 training in one video
+=====================================
 
 .. only:: html
 
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/c10IJhexDqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/c10IJhexDqE" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
@@ -474,4 +454,4 @@ Watch **See the full Koha 22.05 video (contains all other videos spliced togethe
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/c10IJhexDqE>`_
+Go directly to the Video on YouTube `<https://youtu.be/c10IJhexDqE>`_
