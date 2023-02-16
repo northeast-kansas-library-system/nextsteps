@@ -30,20 +30,16 @@ Watch **"Password reset" and "Welcome" email** on YouTube
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ _put the YouTube video ID here_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Hag1aoLTTQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/ _put the YouTube video ID here_
+   https://youtu.be/Hag1aoLTTQo
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ _put the YouTube video ID here_>`_
-
-
-
-
+Go directly to the video on YouTube `<https://youtu.be/Hag1aoLTTQo>`_
 
 Changes in how patron "Notices" are rendered
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -88,16 +84,16 @@ Watch **Notice rendering changes** on YouTube
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ _put the YouTube video ID here_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/KopnRMjOo6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/ _put the YouTube video ID here_
+   https://youtu.be/KopnRMjOo6M
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ _put the YouTube video ID here_>`_
+Go directly to the video on YouTube `<https://youtu.be/KopnRMjOo6M>`_
 
   
 Direct links built into some reports
@@ -127,16 +123,16 @@ Watch **Direct links in reports** on YouTube
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ _put the YouTube video ID here_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/dBOHk-r51no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/ _put the YouTube video ID here_
+   https://youtu.be/dBOHk-r51no 
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ _put the YouTube video ID here_>`_
+Go directly to the video on YouTube `<https://youtu.be/dBOHk-r51no >`_
 
 
 
@@ -175,16 +171,16 @@ Watch **Automatic item modifications by age enhancement** on YouTube
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ _put the YouTube video ID here_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Y07lEcOob5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/ _put the YouTube video ID here_
+   https://youtu.be/Y07lEcOob5A
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ _put the YouTube video ID here_>`_
+Go directly to the video on YouTube `<https://youtu.be/Y07lEcOob5A>`_
 
 OPAC and Staff interface
 ========================
@@ -217,16 +213,16 @@ Watch **Edit advanced searches** on YouTube
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ _put the YouTube video ID here_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/CD3bCW89OZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/ _put the YouTube video ID here_
+   https://youtu.be/CD3bCW89OZs
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ _put the YouTube video ID here_>`_
+Go directly to the video on YouTube `<https://youtu.be/CD3bCW89OZs>`_
 
 Hold expiration dates vs hold pickup expiration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -265,16 +261,16 @@ Watch **Hold expiration dates vs hold pickup expiration** on YouTube
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ _put the YouTube video ID here_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/6bcra4lsaH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/ _put the YouTube video ID here_
+   https://youtu.be/6bcra4lsaH0
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ _put the YouTube video ID here_>`_
+Go directly to the video on YouTube `<https://youtu.be/6bcra4lsaH0>`_
 
 
 Hold expiration dates will be required
@@ -304,16 +300,16 @@ Watch **Hold expiration dates will be required** on YouTube
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ _put the YouTube video ID here_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/PUDEupNT52w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/ _put the YouTube video ID here_
+   https://youtu.be/PUDEupNT52w
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ _put the YouTube video ID here_>`_
+Go directly to the video on YouTube `<https://youtu.be/PUDEupNT52w>`_
 
 
 OPAC
@@ -344,16 +340,16 @@ Watch **Changes to the suggestion form** on YouTube
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ _put the YouTube video ID here_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ta5O27-838Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/ _put the YouTube video ID here_
+   https://youtu.be/ta5O27-838Y
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ _put the YouTube video ID here_>`_
+Go directly to the video on YouTube `<https://youtu.be/ta5O27-838Y>`_
 
 
 Holds history in the OPAC
@@ -391,16 +387,16 @@ Watch **Holds history in the OPAC** on YouTube
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ _put the YouTube video ID here_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/kx-E38Pd31s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/ _put the YouTube video ID here_
+   https://youtu.be/kx-E38Pd31s
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ _put the YouTube video ID here_>`_
+Go directly to the video on YouTube `<https://youtu.be/kx-E38Pd31s>`_
 
 OPACMySummaryNote
 ^^^^^^^^^^^^^^^^^
@@ -469,13 +465,13 @@ Watch **See the full Koha 22.05 video (contains all other videos spliced togethe
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ _put the YouTube video ID here_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/c10IJhexDqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/ _put the YouTube video ID here_
+   https://youtu.be/c10IJhexDqE
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/ _put the YouTube video ID here_>`_
+Go directly to the video on YouTube `<https://youtu.be/c10IJhexDqE>`_
