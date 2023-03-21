@@ -88,18 +88,7 @@ No recording of this meeting will be made |br|
       - `Collection Development 1.0 <https://www.youtube.com/watch?v=ZlDqCnZZyvI>`_ (link added after the meeting ended)
 
 #. Next meeting
+
   - September 2, 2021 (Thursday)
   - 10:00 a.m. - noon
   - Nekls office (in person - COVID19 permitting - and on Zoom)
-
-.. |ss| raw:: html
-
-    <strike>
-
-.. |se| raw:: html
-
-    </strike>
-
-.. |br| raw:: html
-
-    <br />

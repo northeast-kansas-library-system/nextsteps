@@ -59,7 +59,6 @@
 .. |cataloging_original_brief_030| image:: /images/pages/cataloging_original_brief/cataloging_original_brief_030.png
     :alt: Fill out the "Add MARC record" form
 
-
 .. pages/checkin
 
 .. |checkin.0010| image:: /images/pages/checkin/checkin.0010.png
