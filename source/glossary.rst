@@ -84,8 +84,8 @@ Item statuses:
     Overdue
       An item is considered "Overdue" when it is checked out to a patron beyond its due date.
 
-Lost item statuses
-------------------
+Lost item statuses:
+-------------------
 
 .. glossary::
 
@@ -98,8 +98,8 @@ Lost item statuses
     Claims returned
       An item is considered "Claims returned" when an item is checked out to a patron, but the patron claims that they have returned it, and library staff are unable to locate the item on the shelf.
 
-Notices and slips
------------------
+Notices and slips:
+------------------
 
 .. glossary::
 
@@ -110,8 +110,8 @@ Notices and slips
           - Alternate address > Email
       - Please note that a *valid* email address does not necessarily mean the first *working* email address -- *valid* just means the email address meets the IETF standards for a properly formatted email address (see `Valid email address format <https://help.xmatters.com/ondemand/trial/valid_email_format.htm>`_ for more information)
 
-Abbreviations
-=============
+Abbreviations:
+==============
 
 .. glossary::
 
