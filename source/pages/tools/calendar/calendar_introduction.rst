@@ -48,10 +48,11 @@ Things to note
 
 -----
 
-Video on YouTube
-----------------
 
-Watch "Check-in is your friend" on YouTube
+Calendar - introduction, tips, and limitations: Video on YouTube
+----------------------------------------------------------------
+
+Watch "Calendar - introduction, tips, problems" on YouTube
 
 .. only:: html
 
