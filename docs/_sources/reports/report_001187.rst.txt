@@ -1,0 +1,65 @@
+.. include:: /include.rst
+
+Report 001187 // Collection size by Shelving Location
+=====================================================
+
+Report information: 1187
+------------------------
+
+ID number: 1187
+
+Name: Collection size by Shelving Location
+
+Group: Catalog Records and Items
+
+Sub-group: Collection Statistics
+
+Created on: 2011-09-06 17:01:39
+
+Modified on: 2013-09-21 16:19:41
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enhanced - Run, pick and go... #count
+
+  </div>
+
+
+SQL: 1187
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT location, homebranch,count(itemnumber) as items FROM items WHERE items.homebranch = <<Pick your branch|branches>> GROUP BY location ORDER BY location asc 
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

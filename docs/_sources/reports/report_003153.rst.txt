@@ -1,0 +1,65 @@
+.. include:: /include.rst
+
+Report 003153 // Items not loaded in Highland migration due to duplicate barcodes
+=================================================================================
+
+Report information: 3153
+------------------------
+
+ID number: 3153
+
+Name: Items not loaded in Highland migration due to duplicate barcodes
+
+Created on: 2019-01-12 11:24:13
+
+Modified on: 2019-01-12 11:24:13
+
+Cache expiry in seconds: 300
+
+Created by: bwssupport
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3153
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    select biblionumber,title from biblio where datecreated='2019-01-12' and biblionumber not in (select biblionumber from items)
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

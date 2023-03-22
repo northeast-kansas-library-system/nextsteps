@@ -1,0 +1,65 @@
+.. include:: /include.rst
+
+Report 003344 // Finding the borrower relationships due to Error
+================================================================
+
+Report information: 3344
+------------------------
+
+ID number: 3344
+
+Name: Finding the borrower relationships due to Error
+
+Created on: 2020-08-14 08:37:06
+
+Modified on: 2020-08-14 08:37:06
+
+Cache expiry in seconds: 300
+
+Created by: bwssupport
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3344
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    select relationship, count(id) from borrower_relationships group by relationship
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

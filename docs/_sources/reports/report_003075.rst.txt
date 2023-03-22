@@ -1,0 +1,82 @@
+.. include:: /include.rst
+
+Report 003075 // GHW - Re-categorize borrowers ADMINREPORT
+==========================================================
+
+Report information: 3075
+------------------------
+
+ID number: 3075
+
+Name: GHW - Re-categorize borrowers ADMINREPORT
+
+Created on: 2018-04-17 17:38:36
+
+Modified on: 2021-07-26 14:58:23
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Special project for 2018.04.20 afternoon
+
+  </div>
+
+
+SQL: 3075
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      borrowers.borrowernumber,
+      borrowers.cardnumber,
+      borrowers.categorycode,
+      borrowers.dateofbirth,
+      If(Date_Format(From_Days(To_Days(Now()) - To_Days(borrowers.dateofbirth)), '%Y') + 0 BETWEEN 0 AND 11, borrowers.cardnumber, "-") AS MINORJ,
+      If(Date_Format(From_Days(To_Days(Now()) - To_Days(borrowers.dateofbirth)), '%Y') + 0 = 12, borrowers.cardnumber, "-") AS MINORT,
+      If(Date_Format(From_Days(To_Days(Now()) - To_Days(borrowers.dateofbirth)), '%Y') + 0 BETWEEN 13 AND 17, borrowers.cardnumber, "-") AS MINORY,
+      If(Date_Format(From_Days(To_Days(Now()) - To_Days(borrowers.dateofbirth)), '%Y') + 0 BETWEEN 0 AND 17, borrowers.cardnumber, "-") AS CHILD,
+      Date_Format(From_Days(To_Days(Now()) - To_Days(borrowers.dateofbirth)), '%Y') + 0 AS AGE
+    FROM
+      borrowers
+    WHERE
+      borrowers.branchcode LIKE <<Choose your library|branches>>
+    GROUP BY
+      borrowers.borrowernumber
+    ORDER BY
+      AGE ASC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

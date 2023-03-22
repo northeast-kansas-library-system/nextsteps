@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 002602 // Circ by Call Number Range (Circ of your items at Your Library)
+===============================================================================
+
+Report information: 2602
+------------------------
+
+ID number: 2602
+
+Name: Circ by Call Number Range (Circ of your items at Your Library)
+
+Group: Circulation
+
+Sub-group: Circ Stats
+
+Created on: 2015-09-10 13:49:15
+
+Modified on: 2015-09-10 13:49:15
+
+Cache expiry in seconds: 300
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Limited to Your Library's items, circed at your library, in a set year. 
+
+  </div>
+
+
+SQL: 2602
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT items.location, items.ccode, substring(items.itemcallnumber,1,4) AS 'Call Number range', count(*) AS count FROM statistics LEFT JOIN items USING (itemnumber) WHERE items.homebranch=<<choose library|branches>> AND statistics.type IN ('issue', 'renew') AND YEAR(datetime) = <<Choose Year|Year>> AND statistics.branch = <<branch|branches>> GROUP BY items.location, substring(items.itemcallnumber,1,4), items.ccode ORDER BY items.ccode, substring(items.itemcallnumber,1,4)
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+.. include:: /include.rst
+
+Report 001162 // Collection Value
+=================================
+
+Report information: 1162
+------------------------
+
+ID number: 1162
+
+Name: Collection Value
+
+Group: Catalog Records and Items
+
+Sub-group: Collection Statistics
+
+Created on: 2011-08-11 16:22:06
+
+Modified on: 2021-03-03 15:54:27
+
+Created by: BASETECH
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Replaced by reports 3471 and 3472
+    
+    <p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3471&phase=Run%20this%20report"  target="_blank">Click here to run report 3471 in a new window</a></p>
+    
+    <p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3472&phase=Run%20this%20report"  target="_blank">Click here to run report 3472 in a new window</a></p>
+
+  </div>
+
+
+SQL: 1162
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT 
+      CONCAT('Replaced by report 3471 (replacement cost by collection code) and report 3472 (replacement cost by item type)') AS INFORMATION
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

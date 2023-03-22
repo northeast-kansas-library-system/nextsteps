@@ -1,0 +1,81 @@
+.. include:: /include.rst
+
+Report 003007 // GHW - Single patron address label
+==================================================
+
+Report information: 3007
+------------------------
+
+ID number: 3007
+
+Name: GHW - Single patron address label
+
+Created on: 2017-10-19 12:23:06
+
+Modified on: 2017-12-22 17:39:12
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3007
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      CONCAT(
+        borrowers.firstname,
+        " ",
+        borrowers.surname,
+        "<br />",
+        borrowers.address,
+        "<br />",
+        borrowers.city,
+        ", ",
+        borrowers.state,
+        " ",
+        borrowers.zipcode)  AS SINGLE_ADDRESS_LABEL  
+    FROM
+      borrowers
+    WHERE
+      borrowers.cardnumber LIKE Concat("%", <<Enter patron barcode number>>, "%")
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

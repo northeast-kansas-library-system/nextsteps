@@ -1,0 +1,82 @@
+.. include:: /include.rst
+
+Report 002748 // GHW - Duplicate search
+=======================================
+
+Report information: 2748
+------------------------
+
+ID number: 2748
+
+Name: GHW - Duplicate search
+
+Group: Administrative Reports
+
+Created on: 2016-08-29 23:37:20
+
+Modified on: 2016-08-30 00:13:23
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2748
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      CONCAT('<a href=\"/cgi-bin/koha/catalogue/search.pl?idx=ti&q=',b.title,'&sort_by=title_az\" target="_blank">',b.title,'</a>') AS "Title Search",
+      CONCAT(trim(b.title)),
+      GROUP_CONCAT(DISTINCT b.biblionumber SEPARATOR ', ') as numbers,
+      GROUP_CONCAT(DISTINCT '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=', b.biblionumber,'\" target="_blank">', b.biblionumber, '</a>'  SEPARATOR ', ') AS 'biblionumber',
+      GROUP_CONCAT(DISTINCT t.publicationyear SEPARATOR ', ') as copyright,
+      GROUP_CONCAT(DISTINCT b.author SEPARATOR ', ') as author,
+      GROUP_CONCAT(DISTINCT i.ccode SEPARATOR ', ') as ccode,
+      GROUP_CONCAT(DISTINCT i.itype SEPARATOR ', ') as ITEM_TYPE,
+      GROUP_CONCAT(DISTINCT i.homebranch SEPARATOR ', ') as homebranches,
+      count(DISTINCT b.biblionumber)
+    FROM biblio b 
+      LEFT JOIN items i USING(biblionumber)
+      LEFT JOIN biblioitems t USING(biblionumber)
+    WHERE (i.ccode NOT IN ('ERESOURCE','DLVIDEO','DLAUDIO','DLBOOK','DLMUSIC'))
+    GROUP BY CONCAT(trim(b.title))
+    HAVING (count(DISTINCT b.biblionumber) > 1) AND homebranches LIKE '%PAOLA%'
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

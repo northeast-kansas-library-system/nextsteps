@@ -1,0 +1,65 @@
+.. include:: /include.rst
+
+Report 000579 // Debarred patrons
+=================================
+
+Report information: 579
+-----------------------
+
+ID number: 579
+
+Name: Debarred patrons
+
+Group: Borrowers
+
+Created on: 2009-06-12 15:39:47
+
+Modified on: 2013-11-17 12:49:30
+
+Created by: nekls
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 579
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT  borrowers.cardnumber,borrowers.surname,borrowers.firstname,borrowers.branchcode,borrowers.categorycode,borrowers.debarred,borrowers.flags FROM borrowers   WHERE borrowers.branchcode=<<branch|branches>> AND borrowers.debarred IS NOT NULL
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

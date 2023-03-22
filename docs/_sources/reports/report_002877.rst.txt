@@ -1,0 +1,88 @@
+.. include:: /include.rst
+
+Report 002877 // GHW - lost and checked out
+===========================================
+
+Report information: 2877
+------------------------
+
+ID number: 2877
+
+Name: GHW - lost and checked out
+
+Group: Administrative Reports
+
+Created on: 2017-01-05 15:14:59
+
+Modified on: 2017-01-05 15:15:39
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Report for GHW 2017.01.05
+    
+
+  </div>
+
+
+SQL: 2877
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      authorised_values.lib,
+      items.itemnumber,
+      items.homebranch,
+      items.barcode,
+      items.itemlost_on,
+      items.onloan
+    FROM
+      items LEFT JOIN
+      authorised_values
+        ON items.itemlost = authorised_values.authorised_value
+    WHERE
+      items.itemlost <> 0 AND
+      items.onloan IS NOT NULL AND
+      authorised_values.category = 'LOST'
+    GROUP BY
+      authorised_values.lib, items.itemnumber, items.homebranch, items.barcode,
+      items.itemlost_on, items.onloan
+    ORDER BY
+      authorised_values.lib,
+      items.homebranch,
+      items.itemlost_on
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

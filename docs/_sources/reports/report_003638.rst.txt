@@ -1,0 +1,77 @@
+.. include:: /include.rst
+
+Report 003638 // 2022 cleanup - biblio type
+===========================================
+
+Report information: 3638
+------------------------
+
+ID number: 3638
+
+Name: 2022 cleanup - biblio type
+
+Created on: 2022-01-05 00:33:22
+
+Modified on: 2022-01-26 21:36:28
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3638
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      biblio_metadata.biblionumber,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="942"]/subfield[@code="c"]') AS metadata,
+      Group_Concat(DISTINCT items.itype) AS Group_Concat_itype,
+      Group_Concat(DISTINCT items.ccode) AS Group_Concat_ccode
+    FROM
+      biblio_metadata JOIN
+      items ON items.biblionumber = biblio_metadata.biblionumber
+    WHERE
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="942"]/subfield[@code="c"]') = 'AUDIOBOOK' OR
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="942"]/subfield[@code="c"]') = 'AUDIOBOOK'
+    GROUP BY
+      biblio_metadata.biblionumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

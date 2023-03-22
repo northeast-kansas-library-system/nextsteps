@@ -1,0 +1,97 @@
+.. include:: /include.rst
+
+Report 003632 // Count of overdues
+==================================
+
+Report information: 3632
+------------------------
+
+ID number: 3632
+
+Name: Count of overdues
+
+Created on: 2021-12-29 18:01:14
+
+Modified on: 2021-12-29 18:01:14
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3632
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      issues.branchcode,
+      Date_Format(issues.date_due, "%Y.%m.%d"),
+      issues.issue_id,
+      issues.date_due,
+      issues.returndate
+    FROM
+      issues
+    WHERE
+      issues.date_due <= Concat(Year(Now() - INTERVAL 1 MONTH), "-", Month(Now() -
+      INTERVAL 1 MONTH), "-01")
+    GROUP BY
+      issues.branchcode,
+      issues.issue_id
+    UNION
+    SELECT
+      old_issues.branchcode,
+      Date_Format(old_issues.date_due, "%Y.%m.%d"),
+      old_issues.issue_id,
+      old_issues.date_due,
+      old_issues.returndate
+    FROM
+      old_issues
+    WHERE
+      old_issues.date_due <= Concat(Year(Now() - INTERVAL 1 MONTH), "-",
+      Month(Now() - INTERVAL 1 MONTH), "-01") AND
+      old_issues.returndate > Concat(Year(Now() - INTERVAL 1 MONTH), "-",
+      Month(Now() - INTERVAL 1 MONTH), "-01")
+    GROUP BY
+      old_issues.branchcode,
+      old_issues.issue_id
+    ORDER BY
+      branchcode
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

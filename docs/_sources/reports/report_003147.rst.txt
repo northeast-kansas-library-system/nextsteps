@@ -1,0 +1,76 @@
+.. include:: /include.rst
+
+Report 003147 // GHW - Monthly action log count - ADMINREPORT
+=============================================================
+
+Report information: 3147
+------------------------
+
+ID number: 3147
+
+Name: GHW - Monthly action log count - ADMINREPORT
+
+Group: Administrative Reports
+
+Created on: 2018-12-18 15:56:02
+
+Modified on: 2019-02-05 15:11:44
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3147
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Date(action_logs.timestamp) AS DATE,
+      Count(action_logs.action_id) AS LOGGED_EVENTS
+    FROM
+      action_logs
+    WHERE
+      Year(action_logs.timestamp) = Year(Now() - INTERVAL 2 MONTH) AND
+      Month(action_logs.timestamp) = Month(Now() - INTERVAL 2 MONTH)
+    GROUP BY
+      Date(action_logs.timestamp)
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

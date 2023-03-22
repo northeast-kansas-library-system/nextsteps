@@ -1,0 +1,70 @@
+.. include:: /include.rst
+
+Report 002417 // Top Circing Items in Last Six Months at Your Library in a Collection Code & Shelving Location
+==============================================================================================================
+
+Report information: 2417
+------------------------
+
+ID number: 2417
+
+Name: Top Circing Items in Last Six Months at Your Library in a Collection Code & Shelving Location
+
+Group: Circulation
+
+Sub-group: Circ Stats
+
+Created on: 2014-11-17 15:36:58
+
+Modified on: 2014-11-17 15:36:58
+
+Cache expiry in seconds: 300
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2417
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT count(statistics.datetime) AS circs, biblio.title, biblio.author, items.ccode FROM statistics JOIN items USING (itemnumber) 
+    LEFT JOIN biblio USING(biblionumber) WHERE DATE(statistics.datetime) > DATE_SUB(CURRENT_DATE(),INTERVAL 6 MONTH) AND DATE(statistics.datetime)<=CURRENT_DATE() AND statistics.itemnumber IS NOT NULL AND statistics.branch=<<choose library|branches>> AND items.ccode=<<ccode|CCODE>> AND items.location =<<location|LOC>> GROUP BY biblio.biblionumber ORDER BY circs DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

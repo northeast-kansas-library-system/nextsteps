@@ -1,0 +1,75 @@
+.. include:: /include.rst
+
+Report 002850 // GHW - Borrower Notes
+=====================================
+
+Report information: 2850
+------------------------
+
+ID number: 2850
+
+Name: GHW - Borrower Notes
+
+Group: Administrative Reports
+
+Sub-group: Testing
+
+Created on: 2016-12-09 17:43:52
+
+Modified on: 2016-12-12 01:08:06
+
+Public: Yes
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2850
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      borrowers.cardnumber,
+      borrowers.borrowernotes
+    FROM
+      borrowers
+    WHERE
+      borrowers.borrowernotes <> ' '
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

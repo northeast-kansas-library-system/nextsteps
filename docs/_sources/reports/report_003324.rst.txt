@@ -1,0 +1,79 @@
+.. include:: /include.rst
+
+Report 003324 // GHW - 942 fix part 3
+=====================================
+
+Report information: 3324
+------------------------
+
+ID number: 3324
+
+Name: GHW - 942 fix part 3
+
+Created on: 2020-05-03 23:35:39
+
+Modified on: 2020-05-09 20:56:12
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3324
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      items.biblionumber,
+      Group_Concat(DISTINCT items.location) AS LOCATIONS,
+      Count(items.location) AS COUNTT,
+      Count(DISTINCT items.location) AS COUNTD,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="942"]/subfield[@code="e"]') AS BIBLOCATION
+    FROM
+      items JOIN
+      biblio_metadata ON biblio_metadata.biblionumber = items.biblionumber
+    GROUP BY
+      items.biblionumber
+    HAVING
+      Count(DISTINCT items.location) = 1 AND
+      LOCATIONS <> BIBLOCATION AND
+      Group_Concat(DISTINCT items.location) = <<Choose bib level shelving location|BIBLOC>>
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

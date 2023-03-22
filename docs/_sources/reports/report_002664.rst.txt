@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 002664 // Collection Switching from New Itype
+====================================================
+
+Report information: 2664
+------------------------
+
+ID number: 2664
+
+Name: Collection Switching from New Itype
+
+Group: Catalog Records and Items
+
+Sub-group: Fix Items
+
+Created on: 2016-02-08 11:49:27
+
+Modified on: 2022-05-16 16:45:08
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Replaced by report 3661
+
+  </div>
+
+
+SQL: 2664
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT "replaced by report 3661" as INFO
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

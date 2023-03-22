@@ -1,0 +1,73 @@
+.. include:: /include.rst
+
+Report 002066 // coll-updatedel-HIAW-linked
+===========================================
+
+Report information: 2066
+------------------------
+
+ID number: 2066
+
+Name: coll-updatedel-HIAW-linked
+
+Group:  HIAWATHA
+
+Created on: 2013-10-25 14:14:12
+
+Modified on: 2021-08-16 20:39:27
+
+Created by: ROBIN.HASTINGS
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2066
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT CONCAT ('<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',borrowers.borrowernumber,'\" target="_blank">',borrowers.cardnumber,'</a>') AS "Link to Patron", borrowers.borrowernumber, borrowers.surname, borrowers.firstname, FORMAT(SUM(accountlines.amountoutstanding),2) AS Due 
+    FROM accountlines 
+    LEFT JOIN borrowers USING(borrowernumber) 
+    LEFT JOIN categories USING(categorycode) 
+    WHERE borrowers.branchcode IN ('HIAWATHA') 
+    AND borrowers.sort1 = 'yes'
+    GROUP BY borrowers.borrowernumber 
+    HAVING Due >=25.00 
+    ORDER BY borrowers.surname ASC 
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

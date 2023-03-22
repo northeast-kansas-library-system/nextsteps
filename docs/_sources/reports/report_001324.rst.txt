@@ -1,0 +1,63 @@
+.. include:: /include.rst
+
+Report 001324 // Circ stats for titles in a specific collection code, for all time
+==================================================================================
+
+Report information: 1324
+------------------------
+
+ID number: 1324
+
+Name: Circ stats for titles in a specific collection code, for all time
+
+Created on: 2012-02-17 13:14:33
+
+Modified on: 2019-01-10 15:48:52
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enhanced - just hit Run #circ
+
+  </div>
+
+
+SQL: 1324
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT biblio.title,t.publicationyear,items.replacementprice,items.dateaccessioned,items.issues,items.itype,items.ccode,items.homebranch FROM items LEFT JOIN biblio USING (biblionumber) LEFT JOIN biblioitems t USING(biblionumber) WHERE items.homebranch=<<Pick your branch|branches>> AND items.ccode=<<Pick your Collection Code|CCODE>> GROUP BY biblio.biblionumber, items.itemnumber ORDER BY biblio.title asc
+    
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

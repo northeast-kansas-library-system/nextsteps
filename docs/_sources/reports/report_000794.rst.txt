@@ -1,0 +1,68 @@
+.. include:: /include.rst
+
+Report 000794 // Monthly ILL (Borrows) - OBSELETE
+=================================================
+
+Report information: 794
+-----------------------
+
+ID number: 794
+
+Name: Monthly ILL (Borrows) - OBSELETE
+
+Group: Administrative Reports
+
+Sub-group: Daily, Monthly, Yearly Stats-admin
+
+Created on: 2010-01-25 09:59:59
+
+Modified on: 2022-03-29 11:57:24
+
+Created by: nekls
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Use report 793 instead.
+
+  </div>
+
+
+SQL: 794
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT 
+      Concat('Report is obselete - use report 793 instead')
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

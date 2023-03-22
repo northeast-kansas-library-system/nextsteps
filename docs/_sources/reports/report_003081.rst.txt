@@ -1,0 +1,65 @@
+.. include:: /include.rst
+
+Report 003081 // Weeding
+========================
+
+Report information: 3081
+------------------------
+
+ID number: 3081
+
+Name: Weeding
+
+Created on: 2018-06-13 09:35:27
+
+Modified on: 2018-06-13 09:35:27
+
+Cache expiry in seconds: 300
+
+Created by: PHSHSTECH
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3081
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT  items.dateaccessioned,items.issues FROM borrowers LEFT JOIN statistics on (statistics.borrowernumber=borrowers.borrowernumber) LEFT JOIN items on (items.itemnumber = statistics.itemnumber) LEFT JOIN biblioitems on (biblioitems.biblioitemnumber = items.biblioitemnumber) 
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 002048 // Overdues for School Patrons
+============================================
+
+Report information: 2048
+------------------------
+
+ID number: 2048
+
+Name: Overdues for School Patrons
+
+Group: School Libraries
+
+Sub-group: Overdues (schools)
+
+Created on: 2013-10-08 17:52:04
+
+Modified on: 2014-08-19 22:32:52
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Put in the minimum number of days overdue, choose your branch and Run the report. 
+
+  </div>
+
+
+SQL: 2048
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT p.categorycode, ba_GRADE.attribute AS grade, p.sort1, CONCAT(p.firstname, ' ', p.surname) AS name, b.title, b.author, i.homebranch as "owning library", i.ccode, i.itemcallnumber, i.barcode, s.date_due, (TO_DAYS(curdate())-TO_DAYS( date_due)) as 'days overdue', CONCAT('$', i.replacementprice, ' replacement fee if lost') FROM borrowers p left join issues s USING (borrowernumber) left join items i USING (itemnumber) left JOIN biblio b USING (biblionumber) LEFT JOIN borrower_attributes ba_GRADE ON (p.borrowernumber = ba_GRADE.borrowernumber AND ba_GRADE.code = 'GRADE') WHERE (TO_DAYS(curdate())-TO_DAYS(date_due)) > <<number of days>> and s.branchcode = <<Pick your branch|branches>> order by p.categorycode asc, ba_GRADE.attribute asc, p.sort1 asc, p.surname asc LIMIT 1000
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+.. include:: /include.rst
+
+Report 003622 // GHW - Pending checkout notes
+=============================================
+
+Report information: 3622
+------------------------
+
+ID number: 3622
+
+Name: GHW - Pending checkout notes
+
+Created on: 2021-11-09 00:57:48
+
+Modified on: 2021-11-09 01:35:49
+
+Cache expiry in seconds: 30
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3622
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      "hidden" AS class,
+      CONCAT(
+        '<a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3623&phase=Run+this+report&param_name=Enter+branchcode&sql_params=',
+        issues.branchcode,
+        '" target="_blank">Notes for ', 
+        issues.branchcode,
+        '</a>'
+      ) AS link
+    FROM
+      issues
+    WHERE
+      issues.branchcode LIKE <<Enter branchcode>> AND
+      issues.note <> '' AND
+      issues.noteseen = 0
+    GROUP BY
+      issues.branchcode
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+.. include:: /include.rst
+
+Report 003491 // GHW - List of item types
+=========================================
+
+Report information: 3491
+------------------------
+
+ID number: 3491
+
+Name: GHW - List of item types
+
+Created on: 2021-04-05 22:44:57
+
+Modified on: 2021-07-22 09:47:22
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3491
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      itemtypes.description AS ITEM_TYPE_DESCRIPTION,
+      itemtypes.itemtype AS ITEM_TYPE_CODE
+    FROM
+      itemtypes
+    ORDER BY
+      ITEM_TYPE_DESCRIPTION
+    LIMIT 500
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

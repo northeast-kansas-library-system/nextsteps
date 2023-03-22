@@ -1,0 +1,83 @@
+.. include:: /include.rst
+
+Report 002934 // GHW -  SMS Counts
+==================================
+
+Report information: 2934
+------------------------
+
+ID number: 2934
+
+Name: GHW -  SMS Counts
+
+Group: Administrative Reports
+
+Sub-group: Testing
+
+Created on: 2017-04-29 19:22:08
+
+Modified on: 2017-04-29 19:22:08
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2934
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      letter.message_transport_type,
+      letter.code,
+      letter.title,
+      letter.content,
+      Count(letter.branchcode) AS Count_branchcode
+    FROM
+      letter
+    WHERE
+      letter.message_transport_type = 'SMS'
+    GROUP BY
+      letter.message_transport_type,
+      letter.code,
+      letter.title,
+      letter.content
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

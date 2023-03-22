@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 001835 // Local Holds at libraries
+=========================================
+
+Report information: 1835
+------------------------
+
+ID number: 1835
+
+Name: Local Holds at libraries
+
+Group: Catalog Records and Items
+
+Sub-group: Local Hold - Walkins
+
+Created on: 2013-05-13 20:37:56
+
+Modified on: 2014-04-25 15:47:56
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 1835
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT homebranch, count(itemnumber) FROM items WHERE itype IN ('LOCALHOLD','LOCALHOLD1','LOCALHOLD2') GROUP BY homebranch ORDER BY homebranch LIMIT 10000
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

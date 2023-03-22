@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 001692 // Count of Items Added to Collection in a Year
+=============================================================
+
+Report information: 1692
+------------------------
+
+ID number: 1692
+
+Name: Count of Items Added to Collection in a Year
+
+Group: Administrative Reports
+
+Sub-group: Daily, Monthly, Yearly Stats-admin
+
+Created on: 2013-01-03 23:10:15
+
+Modified on: 2013-06-16 14:46:14
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enter a Year to determine the number of new items added in that year.  Year End Report.
+
+  </div>
+
+
+SQL: 1692
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT i.homebranch, count(i.itemnumber) from items i WHERE YEAR(i.dateaccessioned) = <<Year>> GROUP BY i.homebranch ORDER BY i.homebranch LIMIT 50
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

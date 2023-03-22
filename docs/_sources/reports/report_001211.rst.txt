@@ -1,0 +1,65 @@
+.. include:: /include.rst
+
+Report 001211 // Holds Left Behind When Record Deleted
+======================================================
+
+Report information: 1211
+------------------------
+
+ID number: 1211
+
+Name: Holds Left Behind When Record Deleted
+
+Group: Administrative Reports
+
+Sub-group: Holds-admin
+
+Created on: 2011-10-25 09:40:52
+
+Modified on: 2013-09-21 16:05:33
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Patrons with a hold that was left behind when bib records were deleted. #holds
+
+  </div>
+
+
+SQL: 1211
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    select * from reserves where biblionumber IS NULL
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+.. include:: /include.rst
+
+Report 002829 // GHW - OD Letter Report - Phase 1
+=================================================
+
+Report information: 2829
+------------------------
+
+ID number: 2829
+
+Name: GHW - OD Letter Report - Phase 1
+
+Group: Administrative Reports
+
+Sub-group: Testing
+
+Created on: 2016-11-21 12:10:10
+
+Modified on: 2016-11-21 13:23:30
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Getting item information so far
+
+  </div>
+
+
+SQL: 2829
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      issues.borrowernumber,
+      Concat_Ws('<br />', (Concat_Ws(' / ', '<ins>Call#-Author-Title</ins>', items.itemcallnumber, biblio.author, '<span style="text-transform: uppercase">',biblio.title,'</span>')),
+      (Concat_Ws(' / ', (Concat(DateDiff(Now(), issues.date_due), ' <ins>days overdue</ins>')), (Concat('<ins>Date due:</ins> ', CAST(issues.date_due AS date))), (Concat('<ins>Replacement price:</ins> ', CONCAT('$',FORMAT(items.replacementprice,2)) )))),
+      (Concat_Ws(' / ', (Concat('<ins>Checked out at:</ins> ', issues.branchcode)), (Concat('<ins>Item home branch:</ins> ', items.homebranch)), (Concat('Barcode: ', items.barcode))))) AS BIGINFO
+    FROM
+      items INNER JOIN
+      biblio
+        ON items.biblionumber = biblio.biblionumber INNER JOIN
+      issues
+        ON issues.itemnumber = items.itemnumber
+    WHERE
+      issues.date_due < Now() - INTERVAL 7 DAY
+    GROUP BY
+      issues.borrowernumber, issues.date_due
+    ORDER BY
+      issues.borrowernumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

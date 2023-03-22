@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 001530 // Overdue List - XX days past due (linked)
+=========================================================
+
+Report information: 1530
+------------------------
+
+ID number: 1530
+
+Name: Overdue List - XX days past due (linked)
+
+Group: Circulation
+
+Sub-group: Overdues
+
+Created on: 2012-08-29 12:24:30
+
+Modified on: 2014-01-15 14:07:31
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    This is a duplication of report #350 with two differences: the surname & the barcode are linked to the borrower & item view screens. #overdues
+
+  </div>
+
+
+SQL: 1530
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT CONCAT ('<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',borrowers.borrowernumber,'\" target="_blank">',borrowers.surname,'</a>') AS "borrowers.surname", borrowers.firstname, borrowers.phone, borrowers.cardnumber, borrowers.email, borrowers.address, borrowers.address2, borrowers.city, borrowers.zipcode, issues.date_due, (TO_DAYS(curdate())-TO_DAYS( date_due)) as 'days overdue', items.itype, items.itemcallnumber, CONCAT ('<a href=\"/cgi-bin/koha/catalogue/moredetail.pl?itemnumber=',items.itemnumber,'&biblionumber=',biblio.biblionumber,'&bi=',biblioitems.biblioitemnumber,'#item',items.itemnumber,'\" target="_blank">',items.barcode,'</a>') AS barcode, items.homebranch, biblio.title, biblio.author FROM borrowers join issues USING (borrowernumber) join items USING (itemnumber) JOIN biblio USING (biblionumber) join biblioitems USING (biblionumber) WHERE issues.branchcode = <<Pick your branch|branches>> AND (TO_DAYS(curdate())-TO_DAYS(date_due)) > <<number of days>> order by borrowers.surname asc, issues.date_due asc
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

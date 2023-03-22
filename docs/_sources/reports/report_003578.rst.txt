@@ -1,0 +1,89 @@
+.. include:: /include.rst
+
+Report 003578 // LibraryIQ - Holds File (full) - BONNERSPGS
+===========================================================
+
+Report information: 3578
+------------------------
+
+ID number: 3578
+
+Name: LibraryIQ - Holds File (full) - BONNERSPGS
+
+Group: LibraryIQ
+
+Sub-group: BONNERSPGS
+
+Created on: 2021-10-05 23:56:43
+
+Modified on: 2021-11-12 12:01:40
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #libraryiq #item #full #bonnerspgs #weekly
+
+  </div>
+
+
+SQL: 3578
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      reserves.biblionumber AS BibRecordID,
+      reserves.branchcode AS Branch,
+      rcounts.Count_reserve_id AS `Number of Requests`,
+      CurDate() AS `Report Date`
+    FROM
+      reserves LEFT JOIN
+      (SELECT
+         reserves.biblionumber,
+         Count(reserves.reserve_id) AS Count_reserve_id
+       FROM
+         reserves
+       GROUP BY
+         reserves.biblionumber) rcounts ON rcounts.biblionumber =
+          reserves.biblionumber
+    WHERE
+      reserves.branchcode = 'BONNERSPGS'
+    GROUP BY
+      reserves.biblionumber,
+      reserves.branchcode,
+      rcounts.Count_reserve_id
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

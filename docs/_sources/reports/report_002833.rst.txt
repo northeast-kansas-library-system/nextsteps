@@ -1,0 +1,79 @@
+.. include:: /include.rst
+
+Report 002833 // GHW - 001 Monthly circulation
+==============================================
+
+Report information: 2833
+------------------------
+
+ID number: 2833
+
+Name: GHW - 001 Monthly circulation
+
+Group: Administrative Reports
+
+Sub-group: Testing
+
+Created on: 2016-11-28 08:38:18
+
+Modified on: 2016-11-28 12:21:10
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2833
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      statistics.branch,
+      Count(*) AS CIRC_PLUS_RENEWALS,
+      Concat_Ws('.', Year(statistics.datetime), Month(statistics.datetime)) AS DATE
+    FROM
+      statistics
+    WHERE
+      (statistics.type = 'issue' OR statistics.type = 'renew' OR statistics.type = 'localuse') AND
+      Month(statistics.datetime) = Month(Now() - INTERVAL 1 MONTH) AND
+      Year(statistics.datetime) = Year(Now() - INTERVAL 1 MONTH)
+    GROUP BY
+      statistics.branch
+      WITH ROLLUP
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

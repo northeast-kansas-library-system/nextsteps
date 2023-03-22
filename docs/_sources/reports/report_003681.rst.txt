@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 003681 // Administrative Report - Duplicate Userids
+==========================================================
+
+Report information: 3681
+------------------------
+
+ID number: 3681
+
+Name: Administrative Report - Duplicate Userids
+
+Modified on: 2022-11-21 17:33:54
+
+Cache expiry in seconds: 300
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3681
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT 
+      userid, 
+      email, 
+      group_concat(cardnumber SEPARATOR ', ') as cards, 
+      group_concat(concat(firstname, ' ', surname) SEPARATOR '; ') as names,
+      GROUP_CONCAT(branchcode  SEPARATOR ', ') as branches 
+    FROM borrowers 
+    GROUP BY userid 
+    HAVING COUNT(borrowernumber) > 1
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

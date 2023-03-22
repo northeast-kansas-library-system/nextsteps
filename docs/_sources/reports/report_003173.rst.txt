@@ -1,0 +1,72 @@
+.. include:: /include.rst
+
+Report 003173 // GHW - Branch notes - ADMINREPORT
+=================================================
+
+Report information: 3173
+------------------------
+
+ID number: 3173
+
+Name: GHW - Branch notes - ADMINREPORT
+
+Created on: 2019-02-24 20:54:06
+
+Modified on: 2019-02-24 20:54:06
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3173
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat(
+        "Per ",
+        branches.branchname,
+        " schedule on website on 2019.02.24.  - GHW"
+      ) AS Note
+    FROM
+      branches
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

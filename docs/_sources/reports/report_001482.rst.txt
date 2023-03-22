@@ -1,0 +1,63 @@
+.. include:: /include.rst
+
+Report 001482 // Patron Cardnumbers and usernames
+=================================================
+
+Report information: 1482
+------------------------
+
+ID number: 1482
+
+Name: Patron Cardnumbers and usernames
+
+Group: Borrowers
+
+Created on: 2012-07-31 08:45:41
+
+Modified on: 2013-09-25 17:17:49
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    enhanced #patrons
+
+  </div>
+
+
+SQL: 1482
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT borrowers.firstname, borrowers.surname, borrowers.cardnumber, borrowers.userid from borrowers where branchcode = <<Select your branch|branches>>
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+.. include:: /include.rst
+
+Report 002274 // Data in the borrowers table that needs to be deleted
+=====================================================================
+
+Report information: 2274
+------------------------
+
+ID number: 2274
+
+Name: Data in the borrowers table that needs to be deleted
+
+Group: Administrative Reports
+
+Sub-group: Patrons-admin
+
+Created on: 2014-06-05 15:14:42
+
+Modified on: 2019-02-10 21:11:55
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2274
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat('<a href=\"/cgi-bin/koha/members/memberentry.pl?op=modify&borrowernumber=', borrowers.borrowernumber,
+      '\" target="_blank">edit patron</a>') AS EDIT_PATRON,
+      borrowers.branchcode,
+      borrowers.contactnote,
+      borrowers.borrowernotes
+    FROM
+      borrowers
+    WHERE
+      (borrowers.contactnote REGEXP '[0-9]{3}\-?[0-9]{2}\-?[0-9]{4}' OR
+        borrowers.borrowernotes REGEXP '[0-9]{3} ?\-? ?[0-9]{2} ?\-? ?[0-9]{4}')
+    ORDER BY
+      borrowers.branchcode
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

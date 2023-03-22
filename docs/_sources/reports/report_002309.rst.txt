@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 002309 // Title, Series, and Circulation Info for a Collection Code
+==========================================================================
+
+Report information: 2309
+------------------------
+
+ID number: 2309
+
+Name: Title, Series, and Circulation Info for a Collection Code
+
+Group: Catalog Records and Items
+
+Sub-group: Collection Statistics
+
+Created on: 2014-08-05 10:12:05
+
+Modified on: 2017-12-18 15:40:22
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2309
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    select DISTINCT CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\" target="_blank">',b.biblionumber,'</a>'), b.title, b.author, i.itemcallnumber, ExtractValue(t.metadata, '//datafield[@tag="440"]/subfield[@code>="a"]') as "440 series info", ExtractValue(t.metadata, '//datafield[@tag="490"]/subfield[@code>="z"]') as "490 series info", (IFNULL(i.issues,0)+IFNULL(i.renewals,0)) as Total_Circ from biblio b left join biblio_metadata t using (biblionumber) join items i using (biblionumber) WHERE i.homebranch=<<choose library|branches>> AND i.ccode=<<collection code|CCODE>> GROUP BY i.biblionumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

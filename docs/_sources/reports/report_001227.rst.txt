@@ -1,0 +1,77 @@
+.. include:: /include.rst
+
+Report 001227 // Your New Patrons
+=================================
+
+Report information: 1227
+------------------------
+
+ID number: 1227
+
+Name: Your New Patrons
+
+Group: Borrowers
+
+Created on: 2011-11-01 16:10:52
+
+Modified on: 2020-05-08 11:16:19
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enhanced - Run, add numeric month, numeric year and pick your branch. #patrons
+
+  </div>
+
+
+SQL: 1227
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT 
+      borrowers.dateenrolled, 
+      borrowers.surname, 
+      borrowers.firstname, 
+      borrowers.branchcode, 
+      borrowers.categorycode, 
+      borrowers.cardnumber, 
+      borrowers.address, 
+      borrowers.city, 
+      borrowers.phone 
+    FROM borrowers 
+    WHERE month(dateenrolled) = << numericmonth >> AND 
+      year(dateenrolled) = << numericyear >> AND 
+      borrowers.branchcode = <<Pick your branch|branches>> 
+    ORDER BY borrowers.categorycode ASC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
