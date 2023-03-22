@@ -1,0 +1,78 @@
+.. include:: /include.rst
+
+Report 003467 // GHW - Update asc
+=================================
+
+Report information: 3467
+------------------------
+
+ID number: 3467
+
+Name: GHW - Update asc
+
+Created on: 2021-02-28 19:40:20
+
+Modified on: 2021-03-01 01:48:38
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3467
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      items.itemnumber,
+      items.permanent_location,
+      items.location
+    FROM
+      items
+    WHERE
+      (items.permanent_location = 'BALDYA') OR
+      (items.location = 'BALDYA')
+    GROUP BY
+      items.itemnumber,
+      items.permanent_location,
+      items.location
+    LIMIT 1000
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

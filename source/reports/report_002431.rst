@@ -1,0 +1,65 @@
+.. include:: /include.rst
+
+Report 002431 // 9.1a books owned as of beginning of prev  year (part 1)
+========================================================================
+
+Report information: 2431
+------------------------
+
+ID number: 2431
+
+Name: 9.1a books owned as of beginning of prev  year (part 1)
+
+Group: Administrative Reports
+
+Created on: 2015-01-08 16:37:35
+
+Modified on: 2020-01-01 14:17:04
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    This report gives total number of books owned as of January 1, [previous year]. Need to run part 2 report to get items deleted in [previous year] that were added before [previous year]. ready for 2016. 
+
+  </div>
+
+
+SQL: 2431
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT homebranch, count(*) FROM items WHERE dateaccessioned < '2019-01-01' AND ((itype IN ('book','localhold2','newbook','walkin2')) OR (itype='localhold' and ccode IN ('easy','fiction','nonfiction','profcoll')) OR (itype='reference' and ccode NOT IN ('bookoncd','bookonmp','computer','GADGET','GAMECUBE','magazine','MAP','SOFTWARE','vhs','dvd','misc','blu-ray')) OR (itype='walkin' and ccode IN ('biography','easy','holiday','kansas','genealogy','nonfiction','profcoll','walkin'))) GROUP BY homebranch LIMIT 100
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

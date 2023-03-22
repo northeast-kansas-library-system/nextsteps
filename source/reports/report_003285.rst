@@ -1,0 +1,82 @@
+.. include:: /include.rst
+
+Report 003285 // 942 search
+===========================
+
+Report information: 3285
+------------------------
+
+ID number: 3285
+
+Name: 942 search
+
+Created on: 2019-12-07 21:24:12
+
+Modified on: 2019-12-10 16:19:16
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3285
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=', biblio.biblionumber, '\" target="_blank">Link</a>') AS LINK_TO_TITLE,
+      biblio.biblionumber,
+      biblio.title,
+      biblio.author,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="245"]/subfield[@code="h"]') AS H,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="942"]/subfield[@code="c"]') AS RITYPE
+    FROM
+      biblio
+      JOIN biblio_metadata
+        ON biblio_metadata.biblionumber = biblio.biblionumber
+    WHERE
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="942"]/subfield[@code="c"]') LIKE Concat("%", <<Enter bibliographic record itype>> ,"%")
+    GROUP BY
+      biblio.biblionumber,
+      biblio.datecreated
+    ORDER BY
+      biblio.biblionumber DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

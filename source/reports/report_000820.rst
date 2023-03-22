@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 000820 // Patron Category cleanup
+========================================
+
+Report information: 820
+-----------------------
+
+ID number: 820
+
+Name: Patron Category cleanup
+
+Group: Borrowers
+
+Sub-group: Fix Patrons
+
+Created on: 2010-02-18 13:34:22
+
+Modified on: 2014-04-21 14:50:32
+
+Created by: nekls
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Edit branchcode and categorycode scheme. Find potential patron category errors. 
+
+  </div>
+
+
+SQL: 820
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT borrowers.cardnumber, borrowers.surname, borrowers.firstname, borrowers.categorycode FROM borrowers LEFT JOIN categories USING(categorycode) WHERE borrowers.branchcode=<<Enter patrons library|branches>> AND categories.categorycode=<<Patron Category|categorycode>>  AND borrowers.categorycode != 'STAFF'
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 002107 // Circ stats for titles in a specific collection code, for a specific year
+=========================================================================================
+
+Report information: 2107
+------------------------
+
+ID number: 2107
+
+Name: Circ stats for titles in a specific collection code, for a specific year
+
+Group: Circulation
+
+Sub-group: Circ Stats
+
+Created on: 2013-11-19 21:56:16
+
+Modified on: 2013-11-19 22:00:00
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2107
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT biblio.title,count(statistics.datetime), items.itype,items.ccode,items.homebranch FROM biblio LEFT JOIN items USING (biblionumber) LEFT JOIN statistics USING(itemnumber) WHERE items.homebranch=<<Pick your branch|branches>> AND items.ccode=<<Pick your Collection Code|CCODE>> AND statistics.type IN ('issue','renew') AND YEAR(statistics.datetime)=<<enter yyyy year>> GROUP BY biblio.biblionumber ORDER BY biblio.title asc
+    
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

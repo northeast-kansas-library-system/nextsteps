@@ -1,0 +1,72 @@
+.. include:: /include.rst
+
+Report 003212 // GHW - Rotating collections - Report 4 ADMINREPORT
+==================================================================
+
+Report information: 3212
+------------------------
+
+ID number: 3212
+
+Name: GHW - Rotating collections - Report 4 ADMINREPORT
+
+Created on: 2019-06-10 14:42:31
+
+Modified on: 2019-06-10 14:53:44
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    List of problematic URLs
+
+  </div>
+
+
+SQL: 3212
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat("https://staff.nextkansas.org/cgi-bin/koha/rotating_collections/addItems.pl?colId=", collections_tracking.colId, "&barcode=", items.barcode, "&removeItem=1&action=addItem") AS URLS
+    FROM
+      collections_tracking
+      JOIN items
+        ON items.itemnumber = collections_tracking.itemnumber
+    WHERE
+      collections_tracking.colId = <<Enter collection ID number>>
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

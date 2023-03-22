@@ -1,0 +1,75 @@
+.. include:: /include.rst
+
+Report 003238 // aa
+===================
+
+Report information: 3238
+------------------------
+
+ID number: 3238
+
+Name: aa
+
+Created on: 2019-07-31 22:07:50
+
+Modified on: 2019-07-31 22:07:50
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3238
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+        CONCAT( p.firstname, ' ', p.surname, ' (', p.branchcode, ')' ) AS 'patron (homebranch)',
+        CONCAT( 
+            '<img src="/cgi-bin/koha/svc/barcode?barcode=',
+             cardnumber, 
+            '&type=',
+            <<Barcode type>>,
+            '"></img>') AS cardnumber,
+        cardnumber AS 'cardnumber text' 
+    FROM
+        borrowers p
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

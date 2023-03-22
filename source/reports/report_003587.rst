@@ -1,0 +1,85 @@
+.. include:: /include.rst
+
+Report 003587 // LibraryIQ - Circulation File (based on statistics table - last 2 years) (setup)
+================================================================================================
+
+Report information: 3587
+------------------------
+
+ID number: 3587
+
+Name: LibraryIQ - Circulation File (based on statistics table - last 2 years) (setup)
+
+Group: LibraryIQ
+
+Sub-group: Setup
+
+Created on: 2021-10-12 22:21:50
+
+Modified on: 2021-10-13 11:13:52
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #libraryiq #setup 
+
+  </div>
+
+
+SQL: 3587
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      statistics.itemnumber AS RecordID,
+      Coalesce(items.barcode, deleteditems.barcode) AS Barcode,
+      items.biblionumber AS BibRecordID,
+      statistics.datetime AS `Checkout Date`,
+      statistics.branch AS `Check Out Branch`,
+      statistics.borrowernumber AS UserID,
+      CurDate() AS `Report Date`
+    FROM
+      statistics LEFT JOIN
+      items ON items.itemnumber = statistics.itemnumber LEFT JOIN
+      deleteditems ON deleteditems.itemnumber = statistics.itemnumber
+    WHERE
+      statistics.branch = <<Choose your library|branches>> AND
+      (statistics.type = 'issue' OR
+          statistics.type = 'renew') AND
+      statistics.datetime > CurDate() - INTERVAL 2 YEAR
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

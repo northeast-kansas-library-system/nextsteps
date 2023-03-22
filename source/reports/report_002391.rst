@@ -1,0 +1,70 @@
+.. include:: /include.rst
+
+Report 002391 // unknown
+========================
+
+Report information: 2391
+------------------------
+
+ID number: 2391
+
+Name: unknown
+
+Created on: 2014-10-14 21:37:12
+
+Modified on: 2019-06-30 21:19:11
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2391
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT concat(b.surname,', ',b.firstname) AS name, count(s.borrowernumber) AS checkouts
+    FROM statistics s
+    LEFT JOIN borrowers b
+    USING (borrowernumber)
+    WHERE b.branchcode=<<chopse branch|branches>> AND s.datetime BETWEEN <<Top checkouts BETWEEN (yyyy-mm-dd)|date>> AND <<and (yyyy-mm-dd)|date>>
+    GROUP BY s.borrowernumber
+    ORDER BY count(s.borrowernumber) DESC
+    LIMIT 2000
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

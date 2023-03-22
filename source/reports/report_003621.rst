@@ -1,0 +1,73 @@
+.. include:: /include.rst
+
+Report 003621 // GHW - Pending borrower updates
+===============================================
+
+Report information: 3621
+------------------------
+
+ID number: 3621
+
+Name: GHW - Pending borrower updates
+
+Created on: 2021-11-09 00:22:51
+
+Modified on: 2021-11-09 00:32:45
+
+Cache expiry in seconds: 30
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3621
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      "hidden" AS class
+    FROM
+      borrower_modifications JOIN
+      borrowers ON borrowers.borrowernumber = borrower_modifications.borrowernumber
+    WHERE
+      borrowers.branchcode LIKE <<Enter branchcode>>
+    GROUP BY
+      borrowers.branchcode
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

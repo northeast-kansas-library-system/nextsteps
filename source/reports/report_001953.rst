@@ -1,0 +1,63 @@
+.. include:: /include.rst
+
+Report 001953 // Patrons by Category, Date of Birth, Branch
+===========================================================
+
+Report information: 1953
+------------------------
+
+ID number: 1953
+
+Name: Patrons by Category, Date of Birth, Branch
+
+Group: Borrowers
+
+Created on: 2013-07-21 22:08:53
+
+Modified on: 2013-11-17 12:09:42
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    mc
+
+  </div>
+
+
+SQL: 1953
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT surname,firstname,categorycode,dateofbirth,cardnumber,address,city,phone,email FROM borrowers WHERE dateofbirth LIKE '1996%' AND categorycode NOT LIKE '%J' ORDER BY surname
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

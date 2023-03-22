@@ -1,0 +1,74 @@
+.. include:: /include.rst
+
+Report 003466 // GHW - Update bib locations desc
+================================================
+
+Report information: 3466
+------------------------
+
+ID number: 3466
+
+Name: GHW - Update bib locations desc
+
+Created on: 2021-02-28 18:30:11
+
+Modified on: 2021-02-28 19:41:52
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3466
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      biblio_metadata.biblionumber,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="942"]/subfield[@code="e"]') AS LOC
+    FROM
+      biblio_metadata
+    WHERE
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="942"]/subfield[@code="e"]') = 'YOUNGADULT'
+    ORDER BY
+      biblio_metadata.biblionumber DESC
+    LIMIT 999
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

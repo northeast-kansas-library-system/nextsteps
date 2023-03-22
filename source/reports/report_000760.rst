@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 000760 // Count of Yearly New items added by Itype
+=========================================================
+
+Report information: 760
+-----------------------
+
+ID number: 760
+
+Name: Count of Yearly New items added by Itype
+
+Group: Administrative Reports
+
+Sub-group: Daily, Monthly, Yearly Stats-admin
+
+Created on: 2009-12-31 11:10:23
+
+Modified on: 2015-03-17 15:14:38
+
+Created by: nekls
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enter a Year to determine the number of new items added by collection code in that year
+
+  </div>
+
+
+SQL: 760
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT i.homebranch, i.itype, i.location, count(i.itemnumber) as added FROM items i WHERE YEAR(i.dateaccessioned) = <<Year>> GROUP BY i.homebranch,i.itype,i.location
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

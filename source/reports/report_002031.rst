@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 002031 // List of short (under 13 characters) patron cardnumbers
+=======================================================================
+
+Report information: 2031
+------------------------
+
+ID number: 2031
+
+Name: List of short (under 13 characters) patron cardnumbers
+
+Group: Borrowers
+
+Sub-group: Fix Patrons
+
+Created on: 2013-09-06 10:25:45
+
+Modified on: 2013-11-17 12:00:01
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2031
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT firstname, surname, cardnumber, length(cardnumber), branchcode, categorycode, dateenrolled, dateexpiry FROM borrowers WHERE length(cardnumber) < '13' AND branchcode NOT LIKE 'PH%' ORDER BY length(cardnumber) ASC LIMIT 5000
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

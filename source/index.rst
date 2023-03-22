@@ -7,6 +7,8 @@
 Welcome to Next Steps: a training site for Next Search Catalog
 ##############################################################
 
+.. include:: /include.rst 
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -41,6 +43,14 @@ Welcome to Next Steps: a training site for Next Search Catalog
    :caption: Bugs:
 
    /bugs/index
+
+----------
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Reports:
+
+   /reports/index
 
 ----------
 

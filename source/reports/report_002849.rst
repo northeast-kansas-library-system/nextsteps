@@ -1,0 +1,77 @@
+.. include:: /include.rst
+
+Report 002849 // GHW - Message Queue test
+=========================================
+
+Report information: 2849
+------------------------
+
+ID number: 2849
+
+Name: GHW - Message Queue test
+
+Group: Administrative Reports
+
+Sub-group: Testing
+
+Created on: 2016-12-09 14:22:58
+
+Modified on: 2016-12-09 14:22:58
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2849
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      borrowers.cardnumber,
+      message_queue.content
+    FROM
+      message_queue INNER JOIN
+      borrowers
+        ON message_queue.borrowernumber = borrowers.borrowernumber
+    WHERE
+      borrowers.cardnumber = 'X5G001'
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

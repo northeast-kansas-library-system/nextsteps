@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 002420 // Total Items added in a Year
+============================================
+
+Report information: 2420
+------------------------
+
+ID number: 2420
+
+Name: Total Items added in a Year
+
+Group: Daily, Monthly, Yearly Stats
+
+Sub-group: Yearly
+
+Created on: 2014-12-03 20:25:09
+
+Modified on: 2014-12-03 20:25:09
+
+Cache expiry in seconds: 300
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2420
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT count(i.itemnumber) as added from items i WHERE i.homebranch=<<branch|branches>> AND year(i.dateaccessioned) = <<enter four-digit year>>
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

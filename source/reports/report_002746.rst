@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 002746 // GHW - Paola Patrons
+====================================
+
+Report information: 2746
+------------------------
+
+ID number: 2746
+
+Name: GHW - Paola Patrons
+
+Group: Administrative Reports
+
+Created on: 2016-08-29 22:19:30
+
+Modified on: 2016-08-29 22:19:30
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2746
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT *
+    FROM borrowers
+    WHERE borrowers.branchcode = 'PAOLA'
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

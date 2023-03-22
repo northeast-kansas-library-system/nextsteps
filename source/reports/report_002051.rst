@@ -1,0 +1,65 @@
+.. include:: /include.rst
+
+Report 002051 // Count of holds per library on holds list at any given time
+===========================================================================
+
+Report information: 2051
+------------------------
+
+ID number: 2051
+
+Name: Count of holds per library on holds list at any given time
+
+Group: Holds-Reserves
+
+Created on: 2013-10-18 11:15:55
+
+Modified on: 2013-10-31 14:30:53
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Shows counts of all holds at libraries on the holds queue. 
+
+  </div>
+
+
+SQL: 2051
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT i.holdingbranch, (SELECT count(t.itemnumber) FROM tmp_holdsqueue t WHERE t.holdingbranch=i.holdingbranch GROUP BY t.holdingbranch) as count FROM items i GROUP BY i.holdingbranch ORDER BY i.holdingbranch LIMIT 100
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

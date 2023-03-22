@@ -1,0 +1,77 @@
+.. include:: /include.rst
+
+Report 002514 // Burlingame Computers Status
+============================================
+
+Report information: 2514
+------------------------
+
+ID number: 2514
+
+Name: Burlingame Computers Status
+
+Group:  BURLINGAME
+
+Created on: 2015-05-26 13:41:59
+
+Modified on: 2021-08-16 13:38:33
+
+Cache expiry in seconds: 300
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2514
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT 
+    	CASE 
+    		WHEN i.itemnumber = '1513837' THEN 'COMPUTER #1'
+    		WHEN i.itemnumber = '1513838' THEN 'COMPUTER #2'
+    		WHEN i.itemnumber = '1513839' THEN 'COMPUTER #3'
+    		WHEN i.itemnumber = '1513841' THEN 'COMPUTER #4'
+    		WHEN i.itemnumber = '1513842' THEN 'COMPUTER #5'
+    		WHEN i.itemnumber = '1513844' THEN 'COMPUTER #6'
+    		END "computers",
+    i.itemnumber, b.firstname, b.surname, s.issuedate, 30 - TIMESTAMPDIFF(MINUTE,s.issuedate,CURRENT_TIMESTAMP()) 'Minutes remaining',
+        IF(TIMESTAMPDIFF(MINUTE,s.issuedate,CURRENT_TIMESTAMP())> 30  ,'YES','') 'Kick off?' FROM borrowers b LEFT JOIN issues s USING(borrowernumber) LEFT JOIN items i USING(itemnumber) WHERE i.itemnumber IN ('1513837','1513838','1513839','1513841','1513842','1513844') GROUP BY computers ORDER BY s.issuedate DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

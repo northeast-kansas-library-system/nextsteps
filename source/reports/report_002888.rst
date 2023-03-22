@@ -1,0 +1,86 @@
+.. include:: /include.rst
+
+Report 002888 // GHW - Patrons with specified category
+======================================================
+
+Report information: 2888
+------------------------
+
+ID number: 2888
+
+Name: GHW - Patrons with specified category
+
+Group: Administrative Reports
+
+Sub-group: Testing
+
+Created on: 2017-01-24 16:21:30
+
+Modified on: 2017-01-24 16:21:30
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 2888
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      borrowers.branchcode,
+      borrowers.categorycode,
+      borrowers.cardnumber,
+      borrowers.surname,
+      borrowers.dateexpiry
+    FROM
+      borrowers
+    WHERE
+      borrowers.categorycode LIKE <<Borrower's category|categorycode>> AND
+      borrowers.branchcode LIKE <<Borrower's home library|ZBRAN>>
+    GROUP BY
+      borrowers.branchcode, borrowers.categorycode, borrowers.cardnumber,
+      borrowers.surname, borrowers.dateexpiry
+    ORDER BY
+      borrowers.branchcode,
+      borrowers.categorycode,
+      borrowers.surname
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

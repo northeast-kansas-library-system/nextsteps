@@ -1,0 +1,79 @@
+.. include:: /include.rst
+
+Report 003352 // GHW - Quick maxissueqty report
+===============================================
+
+Report information: 3352
+------------------------
+
+ID number: 3352
+
+Name: GHW - Quick maxissueqty report
+
+Created on: 2020-09-08 00:05:01
+
+Modified on: 2020-09-08 00:05:01
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3352
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT 
+      circulation_rules.id, 
+      circulation_rules.branchcode, 
+      circulation_rules.categorycode, 
+      circulation_rules.itemtype, 
+      circulation_rules.rule_name, 
+      circulation_rules.rule_value 
+    FROM circulation_rules 
+    WHERE circulation_rules.rule_name = "maxissueqty" AND 
+      circulation_rules.categorycode IS NULL AND 
+      circulation_rules.itemtype IS NULL AND 
+      circulation_rules.rule_value > 0 
+    ORDER BY 
+      circulation_rules.rule_value 
+      DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

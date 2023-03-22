@@ -1,0 +1,80 @@
+.. include:: /include.rst
+
+Report 002777 // GHW - News block dump
+======================================
+
+Report information: 2777
+------------------------
+
+ID number: 2777
+
+Name: GHW - News block dump
+
+Created on: 2016-09-23 10:17:30
+
+Modified on: 2019-08-16 15:17:21
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Dump of old news items
+
+  </div>
+
+
+SQL: 2777
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      opac_news.idnew,
+      opac_news.branchcode,
+      opac_news.title,
+      Replace(opac_news.content, '\r\n', CONCAT(Char(13),Char(10))) AS content,
+      opac_news.lang,
+      opac_news.timestamp,
+      opac_news.expirationdate,
+      opac_news.number,
+      opac_news.borrowernumber
+    FROM
+      opac_news
+    WHERE
+      opac_news.title LIKE "%Useful links for%"
+    ORDER BY
+      opac_news.branchcode
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

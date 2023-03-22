@@ -1,0 +1,68 @@
+.. include:: /include.rst
+
+Report 001165 // Basehor Lost 
+==============================
+
+Report information: 1165
+------------------------
+
+ID number: 1165
+
+Name: Basehor Lost 
+
+Group:  BASEHOR
+
+Created on: 2011-08-15 15:42:56
+
+Modified on: 2021-08-16 20:43:45
+
+Created by: BASETECH
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Lost items by Collection code
+
+  </div>
+
+
+SQL: 1165
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT items.datelastseen, title, items.barcode, itemcallnumber
+    FROM items RIGHT JOIN biblio on (items.biblionumber=biblio.biblionumber) 
+    WHERE itemlost in (1,3) AND items.homebranch="BASEHOR" AND items.ccode= "DVD" 
+    ORDER BY itemcallnumber, title
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

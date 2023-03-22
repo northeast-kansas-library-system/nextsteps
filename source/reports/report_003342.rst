@@ -1,0 +1,77 @@
+.. include:: /include.rst
+
+Report 003342 // GHW - Action logs - Item number lookup
+=======================================================
+
+Report information: 3342
+------------------------
+
+ID number: 3342
+
+Name: GHW - Action logs - Item number lookup
+
+Created on: 2020-08-13 14:10:41
+
+Modified on: 2021-04-19 14:30:08
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3342
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      action_logs.action_id,
+      action_logs.timestamp,
+      action_logs.user,
+      action_logs.module,
+      action_logs.action,
+      action_logs.object,
+      Replace(action_logs.info, ",", ",<br />") AS info,
+      action_logs.interface
+    FROM
+      action_logs
+    WHERE
+      action_logs.info LIKE Concat("%'itemnumber' => ", <<Enter item number>>, "%")
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

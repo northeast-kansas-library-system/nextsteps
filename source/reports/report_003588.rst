@@ -1,0 +1,95 @@
+.. include:: /include.rst
+
+Report 003588 // LibraryIQ - Bibliographic File (added yesterday) - BONNERSPGS
+==============================================================================
+
+Report information: 3588
+------------------------
+
+ID number: 3588
+
+Name: LibraryIQ - Bibliographic File (added yesterday) - BONNERSPGS
+
+Group: LibraryIQ
+
+Sub-group: BONNERSPGS
+
+Created on: 2021-10-13 08:15:38
+
+Modified on: 2021-12-01 12:48:49
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #libraryiq #bibliographic #added #bonnerspgs #daily
+
+  </div>
+
+
+SQL: 3588
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      biblio.biblionumber AS BibliographicRecordID,
+      biblioitems.isbn AS ISBN,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="024"]/subfield[@code="a"]') AS UPC,
+      itemtypess.description AS `Material Type`,
+      biblio.title AS Title,
+      biblio.author AS Author,
+      biblioitems.publicationyear `Publish Date`,
+      biblioitems.publishercode Publisher,
+      CurDate() AS `Report Date`
+    FROM
+      biblio JOIN
+      biblioitems ON biblioitems.biblionumber = biblio.biblionumber JOIN
+      biblio_metadata ON biblio_metadata.biblionumber = biblio.biblionumber JOIN
+      items ON items.biblionumber = biblio.biblionumber JOIN
+      (SELECT
+          itemtypes.itemtype,
+          itemtypes.description
+        FROM
+          itemtypes) itemtypess ON itemtypess.itemtype = items.itype
+    WHERE
+      items.homebranch = 'BONNERSPGS' AND
+      Year(items.dateaccessioned) = Year(Now() - INTERVAL 1 DAY) AND
+      Month(items.dateaccessioned) = Month(Now() - INTERVAL 1 DAY) AND
+      Day(items.dateaccessioned) = Day(Now() - INTERVAL 1 DAY)
+    GROUP BY
+      biblio.biblionumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+.. include:: /include.rst
+
+Report 001395 // Circ by Patron Category
+========================================
+
+Report information: 1395
+------------------------
+
+ID number: 1395
+
+Name: Circ by Patron Category
+
+Group: Circulation
+
+Sub-group: Circ Stats
+
+Created on: 2012-05-14 14:25:25
+
+Modified on: 2013-09-21 16:27:44
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #circ
+
+  </div>
+
+
+SQL: 1395
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT borrowers.categorycode, COUNT(*) FROM statistics JOIN borrowers USING (borrowernumber) WHERE statistics.type IN ('issue', 'renew') AND datetime >= <<Start Date (example: 2009-01-01) >> AND datetime < <<End Date (example: 2010-01-01 >> AND statistics.branch = <<Pick your branch|branches>>  GROUP BY borrowers.categorycode
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

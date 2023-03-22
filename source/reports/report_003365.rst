@@ -1,0 +1,78 @@
+.. include:: /include.rst
+
+Report 003365 // GHW - List / virtualshelf report 005 - Display list titles with links to bibliographic records 
+================================================================================================================
+
+Report information: 3365
+------------------------
+
+ID number: 3365
+
+Name: GHW - List / virtualshelf report 005 - Display list titles with links to bibliographic records 
+
+Created on: 2020-11-10 16:40:01
+
+Modified on: 2020-11-10 16:52:40
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    https://staff.nextkansas.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=323043
+
+  </div>
+
+
+SQL: 3365
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      biblio.author,
+      Concat('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=', biblio.biblionumber, '\" target="_blank">', biblio.title, '</a>') AS TITLE
+    FROM
+      biblio
+      JOIN virtualshelfcontents
+        ON biblio.biblionumber = virtualshelfcontents.biblionumber
+    WHERE
+      virtualshelfcontents.shelfnumber LIKE <<Enter list number>>
+    GROUP BY
+      biblio.biblionumber
+    ORDER BY
+      biblio.author,
+      biblio.title
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

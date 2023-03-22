@@ -1,0 +1,81 @@
+.. include:: /include.rst
+
+Report 003083 // GHW - Hoopla Monthly Maintenence
+=================================================
+
+Report information: 3083
+------------------------
+
+ID number: 3083
+
+Name: GHW - Hoopla Monthly Maintenence
+
+Created on: 2018-06-18 09:36:26
+
+Modified on: 2020-07-21 17:04:55
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3083
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      items.itemnumber,
+      items.biblionumber,
+      items.ccode,
+      items.homebranch,
+      items.itemcallnumber,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="037"]/subfield[@code="a"]') AS STOCK_NUMBER,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="856"]/subfield[@code="y"]') AS YX,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="856"]/subfield[@code="z"]') AS Z
+    FROM
+      items
+      INNER JOIN biblio_metadata ON items.biblionumber = biblio_metadata.biblionumber
+    WHERE
+      items.itemcallnumber = 'Hoopla' AND
+      items.itemnumber > '2153653'
+    GROUP BY
+      items.itemnumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

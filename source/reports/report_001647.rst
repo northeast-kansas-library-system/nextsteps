@@ -1,0 +1,73 @@
+.. include:: /include.rst
+
+Report 001647 // Patrons with messages
+======================================
+
+Report information: 1647
+------------------------
+
+ID number: 1647
+
+Name: Patrons with messages
+
+Group: Borrowers
+
+Created on: 2012-11-20 12:42:12
+
+Modified on: 2013-09-25 17:23:48
+
+Created by: ROSSTECH
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #patrons
+
+  </div>
+
+
+SQL: 1647
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT b.cardnumber, b.surname, b.firstname,
+    b.opacnote, b.borrowernotes, group_concat(DISTINCT m.message separator ', ') AS circmesages
+    FROM borrowers b
+    LEFT JOIN messages m USING (borrowernumber)
+    WHERE b.branchcode=<<Branch|branches>> AND ((b.opacnote IS NOT
+    NULL AND b.opacnote != '') OR (b.borrowernotes IS NOT NULL AND
+    b.borrowernotes != '') OR (m.message IS NOT NULL AND
+    m.message != '')) GROUP BY b.borrowernumber ORDER BY b.surname ASC,
+    b.firstname ASC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

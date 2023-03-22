@@ -1,0 +1,73 @@
+.. include:: /include.rst
+
+Report 003620 // GHW - Pending suggestion alerts
+================================================
+
+Report information: 3620
+------------------------
+
+ID number: 3620
+
+Name: GHW - Pending suggestion alerts
+
+Created on: 2021-11-09 00:16:43
+
+Modified on: 2021-11-09 00:42:00
+
+Cache expiry in seconds: 30
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3620
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      "hidden" AS class
+    FROM
+      suggestions
+    WHERE
+      suggestions.branchcode LIKE <<Enter branchcode>> AND
+      suggestions.STATUS = 'asked'
+    GROUP BY
+      suggestions.branchcode
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

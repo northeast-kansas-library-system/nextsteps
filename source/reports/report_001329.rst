@@ -1,0 +1,63 @@
+.. include:: /include.rst
+
+Report 001329 // List of patrons added in a year
+================================================
+
+Report information: 1329
+------------------------
+
+ID number: 1329
+
+Name: List of patrons added in a year
+
+Group: Borrowers
+
+Created on: 2012-03-02 14:27:15
+
+Modified on: 2020-04-30 14:33:16
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Choose branch and enter year added to list. #patrons
+
+  </div>
+
+
+SQL: 1329
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT borrowers.dateenrolled, borrowers.surname,borrowers.firstname,borrowers.branchcode,borrowers.categorycode, borrowers.cardnumber,borrowers.address,borrowers.city,borrowers.phone FROM borrowers WHERE year(dateenrolled) = << numericyear >> AND borrowers.branchcode = <<Pick your branch|branches>> ORDER BY borrowers.categorycode ASC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

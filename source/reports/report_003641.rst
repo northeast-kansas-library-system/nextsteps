@@ -1,0 +1,73 @@
+.. include:: /include.rst
+
+Report 003641 // GHW - Basic counts for cleanup
+===============================================
+
+Report information: 3641
+------------------------
+
+ID number: 3641
+
+Name: GHW - Basic counts for cleanup
+
+Created on: 2022-01-10 16:26:23
+
+Modified on: 2022-01-10 16:26:23
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3641
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      items.itype,
+      items.ccode,
+      Count(DISTINCT items.itemnumber) AS Count_itemnumber
+    FROM
+      items
+    GROUP BY
+      items.itype,
+      items.ccode
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

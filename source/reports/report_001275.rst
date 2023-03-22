@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 001275 // List of Titles with Holds
+==========================================
+
+Report information: 1275
+------------------------
+
+ID number: 1275
+
+Name: List of Titles with Holds
+
+Group: Holds-Reserves
+
+Created on: 2011-12-18 19:08:58
+
+Modified on: 2013-11-17 13:44:27
+
+Created by: hbraum
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enhanced. Choose library. #holds
+
+  </div>
+
+
+SQL: 1275
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT biblio.biblionumber, items.ccode, CONCAT('<a href=\"/cgi-bin/koha/catalogue/search.pl?idx=ti&q=',biblio.title,'&sort_by=title_az\" target="_blank">',biblio.title,'</a>')
+    AS Title, items.dateaccessioned, CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',biblio.biblionumber,'\" target="_blank">',biblio.biblionumber,'</a>') AS bibnumber
+    FROM biblio LEFT JOIN items USING (biblionumber) LEFT JOIN reserves USING (biblionumber) WHERE reserves.borrowernumber IS NOT NULL and items.homebranch =<<Pick branch|branches>> GROUP BY biblio.biblionumber ORDER BY biblio.biblionumber DESC LIMIT 1000
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

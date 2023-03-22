@@ -1,0 +1,82 @@
+.. include:: /include.rst
+
+Report 003547 // GHW - Circulation statistics by biblio number and item home library
+====================================================================================
+
+Report information: 3547
+------------------------
+
+ID number: 3547
+
+Name: GHW - Circulation statistics by biblio number and item home library
+
+Created on: 2021-08-03 16:04:25
+
+Modified on: 2021-08-03 16:04:25
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-22 15:19:48
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+SQL: 3547
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      biblio.biblionumber,
+      biblio.title,
+      Count(statistics.datetime) AS Count_datetime
+    FROM
+      biblio JOIN
+      items ON items.biblionumber = biblio.biblionumber JOIN
+      statistics ON statistics.itemnumber = items.itemnumber
+    WHERE
+      (statistics.type = 'issue' OR
+        statistics.type = 'renew') AND
+      Year(statistics.datetime) = 2021 AND
+      Month(statistics.datetime) = 6 AND
+      biblio.biblionumber LIKE <<Enter a biblio number>> AND
+      items.homebranch Like <<Choose the items' home library|LBRANCH>>
+    GROUP BY
+      biblio.biblionumber,
+      biblio.title
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
