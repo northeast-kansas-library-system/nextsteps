@@ -24,7 +24,11 @@ Using report 214
 
 When you run report 214 you'll be given options to choose a library and to choose a problem type.  The report is very flexible and allows you to view all items with problems, or just items with one or two specific problems.
 
+|report_214_0010|
 
+The report results include links to the item's bibliographic record and its item record.  The column on the far right indicates what type of problem the item is experiencing.
+
+|report_214_0020|
 
 
 .. include:: /reports/report_000214.rst
