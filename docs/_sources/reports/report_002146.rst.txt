@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002146 // Yearly New Materials Added by Itype (branch-specific)
-======================================================================
+Report 002146 contents // Yearly New Materials Added by Itype (branch-specific)
+===============================================================================
 
-Report information: 2146
-------------------------
+Report technical information: 2146
+----------------------------------
 
 ID number: 2146
 
@@ -20,7 +20,7 @@ Modified on: 2016-02-23 15:02:01
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2146
 ---------

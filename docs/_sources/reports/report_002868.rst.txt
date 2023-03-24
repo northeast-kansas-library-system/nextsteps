@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002868 // GHW - YE 9.1b-9.5
-==================================
+Report 002868 contents // GHW - YE 9.1b-9.5
+===========================================
 
-Report information: 2868
-------------------------
+Report technical information: 2868
+----------------------------------
 
 ID number: 2868
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -34,6 +34,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2868
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003498 // GHW - Bookshelves template report
-==================================================
+Report 003498 contents // GHW - Bookshelves template report
+===========================================================
 
-Report information: 3498
-------------------------
+Report technical information: 3498
+----------------------------------
 
 ID number: 3498
 
@@ -20,7 +20,7 @@ Public: Yes
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -60,6 +60,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3498
 ---------

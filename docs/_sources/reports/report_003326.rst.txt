@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003326 // GHW - 942e phase 4
-===================================
+Report 003326 contents // GHW - 942e phase 4
+============================================
 
-Report information: 3326
-------------------------
+Report technical information: 3326
+----------------------------------
 
 ID number: 3326
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3326
 ---------

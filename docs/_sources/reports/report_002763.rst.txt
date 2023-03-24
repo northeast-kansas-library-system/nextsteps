@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002763 // GHW - Items more than XX days overdue
-======================================================
+Report 002763 contents // GHW - Items more than XX days overdue
+===============================================================
 
-Report information: 2763
-------------------------
+Report technical information: 2763
+----------------------------------
 
 ID number: 2763
 
@@ -20,7 +20,7 @@ Modified on: 2018-04-16 10:48:35
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2763
 ---------

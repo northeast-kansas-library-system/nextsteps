@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000696 // Items from home library overdue at other libraries
-===================================================================
+Report 000696 contents // Items from home library overdue at other libraries
+============================================================================
 
-Report information: 696
------------------------
+Report technical information: 696
+---------------------------------
 
 ID number: 696
 
@@ -20,7 +20,7 @@ Modified on: 2017-01-03 14:53:42
 
 Created by: nekls
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -34,6 +34,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 696
 --------

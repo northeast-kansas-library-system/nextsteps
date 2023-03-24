@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000878 // Items in a specific Shelving Location
-======================================================
+Report 000878 contents // Items in a specific Shelving Location
+===============================================================
 
-Report information: 878
------------------------
+Report technical information: 878
+---------------------------------
 
 ID number: 878
 
@@ -20,7 +20,7 @@ Modified on: 2015-08-16 17:00:38
 
 Created by: nekls
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 878
 --------

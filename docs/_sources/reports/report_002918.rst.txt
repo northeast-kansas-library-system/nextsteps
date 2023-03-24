@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002918 // GHW - Overdue count at a library - during the previous calendar month
-======================================================================================
+Report 002918 contents // GHW - Overdue count at a library - during the previous calendar month
+===============================================================================================
 
-Report information: 2918
-------------------------
+Report technical information: 2918
+----------------------------------
 
 ID number: 2918
 
@@ -20,7 +20,7 @@ Modified on: 2018-04-16 11:08:21
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2918
 ---------

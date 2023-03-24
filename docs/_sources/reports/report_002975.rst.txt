@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002975 // G2 Request and sharing statistics - request statistics
-=======================================================================
+Report 002975 contents // G2 Request and sharing statistics - request statistics
+================================================================================
 
-Report information: 2975
-------------------------
+Report technical information: 2975
+----------------------------------
 
 ID number: 2975
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -52,6 +52,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2975
 ---------

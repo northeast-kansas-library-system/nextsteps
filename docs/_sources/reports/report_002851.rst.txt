@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002851 // GHW - Borrowers with Messages at LEAVENWRTH
-============================================================
+Report 002851 contents // GHW - Borrowers with Messages at LEAVENWRTH
+=====================================================================
 
-Report information: 2851
-------------------------
+Report technical information: 2851
+----------------------------------
 
 ID number: 2851
 
@@ -18,7 +18,7 @@ Modified on: 2021-08-16 20:33:42
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -41,6 +41,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2851
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001324 // Circ stats for titles in a specific collection code, for all time
-==================================================================================
+Report 001324 contents // Circ stats for titles in a specific collection code, for all time
+===========================================================================================
 
-Report information: 1324
-------------------------
+Report technical information: 1324
+----------------------------------
 
 ID number: 1324
 
@@ -14,7 +14,7 @@ Created on: 2012-02-17 13:14:33
 
 Modified on: 2019-01-10 15:48:52
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -26,6 +26,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1324
 ---------

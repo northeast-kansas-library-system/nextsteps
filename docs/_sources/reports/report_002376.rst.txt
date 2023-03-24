@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002376 // Most-Circulated Report at Your Library, limited by CCode and Shelving Location
-===============================================================================================
+Report 002376 contents // Most-Circulated Report at Your Library, limited by CCode and Shelving Location
+========================================================================================================
 
-Report information: 2376
-------------------------
+Report technical information: 2376
+----------------------------------
 
 ID number: 2376
 
@@ -18,7 +18,7 @@ Modified on: 2015-08-16 20:42:26
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2376
 ---------

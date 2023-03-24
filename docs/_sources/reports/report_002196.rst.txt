@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002196 // Report of Items Exclusive to Your Library in NExpress (limited by ccode)
-=========================================================================================
+Report 002196 contents // Report of Items Exclusive to Your Library in NExpress (limited by ccode)
+==================================================================================================
 
-Report information: 2196
-------------------------
+Report technical information: 2196
+----------------------------------
 
 ID number: 2196
 
@@ -20,7 +20,7 @@ Modified on: 2014-03-11 14:33:07
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2196
 ---------

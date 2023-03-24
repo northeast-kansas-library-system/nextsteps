@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002826 // GHW - Item data by barcode number
-==================================================
+Report 002826 contents // GHW - Item data by barcode number
+===========================================================
 
-Report information: 2826
-------------------------
+Report technical information: 2826
+----------------------------------
 
 ID number: 2826
 
@@ -20,7 +20,7 @@ Modified on: 2018-04-16 11:05:31
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -44,6 +44,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2826
 ---------

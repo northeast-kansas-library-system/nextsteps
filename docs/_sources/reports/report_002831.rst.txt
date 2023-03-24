@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002831 // GHW - Lost/missing items report for printing from Koha
-=======================================================================
+Report 002831 contents // GHW - Lost/missing items report for printing from Koha
+================================================================================
 
-Report information: 2831
-------------------------
+Report technical information: 2831
+----------------------------------
 
 ID number: 2831
 
@@ -16,7 +16,7 @@ Modified on: 2017-12-19 09:35:57
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2831
 ---------

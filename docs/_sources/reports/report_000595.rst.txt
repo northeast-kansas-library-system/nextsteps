@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000595 // Weekly Juv (JF, E or Childrens) Circ, Tongie example
-=====================================================================
+Report 000595 contents // Weekly Juv (JF, E or Childrens) Circ, Tongie example
+==============================================================================
 
-Report information: 595
------------------------
+Report technical information: 595
+---------------------------------
 
 ID number: 595
 
@@ -20,7 +20,7 @@ Modified on: 2013-11-17 13:00:26
 
 Created by: nekls
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 595
 --------

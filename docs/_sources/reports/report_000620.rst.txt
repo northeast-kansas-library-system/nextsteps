@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000620 // Identify patron by email address
-=================================================
+Report 000620 contents // Identify patron by email address
+==========================================================
 
-Report information: 620
------------------------
+Report technical information: 620
+---------------------------------
 
 ID number: 620
 
@@ -18,7 +18,7 @@ Modified on: 2013-06-17 02:07:04
 
 Created by: nekls
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 620
 --------

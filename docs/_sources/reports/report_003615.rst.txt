@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003615 // LibraryIQ - Patron Data File (added yesterday) - BASEHOR
-=========================================================================
+Report 003615 contents // LibraryIQ - Patron Data File (added yesterday) - BASEHOR
+==================================================================================
 
-Report information: 3615
-------------------------
+Report technical information: 3615
+----------------------------------
 
 ID number: 3615
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -34,6 +34,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3615
 ---------

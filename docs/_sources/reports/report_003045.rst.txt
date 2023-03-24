@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003045 // GHW - Deleted reports - last 60 days
-=====================================================
+Report 003045 contents // GHW - Deleted reports - last 60 days
+==============================================================
 
-Report information: 3045
-------------------------
+Report technical information: 3045
+----------------------------------
 
 ID number: 3045
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3045
 ---------

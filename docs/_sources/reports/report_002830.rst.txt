@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002830 // Phase 2 Concat w group
-=======================================
+Report 002830 contents // Phase 2 Concat w group
+================================================
 
-Report information: 2830
-------------------------
+Report technical information: 2830
+----------------------------------
 
 ID number: 2830
 
@@ -16,7 +16,7 @@ Modified on: 2016-11-21 18:42:09
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2830
 ---------

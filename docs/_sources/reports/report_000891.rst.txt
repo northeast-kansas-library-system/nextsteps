@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000891 // LOST Report ONLY showing null value for replacement cost
-=========================================================================
+Report 000891 contents // LOST Report ONLY showing null value for replacement cost
+==================================================================================
 
-Report information: 891
------------------------
+Report technical information: 891
+---------------------------------
 
 ID number: 891
 
@@ -20,7 +20,7 @@ Modified on: 2013-06-18 10:47:25
 
 Created by: nekls
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 891
 --------

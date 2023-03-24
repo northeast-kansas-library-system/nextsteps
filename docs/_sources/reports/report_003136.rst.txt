@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003136 // GHW - videogames without links
-===============================================
+Report 003136 contents // GHW - videogames without links
+========================================================
 
-Report information: 3136
-------------------------
+Report technical information: 3136
+----------------------------------
 
 ID number: 3136
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3136
 ---------

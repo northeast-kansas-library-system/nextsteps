@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002244 // List of Items Checked out in a Collection Code
-===============================================================
+Report 002244 contents // List of Items Checked out in a Collection Code
+========================================================================
 
-Report information: 2244
-------------------------
+Report technical information: 2244
+----------------------------------
 
 ID number: 2244
 
@@ -20,7 +20,7 @@ Modified on: 2014-04-23 14:10:57
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2244
 ---------

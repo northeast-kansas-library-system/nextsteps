@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003225 // GHW - List / virtualshelf report 002 - Display all lists (public or private) owned by a patron
-===============================================================================================================
+Report 003225 contents // GHW - List / virtualshelf report 002 - Display all lists (public or private) owned by a patron
+========================================================================================================================
 
-Report information: 3225
-------------------------
+Report technical information: 3225
+----------------------------------
 
 ID number: 3225
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -60,6 +60,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3225
 ---------

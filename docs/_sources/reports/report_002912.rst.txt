@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002912 // GHW - End of year Inventory at branch
-======================================================
+Report 002912 contents // GHW - End of year Inventory at branch
+===============================================================
 
-Report information: 2912
-------------------------
+Report technical information: 2912
+----------------------------------
 
 ID number: 2912
 
@@ -20,7 +20,7 @@ Modified on: 2017-02-23 17:27:48
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2912
 ---------

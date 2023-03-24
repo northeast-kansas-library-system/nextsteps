@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003644 // ADMINREPORT - Can a variable be used in a SELECT statement
-===========================================================================
+Report 003644 contents // ADMINREPORT - Can a variable be used in a SELECT statement
+====================================================================================
 
-Report information: 3644
-------------------------
+Report technical information: 3644
+----------------------------------
 
 ID number: 3644
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3644
 ---------

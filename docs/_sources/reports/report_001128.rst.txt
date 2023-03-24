@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001128 // List that totals the circulation of each Dewey section, F, and periodicals, by month
-=====================================================================================================
+Report 001128 contents // List that totals the circulation of each Dewey section, F, and periodicals, by month
+==============================================================================================================
 
-Report information: 1128
-------------------------
+Report technical information: 1128
+----------------------------------
 
 ID number: 1128
 
@@ -18,7 +18,7 @@ Created on: 2011-06-08 13:03:00
 
 Modified on: 2013-11-17 16:13:42
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1128
 ---------

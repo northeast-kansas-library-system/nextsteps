@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002309 // Title, Series, and Circulation Info for a Collection Code
-==========================================================================
+Report 002309 contents // Title, Series, and Circulation Info for a Collection Code
+===================================================================================
 
-Report information: 2309
-------------------------
+Report technical information: 2309
+----------------------------------
 
 ID number: 2309
 
@@ -20,7 +20,7 @@ Modified on: 2017-12-18 15:40:22
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2309
 ---------

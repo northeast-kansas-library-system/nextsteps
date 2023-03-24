@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003331 // GHW Adminreport - Long states
-==============================================
+Report 003331 contents // GHW Adminreport - Long states
+=======================================================
 
-Report information: 3331
-------------------------
+Report technical information: 3331
+----------------------------------
 
 ID number: 3331
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3331
 ---------

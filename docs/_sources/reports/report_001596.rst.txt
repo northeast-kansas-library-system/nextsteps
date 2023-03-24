@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001596 // Holds Waiting Pickup (by branch)
-=================================================
+Report 001596 contents // Holds Waiting Pickup (by branch)
+==========================================================
 
-Report information: 1596
-------------------------
+Report technical information: 1596
+----------------------------------
 
 ID number: 1596
 
@@ -18,7 +18,7 @@ Modified on: 2013-06-17 02:03:08
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1596
 ---------

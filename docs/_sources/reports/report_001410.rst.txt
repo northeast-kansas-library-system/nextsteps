@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001410 // Shelf List of Specific Item Type and Location
-==============================================================
+Report 001410 contents // Shelf List of Specific Item Type and Location
+=======================================================================
 
-Report information: 1410
-------------------------
+Report technical information: 1410
+----------------------------------
 
 ID number: 1410
 
@@ -20,7 +20,7 @@ Modified on: 2015-08-16 20:08:27
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1410
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003004 // GHW - Circulation Transaction Log
-==================================================
+Report 003004 contents // GHW - Circulation Transaction Log
+===========================================================
 
-Report information: 3004
-------------------------
+Report technical information: 3004
+----------------------------------
 
 ID number: 3004
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -48,6 +48,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3004
 ---------

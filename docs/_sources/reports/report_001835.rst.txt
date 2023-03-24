@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001835 // Local Holds at libraries
-=========================================
+Report 001835 contents // Local Holds at libraries
+==================================================
 
-Report information: 1835
-------------------------
+Report technical information: 1835
+----------------------------------
 
 ID number: 1835
 
@@ -20,7 +20,7 @@ Modified on: 2014-04-25 15:47:56
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1835
 ---------

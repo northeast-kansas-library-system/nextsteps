@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001692 // Count of Items Added to Collection in a Year
-=============================================================
+Report 001692 contents // Count of Items Added to Collection in a Year
+======================================================================
 
-Report information: 1692
-------------------------
+Report technical information: 1692
+----------------------------------
 
 ID number: 1692
 
@@ -20,7 +20,7 @@ Modified on: 2013-06-16 14:46:14
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1692
 ---------

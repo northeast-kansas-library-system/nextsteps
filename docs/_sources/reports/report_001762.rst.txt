@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001762 // Top 100 Titles with Holds Report for non-Media (NOT DVDs, Blu-Ray, TV Series, Videogames)
-==========================================================================================================
+Report 001762 contents // Top 100 Titles with Holds Report for non-Media (NOT DVDs, Blu-Ray, TV Series, Videogames)
+===================================================================================================================
 
-Report information: 1762
-------------------------
+Report technical information: 1762
+----------------------------------
 
 ID number: 1762
 
@@ -18,7 +18,7 @@ Modified on: 2017-12-18 15:37:46
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1762
 ---------

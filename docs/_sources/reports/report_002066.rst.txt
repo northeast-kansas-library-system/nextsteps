@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002066 // coll-updatedel-HIAW-linked
-===========================================
+Report 002066 contents // coll-updatedel-HIAW-linked
+====================================================
 
-Report information: 2066
-------------------------
+Report technical information: 2066
+----------------------------------
 
 ID number: 2066
 
@@ -18,7 +18,7 @@ Modified on: 2021-08-16 20:39:27
 
 Created by: ROBIN.HASTINGS
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2066
 ---------

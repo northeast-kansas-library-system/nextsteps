@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002924 // GHW - BONNERSPGS price repair
-==============================================
+Report 002924 contents // GHW - BONNERSPGS price repair
+=======================================================
 
-Report information: 2924
-------------------------
+Report technical information: 2924
+----------------------------------
 
 ID number: 2924
 
@@ -18,7 +18,7 @@ Modified on: 2021-08-16 20:41:35
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2924
 ---------

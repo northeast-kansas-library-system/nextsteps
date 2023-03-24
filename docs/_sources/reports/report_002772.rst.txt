@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002772 // GHW - Guarantors with guarantees that owe money
-================================================================
+Report 002772 contents // GHW - Guarantors with guarantees that owe money
+=========================================================================
 
-Report information: 2772
-------------------------
+Report technical information: 2772
+----------------------------------
 
 ID number: 2772
 
@@ -20,7 +20,7 @@ Modified on: 2018-06-04 10:52:10
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2772
 ---------

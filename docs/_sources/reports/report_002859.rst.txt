@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002859 // GHW - All requests on an item by barcode number
-================================================================
+Report 002859 contents // GHW - All requests on an item by barcode number
+=========================================================================
 
-Report information: 2859
-------------------------
+Report technical information: 2859
+----------------------------------
 
 ID number: 2859
 
@@ -20,7 +20,7 @@ Modified on: 2018-04-16 11:05:05
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2859
 ---------

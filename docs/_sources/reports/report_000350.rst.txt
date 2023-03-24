@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000350 // Overdue List - XX days past due
-================================================
+Report 000350 contents // Overdue List - XX days past due
+=========================================================
 
-Report information: 350
------------------------
+Report technical information: 350
+---------------------------------
 
 ID number: 350
 
@@ -18,7 +18,7 @@ Created on: 2009-03-16 15:46:05
 
 Modified on: 2019-08-18 23:55:17
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -31,6 +31,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 350
 --------

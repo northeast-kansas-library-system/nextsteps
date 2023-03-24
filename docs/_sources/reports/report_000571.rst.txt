@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000571 // Monthly 006 New Materials Added by Collection Code and Location
-================================================================================
+Report 000571 contents // Monthly 006 New Materials Added by Collection Code and Location
+=========================================================================================
 
-Report information: 571
------------------------
+Report technical information: 571
+---------------------------------
 
 ID number: 571
 
@@ -16,7 +16,7 @@ Modified on: 2020-12-08 22:47:06
 
 Created by: nekls
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 571
 --------

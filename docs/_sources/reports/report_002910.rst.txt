@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002910 // GHW - Bounced e-mail helper
-============================================
+Report 002910 contents // GHW - Bounced e-mail helper
+=====================================================
 
-Report information: 2910
-------------------------
+Report technical information: 2910
+----------------------------------
 
 ID number: 2910
 
@@ -18,7 +18,7 @@ Modified on: 2018-04-16 11:08:08
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -44,6 +44,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2910
 ---------

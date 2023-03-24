@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002779 // GHW - Count of current un-expired borrowers at a branch
-========================================================================
+Report 002779 contents // GHW - Count of current un-expired borrowers at a branch
+=================================================================================
 
-Report information: 2779
-------------------------
+Report technical information: 2779
+----------------------------------
 
 ID number: 2779
 
@@ -18,7 +18,7 @@ Modified on: 2018-04-16 11:02:34
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -36,6 +36,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2779
 ---------

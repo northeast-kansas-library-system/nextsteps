@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002491 // Multiple copies of a title at Doniphan libraries
-=================================================================
+Report 002491 contents // Multiple copies of a title at Doniphan libraries
+==========================================================================
 
-Report information: 2491
-------------------------
+Report technical information: 2491
+----------------------------------
 
 ID number: 2491
 
@@ -18,7 +18,7 @@ Modified on: 2021-08-16 20:40:35
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2491
 ---------

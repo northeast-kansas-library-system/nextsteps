@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002417 // Top Circing Items in Last Six Months at Your Library in a Collection Code & Shelving Location
-==============================================================================================================
+Report 002417 contents // Top Circing Items in Last Six Months at Your Library in a Collection Code & Shelving Location
+=======================================================================================================================
 
-Report information: 2417
-------------------------
+Report technical information: 2417
+----------------------------------
 
 ID number: 2417
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -34,6 +34,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2417
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003335 // GHW - CLUB Membership roster for club use
-==========================================================
+Report 003335 contents // GHW - CLUB Membership roster for club use
+===================================================================
 
-Report information: 3335
-------------------------
+Report technical information: 3335
+----------------------------------
 
 ID number: 3335
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3335
 ---------

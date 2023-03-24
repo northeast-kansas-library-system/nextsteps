@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001830 // HB - Circulation by Month, for All Time 
-=========================================================
+Report 001830 contents // HB - Circulation by Month, for All Time 
+==================================================================
 
-Report information: 1830
-------------------------
+Report technical information: 1830
+----------------------------------
 
 ID number: 1830
 
@@ -20,7 +20,7 @@ Modified on: 2018-04-16 10:48:15
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1830
 ---------

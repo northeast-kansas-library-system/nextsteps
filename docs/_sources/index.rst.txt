@@ -15,7 +15,6 @@ Welcome to Next Steps: a training site for Next Search Catalog
 
    /foundations
    /basic
-   /pages/reports
    /about_us
    /usergroup/index
 
@@ -50,7 +49,7 @@ Welcome to Next Steps: a training site for Next Search Catalog
    :maxdepth: 1
    :caption: Reports:
 
-   /reports/index
+   /reports_training/index
 
 ----------
 

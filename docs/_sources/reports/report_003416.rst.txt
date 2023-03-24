@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003416 // GHW - Multiple items on a bibliographic record
-===============================================================
+Report 003416 contents // GHW - Multiple items on a bibliographic record
+========================================================================
 
-Report information: 3416
-------------------------
+Report technical information: 3416
+----------------------------------
 
 ID number: 3416
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3416
 ---------

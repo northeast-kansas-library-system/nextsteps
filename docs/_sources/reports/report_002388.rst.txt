@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002388 // unknown
-========================
+Report 002388 contents // unknown
+=================================
 
-Report information: 2388
-------------------------
+Report technical information: 2388
+----------------------------------
 
 ID number: 2388
 
@@ -16,7 +16,7 @@ Modified on: 2019-06-30 21:48:51
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2388
 ---------

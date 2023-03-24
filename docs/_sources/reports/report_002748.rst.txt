@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002748 // GHW - Duplicate search
-=======================================
+Report 002748 contents // GHW - Duplicate search
+================================================
 
-Report information: 2748
-------------------------
+Report technical information: 2748
+----------------------------------
 
 ID number: 2748
 
@@ -18,7 +18,7 @@ Modified on: 2016-08-30 00:13:23
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2748
 ---------

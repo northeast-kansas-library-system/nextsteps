@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003517 // GHW - Borrower Categories List
-===============================================
+Report 003517 contents // GHW - Borrower Categories List
+========================================================
 
-Report information: 3517
-------------------------
+Report technical information: 3517
+----------------------------------
 
 ID number: 3517
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3517
 ---------

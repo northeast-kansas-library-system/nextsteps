@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003702 // GHW - Circulation by library and collection code
-=================================================================
+Report 003702 contents // GHW - Circulation by library and collection code
+==========================================================================
 
-Report information: 3702
-------------------------
+Report technical information: 3702
+----------------------------------
 
 ID number: 3702
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -82,6 +82,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3702
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003153 // Items not loaded in Highland migration due to duplicate barcodes
-=================================================================================
+Report 003153 contents // Items not loaded in Highland migration due to duplicate barcodes
+==========================================================================================
 
-Report information: 3153
-------------------------
+Report technical information: 3153
+----------------------------------
 
 ID number: 3153
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: bwssupport
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3153
 ---------

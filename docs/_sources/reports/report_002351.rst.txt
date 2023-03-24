@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002351 // Total Charges paid at your branch per month
-============================================================
+Report 002351 contents // Total Charges paid at your branch per month
+=====================================================================
 
-Report information: 2351
-------------------------
+Report technical information: 2351
+----------------------------------
 
 ID number: 2351
 
@@ -20,7 +20,7 @@ Modified on: 2019-12-26 11:46:10
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -33,6 +33,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2351
 ---------

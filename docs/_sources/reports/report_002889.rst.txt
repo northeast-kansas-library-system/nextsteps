@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002889 // GHW - Holds queue by Accelerated Reader
-========================================================
+Report 002889 contents // GHW - Holds queue by Accelerated Reader
+=================================================================
 
-Report information: 2889
-------------------------
+Report technical information: 2889
+----------------------------------
 
 ID number: 2889
 
@@ -18,7 +18,7 @@ Modified on: 2018-08-20 14:45:28
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2889
 ---------

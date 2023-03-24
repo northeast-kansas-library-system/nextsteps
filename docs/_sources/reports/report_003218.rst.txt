@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003218 // GHW - VIDEO Problem item/record
-================================================
+Report 003218 contents // GHW - VIDEO Problem item/record
+=========================================================
 
-Report information: 3218
-------------------------
+Report technical information: 3218
+----------------------------------
 
 ID number: 3218
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3218
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002991 // GHW - Patron Lists
-===================================
+Report 002991 contents // GHW - Patron Lists
+============================================
 
-Report information: 2991
-------------------------
+Report technical information: 2991
+----------------------------------
 
 ID number: 2991
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2991
 ---------

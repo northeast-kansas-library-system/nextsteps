@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001577 // TV Series Project #3
-=====================================
+Report 001577 contents // TV Series Project #3
+==============================================
 
-Report information: 1577
-------------------------
+Report technical information: 1577
+----------------------------------
 
 ID number: 1577
 
@@ -20,7 +20,7 @@ Modified on: 2015-08-16 20:13:20
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1577
 ---------

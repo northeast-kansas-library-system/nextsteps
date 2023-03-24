@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001329 // List of patrons added in a year
-================================================
+Report 001329 contents // List of patrons added in a year
+=========================================================
 
-Report information: 1329
-------------------------
+Report technical information: 1329
+----------------------------------
 
 ID number: 1329
 
@@ -16,7 +16,7 @@ Created on: 2012-03-02 14:27:15
 
 Modified on: 2020-04-30 14:33:16
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1329
 ---------

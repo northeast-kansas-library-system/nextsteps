@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003548 // E2 Borrower statistics - borrower count by zip code
-====================================================================
+Report 003548 contents // E2 Borrower statistics - borrower count by zip code
+=============================================================================
 
-Report information: 3548
-------------------------
+Report technical information: 3548
+----------------------------------
 
 ID number: 3548
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -62,6 +62,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3548
 ---------

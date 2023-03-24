@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002302 // Your library's lost items not at your library
-==============================================================
+Report 002302 contents // Your library's lost items not at your library
+=======================================================================
 
-Report information: 2302
-------------------------
+Report technical information: 2302
+----------------------------------
 
 ID number: 2302
 
@@ -20,7 +20,7 @@ Modified on: 2015-08-16 20:55:02
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2302
 ---------

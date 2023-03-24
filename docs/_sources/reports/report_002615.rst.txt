@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002615 // records with 1 item, lost in transit
-=====================================================
+Report 002615 contents // records with 1 item, lost in transit
+==============================================================
 
-Report information: 2615
-------------------------
+Report technical information: 2615
+----------------------------------
 
 ID number: 2615
 
@@ -16,7 +16,7 @@ Modified on: 2015-10-15 16:44:44
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2615
 ---------

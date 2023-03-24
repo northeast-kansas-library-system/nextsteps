@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000906 // Item with both waiting and in transit status
-=============================================================
+Report 000906 contents // Item with both waiting and in transit status
+======================================================================
 
-Report information: 906
------------------------
+Report technical information: 906
+---------------------------------
 
 ID number: 906
 
@@ -18,7 +18,7 @@ Created on: 2010-08-20 14:15:54
 
 Modified on: 2022-03-29 12:00:52
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 906
 --------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002877 // GHW - lost and checked out
-===========================================
+Report 002877 contents // GHW - lost and checked out
+====================================================
 
-Report information: 2877
-------------------------
+Report technical information: 2877
+----------------------------------
 
 ID number: 2877
 
@@ -18,7 +18,7 @@ Modified on: 2017-01-05 15:15:39
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -31,6 +31,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2877
 ---------

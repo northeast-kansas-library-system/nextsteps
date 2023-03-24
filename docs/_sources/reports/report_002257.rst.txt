@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002257 // Patrons Total Current Holds (limited by library)
-=================================================================
+Report 002257 contents // Patrons Total Current Holds (limited by library)
+==========================================================================
 
-Report information: 2257
-------------------------
+Report technical information: 2257
+----------------------------------
 
 ID number: 2257
 
@@ -18,7 +18,7 @@ Modified on: 2014-12-01 13:58:11
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2257
 ---------

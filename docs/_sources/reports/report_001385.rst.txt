@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001385 // Entire collection size by location
-===================================================
+Report 001385 contents // Entire collection size by location
+============================================================
 
-Report information: 1385
-------------------------
+Report technical information: 1385
+----------------------------------
 
 ID number: 1385
 
@@ -20,7 +20,7 @@ Modified on: 2013-09-25 16:38:10
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1385
 ---------

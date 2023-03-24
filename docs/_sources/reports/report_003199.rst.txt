@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003199 // GHW - Lookup payment details by receipt number
-===============================================================
+Report 003199 contents // GHW - Lookup payment details by receipt number
+========================================================================
 
-Report information: 3199
-------------------------
+Report technical information: 3199
+----------------------------------
 
 ID number: 3199
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -41,6 +41,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3199
 ---------

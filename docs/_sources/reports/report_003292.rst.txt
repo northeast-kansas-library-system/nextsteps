@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003292 // GHW - Authorised Values Synchronization - Branch names
-=======================================================================
+Report 003292 contents // GHW - Authorised Values Synchronization - Branch names
+================================================================================
 
-Report information: 3292
-------------------------
+Report technical information: 3292
+----------------------------------
 
 ID number: 3292
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3292
 ---------

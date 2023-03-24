@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000857 // BASEHOR Monthly Circ by Call Number
-====================================================
+Report 000857 contents // BASEHOR Monthly Circ by Call Number
+=============================================================
 
-Report information: 857
------------------------
+Report technical information: 857
+---------------------------------
 
 ID number: 857
 
@@ -18,7 +18,7 @@ Modified on: 2021-08-16 20:43:37
 
 Created by: nekls
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 857
 --------

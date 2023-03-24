@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001076 // Number of Distinct Patrons served by Date range
-================================================================
+Report 001076 contents // Number of Distinct Patrons served by Date range
+=========================================================================
 
-Report information: 1076
-------------------------
+Report technical information: 1076
+----------------------------------
 
 ID number: 1076
 
@@ -18,7 +18,7 @@ Created on: 2011-03-24 21:18:00
 
 Modified on: 2018-10-24 12:59:41
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1076
 ---------

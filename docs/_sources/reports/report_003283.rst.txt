@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003283 // GHW - Search for borrower by SMS text message number
-=====================================================================
+Report 003283 contents // GHW - Search for borrower by SMS text message number
+==============================================================================
 
-Report information: 3283
-------------------------
+Report technical information: 3283
+----------------------------------
 
 ID number: 3283
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -45,6 +45,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3283
 ---------

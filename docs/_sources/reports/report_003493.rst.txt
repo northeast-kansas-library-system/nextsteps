@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003493 // GHW - Export authorised_values table
-=====================================================
+Report 003493 contents // GHW - Export authorised_values table
+==============================================================
 
-Report information: 3493
-------------------------
+Report technical information: 3493
+----------------------------------
 
 ID number: 3493
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3493
 ---------

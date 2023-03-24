@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002274 // Data in the borrowers table that needs to be deleted
-=====================================================================
+Report 002274 contents // Data in the borrowers table that needs to be deleted
+==============================================================================
 
-Report information: 2274
-------------------------
+Report technical information: 2274
+----------------------------------
 
 ID number: 2274
 
@@ -20,7 +20,7 @@ Modified on: 2019-02-10 21:11:55
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2274
 ---------

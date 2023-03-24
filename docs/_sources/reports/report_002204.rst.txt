@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002204 // Never Checked Out Or Hasn't Checked Out Since a specific date (Limited to a collection code and shelving location)
-===================================================================================================================================
+Report 002204 contents // Never Checked Out Or Hasn't Checked Out Since a specific date (Limited to a collection code and shelving location)
+============================================================================================================================================
 
-Report information: 2204
-------------------------
+Report technical information: 2204
+----------------------------------
 
 ID number: 2204
 
@@ -20,7 +20,7 @@ Modified on: 2019-11-19 11:27:11
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2204
 ---------

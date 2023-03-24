@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001327 // Titles of Circs at a given branch
-==================================================
+Report 001327 contents // Titles of Circs at a given branch
+===========================================================
 
-Report information: 1327
-------------------------
+Report technical information: 1327
+----------------------------------
 
 ID number: 1327
 
@@ -16,7 +16,7 @@ Created on: 2012-02-17 13:44:33
 
 Modified on: 2013-09-25 17:26:21
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1327
 ---------

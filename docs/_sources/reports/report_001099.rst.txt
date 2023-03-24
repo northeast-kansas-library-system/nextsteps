@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001099 // My items overdue elsewhere
-===========================================
+Report 001099 contents // My items overdue elsewhere
+====================================================
 
-Report information: 1099
-------------------------
+Report technical information: 1099
+----------------------------------
 
 ID number: 1099
 
@@ -18,7 +18,7 @@ Created on: 2011-05-13 15:26:24
 
 Modified on: 2014-01-08 14:11:06
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1099
 ---------

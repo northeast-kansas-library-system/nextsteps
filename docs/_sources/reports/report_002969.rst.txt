@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002969 // GHW - Monthly 104
-==================================
+Report 002969 contents // GHW - Monthly 104
+===========================================
 
-Report information: 2969
-------------------------
+Report technical information: 2969
+----------------------------------
 
 ID number: 2969
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2969
 ---------

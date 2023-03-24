@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003670 // GHW - Circulation last month by list name
-==========================================================
+Report 003670 contents // GHW - Circulation last month by list name
+===================================================================
 
-Report information: 3670
-------------------------
+Report technical information: 3670
+----------------------------------
 
 ID number: 3670
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3670
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001007 // Unreturned (Likely Lost) items report with Patron Info
-=======================================================================
+Report 001007 contents // Unreturned (Likely Lost) items report with Patron Info
+================================================================================
 
-Report information: 1007
-------------------------
+Report technical information: 1007
+----------------------------------
 
 ID number: 1007
 
@@ -20,7 +20,7 @@ Modified on: 2013-06-19 12:44:39
 
 Created by: Tongtech
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1007
 ---------

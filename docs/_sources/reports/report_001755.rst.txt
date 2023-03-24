@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001755 // Searching for a deleted barcode
-================================================
+Report 001755 contents // Searching for a deleted barcode
+=========================================================
 
-Report information: 1755
-------------------------
+Report technical information: 1755
+----------------------------------
 
 ID number: 1755
 
@@ -20,7 +20,7 @@ Modified on: 2013-09-25 17:19:40
 
 Created by: bonntech
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1755
 ---------

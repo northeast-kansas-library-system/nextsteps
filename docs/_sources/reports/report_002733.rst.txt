@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002733 // GHW - Expiration Query
-=======================================
+Report 002733 contents // GHW - Expiration Query
+================================================
 
-Report information: 2733
-------------------------
+Report technical information: 2733
+----------------------------------
 
 ID number: 2733
 
@@ -18,7 +18,7 @@ Modified on: 2021-03-04 19:20:04
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2733
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002769 // GHW - TEST accounts
-====================================
+Report 002769 contents // GHW - TEST accounts
+=============================================
 
-Report information: 2769
-------------------------
+Report technical information: 2769
+----------------------------------
 
 ID number: 2769
 
@@ -18,7 +18,7 @@ Modified on: 2018-04-16 10:48:39
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -38,6 +38,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2769
 ---------

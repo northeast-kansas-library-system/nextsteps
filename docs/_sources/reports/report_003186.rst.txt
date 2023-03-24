@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003186 // GHW - generates 1 patron name based on the patron's ID number
-==============================================================================
+Report 003186 contents // GHW - generates 1 patron name based on the patron's ID number
+=======================================================================================
 
-Report information: 3186
-------------------------
+Report technical information: 3186
+----------------------------------
 
 ID number: 3186
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 1
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -40,6 +40,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3186
 ---------

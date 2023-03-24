@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003586 // Identify records with mismatched 008 vs Copyright/Publication date 
-====================================================================================
+Report 003586 contents // Identify records with mismatched 008 vs Copyright/Publication date 
+=============================================================================================
 
-Report information: 3586
-------------------------
+Report technical information: 3586
+----------------------------------
 
 ID number: 3586
 
@@ -14,7 +14,7 @@ Modified on: 2021-10-12 16:22:00
 
 Cache expiry in seconds: 300
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -26,6 +26,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3586
 ---------

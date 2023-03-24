@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002960 // GHW - GitHub Notices and Slips report
-======================================================
+Report 002960 contents // GHW - GitHub Notices and Slips report
+===============================================================
 
-Report information: 2960
-------------------------
+Report technical information: 2960
+----------------------------------
 
 ID number: 2960
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2960
 ---------

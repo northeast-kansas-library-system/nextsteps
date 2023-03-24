@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002520 // Fixing Booksellerid, source of acquisition
-===========================================================
+Report 002520 contents // Fixing Booksellerid, source of acquisition
+====================================================================
 
-Report information: 2520
-------------------------
+Report technical information: 2520
+----------------------------------
 
 ID number: 2520
 
@@ -18,7 +18,7 @@ Modified on: 2021-08-16 20:37:33
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2520
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003103 // GHW - Details on a specific biblio
-===================================================
+Report 003103 contents // GHW - Details on a specific biblio
+============================================================
 
-Report information: 3103
-------------------------
+Report technical information: 3103
+----------------------------------
 
 ID number: 3103
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3103
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002675 // Shelf list of specific collection code and item type
-=====================================================================
+Report 002675 contents // Shelf list of specific collection code and item type
+==============================================================================
 
-Report information: 2675
-------------------------
+Report technical information: 2675
+----------------------------------
 
 ID number: 2675
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2675
 ---------

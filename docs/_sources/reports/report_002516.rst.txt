@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002516 // Monthly Fines Report 2
-=======================================
+Report 002516 contents // Monthly Fines Report 2
+================================================
 
-Report information: 2516
-------------------------
+Report technical information: 2516
+----------------------------------
 
 ID number: 2516
 
@@ -16,7 +16,7 @@ Modified on: 2019-12-26 11:46:17
 
 Created by: ROBIN.HASTINGS
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2516
 ---------
