@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000685 // Item types
-===========================
+Report 000685 contents // Item types
+====================================
 
-Report information: 685
------------------------
+Report technical information: 685
+---------------------------------
 
 ID number: 685
 
@@ -18,7 +18,7 @@ Created on: 2009-09-30 13:17:06
 
 Modified on: 2013-06-16 14:48:51
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 685
 --------

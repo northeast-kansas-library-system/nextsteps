@@ -450,11 +450,23 @@
 .. |login_changeover_0020.png| image:: /images/projects/login_changeover/login_changeover_0020.png
     :alt:
 
+.. reports_training 
+
+.. reports_training/000214
+
 .. |report_214_0010| image:: /images/reports_training/000214/report_214_0010.png
     :alt: 3 steps to run the report
 
 .. |report_214_0020| image:: /images/reports_training/000214/report_214_0020.png
     :alt: Report 214 results example
+
+.. reports_training/002731 
+
+.. |report_2731_0020| image:: /images/reports_training/002731/report_2731_0020.png 
+    :alt: Configuration for full shelf list 
+
+.. |report_2731_0030| image:: /images/reports_training/002731/report_2731_0030.png 
+    :alt:  Configuration for items added during a date range shelf list
 
 .. upgrades
 

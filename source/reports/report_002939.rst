@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002939 // GHW - BONNERSPGS Auditor's inventory with prices
-=================================================================
+Report 002939 contents // GHW - BONNERSPGS Auditor's inventory with prices
+==========================================================================
 
-Report information: 2939
-------------------------
+Report technical information: 2939
+----------------------------------
 
 ID number: 2939
 
@@ -18,7 +18,7 @@ Modified on: 2021-08-16 20:41:41
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -45,6 +45,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2939
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001338 // List of all patrons
-====================================
+Report 001338 contents // List of all patrons
+=============================================
 
-Report information: 1338
-------------------------
+Report technical information: 1338
+----------------------------------
 
 ID number: 1338
 
@@ -16,7 +16,7 @@ Created on: 2012-03-08 10:22:28
 
 Modified on: 2014-01-15 00:42:08
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1338
 ---------

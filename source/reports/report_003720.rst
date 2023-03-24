@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003720 // GHW - RST test
-===============================
+Report 003720 contents // GHW - RST test
+========================================
 
-Report information: 3720
-------------------------
+Report technical information: 3720
+----------------------------------
 
 ID number: 3720
 
@@ -12,13 +12,13 @@ Name: GHW - RST test
 
 Created on: 2023-03-22 09:07:30
 
-Modified on: 2023-03-22 15:19:03
+Modified on: 2023-03-24 16:48:39
 
 Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3720
 ---------
@@ -68,7 +70,7 @@ SQL: 3720
           Char(10), 
           "Report ", 
           LPad(saved_sql.id, 6, 0), 
-          " // ", 
+          " contents // ", 
           saved_sql.report_name, 
           Char(13), 
           Char(10), 
@@ -78,7 +80,7 @@ SQL: 3720
               concat( 
                 "Report ", 
                 LPad(saved_sql.id, 6, 0), 
-                " // ", 
+                " contents // ", 
                 saved_sql.report_name 
               ) 
             ) 
@@ -88,11 +90,11 @@ SQL: 3720
         Char(10), 
         Char(13), 
         Char(10), 
-        "Report information: ", 
+        "Report technical information: ", 
         saved_sql.id,
         Char(13), 
         Char(10), 
-        Repeat('-', Length(Concat("Report information: ", saved_sql.id))),
+        Repeat('-', Length(Concat("Report technical information: ", saved_sql.id))),
         Char(13), 
         Char(10), 
         Char(13), 
@@ -243,6 +245,11 @@ SQL: 3720
         ), 
         Char(13), 
         Char(10), 
+        Char(13), 
+        Char(10), 
+        Char(13), 
+        Char(10), 
+        "----------", 
         Char(13), 
         Char(10), 
         Char(13), 

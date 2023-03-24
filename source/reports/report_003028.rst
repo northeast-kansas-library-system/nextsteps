@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003028 // GHW - Circulation Stats - Circulation count by flexible dates
-==============================================================================
+Report 003028 contents // GHW - Circulation Stats - Circulation count by flexible dates
+=======================================================================================
 
-Report information: 3028
-------------------------
+Report technical information: 3028
+----------------------------------
 
 ID number: 3028
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -45,6 +45,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3028
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003393 // C2 Circulation by item details - item type
-===========================================================
+Report 003393 contents // C2 Circulation by item details - item type
+====================================================================
 
-Report information: 3393
-------------------------
+Report technical information: 3393
+----------------------------------
 
 ID number: 3393
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -87,6 +87,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3393
 ---------

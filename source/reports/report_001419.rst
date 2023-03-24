@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001419 // Items with Missing Status
-==========================================
+Report 001419 contents // Items with Missing Status
+===================================================
 
-Report information: 1419
-------------------------
+Report technical information: 1419
+----------------------------------
 
 ID number: 1419
 
@@ -20,7 +20,7 @@ Modified on: 2015-08-16 18:11:42
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1419
 ---------

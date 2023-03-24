@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002796 // GHW - Duplicate holds on a bibliographic record
-================================================================
+Report 002796 contents // GHW - Duplicate holds on a bibliographic record
+=========================================================================
 
-Report information: 2796
-------------------------
+Report technical information: 2796
+----------------------------------
 
 ID number: 2796
 
@@ -20,7 +20,7 @@ Modified on: 2018-04-16 11:02:22
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2796
 ---------

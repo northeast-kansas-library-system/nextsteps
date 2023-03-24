@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002478 // Active borrowers count in last 6 months and 1 year
-===================================================================
+Report 002478 contents // Active borrowers count in last 6 months and 1 year
+============================================================================
 
-Report information: 2478
-------------------------
+Report technical information: 2478
+----------------------------------
 
 ID number: 2478
 
@@ -20,7 +20,7 @@ Modified on: 2015-08-20 10:15:20
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2478
 ---------

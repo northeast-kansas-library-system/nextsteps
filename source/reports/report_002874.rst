@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002874 // GHW - Payments, Credits, and Writeoffs - Date Range
-====================================================================
+Report 002874 contents // GHW - Payments, Credits, and Writeoffs - Date Range
+=============================================================================
 
-Report information: 2874
-------------------------
+Report technical information: 2874
+----------------------------------
 
 ID number: 2874
 
@@ -18,7 +18,7 @@ Modified on: 2021-05-07 09:30:17
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2874
 ---------

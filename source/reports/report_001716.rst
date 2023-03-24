@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001716 // Check on status of a deleted bib record
-========================================================
+Report 001716 contents // Check on status of a deleted bib record
+=================================================================
 
-Report information: 1716
-------------------------
+Report technical information: 1716
+----------------------------------
 
 ID number: 1716
 
@@ -20,7 +20,7 @@ Modified on: 2015-05-19 11:42:41
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1716
 ---------

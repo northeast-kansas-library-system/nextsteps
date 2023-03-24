@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002879 // GHW - Tonganoxie 200th patron report
-=====================================================
+Report 002879 contents // GHW - Tonganoxie 200th patron report
+==============================================================
 
-Report information: 2879
-------------------------
+Report technical information: 2879
+----------------------------------
 
 ID number: 2879
 
@@ -18,7 +18,7 @@ Modified on: 2021-08-16 13:40:06
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -40,6 +40,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2879
 ---------

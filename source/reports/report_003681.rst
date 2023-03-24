@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003681 // Administrative Report - Duplicate Userids
-==========================================================
+Report 003681 contents // Administrative Report - Duplicate Userids
+===================================================================
 
-Report information: 3681
-------------------------
+Report technical information: 3681
+----------------------------------
 
 ID number: 3681
 
@@ -14,7 +14,7 @@ Modified on: 2022-11-21 17:33:54
 
 Cache expiry in seconds: 300
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -26,6 +26,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3681
 ---------

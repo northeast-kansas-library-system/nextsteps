@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001227 // Your New Patrons
-=================================
+Report 001227 contents // Your New Patrons
+==========================================
 
-Report information: 1227
-------------------------
+Report technical information: 1227
+----------------------------------
 
 ID number: 1227
 
@@ -16,7 +16,7 @@ Created on: 2011-11-01 16:10:52
 
 Modified on: 2020-05-08 11:16:19
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1227
 ---------

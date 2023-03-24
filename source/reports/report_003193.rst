@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003193 // GHW - Bibliographic records scheduled for auto-deletion
-========================================================================
+Report 003193 contents // GHW - Bibliographic records scheduled for auto-deletion
+=================================================================================
 
-Report information: 3193
-------------------------
+Report technical information: 3193
+----------------------------------
 
 ID number: 3193
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -46,6 +46,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3193
 ---------

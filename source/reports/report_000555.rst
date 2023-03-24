@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000555 // NEW PATRONS listed for finding errors
-======================================================
+Report 000555 contents // NEW PATRONS listed for finding errors
+===============================================================
 
-Report information: 555
------------------------
+Report technical information: 555
+---------------------------------
 
 ID number: 555
 
@@ -18,7 +18,7 @@ Created on: 2009-05-11 14:05:16
 
 Modified on: 2022-02-02 18:06:39
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 555
 --------

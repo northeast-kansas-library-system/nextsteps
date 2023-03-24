@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002758 // Authors with possible duplicates
-=================================================
+Report 002758 contents // Authors with possible duplicates
+==========================================================
 
-Report information: 2758
-------------------------
+Report technical information: 2758
+----------------------------------
 
 ID number: 2758
 
@@ -20,7 +20,7 @@ Modified on: 2019-02-10 20:54:14
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2758
 ---------

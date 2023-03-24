@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002841 // GHW - Daily/hourly statistical tracker
-=======================================================
+Report 002841 contents // GHW - Daily/hourly statistical tracker
+================================================================
 
-Report information: 2841
-------------------------
+Report technical information: 2841
+----------------------------------
 
 ID number: 2841
 
@@ -18,7 +18,7 @@ Modified on: 2021-04-30 14:52:05
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -45,6 +45,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2841
 ---------

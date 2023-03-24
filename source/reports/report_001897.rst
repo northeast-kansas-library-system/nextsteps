@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001897 // List of Patron Category Names
-==============================================
+Report 001897 contents // List of Patron Category Names
+=======================================================
 
-Report information: 1897
-------------------------
+Report technical information: 1897
+----------------------------------
 
 ID number: 1897
 
@@ -20,7 +20,7 @@ Modified on: 2019-07-20 19:38:45
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1897
 ---------

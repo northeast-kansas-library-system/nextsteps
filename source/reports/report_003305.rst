@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003305 // GHW - items deleted last month by itype
-========================================================
+Report 003305 contents // GHW - items deleted last month by itype
+=================================================================
 
-Report information: 3305
-------------------------
+Report technical information: 3305
+----------------------------------
 
 ID number: 3305
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3305
 ---------

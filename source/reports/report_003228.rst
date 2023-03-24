@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003228 // GHW - List / virtualshelf report 005 - Display list titles with links to bibliographic records
-===============================================================================================================
+Report 003228 contents // GHW - List / virtualshelf report 005 - Display list titles with links to bibliographic records
+========================================================================================================================
 
-Report information: 3228
-------------------------
+Report technical information: 3228
+----------------------------------
 
 ID number: 3228
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -54,6 +54,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3228
 ---------

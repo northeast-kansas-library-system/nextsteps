@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002416 // Checkouts, Checkins, Renewals on a specific date
-=================================================================
+Report 002416 contents // Checkouts, Checkins, Renewals on a specific date
+==========================================================================
 
-Report information: 2416
-------------------------
+Report technical information: 2416
+----------------------------------
 
 ID number: 2416
 
@@ -20,7 +20,7 @@ Modified on: 2014-11-17 15:42:44
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2416
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002055 // COLL-newdelinq-linked-HIAW
-===========================================
+Report 002055 contents // COLL-newdelinq-linked-HIAW
+====================================================
 
-Report information: 2055
-------------------------
+Report technical information: 2055
+----------------------------------
 
 ID number: 2055
 
@@ -18,7 +18,7 @@ Modified on: 2023-02-09 10:20:33
 
 Created by: ROBIN.HASTINGS
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2055
 ---------

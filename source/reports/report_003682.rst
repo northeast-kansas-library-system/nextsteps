@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003682 // GHW - Upcoming closures for home page for jQuery enhancement
-=============================================================================
+Report 003682 contents // GHW - Upcoming closures for home page for jQuery enhancement
+======================================================================================
 
-Report information: 3682
-------------------------
+Report technical information: 3682
+----------------------------------
 
 ID number: 3682
 
@@ -20,7 +20,7 @@ Public: Yes
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -46,6 +46,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3682
 ---------

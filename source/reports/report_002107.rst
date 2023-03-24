@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002107 // Circ stats for titles in a specific collection code, for a specific year
-=========================================================================================
+Report 002107 contents // Circ stats for titles in a specific collection code, for a specific year
+==================================================================================================
 
-Report information: 2107
-------------------------
+Report technical information: 2107
+----------------------------------
 
 ID number: 2107
 
@@ -20,7 +20,7 @@ Modified on: 2013-11-19 22:00:00
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2107
 ---------

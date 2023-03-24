@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002757 // GHW - 245h
-===========================
+Report 002757 contents // GHW - 245h
+====================================
 
-Report information: 2757
-------------------------
+Report technical information: 2757
+----------------------------------
 
 ID number: 2757
 
@@ -16,7 +16,7 @@ Modified on: 2018-01-24 16:59:27
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2757
 ---------

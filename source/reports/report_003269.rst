@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003269 // GHW - ADMINREPORT - REGBRANCH cleanup 2
-========================================================
+Report 003269 contents // GHW - ADMINREPORT - REGBRANCH cleanup 2
+=================================================================
 
-Report information: 3269
-------------------------
+Report technical information: 3269
+----------------------------------
 
 ID number: 3269
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3269
 ---------

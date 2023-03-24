@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001033 // Fines over $10 by branch
-=========================================
+Report 001033 contents // Fines over $10 by branch
+==================================================
 
-Report information: 1033
-------------------------
+Report technical information: 1033
+----------------------------------
 
 ID number: 1033
 
@@ -18,7 +18,7 @@ Created on: 2011-01-24 21:34:31
 
 Modified on: 2013-06-21 13:49:49
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1033
 ---------

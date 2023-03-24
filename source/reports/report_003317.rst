@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003317 // GHW - Self-Registration Report
-===============================================
+Report 003317 contents // GHW - Self-Registration Report
+========================================================
 
-Report information: 3317
-------------------------
+Report technical information: 3317
+----------------------------------
 
 ID number: 3317
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3317
 ---------

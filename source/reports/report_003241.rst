@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003241 // GHW - Patron Purge 101
-=======================================
+Report 003241 contents // GHW - Patron Purge 101
+================================================
 
-Report information: 3241
-------------------------
+Report technical information: 3241
+----------------------------------
 
 ID number: 3241
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -34,6 +34,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3241
 ---------

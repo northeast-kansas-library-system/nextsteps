@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001395 // Circ by Patron Category
-========================================
+Report 001395 contents // Circ by Patron Category
+=================================================
 
-Report information: 1395
-------------------------
+Report technical information: 1395
+----------------------------------
 
 ID number: 1395
 
@@ -18,7 +18,7 @@ Created on: 2012-05-14 14:25:25
 
 Modified on: 2013-09-21 16:27:44
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1395
 ---------

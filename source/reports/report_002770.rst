@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002770 // GHW - Flexible Circulation and Renewal Count by Shelving Location
-==================================================================================
+Report 002770 contents // GHW - Flexible Circulation and Renewal Count by Shelving Location
+===========================================================================================
 
-Report information: 2770
-------------------------
+Report technical information: 2770
+----------------------------------
 
 ID number: 2770
 
@@ -18,7 +18,7 @@ Modified on: 2023-01-18 17:38:18
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -45,6 +45,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2770
 ---------

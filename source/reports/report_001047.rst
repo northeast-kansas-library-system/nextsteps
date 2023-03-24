@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001047 // Most-Circulated Report at Your Library, limited by Item Type and Shelving Location
-===================================================================================================
+Report 001047 contents // Most-Circulated Report at Your Library, limited by Item Type and Shelving Location
+============================================================================================================
 
-Report information: 1047
-------------------------
+Report technical information: 1047
+----------------------------------
 
 ID number: 1047
 
@@ -16,7 +16,7 @@ Created on: 2011-02-22 10:13:01
 
 Modified on: 2015-08-16 17:02:11
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1047
 ---------

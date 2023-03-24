@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003355 // D2 Circulation by borrower details - Unique borrowers
-======================================================================
+Report 003355 contents // D2 Circulation by borrower details - Unique borrowers
+===============================================================================
 
-Report information: 3355
-------------------------
+Report technical information: 3355
+----------------------------------
 
 ID number: 3355
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -54,6 +54,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3355
 ---------
@@ -682,11 +684,7 @@ SQL: 3355
       Date_Format(AddDate(Last_Day(SubDate(Now(), INTERVAL 2 MONTH)), 1) + INTERVAL 20 DAY, "%W") AS `21`, 
       Date_Format(AddDate(Last_Day(SubDate(Now(), INTERVAL 2 MONTH)), 1) + INTERVAL 21 DAY, "%W") AS `22`, 
       Date_Format(AddDate(Last_Day(SubDate(Now(), INTERVAL 2 MONTH)), 1) + INTERVAL 22 DAY, "%W") AS `23`, 
-      Date_Format(AddDate(Last_Day(SubDate(Now(), INTERVAL 2 MONTH)), 1) + INTERVAL 23 DAY, "%W") A
-
-||AAAAA||
-
-    S `24`, 
+      Date_Format(AddDate(Last_Day(SubDate(Now(), INTERVAL 2 MONTH)), 1) + INTERVAL 23 DAY, "%W") AS `24`, 
       Date_Format(AddDate(Last_Day(SubDate(Now(), INTERVAL 2 MONTH)), 1) + INTERVAL 24 DAY, "%W") AS `25`, 
       Date_Format(AddDate(Last_Day(SubDate(Now(), INTERVAL 2 MONTH)), 1) + INTERVAL 25 DAY, "%W") AS `26`, 
       Date_Format(AddDate(Last_Day(SubDate(Now(), INTERVAL 2 MONTH)), 1) + INTERVAL 26 DAY, "%W") AS `27`, 

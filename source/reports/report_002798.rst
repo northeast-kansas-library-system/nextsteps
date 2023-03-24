@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002798 // GHW - Stats Sample 001
-=======================================
+Report 002798 contents // GHW - Stats Sample 001
+================================================
 
-Report information: 2798
-------------------------
+Report technical information: 2798
+----------------------------------
 
 ID number: 2798
 
@@ -20,7 +20,7 @@ Modified on: 2016-10-10 09:09:25
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2798
 ---------

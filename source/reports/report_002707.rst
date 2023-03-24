@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002707 // Intra-Consortial Loans at a branch in the previous calendar month
-==================================================================================
+Report 002707 contents // Intra-Consortial Loans at a branch in the previous calendar month
+===========================================================================================
 
-Report information: 2707
-------------------------
+Report technical information: 2707
+----------------------------------
 
 ID number: 2707
 
@@ -20,7 +20,7 @@ Modified on: 2016-07-12 18:21:58
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2707
 ---------

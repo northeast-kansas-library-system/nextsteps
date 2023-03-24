@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002785 // GHW - Requests troubleshooting 004 - Item check-out history
-============================================================================
+Report 002785 contents // GHW - Requests troubleshooting 004 - Item check-out history
+=====================================================================================
 
-Report information: 2785
-------------------------
+Report technical information: 2785
+----------------------------------
 
 ID number: 2785
 
@@ -20,7 +20,7 @@ Modified on: 2018-04-16 11:02:24
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2785
 ---------

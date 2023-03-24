@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001187 // Collection size by Shelving Location
-=====================================================
+Report 001187 contents // Collection size by Shelving Location
+==============================================================
 
-Report information: 1187
-------------------------
+Report technical information: 1187
+----------------------------------
 
 ID number: 1187
 
@@ -18,7 +18,7 @@ Created on: 2011-09-06 17:01:39
 
 Modified on: 2013-09-21 16:19:41
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1187
 ---------

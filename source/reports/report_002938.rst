@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002938 // GHW - Unique Management Report
-===============================================
+Report 002938 contents // GHW - Unique Management Report
+========================================================
 
-Report information: 2938
-------------------------
+Report technical information: 2938
+----------------------------------
 
 ID number: 2938
 
@@ -16,7 +16,7 @@ Modified on: 2019-12-26 11:46:44
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2938
 ---------

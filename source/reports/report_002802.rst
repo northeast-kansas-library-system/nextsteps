@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002802 // GHW - Requests troubleshooting 006 - Patron requests current
-=============================================================================
+Report 002802 contents // GHW - Requests troubleshooting 006 - Patron requests current
+======================================================================================
 
-Report information: 2802
-------------------------
+Report technical information: 2802
+----------------------------------
 
 ID number: 2802
 
@@ -20,7 +20,7 @@ Modified on: 2018-04-16 11:02:15
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2802
 ---------

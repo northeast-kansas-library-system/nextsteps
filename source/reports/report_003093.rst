@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003093 // GHW - Patron attributes - Other attributes 1 / Other attirbutes 2 / Registration library
-=========================================================================================================
+Report 003093 contents // GHW - Patron attributes - Other attributes 1 / Other attirbutes 2 / Registration library
+==================================================================================================================
 
-Report information: 3093
-------------------------
+Report technical information: 3093
+----------------------------------
 
 ID number: 3093
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -47,6 +47,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3093
 ---------

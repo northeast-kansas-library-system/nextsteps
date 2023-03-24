@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003714 // Test x 1
-=========================
+Report 003714 contents // Test x 1
+==================================
 
-Report information: 3714
-------------------------
+Report technical information: 3714
+----------------------------------
 
 ID number: 3714
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3714
 ---------

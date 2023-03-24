@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002896 // GHW - Items by home library and lost status
-============================================================
+Report 002896 contents // GHW - Items by home library and lost status
+=====================================================================
 
-Report information: 2896
-------------------------
+Report technical information: 2896
+----------------------------------
 
 ID number: 2896
 
@@ -16,7 +16,7 @@ Modified on: 2020-08-18 16:40:29
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2896
 ---------

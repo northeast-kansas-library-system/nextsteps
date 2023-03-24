@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003419 // A2 Monthly overview - Circulation
-==================================================
+Report 003419 contents // A2 Monthly overview - Circulation
+===========================================================
 
-Report information: 3419
-------------------------
+Report technical information: 3419
+----------------------------------
 
 ID number: 3419
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -83,6 +83,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3419
 ---------

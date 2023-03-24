@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001078 // Overdue Report by Date Range
-=============================================
+Report 001078 contents // Overdue Report by Date Range
+======================================================
 
-Report information: 1078
-------------------------
+Report technical information: 1078
+----------------------------------
 
 ID number: 1078
 
@@ -18,7 +18,7 @@ Created on: 2011-03-31 13:02:52
 
 Modified on: 2013-06-23 12:27:01
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1078
 ---------

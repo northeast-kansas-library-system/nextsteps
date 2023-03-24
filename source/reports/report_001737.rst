@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001737 // Doniphan Restricted Item Types
-===============================================
+Report 001737 contents // Doniphan Restricted Item Types
+========================================================
 
-Report information: 1737
-------------------------
+Report technical information: 1737
+----------------------------------
 
 ID number: 1737
 
@@ -18,7 +18,7 @@ Modified on: 2021-08-16 20:40:25
 
 Created by: donitroytech
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1737
 ---------

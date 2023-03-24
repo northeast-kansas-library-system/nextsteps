@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001647 // Patrons with messages
-======================================
+Report 001647 contents // Patrons with messages
+===============================================
 
-Report information: 1647
-------------------------
+Report technical information: 1647
+----------------------------------
 
 ID number: 1647
 
@@ -18,7 +18,7 @@ Modified on: 2013-09-25 17:23:48
 
 Created by: ROSSTECH
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1647
 ---------

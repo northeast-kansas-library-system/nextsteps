@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003507 // GHW - Request turnaround time
-==============================================
+Report 003507 contents // GHW - Request turnaround time
+=======================================================
 
-Report information: 3507
-------------------------
+Report technical information: 3507
+----------------------------------
 
 ID number: 3507
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3507
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002808 // GHW - Flexible shelflist sorted by branch, location, itype, ccode
-==================================================================================
+Report 002808 contents // GHW - Flexible shelflist sorted by branch, location, itype, ccode
+===========================================================================================
 
-Report information: 2808
-------------------------
+Report technical information: 2808
+----------------------------------
 
 ID number: 2808
 
@@ -20,7 +20,7 @@ Modified on: 2023-03-07 13:32:33
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2808
 ---------

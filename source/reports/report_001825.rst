@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001825 // When was an item deleted, based on barcode?
-============================================================
+Report 001825 contents // When was an item deleted, based on barcode?
+=====================================================================
 
-Report information: 1825
-------------------------
+Report technical information: 1825
+----------------------------------
 
 ID number: 1825
 
@@ -20,7 +20,7 @@ Modified on: 2013-06-19 12:54:14
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1825
 ---------

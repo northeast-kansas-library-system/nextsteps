@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002279 // Which titles have the most holds by your patrons?
-==================================================================
+Report 002279 contents // Which titles have the most holds by your patrons?
+===========================================================================
 
-Report information: 2279
-------------------------
+Report technical information: 2279
+----------------------------------
 
 ID number: 2279
 
@@ -18,7 +18,7 @@ Modified on: 2015-08-16 20:51:25
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2279
 ---------

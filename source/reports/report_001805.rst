@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001805 // Current Checked out List, Limited by School & Grade
-====================================================================
+Report 001805 contents // Current Checked out List, Limited by School & Grade
+=============================================================================
 
-Report information: 1805
-------------------------
+Report technical information: 1805
+----------------------------------
 
 ID number: 1805
 
@@ -18,7 +18,7 @@ Modified on: 2015-03-12 14:01:28
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1805
 ---------

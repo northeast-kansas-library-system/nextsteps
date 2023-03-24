@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002871 // GHW - YE 11.2
-==============================
+Report 002871 contents // GHW - YE 11.2
+=======================================
 
-Report information: 2871
-------------------------
+Report technical information: 2871
+----------------------------------
 
 ID number: 2871
 
@@ -20,7 +20,7 @@ Modified on: 2022-12-02 10:50:25
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2871
 ---------

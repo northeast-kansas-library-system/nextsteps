@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001573 // Identify Multiple Items of a Title
-===================================================
+Report 001573 contents // Identify Multiple Items of a Title
+============================================================
 
-Report information: 1573
-------------------------
+Report technical information: 1573
+----------------------------------
 
 ID number: 1573
 
@@ -20,7 +20,7 @@ Modified on: 2016-06-09 10:33:43
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1573
 ---------

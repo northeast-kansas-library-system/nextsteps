@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003693 // GHW - Create stub accounts for staff
-=====================================================
+Report 003693 contents // GHW - Create stub accounts for staff
+==============================================================
 
-Report information: 3693
-------------------------
+Report technical information: 3693
+----------------------------------
 
 ID number: 3693
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3693
 ---------
@@ -435,8 +437,7 @@ SQL: 3693
                                                                                                                 branches.branchcode = 'WETMORE',
                                                                                                                 '9386673000',
                                                                                                                 If(
-                                                                                                                  branches.branchcode = 'WILLIAMSBG',
-                                                                                                                  '9455426724',
+                                                                                                                  branches.branchcode = 'WILLIAMSBG', '9455426724',
                                                                                                                   If(
                                                                                                                     branches.branchcode = 'WINCHESTER',
                                                                                                                     '9462437837',

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001868 // Checking on holds Older than July 1, 2013
-==========================================================
+Report 001868 contents // Checking on holds Older than July 1, 2013
+===================================================================
 
-Report information: 1868
-------------------------
+Report technical information: 1868
+----------------------------------
 
 ID number: 1868
 
@@ -20,7 +20,7 @@ Modified on: 2019-05-03 19:30:47
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1868
 ---------

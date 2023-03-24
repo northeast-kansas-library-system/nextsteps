@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003706 // GHW - Item count by home library and item type
-===============================================================
+Report 003706 contents // GHW - Item count by home library and item type
+========================================================================
 
-Report information: 3706
-------------------------
+Report technical information: 3706
+----------------------------------
 
 ID number: 3706
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -77,6 +77,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3706
 ---------

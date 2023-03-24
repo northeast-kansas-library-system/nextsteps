@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003325 // GHW - New requests report
-==========================================
+Report 003325 contents // GHW - New requests report
+===================================================
 
-Report information: 3325
-------------------------
+Report technical information: 3325
+----------------------------------
 
 ID number: 3325
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3325
 ---------

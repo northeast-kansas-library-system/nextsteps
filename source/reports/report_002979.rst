@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002979 // GHW - Circulation Statistics by borrower's birth year (date range)
-===================================================================================
+Report 002979 contents // GHW - Circulation Statistics by borrower's birth year (date range)
+============================================================================================
 
-Report information: 2979
-------------------------
+Report technical information: 2979
+----------------------------------
 
 ID number: 2979
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -45,6 +45,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2979
 ---------

@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002190 // Itemnotes Field Has Data
-=========================================
+Report 002190 contents // Itemnotes Field Has Data
+==================================================
 
-Report information: 2190
-------------------------
+Report technical information: 2190
+----------------------------------
 
 ID number: 2190
 
@@ -20,7 +20,7 @@ Modified on: 2018-05-08 21:27:41
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2190
 ---------

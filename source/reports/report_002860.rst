@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002860 // GHW - All requests on a bibliographic record
-=============================================================
+Report 002860 contents // GHW - All requests on a bibliographic record
+======================================================================
 
-Report information: 2860
-------------------------
+Report technical information: 2860
+----------------------------------
 
 ID number: 2860
 
@@ -16,7 +16,7 @@ Modified on: 2016-12-15 18:37:11
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2860
 ---------

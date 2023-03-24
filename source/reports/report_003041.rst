@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003041 // GHW - Flexible requests history spreadsheet
-============================================================
+Report 003041 contents // GHW - Flexible requests history spreadsheet
+=====================================================================
 
-Report information: 3041
-------------------------
+Report technical information: 3041
+----------------------------------
 
 ID number: 3041
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -47,6 +47,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3041
 ---------

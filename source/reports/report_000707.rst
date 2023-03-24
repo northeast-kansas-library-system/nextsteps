@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 000707 // Shelf List of Specific Call Number Prefix
-==========================================================
+Report 000707 contents // Shelf List of Specific Call Number Prefix
+===================================================================
 
-Report information: 707
------------------------
+Report technical information: 707
+---------------------------------
 
 ID number: 707
 
@@ -20,7 +20,7 @@ Modified on: 2015-07-01 18:21:04
 
 Created by: nekls
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 707
 --------

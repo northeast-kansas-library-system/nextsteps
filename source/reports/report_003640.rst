@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003640 // COPY - GHW - Overdue count at a library - during the previous calendar month - LEAVENWRTH
-==========================================================================================================
+Report 003640 contents // COPY - GHW - Overdue count at a library - during the previous calendar month - LEAVENWRTH
+===================================================================================================================
 
-Report information: 3640
-------------------------
+Report technical information: 3640
+----------------------------------
 
 ID number: 3640
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: bwssupport
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -41,6 +41,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3640
 ---------

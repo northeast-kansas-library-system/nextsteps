@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001165 // Basehor Lost 
-==============================
+Report 001165 contents // Basehor Lost 
+=======================================
 
-Report information: 1165
-------------------------
+Report technical information: 1165
+----------------------------------
 
 ID number: 1165
 
@@ -18,7 +18,7 @@ Modified on: 2021-08-16 20:43:45
 
 Created by: BASETECH
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1165
 ---------

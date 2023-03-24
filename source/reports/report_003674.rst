@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003674 // Items in a library's collection with Replacement Price
-=======================================================================
+Report 003674 contents // Items in a library's collection with Replacement Price
+================================================================================
 
-Report information: 3674
-------------------------
+Report technical information: 3674
+----------------------------------
 
 ID number: 3674
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: OTTATECH
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3674
 ---------

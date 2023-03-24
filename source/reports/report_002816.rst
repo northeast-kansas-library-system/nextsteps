@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002816 // GHW - Quick list of titles by an author
-========================================================
+Report 002816 contents // GHW - Quick list of titles by an author
+=================================================================
 
-Report information: 2816
-------------------------
+Report technical information: 2816
+----------------------------------
 
 ID number: 2816
 
@@ -20,7 +20,7 @@ Modified on: 2018-04-16 11:02:00
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -44,6 +44,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2816
 ---------

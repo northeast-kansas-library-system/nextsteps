@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003261 // GHW - Deleted items list by date the item was marked "Lost"
-============================================================================
+Report 003261 contents // GHW - Deleted items list by date the item was marked "Lost"
+=====================================================================================
 
-Report information: 3261
-------------------------
+Report technical information: 3261
+----------------------------------
 
 ID number: 3261
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -39,6 +39,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3261
 ---------

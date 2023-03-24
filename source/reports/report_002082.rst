@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002082 // Holds Queue Analysis (Available Items)
-=======================================================
+Report 002082 contents // Holds Queue Analysis (Available Items)
+================================================================
 
-Report information: 2082
-------------------------
+Report technical information: 2082
+----------------------------------
 
 ID number: 2082
 
@@ -20,7 +20,7 @@ Modified on: 2016-07-22 09:07:53
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2082
 ---------

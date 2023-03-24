@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002946 // GHW - Library information for contact list
-===========================================================
+Report 002946 contents // GHW - Library information for contact list
+====================================================================
 
-Report information: 2946
-------------------------
+Report technical information: 2946
+----------------------------------
 
 ID number: 2946
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 86400
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2946
 ---------

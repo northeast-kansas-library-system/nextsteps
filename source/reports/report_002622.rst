@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002622 // List of items with missing status limited by collection code
-=============================================================================
+Report 002622 contents // List of items with missing status limited by collection code
+======================================================================================
 
-Report information: 2622
-------------------------
+Report technical information: 2622
+----------------------------------
 
 ID number: 2622
 
@@ -20,7 +20,7 @@ Modified on: 2015-10-23 13:19:43
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2622
 ---------

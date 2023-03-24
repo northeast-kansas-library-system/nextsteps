@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003531 // GHW - Item count by item type -and- collection code
-====================================================================
+Report 003531 contents // GHW - Item count by item type -and- collection code
+=============================================================================
 
-Report information: 3531
-------------------------
+Report technical information: 3531
+----------------------------------
 
 ID number: 3531
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3531
 ---------

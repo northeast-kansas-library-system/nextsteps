@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002853 // GHW - Action Logs - previous 2 calendar months
-===============================================================
+Report 002853 contents // GHW - Action Logs - previous 2 calendar months
+========================================================================
 
-Report information: 2853
-------------------------
+Report technical information: 2853
+----------------------------------
 
 ID number: 2853
 
@@ -16,7 +16,7 @@ Modified on: 2023-02-22 22:18:21
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -37,6 +37,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2853
 ---------

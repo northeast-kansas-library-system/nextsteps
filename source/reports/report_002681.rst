@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002681 // Circulation of your library's materials at your library in a year, by item type, collection code and location
-==============================================================================================================================
+Report 002681 contents // Circulation of your library's materials at your library in a year, by item type, collection code and location
+=======================================================================================================================================
 
-Report information: 2681
-------------------------
+Report technical information: 2681
+----------------------------------
 
 ID number: 2681
 
@@ -22,7 +22,7 @@ Cache expiry in seconds: 300
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -34,6 +34,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2681
 ---------

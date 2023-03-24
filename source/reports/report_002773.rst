@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002773 // GHW - Card prefix report part 2
-================================================
+Report 002773 contents // GHW - Card prefix report part 2
+=========================================================
 
-Report information: 2773
-------------------------
+Report technical information: 2773
+----------------------------------
 
 ID number: 2773
 
@@ -16,7 +16,7 @@ Modified on: 2018-04-16 11:02:40
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -38,6 +38,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2773
 ---------

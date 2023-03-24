@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001339 // Circ by Call Number Range (Circ at Any Library)
-================================================================
+Report 001339 contents // Circ by Call Number Range (Circ at Any Library)
+=========================================================================
 
-Report information: 1339
-------------------------
+Report technical information: 1339
+----------------------------------
 
 ID number: 1339
 
@@ -20,7 +20,7 @@ Modified on: 2015-09-10 13:47:54
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1339
 ---------

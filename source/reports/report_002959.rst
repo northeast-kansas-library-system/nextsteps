@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002959 // GHW - Items about to be automatically deleted
-==============================================================
+Report 002959 contents // GHW - Items about to be automatically deleted
+=======================================================================
 
-Report information: 2959
-------------------------
+Report technical information: 2959
+----------------------------------
 
 ID number: 2959
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -47,6 +47,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2959
 ---------

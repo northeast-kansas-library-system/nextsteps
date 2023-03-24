@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001804 // SES Borrowers list limited by classroom teacher
-================================================================
+Report 001804 contents // SES Borrowers list limited by classroom teacher
+=========================================================================
 
-Report information: 1804
-------------------------
+Report technical information: 1804
+----------------------------------
 
 ID number: 1804
 
@@ -20,7 +20,7 @@ Modified on: 2014-08-19 22:35:14
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1804
 ---------

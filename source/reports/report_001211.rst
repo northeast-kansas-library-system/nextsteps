@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001211 // Holds Left Behind When Record Deleted
-======================================================
+Report 001211 contents // Holds Left Behind When Record Deleted
+===============================================================
 
-Report information: 1211
-------------------------
+Report technical information: 1211
+----------------------------------
 
 ID number: 1211
 
@@ -18,7 +18,7 @@ Created on: 2011-10-25 09:40:52
 
 Modified on: 2013-09-21 16:05:33
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1211
 ---------

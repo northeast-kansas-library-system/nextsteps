@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002964 // GHW - Collection agency report 01 - Unique management
-======================================================================
+Report 002964 contents // GHW - Collection agency report 01 - Unique management
+===============================================================================
 
-Report information: 2964
-------------------------
+Report technical information: 2964
+----------------------------------
 
 ID number: 2964
 
@@ -20,7 +20,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -42,6 +42,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2964
 ---------

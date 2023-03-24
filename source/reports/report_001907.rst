@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001907 // Notices Sent to a Specific Patron
-==================================================
+Report 001907 contents // Notices Sent to a Specific Patron
+===========================================================
 
-Report information: 1907
-------------------------
+Report technical information: 1907
+----------------------------------
 
 ID number: 1907
 
@@ -18,7 +18,7 @@ Modified on: 2013-06-17 00:55:59
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -30,6 +30,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1907
 ---------

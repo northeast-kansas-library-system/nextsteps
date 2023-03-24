@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002842 // GHW - Single item reports dashboard
-====================================================
+Report 002842 contents // GHW - Single item reports dashboard
+=============================================================
 
-Report information: 2842
-------------------------
+Report technical information: 2842
+----------------------------------
 
 ID number: 2842
 
@@ -16,7 +16,7 @@ Modified on: 2022-03-29 12:15:08
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -28,6 +28,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2842
 ---------

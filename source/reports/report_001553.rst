@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001553 // Deleted Items By Month
-=======================================
+Report 001553 contents // Deleted Items By Month
+================================================
 
-Report information: 1553
-------------------------
+Report technical information: 1553
+----------------------------------
 
 ID number: 1553
 
@@ -20,7 +20,7 @@ Modified on: 2015-05-19 11:42:48
 
 Created by: hbraum
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -32,6 +32,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1553
 ---------

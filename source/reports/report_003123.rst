@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 003123 // GHW - Checkout count by index term
-===================================================
+Report 003123 contents // GHW - Checkout count by index term
+============================================================
 
-Report information: 3123
-------------------------
+Report technical information: 3123
+----------------------------------
 
 ID number: 3123
 
@@ -18,7 +18,7 @@ Cache expiry in seconds: 300
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -45,6 +45,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 3123
 ---------

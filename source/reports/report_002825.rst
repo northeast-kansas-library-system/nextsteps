@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 002825 // GHW - Newly added - not indexed
-================================================
+Report 002825 contents // GHW - Newly added - not indexed
+=========================================================
 
-Report information: 2825
-------------------------
+Report technical information: 2825
+----------------------------------
 
 ID number: 2825
 
@@ -20,7 +20,7 @@ Modified on: 2018-04-16 11:05:33
 
 Created by: gwilliams
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -43,6 +43,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 2825
 ---------

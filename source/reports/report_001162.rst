@@ -1,10 +1,10 @@
 .. include:: /include.rst
 
-Report 001162 // Collection Value
-=================================
+Report 001162 contents // Collection Value
+==========================================
 
-Report information: 1162
-------------------------
+Report technical information: 1162
+----------------------------------
 
 ID number: 1162
 
@@ -20,7 +20,7 @@ Modified on: 2021-03-03 15:54:27
 
 Created by: BASETECH
 
-This file generated: 2023-03-22 15:19:48
+This file generated: 2023-03-24 16:49:10
 
 Notes:
 
@@ -36,6 +36,8 @@ Notes:
 
   </div>
 
+
+----------
 
 SQL: 1162
 ---------
