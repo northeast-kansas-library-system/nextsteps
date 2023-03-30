@@ -24,7 +24,7 @@ Welcome to Next Steps: a training site for Next Search Catalog
    :maxdepth: 2
    :caption: Highlighted training:
 
-   /pages/tools/calendar/index
+   /staff_instruction_sheets/staff_permission_for_new_staff
 
 ----------
 
