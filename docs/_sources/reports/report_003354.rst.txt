@@ -53,7 +53,7 @@ Notes:
 SQL: 3354
 ---------
 
-.. code-block:: sql
+.. code-block:: SQL
   :linenos:
 
     SELECT
