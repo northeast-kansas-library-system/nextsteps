@@ -1,0 +1,88 @@
+.. include:: /include.rst
+
+Report 003257 contents // GHW - Patron output for input ADMINREPORT
+===================================================================
+
+Report technical information: 3257
+----------------------------------
+
+ID number: 3257
+
+Name: GHW - Patron output for input ADMINREPORT
+
+Created on: 2019-08-24 00:37:54
+
+Modified on: 2020-04-23 02:28:16
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3257
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      borrowers.cardnumber,
+      borrowers.surname,
+      borrowers.firstname,
+      borrowers.address,
+      borrowers.address2,
+      borrowers.city,
+      borrowers.state,
+      borrowers.zipcode,
+      borrowers.country,
+      borrowers.branchcode,
+      borrowers.categorycode
+    FROM
+      borrowers
+    WHERE
+      borrowers.branchcode NOT LIKE "HIGH_CC" AND
+      borrowers.branchcode NOT LIKE "PH%" AND
+      borrowers.branchcode LIKE <<Choose your library|branches>> AND
+      borrowers.categorycode <> "STAFF" AND
+      borrowers.cardnumber NOT LIKE "0%" AND
+      borrowers.cardnumber IS NOT NULL AND
+      borrowers.cardnumber NOT LIKE ""
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

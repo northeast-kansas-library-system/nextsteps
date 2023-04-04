@@ -1,0 +1,84 @@
+.. include:: /include.rst
+
+Report 002866 contents // GHW - YE 2.2a
+=======================================
+
+Report technical information: 2866
+----------------------------------
+
+ID number: 2866
+
+Name: GHW - YE 2.2a
+
+Group: Daily, Monthly, Yearly Stats
+
+Sub-group: Yearly Stats Suite
+
+Created on: 2017-01-01 22:38:29
+
+Modified on: 2017-01-01 22:50:22
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 2866
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      branches.branchcode AS BRANCH,
+      Coalesce(TOTAL_PATRONS.COUNT, 0) AS '2.2a_TOTAL_PATRONS'
+    FROM
+      branches LEFT JOIN
+      (SELECT
+        borrowers.branchcode,
+        Count(*) AS COUNT
+      FROM
+        borrowers
+      GROUP BY
+        borrowers.branchcode) TOTAL_PATRONS
+        ON branches.branchcode = TOTAL_PATRONS.branchcode
+    GROUP BY
+      branches.branchcode
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

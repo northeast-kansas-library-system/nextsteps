@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 002205 contents // Never Checked Out Or Hasn't Checked Out Since a specific date (Limited to a collection code)
+======================================================================================================================
+
+Report technical information: 2205
+----------------------------------
+
+ID number: 2205
+
+Name: Never Checked Out Or Hasn't Checked Out Since a specific date (Limited to a collection code)
+
+Group: Catalog Records and Items
+
+Sub-group: Weeding Criteria
+
+Created on: 2014-03-11 14:42:05
+
+Modified on: 2016-06-09 09:36:23
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Limited by branch and collection code. 
+
+  </div>
+
+
+----------
+
+SQL: 2205
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT items.barcode as 'Barcode', items.holdingbranch, items.datelastseen, items.datelastborrowed, items.itemcallnumber, biblio.title, t.publicationyear as 'Copyright', items.dateaccessioned as 'Accessioned', items.itype, items.ccode, items.location FROM items LEFT JOIN biblio USING (biblionumber) LEFT JOIN biblioitems t USING(biblionumber)  WHERE items.homebranch= <<Pick Your Branch|branches>> AND items.ccode=<<collection code|CCODE>> AND ((items.issues IS NULL AND items.dateaccessioned < <<Choose date|date>>) OR items.datelastborrowed < <<Choose date again|date>>) ORDER BY items.itemcallnumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

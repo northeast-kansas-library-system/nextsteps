@@ -1,0 +1,137 @@
+.. include:: /include.rst
+
+Report 003551 contents // GHW - Output letter templates as .md files
+====================================================================
+
+Report technical information: 3551
+----------------------------------
+
+ID number: 3551
+
+Name: GHW - Output letter templates as .md files
+
+Group: Administrative Reports
+
+Created on: 2021-08-23 11:13:33
+
+Modified on: 2021-08-23 11:22:19
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3551
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat(Lower(letter.code), ".rst") AS FILENAME,
+      Concat(
+        ".. include:: /images.rst", 
+        Char(13), Char(10), 
+        Char(13), Char(10),
+        letter.name, 
+        Char(13), Char(10), 
+        "==========", 
+        Char(13), Char(10), 
+        Char(13), Char(10), 
+        "Notice information", 
+        Char(13), Char(10), 
+        "----------", 
+        Char(13), Char(10), 
+        Char(13), Char(10), 
+        "Description in progress", 
+        Char(13), Char(10), 
+        Char(10), Char(13), 
+        "Notice details:", 
+        Char(13), Char(10), 
+        "----------", 
+        Char(13), Char(10), 
+        Char(13), Char(10), 
+        "- General", 
+        Char(13), Char(10), 
+        "   - Library: ", 
+        If(letter.branchcode = "", "* All libraries (default)", letter.branchcode), 
+        Char(13), Char(10), 
+        "   - Module: ", 
+        letter.module, 
+        Char(13), Char(10), 
+        "   - Code: ", 
+        letter.code, 
+        Char(13), Char(10), 
+        "   - Name: ", 
+        letter.name, 
+        Char(13), Char(10), 
+        Char(13), Char(10), 
+        "- Email", 
+        Char(13), Char(10), 
+        "   - Type: ", 
+        If(letter.is_html = 1, "HTML", "Plain text"), 
+        Char(13), Char(10), 
+        "   - Message subject: ", 
+        letter.title, 
+        Char(13), Char(10), 
+        Char(13), Char(10), 
+        Char(13), Char(10), 
+        "Message template:", 
+        Char(13), Char(10), 
+        "^^^^^^^^^^^", 
+        Char(13), Char(10), 
+        Char(13), Char(10), 
+        ".. code-block:: html", 
+        Char(13), Char(10), 
+        Char(13), Char(10), 
+        letter.content, 
+        Char(13), Char(10)
+      ) AS INFO
+    FROM
+      letter
+    WHERE
+      letter.branchcode = "" AND
+      letter.message_transport_type = 'email'
+    GROUP BY
+      letter.code
+    ORDER BY
+      FILENAME
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

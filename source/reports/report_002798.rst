@@ -1,0 +1,77 @@
+.. include:: /include.rst
+
+Report 002798 contents // GHW - Stats Sample 001
+================================================
+
+Report technical information: 2798
+----------------------------------
+
+ID number: 2798
+
+Name: GHW - Stats Sample 001
+
+Group: Administrative Reports
+
+Sub-group: Testing
+
+Created on: 2016-10-10 09:04:14
+
+Modified on: 2016-10-10 09:09:25
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Report created for "Flexible reports" demo.
+
+  </div>
+
+
+----------
+
+SQL: 2798
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      statistics.branch,
+      statistics.itemtype,
+      count(*)
+    FROM statistics
+    WHERE statistics.type = "issue" AND
+      (statistics.datetime BETWEEN "2016-09-01" AND "2016-09-08")
+    GROUP BY statistics.branch, statistics.itemtype
+    WITH ROLLUP
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

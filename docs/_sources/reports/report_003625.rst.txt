@@ -1,0 +1,72 @@
+.. include:: /include.rst
+
+Report 003625 contents // Report from Wiki
+==========================================
+
+Report technical information: 3625
+----------------------------------
+
+ID number: 3625
+
+Name: Report from Wiki
+
+Created on: 2021-11-30 12:43:25
+
+Modified on: 2021-11-30 12:43:25
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3625
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT  ' ' AS Checkbox, b.title, b.author, i.itemcallnumber, i.barcode
+    FROM items i
+    JOIN biblio b USING (biblionumber)
+    WHERE i.homebranch=<<Branch|branches>> AND 
+          b.author LIKE CONCAT(<<Author: Last Name, First Name>>,'%')
+    ORDER BY b.title
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

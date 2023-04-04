@@ -1,0 +1,65 @@
+.. include:: /include.rst
+
+Report 002516 contents // Monthly Fines Report 2
+================================================
+
+Report technical information: 2516
+----------------------------------
+
+ID number: 2516
+
+Name: Monthly Fines Report 2
+
+Created on: 2015-05-28 10:30:15
+
+Modified on: 2019-12-26 11:46:17
+
+Created by: ROBIN.HASTINGS
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    <p><span style="color: yellow; background-color: red; font-size: 200%;">References accountlines.accounttype.  Needs to be updated after January 4, 2020</span></p>
+
+  </div>
+
+
+----------
+
+SQL: 2516
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT accounttype, COUNT(*) from accountlines LEFT JOIN borrowers USING (borrowernumber) WHERE borrowers.branchcode="EUDORA" AND year(date)="2015" AND month(date)="04" GROUP BY accounttype
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

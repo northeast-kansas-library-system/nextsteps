@@ -1,7 +1,7 @@
 .. include:: /include.rst
 
 Calendar - close on a specific date
-=========================
+===================================
 
 #. On the home page click on "Tools"
 
@@ -37,10 +37,10 @@ Calendar - close on a specific date
 
 -----
 
-Video on YouTube
-----------------
+Calendar - close on a specific date: Video on YouTube
+-----------------------------------------------------
 
-Watch "Check-in is your friend" on YouTube
+Watch "Calendar - close on a specific date" on YouTube
 
 .. only:: html
 

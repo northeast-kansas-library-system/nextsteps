@@ -1,0 +1,102 @@
+.. include:: /include.rst
+
+Report 003397 contents // GHW - 942H ADMINREPORT - DESC
+=======================================================
+
+Report technical information: 3397
+----------------------------------
+
+ID number: 3397
+
+Name: GHW - 942H ADMINREPORT - DESC
+
+Created on: 2021-01-08 11:16:37
+
+Modified on: 2021-01-09 22:22:30
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3397
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      biblioitems.biblionumber,
+      biblio.author,
+      biblio.title,
+      biblio.subtitle,
+      biblio.medium,
+      biblioitems.itemtype,
+      biblioitems.cn_class,
+      itemccode.Group_Concat_ccode
+    FROM
+      biblio JOIN
+      biblioitems ON biblioitems.biblionumber = biblio.biblionumber JOIN
+      (SELECT
+          items.biblionumber,
+          GROUP_CONCAT(DISTINCT items.ccode ORDER BY items.ccode) AS
+          Group_Concat_ccode
+        FROM
+          items
+        GROUP BY
+          items.biblionumber) itemccode ON itemccode.biblionumber =
+          biblioitems.biblionumber
+    WHERE
+      biblioitems.cn_class IS NULL AND
+      itemccode.Group_Concat_ccode = 'PAPERBACK'
+    GROUP BY
+      biblioitems.biblionumber,
+      biblio.author,
+      biblio.title,
+      biblio.subtitle,
+      biblio.medium,
+      biblioitems.itemtype,
+      biblioitems.cn_class,
+      itemccode.Group_Concat_ccode
+    ORDER BY
+      biblioitems.biblionumber DESC
+    LIMIT 1000
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

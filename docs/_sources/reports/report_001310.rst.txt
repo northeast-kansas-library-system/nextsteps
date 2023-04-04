@@ -1,0 +1,70 @@
+.. include:: /include.rst
+
+Report 001310 contents // Top Circing Items in the Last Six Months in Entire Catalog
+====================================================================================
+
+Report technical information: 1310
+----------------------------------
+
+ID number: 1310
+
+Name: Top Circing Items in the Last Six Months in Entire Catalog
+
+Group: Circulation
+
+Sub-group: Circ Stats
+
+Created on: 2012-01-31 18:43:08
+
+Modified on: 2014-11-17 15:35:37
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #circ
+
+  </div>
+
+
+----------
+
+SQL: 1310
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT count(statistics.datetime) AS circs, biblio.title, biblio.author, items.ccode FROM statistics JOIN items USING (itemnumber) 
+    LEFT JOIN biblio USING(biblionumber) WHERE DATE(statistics.datetime) > DATE_SUB(CURRENT_DATE(),INTERVAL 6 MONTH) AND DATE(statistics.datetime)<=CURRENT_DATE() AND statistics.itemnumber IS NOT NULL AND items.ccode=<<ccode|CCODE>> AND items.location =<<location|LOC>> GROUP BY biblio.biblionumber ORDER BY circs DESC LIMIT 20
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

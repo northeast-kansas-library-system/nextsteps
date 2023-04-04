@@ -1,0 +1,94 @@
+.. include:: /include.rst
+
+Report 002758 contents // Authors with possible duplicates
+==========================================================
+
+Report technical information: 2758
+----------------------------------
+
+ID number: 2758
+
+Name: Authors with possible duplicates
+
+Group: Administrative Reports
+
+Sub-group: Post-Lansing
+
+Created on: 2016-09-04 16:38:55
+
+Modified on: 2019-02-10 20:54:14
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Backwards - start at page 55
+
+  </div>
+
+
+----------
+
+SQL: 2758
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat(
+         '<a href=\"/cgi-bin/koha/reports/guided_reports.pl?reports=3166&phase=Run+this+report&m_name=searchterm&sql_params=',
+        Replace(Replace(Replace(Replace(biblio.author, ".", ""), ",", ""), "'", ""), " ","+"),
+        '" target="_blank">Run targeted search</a>'
+      ) AS ASEARCH,
+      Concat(
+        '<a href=\"/cgi-bin/koha/catalogue/search.pl?idx=au&q=',
+        Replace(Replace(Replace(biblio.author, ".", ""), ",", ""), "'", ""),
+        '&sort_by=title_az\" target="_blank">',
+        Replace(Replace(Replace(biblio.author, ".", ""), ",", ""), "'", ""),
+        '</a>'
+      ) AS "Author Search",
+      Replace(Replace(Replace(biblio.author, ".", ""), ",", ""), "'", "") AS AUTHOR,
+      Count(items.itemnumber)
+    FROM
+      biblio
+      JOIN items ON items.biblionumber = biblio.biblionumber
+    WHERE
+      items.homebranch = 'HIGH_CC'
+    GROUP BY
+      Replace(Replace(Replace(biblio.author, ".", ""), ",", ""), "'", "")
+    HAVING
+      Count(items.itemnumber) > 1
+    ORDER BY
+      Count(items.itemnumber) DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+.. include:: /include.rst
+
+Report 000984 contents // Problem Holds
+=======================================
+
+Report technical information: 984
+---------------------------------
+
+ID number: 984
+
+Name: Problem Holds
+
+Group: Administrative Reports
+
+Sub-group: Holds-admin
+
+Created on: 2010-11-19 15:14:42
+
+Modified on: 2022-12-14 12:03:26
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 984
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT 
+      surname, 
+      firstname, 
+      cardnumber, 
+      reserves.borrowernumber, 
+      reserves.branchcode, 
+      reservenotes, 
+      priority, 
+      found, 
+      reserves.timestamp, 
+      reserves.itemnumber, 
+      waitingdate, 
+      biblio.title 
+    FROM reserves 
+      LEFT JOIN borrowers USING(borrowernumber) 
+      LEFT JOIN biblio USING(biblionumber) 
+    WHERE 
+      priority = 0 and 
+      waitingdate is null and 
+      found is not null 
+    ORDER BY reservedate DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

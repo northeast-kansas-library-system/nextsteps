@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 001005 contents // Trapped Holds at wrong pick up branch
+===============================================================
+
+Report technical information: 1005
+----------------------------------
+
+ID number: 1005
+
+Name: Trapped Holds at wrong pick up branch
+
+Group: Administrative Reports
+
+Sub-group: Holds-admin
+
+Created on: 2010-12-13 11:13:03
+
+Modified on: 2013-06-19 12:44:21
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Admin report - used for finding possible mis-routed holds.
+
+  </div>
+
+
+----------
+
+SQL: 1005
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    select biblio.title, reserves.branchcode as 'pickup branch', borrowers.branchcode as 'borrower branch', borrowers.surname, borrowers.firstname from reserves LEFT JOIN biblio USING (biblionumber) LEFT JOIN borrowers USING (borrowernumber) WHERE reserves.priority = 0 and found = 't' and reserves.branchcode != borrowers.branchcode order by reserves.branchcode, borrowers.branchcode
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

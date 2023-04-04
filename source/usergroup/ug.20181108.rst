@@ -8,12 +8,12 @@ Zoom Link: https://kslib.zoom.us/j/927269951
 
 1. Announcements, news, brief items, etc.
 
- - Introductions
- - Additions to the agenda
+  - Introductions
+  - Additions to the agenda
 
 2. 2019 participation agreement
 
- - `Link to 2019 participation agreement (pdf) <../files/participation.agreement/2019.participation.agreement.pdf>`_
+  - `Link to 2019 participation agreement (pdf) <../files/participation.agreement/2019.participation.agreement.pdf>`_
 
 3. Policy manual and Privacy and confidentiality statement updates
 
@@ -23,10 +23,10 @@ Zoom Link: https://kslib.zoom.us/j/927269951
 
 6. Automatic expired patron account deletion
 
- - First run was on September 21
- - Next run will be on December 30/31
- - Documents -  bulk patron account deletion process pdf
- - Patron Account Expiration Blocks -  remove expiration blocks pdf
+  - First run was on September 21
+  - Next run will be on December 30/31
+  - Documents -  bulk patron account deletion process pdf
+  - Patron Account Expiration Blocks -  remove expiration blocks pdf
 
 7. Calendar issues
 
@@ -34,16 +34,7 @@ Zoom Link: https://kslib.zoom.us/j/927269951
 
 9. Next meeting:
 
- - February in Lawrence
- - March/April in Hiawatha
- - September in Osage City
- - November in Basehor
-
-
- .. |ss| raw:: html
-
-     <strike>
-
- .. |se| raw:: html
-
-     </strike>
+  - February in Lawrence
+  - March/April in Hiawatha
+  - September in Osage City
+  - November in Basehor

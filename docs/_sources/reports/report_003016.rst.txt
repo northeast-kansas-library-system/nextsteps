@@ -1,0 +1,78 @@
+.. include:: /include.rst
+
+Report 003016 contents // GHW - Last 50 bibliographic records added
+===================================================================
+
+Report technical information: 3016
+----------------------------------
+
+ID number: 3016
+
+Name: GHW - Last 50 bibliographic records added
+
+Group: Catalog Records and Items
+
+Created on: 2017-12-10 15:42:24
+
+Modified on: 2017-12-10 15:42:24
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3016
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      biblio.biblionumber,
+      Concat('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=', biblio.biblionumber, '\" target="_blank">', "LINK", '</a>') AS LINK,
+      biblio.author,
+      biblio.title
+    FROM
+      biblio
+    ORDER BY
+      biblio.biblionumber DESC
+      LIMIT 50
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

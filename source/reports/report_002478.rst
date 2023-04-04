@@ -1,0 +1,82 @@
+.. include:: /include.rst
+
+Report 002478 contents // Active borrowers count in last 6 months and 1 year
+============================================================================
+
+Report technical information: 2478
+----------------------------------
+
+ID number: 2478
+
+Name: Active borrowers count in last 6 months and 1 year
+
+Group: Borrowers
+
+Sub-group: Patron Statistics
+
+Created on: 2015-03-31 12:01:48
+
+Modified on: 2015-08-20 10:15:20
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Gives a count of active borrowers interacting at your library (interaction=they have checked out, renewed, or checked in items), during a certain time period.
+
+  </div>
+
+
+----------
+
+SQL: 2478
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT @1:="Last 6 months: Active Unique Borrowers" AS "Active Borrowers", count(DISTINCT s.borrowernumber) AS "Count" FROM statistics s WHERE s.branch = <<Choose library|branches>>AND s.datetime >= date_sub(now(), interval 6 month)
+    
+    UNION
+    
+    
+    SELECT @1:="Last 1 year: Active Unique Borrowers", count(DISTINCT s.borrowernumber)  FROM statistics s WHERE s.branch=<<Choose library|branches>> AND s.datetime >= date_sub(now(), interval 1 year)
+    
+    UNION
+    
+    SELECT @1:="Last 6 months: Active Unique Registered Borrowers", count(DISTINCT s.borrowernumber) FROM statistics s LEFT JOIN borrowers b USING(borrowernumber) WHERE s.branch=<<Choose library|branches>> AND b.branchcode=<<Choose library|branches>> AND s.datetime >= date_sub(now(), interval 6 month)
+    
+    UNION
+    
+    SELECT @1:="Last 1 year: Active Unique Registered Borrowers", count(DISTINCT s.borrowernumber) FROM statistics s LEFT JOIN borrowers b USING(borrowernumber) WHERE s.branch=<<Choose library|branches>> AND b.branchcode=<<Choose library|branches>> AND s.datetime >= date_sub(now(), interval 1 year)
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

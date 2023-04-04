@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 003338 contents // Debit Codes
+=====================================
+
+Report technical information: 3338
+----------------------------------
+
+ID number: 3338
+
+Name: Debit Codes
+
+Created on: 2020-07-09 14:05:15
+
+Modified on: 2020-07-09 14:05:43
+
+Cache expiry in seconds: 300
+
+Created by: bwssupport
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3338
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT CONCAT('<a href=\"/cgi-bin/koha/reports/guided_reports.pl?reports=3337&phase=Run+this+report&param_name=Gimme+a+code&sql_params=', code ,'\">',code,'</a>') AS code,
+    	description
+    FROM account_debit_types
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

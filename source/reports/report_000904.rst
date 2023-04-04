@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 000904 contents // Patrons with total fines credit
+=========================================================
+
+Report technical information: 904
+---------------------------------
+
+ID number: 904
+
+Name: Patrons with total fines credit
+
+Group: Circulation
+
+Sub-group: Charges
+
+Created on: 2010-08-16 13:51:51
+
+Modified on: 2013-06-18 10:48:24
+
+Created by: nekls
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enhanced - Run, pick your branch and see who has a credit. What is difference between this and 831?
+
+  </div>
+
+
+----------
+
+SQL: 904
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT  borrowers.cardnumber, borrowers.surname, borrowers.firstname, FORMAT(SUM(accountlines.amountoutstanding),2) as due FROM borrowers LEFT JOIN accountlines USING (borrowernumber) WHERE borrowers.branchcode=<<Pick your branch|branches>> AND accountlines.amountoutstanding != 0 GROUP BY borrowers.cardnumber having SUM(accountlines.amountoutstanding) < 0 ORDER BY borrowers.surname ASC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

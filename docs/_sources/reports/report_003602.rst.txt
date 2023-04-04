@@ -1,0 +1,94 @@
+.. include:: /include.rst
+
+Report 003602 contents // LibraryIQ - Bibliographic File (full) - BONNERSPGS
+============================================================================
+
+Report technical information: 3602
+----------------------------------
+
+ID number: 3602
+
+Name: LibraryIQ - Bibliographic File (full) - BONNERSPGS
+
+Group: LibraryIQ
+
+Sub-group: BONNERSPGS
+
+Created on: 2021-10-29 16:34:48
+
+Modified on: 2021-12-01 12:31:40
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #libraryiq #bibliographic #full #bonnerspgs #weekly
+
+  </div>
+
+
+----------
+
+SQL: 3602
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      biblio.biblionumber AS BibliographicRecordID,
+      biblioitems.isbn AS ISBN,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="024"]/subfield[@code="a"]') AS UPC,
+      itemtypess.description AS `Material Type`,
+      biblio.title AS Title,
+      biblio.author AS Author,
+      biblioitems.publicationyear `Publish Date`,
+      biblioitems.publishercode Publisher,
+      CurDate() AS `Report Date`
+    FROM
+      biblio JOIN
+      biblioitems ON biblioitems.biblionumber = biblio.biblionumber JOIN
+      biblio_metadata ON biblio_metadata.biblionumber = biblio.biblionumber JOIN
+      items ON items.biblionumber = biblio.biblionumber JOIN
+      (SELECT
+          itemtypes.itemtype,
+          itemtypes.description
+        FROM
+          itemtypes) itemtypess ON itemtypess.itemtype = items.itype
+    WHERE
+      items.homebranch = 'BONNERSPGS'
+    GROUP BY
+      biblio.biblionumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 001423 contents // Lost Items Count per Branch
+=====================================================
+
+Report technical information: 1423
+----------------------------------
+
+ID number: 1423
+
+Name: Lost Items Count per Branch
+
+Group: Catalog Records and Items
+
+Sub-group: Status reports-lost, damaged
+
+Created on: 2012-05-14 23:48:28
+
+Modified on: 2013-09-25 17:15:40
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Count of Lost Items per Branch. (On Reports Webpages, 5/14/12); #count
+
+  </div>
+
+
+----------
+
+SQL: 1423
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT items.homebranch, authorised_values.lib, count(items.itemnumber) as items FROM items LEFT JOIN authorised_values ON (items.itemlost=authorised_values.authorised_value) WHERE items.itemlost != 0 AND authorised_values.category='LOST' GROUP BY items.homebranch, authorised_values.lib ORDER BY homebranch, authorised_values.lib asc 
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

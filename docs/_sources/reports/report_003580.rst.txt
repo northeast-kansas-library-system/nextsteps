@@ -1,0 +1,90 @@
+.. include:: /include.rst
+
+Report 003580 contents // LibraryIQ - Basic circulation rules (setup)
+=====================================================================
+
+Report technical information: 3580
+----------------------------------
+
+ID number: 3580
+
+Name: LibraryIQ - Basic circulation rules (setup)
+
+Group: LibraryIQ
+
+Sub-group: Setup
+
+Created on: 2021-10-11 11:06:21
+
+Modified on: 2021-10-13 11:10:55
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #libraryiq #setup
+
+  </div>
+
+
+----------
+
+SQL: 3580
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      circulation_rules.branchcode,
+      Coalesce(categories.description, "All borrowers not specified above") AS
+      BORROWER_CATEGORY,
+      Coalesce(itemtypes.description, "All item types not specified above") AS
+      ITEM_TYPE,
+      circulation_rules.rule_value AS `Loan period`,
+      CurDate() AS `Report Date`
+    FROM
+      circulation_rules LEFT JOIN
+      categories ON circulation_rules.categorycode = categories.categorycode
+      LEFT JOIN
+      itemtypes ON circulation_rules.itemtype = itemtypes.itemtype
+    WHERE
+      circulation_rules.branchcode = <<Choose your library|branches>> AND
+      circulation_rules.rule_name = 'issuelength'
+    ORDER BY
+      circulation_rules.branchcode,
+      Coalesce(categories.description, "Z"),
+      Coalesce(itemtypes.description, "Z")
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

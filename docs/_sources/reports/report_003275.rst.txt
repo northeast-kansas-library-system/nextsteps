@@ -1,0 +1,72 @@
+.. include:: /include.rst
+
+Report 003275 contents // GHW - ADMINREPORT - Quick count
+=========================================================
+
+Report technical information: 3275
+----------------------------------
+
+ID number: 3275
+
+Name: GHW - ADMINREPORT - Quick count
+
+Created on: 2019-10-01 01:00:55
+
+Modified on: 2019-10-01 01:00:55
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3275
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Count(*) AS COUNT
+    FROM
+      items
+    WHERE
+      items.itype = 'MEDIA'
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 000685 contents // Item types
+====================================
+
+Report technical information: 685
+---------------------------------
+
+ID number: 685
+
+Name: Item types
+
+Group: Administrative Reports
+
+Sub-group: System-admin
+
+Created on: 2009-09-30 13:17:06
+
+Modified on: 2013-06-16 14:48:51
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Admin - lists item types
+
+  </div>
+
+
+----------
+
+SQL: 685
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    select * from itemtypes
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 001163 contents // single collection code value
+======================================================
+
+Report technical information: 1163
+----------------------------------
+
+ID number: 1163
+
+Name: single collection code value
+
+Group: Catalog Records and Items
+
+Sub-group: Collection Statistics
+
+Created on: 2011-08-11 17:03:50
+
+Modified on: 2013-11-17 16:16:09
+
+Created by: BASETECH
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #special
+
+  </div>
+
+
+----------
+
+SQL: 1163
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT biblio.title, items.replacementprice, count(items.biblionumber) as items, sum(items.replacementprice) as value FROM items JOIN biblio USING (biblionumber) WHERE items.homebranch = <<Pick your branch|branches>> AND items.ccode = <<Choose your Collection code|CCODE>> GROUP BY items.biblionumber ORDER BY items.biblionumber asc
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

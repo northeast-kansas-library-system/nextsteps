@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 003205 contents // McNaughton
+====================================
+
+Report technical information: 3205
+----------------------------------
+
+ID number: 3205
+
+Name: McNaughton
+
+Group: Circulation
+
+Created on: 2019-05-22 13:44:28
+
+Modified on: 2019-05-22 13:44:28
+
+Cache expiry in seconds: 29
+
+Created by: HCCDIRECTOR
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3205
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT  items.barcode,items.issues,items.reserves,items.ccode FROM borrowers LEFT JOIN statistics on (statistics.borrowernumber=borrowers.borrowernumber) LEFT JOIN items on (items.itemnumber = statistics.itemnumber) LEFT JOIN biblioitems on (biblioitems.biblioitemnumber = items.biblioitemnumber)   WHERE items.itype='BOOK'
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

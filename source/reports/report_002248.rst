@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 002248 contents // Count of Total items currently checked out by collection and location
+===============================================================================================
+
+Report technical information: 2248
+----------------------------------
+
+ID number: 2248
+
+Name: Count of Total items currently checked out by collection and location
+
+Group: Circulation
+
+Sub-group: Checked Out
+
+Created on: 2014-04-23 14:08:50
+
+Modified on: 2014-04-23 14:11:54
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Limited by items' homebranch. Gives total counts of items currently checked out in collection codes and shelving locations. 
+
+  </div>
+
+
+----------
+
+SQL: 2248
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    select items.ccode, items.location, count(issues.itemnumber) from issues join items using(itemnumber) where items.homebranch=<<branch|branches>> GROUP BY items.ccode, items.location
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

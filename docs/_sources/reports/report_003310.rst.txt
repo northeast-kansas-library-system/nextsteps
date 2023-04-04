@@ -1,0 +1,90 @@
+.. include:: /include.rst
+
+Report 003310 contents // GHW - duplicates ADMINREPORT
+======================================================
+
+Report technical information: 3310
+----------------------------------
+
+ID number: 3310
+
+Name: GHW - duplicates ADMINREPORT
+
+Created on: 2020-02-08 20:17:56
+
+Modified on: 2020-02-08 21:39:42
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3310
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    Select
+      Concat('<a href=\"/cgi-bin/koha/catalogue/search.pl?idx=ti&q=', Trim(Replace(Replace(Replace(Replace(Replace(Replace(biblio.title, '/', ''), ':', ''), ';', ''), '.', ''), '"', ''), "'", "")), '&sort_by=title_az\" target="_blank">SEARCH</a>') As SEARCH,
+      Trim(Replace(Replace(Replace(Replace(Replace(Replace(biblio.title, '/', ''), ':', ''), ';', ''), '.', ''), '"', ''), "'", "")) As TITLE,
+      Group_Concat(biblio.biblionumber) As BIBLIONUMBERS,
+      Group_Concat(biblio.author, " | ") As AUTHORS,
+      Count(biblio.biblionumber) As TITLE_COUNT
+    From
+      biblio Join
+      (Select
+          items.biblionumber
+        From
+          items
+        Where
+          items.ccode Not Like "DL%" And
+          items.ccode Not Like "ER%"
+        Group By
+          items.biblionumber) itemsx On itemsx.biblionumber = biblio.biblionumber
+    Group By
+      Concat('<a href=\"/cgi-bin/koha/catalogue/search.pl?idx=ti&q=', Trim(Replace(Replace(Replace(Replace(Replace(biblio.title, '/', ''), ':', ''), ';', ''), '.', ''), '"', '')), '&sort_by=title_az\" target="_blank">SEARCH</a>'),
+      Trim(Replace(Replace(Replace(Replace(Replace(biblio.title, '/', ''), ':', ''), ';', ''), '.', ''), '"', ''))
+    Having
+      Count(biblio.biblionumber) > 1
+    Order By
+      TITLE
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

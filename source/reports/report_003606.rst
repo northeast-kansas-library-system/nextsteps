@@ -1,0 +1,88 @@
+.. include:: /include.rst
+
+Report 003606 contents // GHW - Unique notices
+==============================================
+
+Report technical information: 3606
+----------------------------------
+
+ID number: 3606
+
+Name: GHW - Unique notices
+
+Created on: 2021-11-04 01:02:08
+
+Modified on: 2021-11-07 12:39:37
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3606
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      letter.code,
+      letter.message_transport_type,
+      letter.is_html,
+      REPLACE(letter.content, "<", "&lt;")  AS CONTENT, 
+      GROUP_CONCAT(
+        DISTINCT 
+        If(letter.branchcode = "", "All libraries", letter.branchcode) 
+        ORDER BY If(letter.branchcode = "", "All libraries", letter.branchcode) 
+        SEPARATOR " | "
+      ) AS BRANCHES
+    FROM
+      letter
+    WHERE
+      letter.message_transport_type = "email" AND 
+      letter.code LIKE "%DUE%"
+    GROUP BY
+      letter.code,
+      letter.message_transport_type,
+      letter.content,
+      letter.is_html,
+      Hex(letter.content)
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

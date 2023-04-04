@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 001664 contents // Date last borrowed, Call number and Title limited by Ccode
+====================================================================================
+
+Report technical information: 1664
+----------------------------------
+
+ID number: 1664
+
+Name: Date last borrowed, Call number and Title limited by Ccode
+
+Group: Catalog Records and Items
+
+Sub-group: Weeding Criteria
+
+Created on: 2012-12-03 19:36:57
+
+Modified on: 2014-10-08 14:30:43
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enhanced - Pick your branch and CCode to get a list of items with 
+
+  </div>
+
+
+----------
+
+SQL: 1664
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT  items.holdingbranch, items.datelastborrowed,items.datelastseen, items.itemcallnumber,biblio.title, biblio.author FROM items JOIN biblio USING (biblionumber) WHERE items.homebranch = <<Pick your branch|branches>> AND items.ccode=<<Pick your Ccode|CCODE>> ORDER BY biblio.title asc
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

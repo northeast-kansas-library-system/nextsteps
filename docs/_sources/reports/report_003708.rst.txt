@@ -1,0 +1,76 @@
+.. include:: /include.rst
+
+Report 003708 contents // GHW - Branch names and branchcodes
+============================================================
+
+Report technical information: 3708
+----------------------------------
+
+ID number: 3708
+
+Name: GHW - Branch names and branchcodes
+
+Created on: 2023-02-13 16:02:12
+
+Modified on: 2023-02-13 16:02:12
+
+Cache expiry in seconds: 300
+
+Created by: NEKLSADMIN
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3708
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    Select
+      branches.branchname,
+      branches.branchcode
+    From
+      branches
+    Group By
+      branches.branchname,
+      branches.branchcode
+    LIMIT
+      100
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

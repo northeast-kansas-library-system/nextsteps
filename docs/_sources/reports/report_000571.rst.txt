@@ -1,0 +1,78 @@
+.. include:: /include.rst
+
+Report 000571 contents // Monthly 006 New Materials Added by Collection Code and Location
+=========================================================================================
+
+Report technical information: 571
+---------------------------------
+
+ID number: 571
+
+Name: Monthly 006 New Materials Added by Collection Code and Location
+
+Created on: 2009-06-01 16:58:23
+
+Modified on: 2020-12-08 22:47:06
+
+Created by: nekls
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Shows count of new items added to a collection in last month by ccode and shelving location 
+
+  </div>
+
+
+----------
+
+SQL: 571
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      items.homebranch AS "Library",
+      items.ccode AS "Collection Code",
+      items.permanent_location AS "Location",
+      Count(items.biblionumber) AS "Total Added"
+    FROM
+      items
+    WHERE
+      Year(items.dateaccessioned) = << Choose year|YEAR>> AND
+      Month(items.dateaccessioned) = << Choose month|MONTH >>
+    GROUP BY
+      items.homebranch,
+      items.ccode,
+      items.permanent_location
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

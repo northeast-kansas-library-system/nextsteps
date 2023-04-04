@@ -1,0 +1,121 @@
+.. include:: /include.rst
+
+Report 003584 contents // LibraryIQ - Location codes tab (setup)
+================================================================
+
+Report technical information: 3584
+----------------------------------
+
+ID number: 3584
+
+Name: LibraryIQ - Location codes tab (setup)
+
+Group: LibraryIQ
+
+Sub-group: Setup
+
+Created on: 2021-10-11 17:52:44
+
+Modified on: 2021-10-13 11:08:18
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #libraryiq #setup
+
+  </div>
+
+
+----------
+
+SQL: 3584
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat('Permanent Shelving Locations') AS Type,
+      Concat('-') AS CODE,
+      Concat('-') AS STAFF_DESCRIPTION,
+      Concat('-') AS OPAC_DESCRIPTION,
+      Concat('-') AS `Report Date`
+    UNION
+    SELECT
+      Concat(''),
+      authorised_values.authorised_value,
+      authorised_values.lib,
+      authorised_values.lib_opac,
+      DATE_FORMAT(CurDate(), "%Y.%m.%d")
+    FROM
+      authorised_values
+    WHERE
+      authorised_values.category = 'LOC'
+    UNION
+    SELECT
+      Concat('Item types') AS Type,
+      Concat('-') AS CODE,
+      Concat('-') AS STAFF_DESCRIPTION,
+      Concat('-') AS OPAC_DESCRIPTION,
+      Concat('-') AS DATA_COLLECTED_ON
+    UNION
+    SELECT
+      Concat(''),
+      itemtypes.itemtype,
+      itemtypes.description,
+      itemtypes.description AS description1,
+      DATE_FORMAT(CurDate(), "%Y.%m.%d")
+    FROM
+      itemtypes
+    UNION
+    SELECT
+      Concat('Collection codes') AS Type,
+      Concat('-') AS CODE,
+      Concat('-') AS STAFF_DESCRIPTION,
+      Concat('-') AS OPAC_DESCRIPTION,
+      Concat('-') AS DATA_COLLECTED_ON
+    UNION
+    SELECT
+      Concat(''),
+      authorised_values.authorised_value,
+      authorised_values.lib,
+      authorised_values.lib_opac,
+      DATE_FORMAT(CurDate(), "%Y.%m.%d")
+    FROM
+      authorised_values
+    WHERE
+      authorised_values.category = 'CCODE'
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

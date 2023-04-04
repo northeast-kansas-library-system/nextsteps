@@ -1,0 +1,85 @@
+.. include:: /include.rst
+
+Report 003277 contents // GHW - ADMINREPORT - TONGANOXIE push
+=============================================================
+
+Report technical information: 3277
+----------------------------------
+
+ID number: 3277
+
+Name: GHW - ADMINREPORT - TONGANOXIE push
+
+Created on: 2019-10-04 16:07:57
+
+Modified on: 2019-10-10 08:50:15
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3277
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      reserves.branchcode,
+      Concat('<a href="/cgi-bin/koha/circ/circulation.pl?borrowernumber=', reserves.borrowernumber, '#reserves " target="_blank">Open in new window</a>') AS LINK,
+      Count(reserves.reserve_id) AS Count_reserve_id,
+      reserves.suspend_until
+    FROM
+      reserves
+    WHERE
+      reserves.branchcode LIKE <<Choose pickup library|LBRANCH>> AND
+      reserves.found IS NULL AND
+      reserves.suspend_until = <<Choose "Suspended until date"|date>>
+    GROUP BY
+      reserves.borrowernumber,
+      reserves.branchcode,
+      reserves.found,
+      reserves.suspend,
+      reserves.suspend_until
+    ORDER BY
+      reserves.borrowernumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

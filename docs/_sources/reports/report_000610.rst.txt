@@ -1,0 +1,72 @@
+.. include:: /include.rst
+
+Report 000610 contents // Branchcodes and Branchnames
+=====================================================
+
+Report technical information: 610
+---------------------------------
+
+ID number: 610
+
+Name: Branchcodes and Branchnames
+
+Group: Administrative Reports
+
+Sub-group: System-admin
+
+Created on: 2009-06-24 16:26:50
+
+Modified on: 2017-12-18 21:33:47
+
+Created by: nekls
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Simple table showing branch names and branchcode
+
+  </div>
+
+
+----------
+
+SQL: 610
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT branches.branchname,
+      branches.branchcode 
+    FROM branches 
+    ORDER BY branchname ASC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

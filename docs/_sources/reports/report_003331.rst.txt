@@ -1,0 +1,89 @@
+.. include:: /include.rst
+
+Report 003331 contents // GHW Adminreport - Long states
+=======================================================
+
+Report technical information: 3331
+----------------------------------
+
+ID number: 3331
+
+Name: GHW Adminreport - Long states
+
+Created on: 2020-06-09 13:17:12
+
+Modified on: 2020-06-09 13:17:12
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3331
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      borrowers.cardnumber,
+      borrowers.surname,
+      borrowers.firstname,
+      borrowers.address,
+      borrowers.address2,
+      borrowers.city,
+      borrowers.state,
+      borrowers.zipcode,
+      borrowers.country,
+      borrowers.branchcode,
+      borrowers.categorycode
+    FROM
+      borrowers
+    WHERE
+      borrowers.branchcode NOT LIKE "HIGH_CC" AND
+      borrowers.branchcode NOT LIKE "PH%" AND
+      borrowers.branchcode LIKE '%' AND
+      borrowers.categorycode <> "STAFF" AND
+      borrowers.cardnumber NOT LIKE "0%" AND
+      borrowers.cardnumber IS NOT NULL AND
+      borrowers.cardnumber NOT LIKE "" AND
+      Length(borrowers.state) > 2
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+.. include:: /include.rst
+
+Report 003473 contents // GHW- Median collection age ADMINREPORT
+================================================================
+
+Report technical information: 3473
+----------------------------------
+
+ID number: 3473
+
+Name: GHW- Median collection age ADMINREPORT
+
+Created on: 2021-03-04 10:27:13
+
+Modified on: 2021-03-04 20:12:50
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3473
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      items.homebranch,
+      biblioitems.publicationyear AS MEDIAN_COLLECTION_AGE
+    FROM
+      biblioitems JOIN
+      items ON items.biblioitemnumber = biblioitems.biblioitemnumber
+    WHERE
+      items.homebranch = <<Choose your library|branches>> AND
+      biblioitems.publicationyear < Year(Now()) AND
+      biblioitems.publicationyear REGEXP '^[0-9]+$'
+    GROUP BY
+      items.homebranch,
+      biblioitems.publicationyear,
+      items.itemnumber
+    ORDER BY
+      MEDIAN_COLLECTION_AGE
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

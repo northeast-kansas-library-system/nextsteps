@@ -1,7 +1,7 @@
 .. include:: /include.rst
 
 Calendar - close a range of dates
-======================
+=================================
 
 #. On the home page click on "Tools"
 
@@ -41,10 +41,10 @@ Calendar - close a range of dates
 
 -----
 
-Video on YouTube
-----------------
+Calendar - close a range of dates: Video on YouTube
+---------------------------------------------------
 
-Watch "Check-in is your friend" on YouTube
+Watch "Calendar - close a range of dates" on YouTube
 
 .. only:: html
 

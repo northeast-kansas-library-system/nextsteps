@@ -41,7 +41,7 @@ Next Search Catalog
 *******************
 
 Next Search Catalog overview
-===========================
+============================
 
 Next Search Catalog staff interface overview
 ============================================

@@ -1,0 +1,82 @@
+.. include:: /include.rst
+
+Report 003168 contents // GHW - Narrow down
+===========================================
+
+Report technical information: 3168
+----------------------------------
+
+ID number: 3168
+
+Name: GHW - Narrow down
+
+Group: Administrative Reports
+
+Created on: 2019-02-11 23:05:21
+
+Modified on: 2019-02-11 23:05:21
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3168
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat(
+         '<a href=\"/cgi-bin/koha/reports/guided_reports.pl?reports=3166&phase=Run+this+report&m_name=searchterm&sql_params=',
+        Replace(Left(Replace(Replace(Replace(biblio.author, ".", ""), ",", ""), "'", ""), 3), " ","+"),
+        '" target="_blank">Run targeted search</a>'
+      ) AS ASEARCH,
+      Left(Replace(Replace(Replace(biblio.author, ".", ""), ",", ""), "'", ""), 3) AS author,
+      Count(Replace(Replace(Replace(biblio.author, ".", ""), ",", ""), "'", "")) AS AUTHOR_COUNT
+    FROM
+      biblio
+    WHERE
+      Left(Replace(Replace(Replace(biblio.author, ".", ""), ",", ""), "'", ""), 3) LIKE "A%"
+    GROUP BY
+      Left(Replace(Replace(Replace(biblio.author, ".", ""), ",", ""), "'", ""), 3)
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

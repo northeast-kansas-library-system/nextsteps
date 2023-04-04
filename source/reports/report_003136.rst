@@ -1,0 +1,98 @@
+.. include:: /include.rst
+
+Report 003136 contents // GHW - videogames without links
+========================================================
+
+Report technical information: 3136
+----------------------------------
+
+ID number: 3136
+
+Name: GHW - videogames without links
+
+Created on: 2018-11-11 22:16:08
+
+Modified on: 2022-05-16 08:18:42
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    zbrq
+    
+    <p id="rquickdown"><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=1&phase=Export&format=csv&report_id=3136">Click here to download as a csv file</a></p>
+
+  </div>
+
+
+----------
+
+SQL: 3136
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      biblio.biblionumber,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=024]/subfield[@code="a"]') AS UPC,
+      biblio.datecreated,
+      biblio.timestamp,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=245]/subfield[@code="a"]') AS TITLE_A,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=245]/subfield[@code="n"]') AS TITLE_N,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=245]/subfield[@code="p"]') AS TITLE_P,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=245]/subfield[@code="h"]') AS TITLE_H,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=245]/subfield[@code="b"]') AS TITLE_B,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=245]/subfield[@code="c"]') AS TITLE_C,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=130]/subfield[@code="a"]') AS UNTITLE_OA,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=730]/subfield[@code="a"]') AS UNTITLE_SA,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=300]/subfield[@code="a"]') AS DESCRIP,
+      Group_Concat(DISTINCT items.ccode ORDER BY items.ccode ASC) AS Group_Concat_ccode,
+      biblio.frameworkcode,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=306]/subfield[@code="a"]') AS TIMESS,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=942]/subfield[@code="e"]') AS BIB_LOC,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=942]/subfield[@code="c"]') AS BIB_ITYPE,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag=942]/subfield[@code="h"]') AS BIB_CCODE
+    FROM
+      biblio
+      JOIN biblio_metadata ON biblio_metadata.biblionumber = biblio.biblionumber
+      JOIN items ON items.biblionumber = biblio.biblionumber
+    WHERE
+      (items.itype = 'GAME')
+    GROUP BY
+      biblio.biblionumber
+    ORDER BY
+      biblio.biblionumber DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

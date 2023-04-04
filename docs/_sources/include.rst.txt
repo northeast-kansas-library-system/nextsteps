@@ -59,7 +59,6 @@
 .. |cataloging_original_brief_030| image:: /images/pages/cataloging_original_brief/cataloging_original_brief_030.png
     :alt: Fill out the "Add MARC record" form
 
-
 .. pages/checkin
 
 .. |checkin.0010| image:: /images/pages/checkin/checkin.0010.png
@@ -450,6 +449,50 @@
 
 .. |login_changeover_0020.png| image:: /images/projects/login_changeover/login_changeover_0020.png
     :alt:
+
+.. reports_training 
+
+.. reports_training/000214
+
+.. |report_214_0010| image:: /images/reports_training/000214/report_214_0010.png
+    :alt: 3 steps to run the report
+
+.. |report_214_0020| image:: /images/reports_training/000214/report_214_0020.png
+    :alt: Report 214 results example
+
+.. reports_training/002731 
+
+.. |report_2731_0020| image:: /images/reports_training/002731/report_2731_0020.png 
+    :alt: Configuration for full shelf list 
+
+.. |report_2731_0030| image:: /images/reports_training/002731/report_2731_0030.png 
+    :alt:  Configuration for items added during a date range shelf list
+
+.. staff_instruction_sheets/cataloging_freeze
+
+.. |cataloging_freeze_0010| image:: /images/staff_instruction_sheets/cataloging_freeze/cataloging_freeze_0010.png
+    :alt: Find the row on the title's details page for the item and click on the "Edit" button for that row
+
+.. |cataloging_freeze_0020| image:: /images/staff_instruction_sheets/cataloging_freeze/cataloging_freeze_0020.png
+    :alt: Change the "Withdrawn" status to "Withdrawn during cataloging freeze" and then click on "Save changes"
+
+.. |cataloging_freeze_0030| image:: /images/staff_instruction_sheets/cataloging_freeze/cataloging_freeze_0030.png
+     :alt: The title's details page should display a "Withdrawn during cataloging freeze" badge for that item
+
+.. |cataloging_freeze_0040| image:: /images/staff_instruction_sheets/cataloging_freeze/cataloging_freeze_0040.png
+    :alt: From the staff interface home page click on "Tools"
+
+.. |cataloging_freeze_0050| image:: /images/staff_instruction_sheets/cataloging_freeze/cataloging_freeze_0050.png
+    :alt: From the "Tools" page click on "Batch item modification"
+
+.. |cataloging_freeze_0060| image:: /images/staff_instruction_sheets/cataloging_freeze/cataloging_freeze_0060.png
+    :alt: Enter barcodes numbers in the "Barcode list" text box and then click on "Continue"
+
+.. |cataloging_freeze_0070| image:: /images/staff_instruction_sheets/cataloging_freeze/cataloging_freeze_0070.png
+    :alt: Change the "Withdrawn" status to "Withdrawn during cataloging freeze" and then click on "Save"
+
+.. |cataloging_freeze_0080| image:: /images/staff_instruction_sheets/cataloging_freeze/cataloging_freeze_0080.png
+    :alt: If you look up any of the items you've marked as withdrawn, their details page should display "Withdrawn during cataloging freeze" badges for those items
 
 .. upgrades
 

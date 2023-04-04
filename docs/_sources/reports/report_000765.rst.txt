@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 000765 contents // Deleted items from a Year, Listed
+===========================================================
+
+Report technical information: 765
+---------------------------------
+
+ID number: 765
+
+Name: Deleted items from a Year, Listed
+
+Group: Catalog Records and Items
+
+Sub-group: Weeded Already
+
+Created on: 2010-01-06 10:21:41
+
+Modified on: 2015-05-19 11:42:51
+
+Created by: nekls
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Lists the items your library deleted in XXXX year. Pick your branch and insert the year.
+
+  </div>
+
+
+----------
+
+SQL: 765
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT deleteditems.homebranch, deleteditems.barcode,deleteditems.datelastseen, deleteditems.itype, deleteditems.ccode, deleteditems.timestamp, deletedbiblio.title AS "Title of Deleted Record", biblio.title AS "Title Still in Catalog", biblio.author FROM deleteditems LEFT JOIN deletedbiblio USING(biblionumber) LEFT JOIN biblio USING(biblionumber) WHERE deleteditems.homebranch = <<Pick your Branch|branches>> AND YEAR(deleteditems.timestamp) = << numericyear >> ORDER BY deleteditems.timestamp DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

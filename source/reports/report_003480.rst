@@ -1,0 +1,68 @@
+.. include:: /include.rst
+
+Report 003480 contents // ADMINREPORT - PLACEHOLDER for Median age by location and collection code
+==================================================================================================
+
+Report technical information: 3480
+----------------------------------
+
+ID number: 3480
+
+Name: ADMINREPORT - PLACEHOLDER for Median age by location and collection code
+
+Created on: 2021-03-05 17:24:51
+
+Modified on: 2021-03-25 01:50:02
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    In progress
+
+  </div>
+
+
+----------
+
+SQL: 3480
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat('Placeholder')
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

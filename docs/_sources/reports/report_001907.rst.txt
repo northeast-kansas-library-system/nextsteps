@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 001907 contents // Notices Sent to a Specific Patron
+===========================================================
+
+Report technical information: 1907
+----------------------------------
+
+ID number: 1907
+
+Name: Notices Sent to a Specific Patron
+
+Group: Notices
+
+Created on: 2013-06-11 15:32:54
+
+Modified on: 2013-06-17 00:55:59
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enter patron's borrowernumber (database number) to see all the messages sent to them by email or holds slips printed at the library.
+
+  </div>
+
+
+----------
+
+SQL: 1907
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT borrowernumber, message_id, content FROM message_queue WHERE borrowernumber=<<patron borrowernumber>> GROUP BY message_id, borrowernumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

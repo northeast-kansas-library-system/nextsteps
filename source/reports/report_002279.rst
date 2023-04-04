@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 002279 contents // Which titles have the most holds by your patrons?
+===========================================================================
+
+Report technical information: 2279
+----------------------------------
+
+ID number: 2279
+
+Name: Which titles have the most holds by your patrons?
+
+Group: Holds-Reserves
+
+Created on: 2014-06-10 15:16:34
+
+Modified on: 2015-08-16 20:51:25
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Returns titles with holds by your patrons, sorted by the records with the biggest number of your patrons with holds on them (based on their hold pickup location). 
+
+  </div>
+
+
+----------
+
+SQL: 2279
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    select CONCAT ('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',r.biblionumber,'\" target="_blank">',r.biblionumber,'</a>') AS "Link to Record", b.title, b.author, t.publicationyear, count(*) AS "Number of Holds by Your Patrons" from reserves r left join biblio b USING (biblionumber) left join biblioitems t USING(biblionumber) where r.branchcode = <<branch|branches>> group by r.biblionumber ORDER BY count(*) DESC, r.reservedate DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

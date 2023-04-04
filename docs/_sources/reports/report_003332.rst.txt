@@ -1,0 +1,83 @@
+.. include:: /include.rst
+
+Report 003332 contents // GHW - ADMINREPORT permanent location fix
+==================================================================
+
+Report technical information: 3332
+----------------------------------
+
+ID number: 3332
+
+Name: GHW - ADMINREPORT permanent location fix
+
+Created on: 2020-06-10 16:50:44
+
+Modified on: 2020-06-11 16:20:19
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3332
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      items.itemnumber,
+      items.biblionumber,
+      items.barcode,
+      items.permanent_location,
+      items.location
+    FROM
+      items
+    WHERE
+      (items.permanent_location IS NULL OR
+          items.permanent_location = "")
+    GROUP BY
+      items.itemnumber,
+      items.biblionumber,
+      items.barcode,
+      items.permanent_location,
+      items.location
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

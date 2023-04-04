@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 001762 contents // Top 100 Titles with Holds Report for non-Media (NOT DVDs, Blu-Ray, TV Series, Videogames)
+===================================================================================================================
+
+Report technical information: 1762
+----------------------------------
+
+ID number: 1762
+
+Name: Top 100 Titles with Holds Report for non-Media (NOT DVDs, Blu-Ray, TV Series, Videogames)
+
+Group: Popular Reports
+
+Created on: 2013-02-25 11:42:02
+
+Modified on: 2017-12-18 15:37:46
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 1762
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    select count(DISTINCT reserves.borrowernumber) as reservecount, count(DISTINCT items.itemnumber) as itemcount, ROUND(count(DISTINCT reserves.borrowernumber)/count(DISTINCT items.itemnumber)) AS holdsratio, biblio.title, ExtractValue(biblio_metadata.metadata, '//datafield[@tag="245"]/subfield[@code>="b"]') as 'Remainder of Title', items.ccode, items.itype, biblio.biblionumber f from borrowers LEFT JOIN reserves USING(borrowernumber) join biblio USING(biblionumber) join biblio_metadata USING(biblionumber) JOIN items USING(biblionumber) WHERE items.ccode NOT IN ('DVD','TVSERIES','BLU-RAY','VIDEOGAME','DISPLAY') AND items.itype NOT IN ('NEWMEDIA','MEDIA','GAME') AND biblio.biblionumber NOT IN ('538887','546605','538630','547805','549282','547390','539751','548383','545000','547992','548987','550575','550477','549927','549613','551569','550183','550186') group by biblionumber order by holdsratio desc, reservecount desc limit 100
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

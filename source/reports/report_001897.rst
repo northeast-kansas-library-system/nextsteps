@@ -1,0 +1,75 @@
+.. include:: /include.rst
+
+Report 001897 contents // List of Patron Category Names
+=======================================================
+
+Report technical information: 1897
+----------------------------------
+
+ID number: 1897
+
+Name: List of Patron Category Names
+
+Group: Administrative Reports
+
+Sub-group: System-admin
+
+Created on: 2013-06-07 11:43:46
+
+Modified on: 2019-07-20 19:38:45
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 1897
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      categorycode,
+      description
+    FROM categories
+    GROUP BY
+      categorycode
+    LIMIT 300
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

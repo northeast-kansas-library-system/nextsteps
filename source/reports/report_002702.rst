@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 002702 contents // Ottawa Patron count
+=============================================
+
+Report technical information: 2702
+----------------------------------
+
+ID number: 2702
+
+Name: Ottawa Patron count
+
+Group:  OTTAWA
+
+Created on: 2016-06-29 09:13:45
+
+Modified on: 2021-08-16 13:43:57
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 2702
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT b.categorycode, (SELECT ba.attribute FROM borrower_attributes ba WHERE ba.borrowernumber=b.borrowernumber AND ba.code='Location') as location, count(DISTINCT borrowernumber) FROM borrowers b WHERE b.branchcode='OTTAWA' GROUP BY b.categorycode, location
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

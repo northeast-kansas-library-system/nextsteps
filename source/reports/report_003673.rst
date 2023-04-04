@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 003673 contents // Items in a specific Shelving Location with Replacement Price
+======================================================================================
+
+Report technical information: 3673
+----------------------------------
+
+ID number: 3673
+
+Name: Items in a specific Shelving Location with Replacement Price
+
+Group: Catalog Records and Items
+
+Created on: 2022-10-27 09:56:09
+
+Modified on: 2022-10-27 09:56:15
+
+Cache expiry in seconds: 300
+
+Created by: OTTATECH
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enhanced - Run, Pick Your Branch and Shelving Location to get a list of materials in your collection
+
+  </div>
+
+
+----------
+
+SQL: 3673
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT b.biblionumber, i.dateaccessioned, b.title, b.author, i.ccode, i.location, i.itemcallnumber, i.itype, t.publicationyear, i.barcode, i.replacementprice, CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?op=edititem&biblionumber=',b.biblionumber,'&itemnumber=',i.itemnumber,'#edititem\" target="_blank">'"edit item"'</a>') as "edit item" FROM items i LEFT JOIN biblio b USING (biblionumber) LEFT JOIN biblioitems t USING(biblionumber) WHERE i.homebranch=<<branch|branches>> AND i.location = <<location|LOC>> ORDER BY i.itemcallnumber asc
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

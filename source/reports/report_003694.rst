@@ -1,0 +1,81 @@
+.. include:: /include.rst
+
+Report 003694 contents // GHW - Holds queue count by library with links
+=======================================================================
+
+Report technical information: 3694
+----------------------------------
+
+ID number: 3694
+
+Name: GHW - Holds queue count by library with links
+
+Created on: 2023-01-03 09:19:30
+
+Modified on: 2023-01-03 09:19:30
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3694
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT 
+      hold_fill_targets.source_branchcode, 
+      Count(DISTINCT hold_fill_targets.itemnumber) AS Count_itemnumber, 
+      Concat_Ws('', 
+        '<a ', 
+        'class="btn btn-success noprint" ', 
+        'style="color: white;" ', 
+        'href=/cgi-bin/koha/reports/guided_reports.pl?phase=Run+this+report&reports=3084&sql_params=', 
+        hold_fill_targets.source_branchcode, 
+        '&param_name=Choose+your+library|ZBRAN&limit=500" target="_blank">List of items</a>' 
+      ) AS QUEUE 
+    FROM 
+      hold_fill_targets 
+    GROUP BY 
+      hold_fill_targets.source_branchcode 
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

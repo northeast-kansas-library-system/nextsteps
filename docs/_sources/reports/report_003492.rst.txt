@@ -1,0 +1,121 @@
+.. include:: /include.rst
+
+Report 003492 contents // GHW - Titles on a list with publication date and date added to the list
+=================================================================================================
+
+Report technical information: 3492
+----------------------------------
+
+ID number: 3492
+
+Name: GHW - Titles on a list with publication date and date added to the list
+
+Created on: 2021-04-08 23:47:55
+
+Modified on: 2021-04-09 08:58:43
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3492
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      virtualshelves.shelfname,
+      biblio_info.biblionumber,
+      biblio_info.BIB_LOCATION,
+      biblio_info.BIB_ITYPE,
+      biblio_info.BIB_CCODE,
+      biblio_info.author,
+      biblio_info.TITLE,
+      biblio_info.publicationyear,
+      virtualshelfcontents.dateadded
+    FROM
+      virtualshelfcontents  JOIN
+      (SELECT
+         biblio.biblionumber,
+         bibloc.lib AS BIB_LOCATION,
+         bibitype.description AS BIB_ITYPE,
+         bibccode.lib AS BIB_CCODE,
+         biblio.author,
+         Concat_Ws(" ", biblio.title, biblio.subtitle, biblioitems.number,
+         biblio.part_name) AS TITLE,
+         biblioitems.publicationyear
+       FROM
+         biblio  JOIN
+         biblioitems ON biblioitems.biblionumber = biblio.biblionumber LEFT JOIN
+         (SELECT
+            authorised_values.category,
+            authorised_values.authorised_value,
+            authorised_values.lib,
+            authorised_values.lib_opac
+          FROM
+            authorised_values
+          WHERE
+            authorised_values.category = 'loc') bibloc ON bibloc.authorised_value =
+             biblioitems.agerestriction LEFT JOIN
+         (SELECT
+            itemtypes.itemtype,
+            itemtypes.description
+          FROM
+            itemtypes) bibitype ON bibitype.itemtype = biblioitems.itemtype
+         LEFT JOIN
+         (SELECT
+            authorised_values.category,
+            authorised_values.authorised_value,
+            authorised_values.lib,
+            authorised_values.lib_opac
+          FROM
+            authorised_values
+          WHERE
+            authorised_values.category = 'ccode') bibccode ON
+             bibccode.authorised_value = biblioitems.cn_class) biblio_info
+        ON biblio_info.biblionumber = virtualshelfcontents.biblionumber  JOIN
+      virtualshelves ON virtualshelfcontents.shelfnumber =
+          virtualshelves.shelfnumber
+    WHERE
+      virtualshelfcontents.shelfnumber = <<Enter list ID number>>
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+.. include:: /include.rst
+
+Report 003273 contents // GHW - Miss labeled discovery ADMINREPORT
+==================================================================
+
+Report technical information: 3273
+----------------------------------
+
+ID number: 3273
+
+Name: GHW - Miss labeled discovery ADMINREPORT
+
+Created on: 2019-09-30 22:29:07
+
+Modified on: 2019-10-02 14:16:53
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3273
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      branchtransfers.branchtransfer_id,
+      reportingbranch.branchcode,
+      Upper(items.barcode) AS ITEM_BC,
+      branchtransfers.itemnumber,
+      branchtransfers.frombranch,
+      branchtransfers.datesent,
+      branchtransfers.tobranch,
+      branchtransfers.datearrived,
+      branchtransfers.comments,
+      Concat('<a href=\"/cgi-bin/koha/reports/guided_reports.pl?reports=3272&phase=Run+this+report&param_name=Transfer+ID&sql_params=', branchtransfers.branchtransfer_id, '&param_name=Library+receiving+miss-labeled+item%7Cbranches&sql_params=', reportingbranch.branchcode, ' " target="_blank">Report 3272</a>') AS REPORT
+    FROM
+      items
+      JOIN branchtransfers
+        ON branchtransfers.itemnumber = items.itemnumber,
+      (
+        SELECT
+          branches.branchcode,
+          branches.branchname
+        FROM
+          branches
+        WHERE
+          branches.branchcode LIKE <<library|branches>>
+      ) reportingbranch
+    WHERE
+      items.barcode LIKE Concat("%", <<item barcode>>, "%")
+    GROUP BY
+      branchtransfers.branchtransfer_id,
+      reportingbranch.branchcode
+    ORDER BY
+      branchtransfers.datesent DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

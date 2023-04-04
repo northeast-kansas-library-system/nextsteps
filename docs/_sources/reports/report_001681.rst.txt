@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 001681 contents // Count of Holds Filled each month
+==========================================================
+
+Report technical information: 1681
+----------------------------------
+
+ID number: 1681
+
+Name: Count of Holds Filled each month
+
+Group: Holds-Reserves
+
+Sub-group: Holds Statistics
+
+Created on: 2012-12-18 21:23:39
+
+Modified on: 2013-06-23 12:32:43
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #holds Choose branch. 
+
+  </div>
+
+
+----------
+
+SQL: 1681
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT MONTH(timestamp), YEAR(timestamp), count(*) FROM old_reserves WHERE old_reserves.branchcode = <<Pick your Branch|branches>> GROUP BY MONTH(timestamp), YEAR(timestamp) ORDER BY YEAR(timestamp) DESC, MONTH(timestamp) DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+.. include:: /include.rst
+
+Report 003612 contents // LibraryIQ - Bibliographic File (deleted yesterday) - BASEHOR
+======================================================================================
+
+Report technical information: 3612
+----------------------------------
+
+ID number: 3612
+
+Name: LibraryIQ - Bibliographic File (deleted yesterday) - BASEHOR
+
+Group: LibraryIQ
+
+Sub-group: BASEHOR
+
+Created on: 2021-11-08 11:06:08
+
+Modified on: 2021-11-12 11:39:52
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #libraryiq #bibliographic #deleted #basehor #daily 
+
+  </div>
+
+
+----------
+
+SQL: 3612
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      deleteditems.biblionumber AS BibliographicRecordID,
+      deletedbiblioitems.isbn AS ISBN,
+      ExtractValue(deletedbiblio_metadata.metadata, '//datafield[@tag="024"]/subfield[@code="a"]') AS UPC,
+      itemtypes.description AS `Material Type`,
+      deletedbiblio.title AS Title,
+      deletedbiblio.author AS Author,
+      deletedbiblioitems.publicationyear AS `Publish Date`,
+      deletedbiblioitems.publishercode AS Publisher,
+      CurDate() AS `Report Date`
+    FROM
+      deleteditems  JOIN
+      deletedbiblio ON deletedbiblio.biblionumber = deleteditems.biblionumber
+       JOIN
+      itemtypes ON itemtypes.itemtype = deleteditems.itype  JOIN
+      deletedbiblio_metadata ON deletedbiblio_metadata.biblionumber =
+          deletedbiblio.biblionumber  JOIN
+      deletedbiblioitems ON deletedbiblioitems.biblionumber =
+          deletedbiblio.biblionumber
+    WHERE
+      deleteditems.homebranch = 'BASEHOR' AND
+      Year(deleteditems.timestamp) = Year(Now() - INTERVAL 1 DAY) AND
+      Month(deleteditems.timestamp) = Month(Now() - INTERVAL 1 DAY) AND
+      Day(deleteditems.timestamp) = Day(Now() - INTERVAL 1 DAY)
+    GROUP BY
+      deleteditems.biblionumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Report 2731 Training &mdash; Next Steps 1.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/override.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Report 3658 Training" href="report_003658_training.html" />
+    <link rel="prev" title="Report 214 Training" href="report_000214_training.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Next Steps
+            <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../foundations.html">Foundations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic.html">Koha basics for library staff</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about_us.html">About us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usergroup/index.html">Usergroup meetings</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Highlighted training:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../staff_instruction_sheets/cataloging_freeze_withdrawn.html">Deleting items during the cataloging freeze work-around</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Upgrades:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../upgrades/21.11/master.html">21.11 Upgrade</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../upgrades/22_05/22_05_master.html">22.05 Upgrade</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Bugs:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../bugs/index.html">Bugs</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reports:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Reports training index</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="finding.html">Finding a report by number</a></li>
+<li class="toctree-l2"><a class="reference internal" href="report_000214_training.html">Report 214 Training</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Report 2731 Training</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#purpose-of-report-2731">Purpose of report 2731</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#frequency-for-running-report-2731">Frequency for running report 2731</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#finding-report-2731">Finding report 2731</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#report-2731-parameters-and-their-defaults">Report 2731 parameters and their defaults</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#report-2731-full-shelf-list-for-an-entire-library">Report 2731 - full shelf list for an entire library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#report-2731-items-added-during-a-date-range">Report 2731 - items added during a date range</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#report-002731-contents-ghw-flexible-shelflist-report">Report 002731 contents // GHW - Flexible Shelflist Report</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#report-technical-information-2731">Report technical information: 2731</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sql-2731">SQL: 2731</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="report_003658_training.html">Report 3658 Training</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Special documents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Next Steps</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Reports training index</a></li>
+      <li class="breadcrumb-item active">Report 2731 Training</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/reports_training/report_002731_training.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="report-2731-training">
+<h1>Report 2731 Training<a class="headerlink" href="#report-2731-training" title="Permalink to this heading"></a></h1>
+<div class="section" id="purpose-of-report-2731">
+<h2>Purpose of report 2731<a class="headerlink" href="#purpose-of-report-2731" title="Permalink to this heading"></a></h2>
+<p>The main purpose of report 2731 is to provide an easy-to-read shelf-list of every item in a library that meets the criteria you set.  It can be used for:</p>
+<ul class="simple">
+<li>Inventory</li>
+<li>Weeding</li>
+<li>Identifying items added in a specific date range</li>
+<li>Identifying items that have not checked out in a long time</li>
+<li>Identifying item that have never checked out</li>
+<li>Identifying multiple copies of items at a library</li>
+<li>Identifying all of the items in a library that start with the same call number digits</li>
+</ul>
+</div>
+<div class="section" id="frequency-for-running-report-2731">
+<h2>Frequency for running report 2731<a class="headerlink" href="#frequency-for-running-report-2731" title="Permalink to this heading"></a></h2>
+<p>This report sould be run whenever you need its results.</p>
+</div>
+<div class="section" id="finding-report-2731">
+<h2>Finding report 2731<a class="headerlink" href="#finding-report-2731" title="Permalink to this heading"></a></h2>
+<p>You can find report 214 following the instructions in <a class="reference internal" href="finding.html#finding-a-report-by-number"><span class="std std-ref">“Finding a report by number”</span></a></p>
+</div>
+<div class="section" id="report-2731-parameters-and-their-defaults">
+<h2>Report 2731 parameters and their defaults<a class="headerlink" href="#report-2731-parameters-and-their-defaults" title="Permalink to this heading"></a></h2>
+<p>Reports 2731 has a large number of runtime parameters available.</p>
+<ul class="simple">
+<li>Item home library<ul>
+<li><strong>Default</strong> = Atchison Public Library</li>
+<li>Includes “Doniphan County-ALL”</li>
+<li>Includes “Prairie Hills Schools - ALL SCHOOLS”</li>
+<li>We use a custom authorised values table called “ZBRAN” to include the “ALL” options <br /> <br /></li>
+</ul>
+</li>
+<li>Item permanent shelving location<ul>
+<li><strong>Default</strong> = All shelving locations</li>
+<li>We use a custom authorised values table called “LLOC” to allow for flexibility in this dropdown <br /> <br /></li>
+</ul>
+</li>
+<li>Item type<ul>
+<li><strong>Default</strong> = All item types</li>
+<li>We use a custom authorised values table called “LITYPES” to allow for flexibility in this dropdown <br /> <br /></li>
+</ul>
+</li>
+<li>Item collection code<ul>
+<li><strong>Default</strong> = All collection codes</li>
+<li>We use a custom authorised values table called “LCCODE” to allow for flexibility in this dropdown <br /> <br /></li>
+</ul>
+</li>
+<li>Enter first part of call number or a % symbol<ul>
+<li><strong>Default</strong> = %</li>
+<li>We use custom code to add a “%” to all fields in the reports module where the label includes the phrase “or a % symbol” <br /> <br /></li>
+</ul>
+</li>
+<li>Not for loan status<ul>
+<li><strong>Default</strong> = All items</li>
+<li>We use a custom authorised values table called “LNOT_LOAN” to allow for flexibility in this dropdown <br /> <br /></li>
+</ul>
+</li>
+<li>Item added between date 1</li>
+<li>and-date 2<ul>
+<li><strong>Default</strong> date 1 = 01/01/2000</li>
+<li><strong>Default</strong> date 2 = today’s date</li>
+<li>The SQL for the report is written in such a way that if there are items that were added before 01/01/2000 or if the items.dateaccessioned fieled is blank, the report reads their date as 01/01/2000</li>
+<li>The dates are populated by custom code that always sets report fields with a label ending in “date 1” to “01/01/2000” and always sets report fields with a label ending in “date 2” to today’s date <br /> <br /></li>
+</ul>
+</li>
+<li>Item last borrowed between date 1</li>
+<li>and–date 2<ul>
+<li><strong>Default</strong> date 1 = 01/01/2000</li>
+<li><strong>Default</strong> date 2 = today’s date</li>
+<li>“Last borrowed” = the last time an item was checked out</li>
+<li>The SQL for the report is written in such a way that if there are items that were last borrowed before 01/01/2000 or if the items.lastborrowed fieled is blank, the report reads their date as 01/01/2000</li>
+<li>The dates are populated by custom code that always sets report fields with a label ending in “date 1” to “01/01/2000” and always sets report fields with a label ending in “date 2” to today’s date <br /> <br /></li>
+</ul>
+</li>
+<li>Item last seen between date 1</li>
+<li>and—date 2<ul>
+<li><strong>Default</strong> date 1 = 01/01/2000</li>
+<li><strong>Default</strong> date 2 = today’s date</li>
+<li>“Last seen” = the last time an item was checked in</li>
+<li>The SQL for the report is written in such a way that if there are items that were last seen before 01/01/2000 or if the items.lastseen fieled is blank, the report reads their date as 01/01/2000</li>
+<li>The dates are populated by custom code that always sets report fields with a label ending in “date 1” to “01/01/2000” and always sets report fields with a label ending in “date 2” to today’s date <br /> <br /></li>
+</ul>
+</li>
+<li>With X or fewer checkouts<ul>
+<li><strong>Default</strong> = Any number - no limits</li>
+<li>We use a custom authorised values table called “ZNUMBERS” to allow for flexibility in this dropdown <br /> <br /></li>
+</ul>
+</li>
+<li>Display checked out items<ul>
+<li><strong>Default</strong> = Show all</li>
+<li>We use a custom authorised values table called “ZYES_NO” to allow for flexibility in this dropdown <br /> <br /></li>
+</ul>
+</li>
+<li>Display lost, missing, and withdrawn items<ul>
+<li><strong>Default</strong> = Show all</li>
+<li>We use a custom authorised values table called “ZYES_NO” to allow for flexibility in this dropdown <br /> <br /></li>
+</ul>
+</li>
+<li>With X or more copies at this library<ul>
+<li><strong>Default</strong> = 000</li>
+<li>We use a custom authorised values table called “YNUMBER” to allow for flexibility in this dropdown <br /> <br /></li>
+</ul>
+</li>
+<li>With X or more copies throughout the catalog<ul>
+<li><strong>Default</strong> = 000</li>
+<li>We use a custom authorised values table called “YNUMBER” to allow for flexibility in this dropdown <br /> <br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="report-2731-full-shelf-list-for-an-entire-library">
+<h2>Report 2731 - full shelf list for an entire library<a class="headerlink" href="#report-2731-full-shelf-list-for-an-entire-library" title="Permalink to this heading"></a></h2>
+<p>To generate a shelf list of everything that is supposed to be at your library:</p>
+<ol class="arabic simple">
+<li>Find report 2731 and click on “Run”</li>
+<li>Set the runtime parameters as follow:</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>Item home library = Your library</li>
+<li>Leave <strong>ALL</strong> other parameters set to their defaults</li>
+</ul>
+</div></blockquote>
+<p>For example: If you wanted a shelf list showing every items owned by NEKLS set these parameters:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Item home library = Northeast Kansas Library System</li>
+<li>Leave <strong>ALL</strong> other parameters set to their defaults</li>
+</ul>
+<p><img alt="Configuration for full shelf list" src="../_images/report_2731_0020.png" /></p>
+</div></blockquote>
+</div>
+<div class="section" id="report-2731-items-added-during-a-date-range">
+<h2>Report 2731 - items added during a date range<a class="headerlink" href="#report-2731-items-added-during-a-date-range" title="Permalink to this heading"></a></h2>
+<p>To generate a shelf-list of everything added during a specific date range:</p>
+<ol class="arabic simple">
+<li>Find report 2731 and click on “Run”</li>
+<li>Set the runtime parameters as follow:</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>Item home library = Your library</li>
+<li>Item added between date1 = First date of date range</li>
+<li>and-date2 = Last date of date range</li>
+<li>Leave <strong>ALL</strong> other parameters set to their defaults</li>
+</ul>
+</div></blockquote>
+<p>For example: If you wanted a shelf list showing every item added at BERN during between May 1, 2020, and May 31, 2020, set these parameters:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Item home library = Bern Community Library</li>
+<li>Item added between date1 = 05/01/2020</li>
+<li>and-date2 = 05/31/2020</li>
+<li>Leave <strong>ALL</strong> other parameters set to their defaults</li>
+</ul>
+<p><img alt="Configuration for items added during a date range shelf list" src="../_images/report_2731_0030.png" /></p>
+</div></blockquote>
+<hr class="docutils" />
+</div>
+<div class="section" id="report-002731-contents-ghw-flexible-shelflist-report">
+<h2>Report 002731 contents // GHW - Flexible Shelflist Report<a class="headerlink" href="#report-002731-contents-ghw-flexible-shelflist-report" title="Permalink to this heading"></a></h2>
+<div class="section" id="report-technical-information-2731">
+<h3>Report technical information: 2731<a class="headerlink" href="#report-technical-information-2731" title="Permalink to this heading"></a></h3>
+<p>ID number: 2731</p>
+<p>Name: GHW - Flexible Shelflist Report</p>
+<p>Group: Catalog Records and Items</p>
+<p>Sub-group: Shelf Lists</p>
+<p>Created on: 2016-08-11 16:36:03</p>
+<p>Modified on: 2023-03-24 10:22:57</p>
+<p>Created by: gwilliams</p>
+<p>This file generated: 2023-03-24 16:49:10</p>
+<p>Notes:</p>
+<div style="border: 1px solid black; padding: 25px;">
+
+  <div id="reportinfo" class="noprint">
+  <p>This report shows all items added to Next Search Catalog at a specific library branch after a specified date - includes date added, date last borrowed, date last seen, and total circulations+renewals</p>
+  <p>Includes the date the item was added (dateaccessioned), the date the item was last checked out to a patron (datelastborrowed), and the date the item was last scanned on the check-in screen (datelastseen).</p>
+  <ul><li>Shows items that are currently still in Next</li>
+  <li>Allows user to specify the item's homebranch, permanent shelving location, item type, collection code, and the item's date added</li>
+  <li>grouped by homebranch, location, itype, collection code, and call number</li>
+  <li>sorted by homebranch, location, itype, collection code, and call number</li>
+  <li>contains links directly to the item's bibliographic record</li>
+  </ul><br />
+
+  <p><ins>Notes:</ins></p>
+  <p></p>
+  <p>This report now handles dateaccessioned, datelastborrowed, and datelastseen as follows:</p>
+  <ul>
+    <li>dateaccessioned that are blank or older than 2000 are filtered as if they were added on January 2, 2000</li>
+    <li>datelastborrowed that are blank or older than 2000 are filtered as if they were added on January 2, 2000</li>
+    <li>datelastseen that are blank or older than 2000 are filtered as if they were added on January 2, 2000</li>
+  </ul>
+  <p>These dates will still show the actual dates in the appropriate columns, but you will no longer need to adjust the filters in order to identify dates prior to 2000.  The side-effect of this change is that you will no longer be able filter for dates prior to January 1, 2000.  If you run this report and specify dates before January 3, 2000, you will be able to see these items, but you cannot really specify dates older than January 1, 2000.</p>
+  <p></p>
+  <p></p>
+  <p>publicationyear data comes from the 264$c subfield.  If the data in 264$c is not a 4 digit year, the data will be problematic.  If 264$c is blank, the result in this report will be blank.</p>
+  <p></p>
+  <p>Report updated on 2021.09.08 to include ISBN and ISSN fields.</p>
+  <p></p>
+  <p>Formerly called "Flexible Weeding Report"</p>
+  <p>Replaces reports:
+  <ul>
+    <li>664 (Full Shelf List)</li>
+    <li>2686 (Collection Code Super Weeder)</li>
+    <li>1013 (Item Type Super Weeder)</li>
+    <li>1442 (Super Weeder by Callnumber)</li>
+    <li>2471 (BCPL.SuperWeeder.by.Callnumber)</li>
+    <li>1017 (Items with NO checkouts (all items))</li>
+    <li>1151 (Date last borrowed, Call number and Title limited by Item type)</li>
+    <li>1426 (Last seen on a specific date or earlier)</li>
+    <li>1807 (Items with NO checkouts -- limited by CCode)</li>
+    <li>2202 (Items with NO checkouts (limited to a collection code and location))</li>
+    <li>2203 (Items with NO checkouts (limited to a collection code))</li>
+    <li>2241 (Last Seen Date, limited by Collection Code)</li>
+    <li>2392 (Date last borrowed, Call number and Title limited by Ccode and Location)</li>
+    <li>2411 (Date last borrowed)</li>
+    <li>1408 (Shelf List of Specific Item Type)</li>
+    <li>1409 (Shelf List of Specific CCode and Location)</li>
+    <li>1410 (Shelf List of Specific Item Type and Location)</li>
+    <li>3014 (GHW - Shelflist with left anchored call number limit)</li>
+    <li>2809 (GHW - List of items with display locations)</li>
+    <li>886 Videogames Circ List</li>
+  </ul>
+  <p></p>
+  <p>Added public and non-public notes fields on 2016.12.28</p>
+  <p>Added item count fields on 2018.10.03</p>
+  <p>Added column "CKO_LAST_12M" which shows a count of the number of times an item has checked out in the previous 12 months.</p>
+
+  </div>
+
+</div></div>
+<hr class="docutils" />
+<div class="section" id="sql-2731">
+<h3>SQL: 2731<a class="headerlink" href="#sql-2731" title="Permalink to this heading"></a></h3>
+<div class="highlight-sql notranslate"><div class="highlight"><pre><span></span><span class="linenos">  1</span><span class="w">  </span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">  2</span><span class="w">    </span><span class="n">Concat</span><span class="p">(</span><span class="w"></span>
+<span class="linenos">  3</span><span class="w">      </span><span class="s1">&#39;&lt;a class=&quot;btn btn-default noprint&quot; &#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">  4</span><span class="w">      </span><span class="s1">&#39;href=\&quot;/cgi-bin/koha/catalogue/detail.pl?biblionumber=&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">  5</span><span class="w">      </span><span class="n">items</span><span class="p">.</span><span class="n">biblionumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">  6</span><span class="w">      </span><span class="s1">&#39;\&quot; target=&quot;_blank&quot;&gt;Go to title&lt;/a&gt;&#39;</span><span class="w"></span>
+<span class="linenos">  7</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">LINK_TO_TITLE</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">  8</span><span class="w">    </span><span class="n">biblio</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">BIBLIO_NUMBER</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">  9</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">itemnumber</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">ITEM_NUMBER</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 10</span><span class="w">    </span><span class="n">Concat</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">barcode</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;-&#39;</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">BARCODE</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 11</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">homebranch</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 12</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">holdingbranch</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 13</span><span class="w">    </span><span class="n">perm_locs</span><span class="p">.</span><span class="n">lib</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">PERMANENT_LOCATION</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 14</span><span class="w">    </span><span class="n">current_locs</span><span class="p">.</span><span class="n">lib</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="k">LOCATION</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 15</span><span class="w">    </span><span class="n">itemtypes</span><span class="p">.</span><span class="n">description</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">ITYPE</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 16</span><span class="w">    </span><span class="n">ccodes</span><span class="p">.</span><span class="n">lib</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">CCODE</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 17</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">itemcallnumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 18</span><span class="w">    </span><span class="n">biblio</span><span class="p">.</span><span class="n">author</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 19</span><span class="w">    </span><span class="n">Concat_Ws</span><span class="p">(</span><span class="ss">&quot; &quot;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 20</span><span class="w">      </span><span class="n">biblio</span><span class="p">.</span><span class="n">title</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 21</span><span class="w">      </span><span class="n">ExtractValue</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 22</span><span class="w">        </span><span class="n">biblio_metadata</span><span class="p">.</span><span class="n">metadata</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 23</span><span class="w">        </span><span class="s1">&#39;//datafield[@tag=&quot;245&quot;]/subfield[@code=&quot;h&quot;]&#39;</span><span class="w"></span>
+<span class="linenos"> 24</span><span class="w">      </span><span class="p">),</span><span class="w"></span>
+<span class="linenos"> 25</span><span class="w">      </span><span class="n">ExtractValue</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 26</span><span class="w">        </span><span class="n">biblio_metadata</span><span class="p">.</span><span class="n">metadata</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 27</span><span class="w">        </span><span class="s1">&#39;//datafield[@tag=&quot;245&quot;]/subfield[@code=&quot;b&quot;]&#39;</span><span class="w"></span>
+<span class="linenos"> 28</span><span class="w">      </span><span class="p">),</span><span class="w"></span>
+<span class="linenos"> 29</span><span class="w">      </span><span class="n">ExtractValue</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 30</span><span class="w">        </span><span class="n">biblio_metadata</span><span class="p">.</span><span class="n">metadata</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 31</span><span class="w">        </span><span class="s1">&#39;//datafield[@tag=&quot;245&quot;]/subfield[@code=&quot;p&quot;]&#39;</span><span class="w"></span>
+<span class="linenos"> 32</span><span class="w">      </span><span class="p">),</span><span class="w"></span>
+<span class="linenos"> 33</span><span class="w">      </span><span class="n">ExtractValue</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 34</span><span class="w">        </span><span class="n">biblio_metadata</span><span class="p">.</span><span class="n">metadata</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 35</span><span class="w">        </span><span class="s1">&#39;//datafield[@tag=&quot;245&quot;]/subfield[@code=&quot;n&quot;]&#39;</span><span class="w"></span>
+<span class="linenos"> 36</span><span class="w">      </span><span class="p">)</span><span class="w"></span>
+<span class="linenos"> 37</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">FULL_TITLE</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 38</span><span class="w">    </span><span class="n">biblioitems</span><span class="p">.</span><span class="n">publicationyear</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 39</span><span class="w">    </span><span class="n">biblioitems</span><span class="p">.</span><span class="n">isbn</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 40</span><span class="w">    </span><span class="n">ExtractValue</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 41</span><span class="w">      </span><span class="n">biblio_metadata</span><span class="p">.</span><span class="n">metadata</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 42</span><span class="w">      </span><span class="s1">&#39;//datafield[@tag=&quot;022&quot;]/subfield[@code=&quot;a&quot;]&#39;</span><span class="w"></span>
+<span class="linenos"> 43</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">ISSN</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 44</span><span class="w">    </span><span class="n">ExtractValue</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 45</span><span class="w">      </span><span class="n">biblio_metadata</span><span class="p">.</span><span class="n">metadata</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 46</span><span class="w">      </span><span class="s1">&#39;//datafield[@tag=&quot;024&quot;]/subfield[@code=&quot;a&quot;]&#39;</span><span class="w"></span>
+<span class="linenos"> 47</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">UPC</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 48</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">dateaccessioned</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 49</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">datelastborrowed</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 50</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">datelastseen</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 51</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">issues</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 52</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">renewals</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 53</span><span class="w">    </span><span class="k">Sum</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 54</span><span class="w">      </span><span class="p">(</span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">issues</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">))</span><span class="w"></span>
+<span class="linenos"> 55</span><span class="w">      </span><span class="o">+</span><span class="w"></span>
+<span class="linenos"> 56</span><span class="w">      </span><span class="p">(</span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">renewals</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">))</span><span class="w"></span>
+<span class="linenos"> 57</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">CHECKOUTS_PLUS_RENEWALS</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 58</span><span class="w">    </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">last_twelve</span><span class="p">.</span><span class="k">count</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">CKO_LAST_12M</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 59</span><span class="w">    </span><span class="k">If</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">onloan</span><span class="w"> </span><span class="k">IS</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;No&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Yes&#39;</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">CHECKED_OUT_NOW</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 60</span><span class="w">    </span><span class="n">not_loans</span><span class="p">.</span><span class="n">lib</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">NOT_FOR_LOAN</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 61</span><span class="w">    </span><span class="k">If</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 62</span><span class="w">      </span><span class="k">Sum</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 63</span><span class="w">        </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">damaged</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"></span>
+<span class="linenos"> 64</span><span class="w">        </span><span class="o">+</span><span class="w"></span>
+<span class="linenos"> 65</span><span class="w">        </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">itemlost</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"></span>
+<span class="linenos"> 66</span><span class="w">        </span><span class="o">+</span><span class="w"></span>
+<span class="linenos"> 67</span><span class="w">        </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">withdrawn</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"></span>
+<span class="linenos"> 68</span><span class="w">      </span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 69</span><span class="w">      </span><span class="s1">&#39;No&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 70</span><span class="w">      </span><span class="s1">&#39;Yes&#39;</span><span class="w"></span>
+<span class="linenos"> 71</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">STATUS_PROBLEMS</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 72</span><span class="w">    </span><span class="n">Concat_Ws</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 73</span><span class="w">      </span><span class="k">If</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 74</span><span class="w">        </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">damageds</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 75</span><span class="w">        </span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 76</span><span class="w">        </span><span class="n">Concat</span><span class="p">(</span><span class="n">damageds</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39; (&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">Date_Format</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">damaged_on</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;%Y.%m.%d&quot;</span><span class="p">),</span><span class="w"> </span><span class="s1">&#39;) / &#39;</span><span class="p">)</span><span class="w"></span>
+<span class="linenos"> 77</span><span class="w">      </span><span class="p">),</span><span class="w"></span>
+<span class="linenos"> 78</span><span class="w">      </span><span class="k">If</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 79</span><span class="w">        </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">losts</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 80</span><span class="w">        </span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 81</span><span class="w">        </span><span class="n">Concat</span><span class="p">(</span><span class="n">losts</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39; (&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">Date_Format</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">itemlost_on</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;%Y.%m.%d&quot;</span><span class="p">),</span><span class="w"> </span><span class="s1">&#39;) / &#39;</span><span class="p">)</span><span class="w"></span>
+<span class="linenos"> 82</span><span class="w">      </span><span class="p">),</span><span class="w"></span>
+<span class="linenos"> 83</span><span class="w">      </span><span class="k">If</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 84</span><span class="w">        </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">withdrawns</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 85</span><span class="w">        </span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 86</span><span class="w">        </span><span class="n">Concat</span><span class="p">(</span><span class="n">withdrawns</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39; (&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">Date_Format</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">withdrawn_on</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;%Y.%m.%d&quot;</span><span class="p">),</span><span class="w"> </span><span class="s1">&#39;)&#39;</span><span class="p">)</span><span class="w"></span>
+<span class="linenos"> 87</span><span class="w">      </span><span class="p">)</span><span class="w"></span>
+<span class="linenos"> 88</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">STATUSSES</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 89</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">itemnotes</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 90</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">itemnotes_nonpublic</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 91</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">copynumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 92</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">replacementprice</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 93</span><span class="w">    </span><span class="n">localcounts</span><span class="p">.</span><span class="n">Count_itemnumber</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">LOCAL_COPIES</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 94</span><span class="w">    </span><span class="n">systemcounts</span><span class="p">.</span><span class="n">Count_itemnumber</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">SYSTEM_COPIES</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 95</span><span class="w">    </span><span class="n">Concat</span><span class="p">(</span><span class="w"></span>
+<span class="linenos"> 96</span><span class="w">      </span><span class="s1">&#39;&lt;a class=&quot;btn btn-default noprint&quot; &#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 97</span><span class="w">      </span><span class="s1">&#39;href=\&quot;/cgi-bin/koha/cataloguing/additem.pl?op=edititem&amp;biblionumber=&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 98</span><span class="w">      </span><span class="n">items</span><span class="p">.</span><span class="n">biblionumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos"> 99</span><span class="w">      </span><span class="s1">&#39;&amp;itemnumber=&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">100</span><span class="w">      </span><span class="n">items</span><span class="p">.</span><span class="n">itemnumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">101</span><span class="w">      </span><span class="s1">&#39;#edititem\&quot; target=&quot;_blank&quot;&gt;Edit item&lt;/a&gt;&#39;</span><span class="w"></span>
+<span class="linenos">102</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">EDIT_ITEM</span><span class="w"></span>
+<span class="linenos">103</span><span class="w">  </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">104</span><span class="w">    </span><span class="n">biblio</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">105</span><span class="w">    </span><span class="n">biblio_metadata</span><span class="w"></span>
+<span class="linenos">106</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">biblio_metadata</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">biblio</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">107</span><span class="w">    </span><span class="n">items</span><span class="w"></span>
+<span class="linenos">108</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">biblio</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">109</span><span class="w">    </span><span class="p">(</span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">110</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">111</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">authorised_value</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">112</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">113</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib_opac</span><span class="w"></span>
+<span class="linenos">114</span><span class="w">      </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">115</span><span class="w">        </span><span class="n">authorised_values</span><span class="w"></span>
+<span class="linenos">116</span><span class="w">      </span><span class="k">WHERE</span><span class="w"></span>
+<span class="linenos">117</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;LOC&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">perm_locs</span><span class="w"></span>
+<span class="linenos">118</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">perm_locs</span><span class="p">.</span><span class="n">authorised_value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">permanent_location</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">119</span><span class="w">    </span><span class="p">(</span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">120</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">121</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">authorised_value</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">122</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">123</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib_opac</span><span class="w"></span>
+<span class="linenos">124</span><span class="w">      </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">125</span><span class="w">        </span><span class="n">authorised_values</span><span class="w"></span>
+<span class="linenos">126</span><span class="w">      </span><span class="k">WHERE</span><span class="w"></span>
+<span class="linenos">127</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;LOC&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">current_locs</span><span class="w"></span>
+<span class="linenos">128</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">current_locs</span><span class="p">.</span><span class="n">authorised_value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="k">location</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">129</span><span class="w">    </span><span class="n">itemtypes</span><span class="w"></span>
+<span class="linenos">130</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">itemtypes</span><span class="p">.</span><span class="n">itemtype</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">itype</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">131</span><span class="w">    </span><span class="p">(</span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">132</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">133</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">authorised_value</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">134</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">135</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib_opac</span><span class="w"></span>
+<span class="linenos">136</span><span class="w">      </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">137</span><span class="w">        </span><span class="n">authorised_values</span><span class="w"></span>
+<span class="linenos">138</span><span class="w">      </span><span class="k">WHERE</span><span class="w"></span>
+<span class="linenos">139</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;CCODE&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">ccodes</span><span class="w"></span>
+<span class="linenos">140</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">ccodes</span><span class="p">.</span><span class="n">authorised_value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">ccode</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">141</span><span class="w">    </span><span class="n">biblioitems</span><span class="w"></span>
+<span class="linenos">142</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">biblioitems</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">biblio</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">143</span><span class="w">    </span><span class="p">(</span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">144</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">145</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">authorised_value</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">146</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">147</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib_opac</span><span class="w"></span>
+<span class="linenos">148</span><span class="w">      </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">149</span><span class="w">        </span><span class="n">authorised_values</span><span class="w"></span>
+<span class="linenos">150</span><span class="w">      </span><span class="k">WHERE</span><span class="w"></span>
+<span class="linenos">151</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;NOT_LOAN&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">not_loans</span><span class="w"></span>
+<span class="linenos">152</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">not_loans</span><span class="p">.</span><span class="n">authorised_value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">notforloan</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">153</span><span class="w">    </span><span class="p">(</span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">154</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">155</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">authorised_value</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">156</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">157</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib_opac</span><span class="w"></span>
+<span class="linenos">158</span><span class="w">      </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">159</span><span class="w">        </span><span class="n">authorised_values</span><span class="w"></span>
+<span class="linenos">160</span><span class="w">      </span><span class="k">WHERE</span><span class="w"></span>
+<span class="linenos">161</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;damaged&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">damageds</span><span class="w"></span>
+<span class="linenos">162</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">damageds</span><span class="p">.</span><span class="n">authorised_value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">damaged</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">163</span><span class="w">    </span><span class="p">(</span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">164</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">165</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">authorised_value</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">166</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">167</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib_opac</span><span class="w"></span>
+<span class="linenos">168</span><span class="w">      </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">169</span><span class="w">        </span><span class="n">authorised_values</span><span class="w"></span>
+<span class="linenos">170</span><span class="w">      </span><span class="k">WHERE</span><span class="w"></span>
+<span class="linenos">171</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;lost&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">losts</span><span class="w"></span>
+<span class="linenos">172</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">losts</span><span class="p">.</span><span class="n">authorised_value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">itemlost</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">173</span><span class="w">    </span><span class="p">(</span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">174</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">175</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">authorised_value</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">176</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">177</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">lib_opac</span><span class="w"></span>
+<span class="linenos">178</span><span class="w">      </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">179</span><span class="w">        </span><span class="n">authorised_values</span><span class="w"></span>
+<span class="linenos">180</span><span class="w">      </span><span class="k">WHERE</span><span class="w"></span>
+<span class="linenos">181</span><span class="w">        </span><span class="n">authorised_values</span><span class="p">.</span><span class="n">category</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;withdrawn&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">withdrawns</span><span class="w"></span>
+<span class="linenos">182</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">withdrawns</span><span class="p">.</span><span class="n">authorised_value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">withdrawn</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">183</span><span class="w">    </span><span class="p">(</span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">184</span><span class="w">        </span><span class="n">items</span><span class="p">.</span><span class="n">biblionumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">185</span><span class="w">        </span><span class="n">items</span><span class="p">.</span><span class="n">homebranch</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">186</span><span class="w">        </span><span class="k">Count</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">itemnumber</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">Count_itemnumber</span><span class="w"></span>
+<span class="linenos">187</span><span class="w">      </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">188</span><span class="w">        </span><span class="n">items</span><span class="w"></span>
+<span class="linenos">189</span><span class="w">      </span><span class="k">WHERE</span><span class="w"></span>
+<span class="linenos">190</span><span class="w">        </span><span class="n">items</span><span class="p">.</span><span class="n">homebranch</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="n">Item</span><span class="w"> </span><span class="n">home</span><span class="w"> </span><span class="n">library</span><span class="o">|</span><span class="n">ZBRAN</span><span class="o">&gt;&gt;</span><span class="w"></span>
+<span class="linenos">191</span><span class="w">      </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"></span>
+<span class="linenos">192</span><span class="w">        </span><span class="n">items</span><span class="p">.</span><span class="n">biblionumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">193</span><span class="w">        </span><span class="n">items</span><span class="p">.</span><span class="n">homebranch</span><span class="p">)</span><span class="w"> </span><span class="n">localcounts</span><span class="w"></span>
+<span class="linenos">194</span><span class="w">      </span><span class="k">ON</span><span class="w"> </span><span class="n">localcounts</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"></span>
+<span class="linenos">195</span><span class="w">        </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">196</span><span class="w">        </span><span class="n">localcounts</span><span class="p">.</span><span class="n">homebranch</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">homebranch</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">197</span><span class="w">    </span><span class="p">(</span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">198</span><span class="w">        </span><span class="n">items</span><span class="p">.</span><span class="n">biblionumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">199</span><span class="w">        </span><span class="k">Count</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">itemnumber</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">Count_itemnumber</span><span class="w"></span>
+<span class="linenos">200</span><span class="w">      </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">201</span><span class="w">        </span><span class="n">items</span><span class="w"></span>
+<span class="linenos">202</span><span class="w">      </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"></span>
+<span class="linenos">203</span><span class="w">        </span><span class="n">items</span><span class="p">.</span><span class="n">biblionumber</span><span class="p">)</span><span class="w"> </span><span class="n">systemcounts</span><span class="w"></span>
+<span class="linenos">204</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">systemcounts</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">biblionumber</span><span class="w"> </span><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"></span>
+<span class="linenos">205</span><span class="w">    </span><span class="p">(</span><span class="k">SELECT</span><span class="w"></span>
+<span class="linenos">206</span><span class="w">        </span><span class="k">statistics</span><span class="p">.</span><span class="n">itemnumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">207</span><span class="w">        </span><span class="k">Count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="k">count</span><span class="w"></span>
+<span class="linenos">208</span><span class="w">      </span><span class="k">FROM</span><span class="w"></span>
+<span class="linenos">209</span><span class="w">        </span><span class="k">statistics</span><span class="w"></span>
+<span class="linenos">210</span><span class="w">      </span><span class="k">WHERE</span><span class="w"></span>
+<span class="linenos">211</span><span class="w">        </span><span class="k">statistics</span><span class="p">.</span><span class="n">datetime</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">CurDate</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nb">INTERVAL</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">YEAR</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">212</span><span class="w">        </span><span class="p">(</span><span class="k">statistics</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;issue&#39;</span><span class="w"> </span><span class="k">OR</span><span class="w"></span>
+<span class="linenos">213</span><span class="w">          </span><span class="k">statistics</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;renew&#39;</span><span class="p">)</span><span class="w"></span>
+<span class="linenos">214</span><span class="w">      </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"></span>
+<span class="linenos">215</span><span class="w">        </span><span class="k">statistics</span><span class="p">.</span><span class="n">itemnumber</span><span class="p">)</span><span class="w"> </span><span class="n">last_twelve</span><span class="w"></span>
+<span class="linenos">216</span><span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">last_twelve</span><span class="p">.</span><span class="n">itemnumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">itemnumber</span><span class="w"></span>
+<span class="linenos">217</span><span class="w">  </span><span class="k">WHERE</span><span class="w"></span>
+<span class="linenos">218</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">homebranch</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="n">Item</span><span class="w"> </span><span class="n">home</span><span class="w"> </span><span class="n">library</span><span class="o">|</span><span class="n">ZBRAN</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">219</span><span class="w">    </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">permanent_location</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;-&quot;</span><span class="p">)</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="n">Item</span><span class="w"> </span><span class="n">permanent</span><span class="w"> </span><span class="n">shelving</span><span class="w"> </span><span class="k">location</span><span class="o">|</span><span class="n">LLOC</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">220</span><span class="w">    </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">itype</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;PUNC&quot;</span><span class="p">)</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="n">Item</span><span class="w"> </span><span class="k">type</span><span class="o">|</span><span class="n">LITYPES</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">221</span><span class="w">    </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">ccode</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;XXX&quot;</span><span class="p">)</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="n">Item</span><span class="w"> </span><span class="n">collection</span><span class="w"> </span><span class="n">code</span><span class="o">|</span><span class="n">LCCODE</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">222</span><span class="w">    </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">itemcallnumber</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;-&quot;</span><span class="p">)</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="n">Concat</span><span class="p">(</span><span class="o">&lt;&lt;</span><span class="n">Enter</span><span class="w"> </span><span class="k">first</span><span class="w"> </span><span class="n">part</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="k">call</span><span class="w"> </span><span class="nb">number</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">symbol</span><span class="o">&gt;&gt;</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;%&quot;</span><span class="p">)</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">223</span><span class="w">    </span><span class="k">Coalesce</span><span class="p">(</span><span class="n">not_loans</span><span class="p">.</span><span class="n">lib_opac</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;-&quot;</span><span class="p">)</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="k">Not</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">loan</span><span class="w"> </span><span class="n">status</span><span class="o">|</span><span class="n">LNOT_LOAN</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">224</span><span class="w">    </span><span class="p">(</span><span class="w"></span>
+<span class="linenos">225</span><span class="w">      </span><span class="k">If</span><span class="p">(</span><span class="w"></span>
+<span class="linenos">226</span><span class="w">        </span><span class="k">Coalesce</span><span class="p">(</span><span class="k">Year</span><span class="p">(</span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">dateaccessioned</span><span class="p">)),</span><span class="w"> </span><span class="s1">&#39;1999&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="s1">&#39;2000&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">227</span><span class="w">        </span><span class="s1">&#39;2000-01-02&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">228</span><span class="w">        </span><span class="n">items</span><span class="p">.</span><span class="n">dateaccessioned</span><span class="w"></span>
+<span class="linenos">229</span><span class="w">      </span><span class="p">)</span><span class="w"> </span><span class="k">BETWEEN</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="n">Item</span><span class="w"> </span><span class="n">added</span><span class="w"> </span><span class="k">between</span><span class="w"> </span><span class="n">date1</span><span class="o">|</span><span class="nb">date</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="k">and</span><span class="o">-</span><span class="n">date2</span><span class="o">|</span><span class="nb">date</span><span class="o">&gt;&gt;</span><span class="w"></span>
+<span class="linenos">230</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">231</span><span class="w">    </span><span class="k">If</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">onloan</span><span class="w"> </span><span class="k">IS</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;No&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Yes&#39;</span><span class="p">)</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="s1">&#39;%&#39;</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">232</span><span class="w">    </span><span class="p">(</span><span class="w"></span>
+<span class="linenos">233</span><span class="w">      </span><span class="k">If</span><span class="p">(</span><span class="w"></span>
+<span class="linenos">234</span><span class="w">        </span><span class="k">Coalesce</span><span class="p">(</span><span class="k">Year</span><span class="p">(</span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">datelastborrowed</span><span class="p">)),</span><span class="w"> </span><span class="s1">&#39;1999&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="s1">&#39;2000&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">235</span><span class="w">        </span><span class="s1">&#39;2000-01-02&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">236</span><span class="w">        </span><span class="n">items</span><span class="p">.</span><span class="n">datelastborrowed</span><span class="w"></span>
+<span class="linenos">237</span><span class="w">      </span><span class="p">)</span><span class="w"> </span><span class="k">BETWEEN</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="n">Item</span><span class="w"> </span><span class="k">last</span><span class="w"> </span><span class="n">borrowed</span><span class="w"> </span><span class="k">between</span><span class="w"> </span><span class="n">date1</span><span class="o">|</span><span class="nb">date</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="k">and</span><span class="c1">--date2|date&gt;&gt;</span>
+<span class="linenos">238</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">239</span><span class="w">    </span><span class="p">(</span><span class="w"></span>
+<span class="linenos">240</span><span class="w">      </span><span class="k">If</span><span class="p">(</span><span class="w"></span>
+<span class="linenos">241</span><span class="w">        </span><span class="k">Coalesce</span><span class="p">(</span><span class="k">Year</span><span class="p">(</span><span class="k">Coalesce</span><span class="p">(</span><span class="n">items</span><span class="p">.</span><span class="n">datelastseen</span><span class="p">)),</span><span class="w"> </span><span class="s1">&#39;1999&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="s1">&#39;2000&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">242</span><span class="w">        </span><span class="s1">&#39;2000-01-02&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">243</span><span class="w">        </span><span class="n">items</span><span class="p">.</span><span class="n">datelastseen</span><span class="w"></span>
+<span class="linenos">244</span><span class="w">      </span><span class="p">)</span><span class="w"> </span><span class="k">BETWEEN</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="n">Item</span><span class="w"> </span><span class="k">last</span><span class="w"> </span><span class="n">seen</span><span class="w"> </span><span class="k">between</span><span class="w"> </span><span class="n">date1</span><span class="o">|</span><span class="nb">date</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="k">and</span><span class="c1">---date2|date&gt;&gt;</span>
+<span class="linenos">245</span><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">246</span><span class="w">    </span><span class="n">localcounts</span><span class="p">.</span><span class="n">Count_itemnumber</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">247</span><span class="w">    </span><span class="n">systemcounts</span><span class="p">.</span><span class="n">Count_itemnumber</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
+<span class="linenos">248</span><span class="w">  </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"></span>
+<span class="linenos">249</span><span class="w">    </span><span class="n">biblio</span><span class="p">.</span><span class="n">biblionumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">250</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">itemnumber</span><span class="w"></span>
+<span class="linenos">251</span><span class="w">  </span><span class="k">HAVING</span><span class="w"></span>
+<span class="linenos">252</span><span class="w">    </span><span class="n">CHECKOUTS_PLUS_RENEWALS</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="k">With</span><span class="w"> </span><span class="n">X</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="n">fewer</span><span class="w"> </span><span class="n">checkouts</span><span class="o">|</span><span class="n">ZNUMBERS</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">253</span><span class="w">    </span><span class="n">CHECKED_OUT_NOW</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="n">Display</span><span class="w"> </span><span class="k">checked</span><span class="w"> </span><span class="k">out</span><span class="w"> </span><span class="n">items</span><span class="o">|</span><span class="n">ZYES_NO</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">254</span><span class="w">    </span><span class="n">STATUS_PROBLEMS</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="n">Display</span><span class="w"> </span><span class="n">lost</span><span class="p">,</span><span class="w"> </span><span class="n">missing</span><span class="p">,</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">withdrawn</span><span class="w"> </span><span class="n">items</span><span class="o">|</span><span class="n">ZYES_NO</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">255</span><span class="w">    </span><span class="n">LOCAL_COPIES</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="k">With</span><span class="w"> </span><span class="n">X</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="k">more</span><span class="w"> </span><span class="n">copies</span><span class="w"> </span><span class="k">at</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">library</span><span class="o">|</span><span class="n">YNUMBER</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">AND</span><span class="w"></span>
+<span class="linenos">256</span><span class="w">    </span><span class="n">SYSTEM_COPIES</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="k">With</span><span class="w"> </span><span class="n">X</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="k">more</span><span class="w"> </span><span class="n">copies</span><span class="w"> </span><span class="k">at</span><span class="w"> </span><span class="n">throughout</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="k">catalog</span><span class="o">|</span><span class="n">YNUMBER</span><span class="o">&gt;&gt;</span><span class="w"></span>
+<span class="linenos">257</span><span class="w">  </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"></span>
+<span class="linenos">258</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">homebranch</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">259</span><span class="w">    </span><span class="n">PERMANENT_LOCATION</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">260</span><span class="w">    </span><span class="n">ITYPE</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">261</span><span class="w">    </span><span class="n">CCODE</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">262</span><span class="w">    </span><span class="n">items</span><span class="p">.</span><span class="n">itemcallnumber</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">263</span><span class="w">    </span><span class="n">biblio</span><span class="p">.</span><span class="n">author</span><span class="p">,</span><span class="w"></span>
+<span class="linenos">264</span><span class="w">    </span><span class="n">FULL_TITLE</span><span class="w"></span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="report_000214_training.html" class="btn btn-neutral float-left" title="Report 214 Training" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="report_003658_training.html" class="btn btn-neutral float-right" title="Report 3658 Training" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Northeast Kansas Library System.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  
+    <p><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+    <p>Next Search Catalog contact info:<br />NEKLS: 785-838-4090<br />(toll free: 888-296-6963)<br />After hours: 785-813-1356</p>
+     <img src="https://raw.githubusercontent.com/northeast-kansas-library-system/nextimages/master/nexthelp.svg" alt="Nexthelp email address" />
+     
+
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

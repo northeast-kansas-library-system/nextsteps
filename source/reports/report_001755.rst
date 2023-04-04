@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 001755 contents // Searching for a deleted barcode
+=========================================================
+
+Report technical information: 1755
+----------------------------------
+
+ID number: 1755
+
+Name: Searching for a deleted barcode
+
+Group: Catalog Records and Items
+
+Sub-group: Weeding Criteria
+
+Created on: 2013-02-12 15:49:46
+
+Modified on: 2013-09-25 17:19:40
+
+Created by: bonntech
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #special
+
+  </div>
+
+
+----------
+
+SQL: 1755
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT d.biblionumber,b.biblionumber, d.title, b.title, d.author, b.author, e.homebranch,e.barcode FROM deletedbiblio d LEFT JOIN deleteditems e USING(biblionumber) LEFT JOIN biblio b USING(biblionumber) WHERE e.barcode=<<enter/scan in barcode>>
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

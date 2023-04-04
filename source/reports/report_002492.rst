@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 002492 contents // Patron search
+=======================================
+
+Report technical information: 2492
+----------------------------------
+
+ID number: 2492
+
+Name: Patron search
+
+Group: Borrowers
+
+Created on: 2015-04-29 17:27:55
+
+Modified on: 2015-04-29 17:29:49
+
+Created by: SABETECH
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 2492
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT  borrowers.surname,borrowers.firstname,borrowers.branchcode FROM borrowers   WHERE borrowers.branchcode='PHSHS' AND borrowers.categorycode='STUDENT'  AND borrowers.zipcode='66002' ORDER BY borrowers.surname asc,borrowers.firstname asc,borrowers.branchcode asc
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

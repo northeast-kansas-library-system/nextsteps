@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 002195 contents // Report of All Unique Titles at Your Library in NExpress
+=================================================================================
+
+Report technical information: 2195
+----------------------------------
+
+ID number: 2195
+
+Name: Report of All Unique Titles at Your Library in NExpress
+
+Group: Catalog Records and Items
+
+Sub-group: Shelf Lists
+
+Created on: 2014-02-24 11:14:47
+
+Modified on: 2014-02-24 11:26:43
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    List of all records that only your library has copies attached to in the NExpress Shared Catalog
+
+  </div>
+
+
+----------
+
+SQL: 2195
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',biblio.biblionumber,'\" target="_blank">'"link to record"'</a>') as "link to record", biblio.title, biblio.author, items.ccode, items.itemcallnumber, count(items.itemnumber) FROM items JOIN biblio USING(biblionumber) WHERE items.homebranch=<<your branch|branches>> AND biblio.biblionumber NOT IN (SELECT biblionumber FROM items WHERE homebranch <> <<your branch|branches>>) GROUP BY biblio.biblionumber ORDER BY items.ccode, items.itemcallnumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

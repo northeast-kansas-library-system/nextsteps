@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 000620 contents // Identify patron by email address
+==========================================================
+
+Report technical information: 620
+---------------------------------
+
+ID number: 620
+
+Name: Identify patron by email address
+
+Group: Borrowers
+
+Created on: 2009-06-30 09:42:05
+
+Modified on: 2013-06-17 02:07:04
+
+Created by: nekls
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Run the report and then type in the "enter email address" box the email address you want to look up. 
+
+  </div>
+
+
+----------
+
+SQL: 620
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    select cardnumber, surname, firstname, branchcode, email, emailpro, b_email from borrowers where <<enter email address>> in (B_email, email, emailpro)
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

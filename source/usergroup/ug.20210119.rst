@@ -10,8 +10,9 @@ Meeting was on Zoom only |br|
 No recording of this meeting was made
 
 1. Announcements, news, brief items, etc.
- - Introductions
- - Additions to the agenda
+  
+  - Introductions
+  - Additions to the agenda
 
 2. Upgrade |ss| February 6 |se| - on hold until a bug is fixed - we should know for sure by Friday of an exact date.
 
@@ -47,6 +48,7 @@ No recording of this meeting was made
   - `Setting a password for a staff account <../howto/directors/change.staff.password.html>`_
 
 9. Statistics.
+  
   - `Documentation for annual statistics <../statistics/annual.html>`_
   - `Documentation for monthly statistics <../statistics/monthly.html>`_
   - `2020 and 2019 data will be moved <../statistics/monthly.html>`_
@@ -55,16 +57,3 @@ No recording of this meeting was made
 10. Next meeting
 - April 1, 2021, 10:00 a.m.
 - Meeting will be on Zoom
-
-
-.. |ss| raw:: html
-
-    <strike>
-
-.. |se| raw:: html
-
-    </strike>
-
-.. |br| raw:: html
-
-    <br />

@@ -1,0 +1,71 @@
+.. include:: /include.rst
+
+Report 001419 contents // Items with Missing Status
+===================================================
+
+Report technical information: 1419
+----------------------------------
+
+ID number: 1419
+
+Name: Items with Missing Status
+
+Group: Catalog Records and Items
+
+Sub-group: Status reports-lost, damaged
+
+Created on: 2012-05-14 23:40:18
+
+Modified on: 2015-08-16 18:11:42
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enhanced -- Choose Library.(On Reports Web Page, 5/14/12). #lost
+
+  </div>
+
+
+----------
+
+SQL: 1419
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT i.datelastseen, b.title, b.author,t.publicationyear, i.location, i.ccode,i.itype,i.itemcallnumber, i.barcode, i.holdingbranch, CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?op=edititem&biblionumber=',b.biblionumber,'&itemnumber=',i.itemnumber,'#edititem\" target="_blank">'"edit item"'</a>') as "edit item" FROM items i LEFT JOIN biblio b USING (biblionumber) LEFT JOIN biblioitems t USING(biblionumber)
+    WHERE i.homebranch=<<Pick your branch|branches>> AND i.itemlost = '3'
+    ORDER BY  i.itemcallnumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

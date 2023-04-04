@@ -1,0 +1,95 @@
+.. include:: /include.rst
+
+Report 003013 contents // GHW - Unneeded restrictions II
+========================================================
+
+Report technical information: 3013
+----------------------------------
+
+ID number: 3013
+
+Name: GHW - Unneeded restrictions II
+
+Group: Administrative Reports
+
+Sub-group: Testing
+
+Created on: 2017-11-16 08:38:02
+
+Modified on: 2017-11-16 22:09:08
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3013
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat('<a href=\"/cgi-bin/koha/members/boraccount.pl?borrowernumber=', borrowers.borrowernumber,'\" target="_blank">Link to patron</a>') AS LINK_TO_PATRON,
+      borrowers.cardnumber,
+      borrowers.branchcode,
+      borrower_debarments.created,
+      borrower_debarments.updated,
+      borrower_debarments.expiration,
+      borrower_debarments.comment
+    FROM
+      borrowers
+      LEFT JOIN accountlines ON accountlines.borrowernumber = borrowers.borrowernumber
+      LEFT JOIN issues ON issues.borrowernumber = borrowers.borrowernumber
+      INNER JOIN borrower_debarments ON borrower_debarments.borrowernumber = borrowers.borrowernumber
+    WHERE
+      borrowers.branchcode LIKE <<Choose library|LBRANCH>>
+    GROUP BY
+      borrowers.borrowernumber,
+      borrower_debarments.borrower_debarment_id,
+      borrower_debarments.comment
+    HAVING
+      Sum(accountlines.amountoutstanding) = 0 AND
+      Count(issues.issue_id) = 0
+    ORDER BY
+      borrowers.branchcode,
+      borrower_debarments.created
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

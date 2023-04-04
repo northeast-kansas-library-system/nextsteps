@@ -1,0 +1,104 @@
+.. include:: /include.rst
+
+Report 000536 contents // New acquisitions for a specific month
+===============================================================
+
+Report technical information: 536
+---------------------------------
+
+ID number: 536
+
+Name: New acquisitions for a specific month
+
+Group: Catalog Records and Items
+
+Sub-group: New Materials
+
+Created on: 2009-05-04 15:06:32
+
+Modified on: 2020-12-08 22:30:13
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enter numeric month and year for the month you want to look at. 
+
+  </div>
+
+
+----------
+
+SQL: 536
+--------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat(
+        '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',
+        biblio.biblionumber,
+        '\" target="_blank">',
+        biblio.biblionumber,
+        '</a>'
+      ) AS "Link to Record",
+      items.barcode,
+      items.homebranch,
+      items.permanent_location,
+      items.location,
+      items.itype,
+      items.ccode,
+      items.itemcallnumber,
+      biblio.author,
+      biblio.title,
+      items.dateaccessioned,
+      items.price,
+      items.replacementprice,
+      items.timestamp
+    FROM
+      items JOIN
+      biblio ON biblio.biblionumber = items.biblionumber
+    WHERE
+      items.homebranch = <<Pick your branch|branches>> AND
+      Month(items.dateaccessioned) = <<Choose month|Month>> AND
+      Year(items.dateaccessioned) = <<Choose year|Year>>
+    GROUP BY
+      biblio.biblionumber
+    ORDER BY
+      items.homebranch,
+      items.permanent_location,
+      items.itype,
+      items.ccode,
+      items.itemcallnumber,
+      biblio.author,
+      biblio.title
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

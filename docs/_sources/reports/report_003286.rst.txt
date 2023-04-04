@@ -1,0 +1,84 @@
+.. include:: /include.rst
+
+Report 003286 contents // GHW - HCC Video problem
+=================================================
+
+Report technical information: 3286
+----------------------------------
+
+ID number: 3286
+
+Name: GHW - HCC Video problem
+
+Created on: 2019-12-13 21:55:43
+
+Modified on: 2019-12-13 21:56:18
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3286
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      Concat("https://staff.nextkansas.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=", biblio.biblionumber) AS LINK,
+      biblio.biblionumber,
+      biblio.title,
+      Count(items.itemnumber) AS ICOUNT
+    FROM
+      biblio
+      JOIN items
+        ON items.biblionumber = biblio.biblionumber
+    WHERE
+      items.homebranch = 'HIGH_CC' AND
+      items.itype LIKE "NVID%"
+    GROUP BY
+      biblio.biblionumber
+    HAVING
+      Count(items.itemnumber) > 1
+    ORDER BY
+      Count(items.itemnumber) DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

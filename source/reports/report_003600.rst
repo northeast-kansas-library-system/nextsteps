@@ -1,0 +1,93 @@
+.. include:: /include.rst
+
+Report 003600 contents // GHW - 260 > 264 needed
+================================================
+
+Report technical information: 3600
+----------------------------------
+
+ID number: 3600
+
+Name: GHW - 260 > 264 needed
+
+Created on: 2021-10-25 12:41:40
+
+Modified on: 2022-09-06 10:19:24
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    <div id=reportinfo class=noprint>
+    <p id="rquickdown"><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=1&phase=Export&format=csv&report_id=3600">Click here to download as a csv file</a></p>
+    </div>
+    
+    
+
+  </div>
+
+
+----------
+
+SQL: 3600
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT 
+      biblioitems.biblionumber 
+    FROM 
+      biblioitems JOIN 
+      items ON 
+        items.biblioitemnumber = biblioitems.biblioitemnumber JOIN 
+        biblio_metadata ON 
+          biblio_metadata.biblionumber = biblioitems.biblionumber 
+    WHERE 
+      ( 
+        biblioitems.publicationyear IS NULL AND 
+        ExtractValue(biblio_metadata.metadata, '//datafield[@tag="260"]/subfield[@code="c"]') <> '' 
+      ) OR 
+      ( 
+        biblioitems.publishercode IS NULL AND 
+        ExtractValue(biblio_metadata.metadata,'//datafield[@tag="260"]/subfield[@code="b"]') <> '' 
+      ) OR 
+      ( 
+        ExtractValue(biblio_metadata.metadata, '//datafield[@tag="260"]/subfield[@code="a"]') <> '' 
+      ) 
+    GROUP BY 
+      biblioitems.biblionumber 
+    LIMIT 1000 
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

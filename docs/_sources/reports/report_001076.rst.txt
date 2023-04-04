@@ -1,0 +1,73 @@
+.. include:: /include.rst
+
+Report 001076 contents // Number of Distinct Patrons served by Date range
+=========================================================================
+
+Report technical information: 1076
+----------------------------------
+
+ID number: 1076
+
+Name: Number of Distinct Patrons served by Date range
+
+Group: Borrowers
+
+Sub-group: Patron Statistics
+
+Created on: 2011-03-24 21:18:00
+
+Modified on: 2018-10-24 12:59:41
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enhanced - Select Run, then enter Date Range and Patron's Libary #patrons
+
+  </div>
+
+
+----------
+
+SQL: 1076
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT YEAR(issuedate), MONTH(issuedate), categorycode, COUNT(DISTINCT
+    borrowernumber)
+    FROM old_issues
+     LEFT JOIN borrowers USING (borrowernumber)
+    where issuedate between <<Between (yyyy-mm-dd>> and <<and (yyyy-mm-dd>> and
+    old_issues.branchcode=<<Enter patrons library|branches>>
+    GROUP BY YEAR(issuedate), MONTH(issuedate), categorycode
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

@@ -59,7 +59,6 @@
 .. |cataloging_original_brief_030| image:: /images/pages/cataloging_original_brief/cataloging_original_brief_030.png
     :alt: Fill out the "Add MARC record" form
 
-
 .. pages/checkin
 
 .. |checkin.0010| image:: /images/pages/checkin/checkin.0010.png
@@ -451,10 +450,7 @@
 .. |login_changeover_0020.png| image:: /images/projects/login_changeover/login_changeover_0020.png
     :alt:
 
-.. step_sheets
-
-.. |test_server_sheet| image:: /images/step_sheets/test_server.png 
-    :alt: Step-by-step guide to accessing the test server
+.. upgrades
 
 .. upgrades
 

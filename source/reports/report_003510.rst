@@ -1,0 +1,76 @@
+.. include:: /include.rst
+
+Report 003510 contents // GHW - Tempsville ADMINREPORT
+======================================================
+
+Report technical information: 3510
+----------------------------------
+
+ID number: 3510
+
+Name: GHW - Tempsville ADMINREPORT
+
+Created on: 2021-05-21 17:00:57
+
+Modified on: 2021-05-21 17:00:57
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3510
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      borrowers.borrowernumber,
+      borrowers.cardnumber,
+      borrowers.branchcode,
+      borrowers.categorycode
+    FROM
+      borrowers
+    WHERE
+      borrowers.branchcode = 'OTTAWA' AND
+      borrowers.categorycode = 'ASSOCIATE'
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

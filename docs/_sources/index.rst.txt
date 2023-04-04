@@ -7,13 +7,14 @@
 Welcome to Next Steps: a training site for Next Search Catalog
 ##############################################################
 
+.. include:: /include.rst 
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    /foundations
    /basic
-   /pages/reports
    /about_us
    /usergroup/index
 
@@ -23,7 +24,7 @@ Welcome to Next Steps: a training site for Next Search Catalog
    :maxdepth: 2
    :caption: Highlighted training:
 
-   /pages/tools/calendar/index
+   /staff_instruction_sheets/cataloging_freeze_withdrawn
 
 ----------
 
@@ -41,6 +42,14 @@ Welcome to Next Steps: a training site for Next Search Catalog
    :caption: Bugs:
 
    /bugs/index
+
+----------
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Reports:
+
+   /reports_training/index
 
 ----------
 

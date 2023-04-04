@@ -1,0 +1,71 @@
+.. include:: /include.rst
+
+Report 003663 contents // GHW - OPAC digital card report
+========================================================
+
+Report technical information: 3663
+----------------------------------
+
+ID number: 3663
+
+Name: GHW - OPAC digital card report
+
+Created on: 2022-08-09 11:52:55
+
+Modified on: 2022-08-09 14:16:57
+
+Cache expiry in seconds: 5
+
+Public: Yes
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3663
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT UPPER(cardnumber)
+    FROM borrowers
+    WHERE borrowernumber = <<borrowernumber>>
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

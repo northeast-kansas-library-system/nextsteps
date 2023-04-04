@@ -1,0 +1,77 @@
+.. include:: /include.rst
+
+Report 003033 contents // GHW - Fixing 856u
+===========================================
+
+Report technical information: 3033
+----------------------------------
+
+ID number: 3033
+
+Name: GHW - Fixing 856u
+
+Group: Administrative Reports
+
+Created on: 2018-01-08 16:23:36
+
+Modified on: 2018-01-08 16:29:48
+
+Cache expiry in seconds: 300
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 3033
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      CONCAT("<a href='https://staff.nexpresslibrary.org/cgi-bin/koha/cataloguing/addbiblio.pl?biblionumber=", biblio_metadata.biblionumber,  " ' target='_blank'>Edit in new window</a>") AS LINK,
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="856"]//subfield[@code="u"]') AS URI
+    FROM
+      biblio_metadata
+    WHERE
+      ExtractValue(biblio_metadata.metadata, '//datafield[@tag="856"]//subfield[@code="u"]') LIKE "%overdrive%"
+    GROUP BY
+      biblio_metadata.biblionumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

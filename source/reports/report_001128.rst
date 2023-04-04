@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 001128 contents // List that totals the circulation of each Dewey section, F, and periodicals, by month
+==============================================================================================================
+
+Report technical information: 1128
+----------------------------------
+
+ID number: 1128
+
+Name: List that totals the circulation of each Dewey section, F, and periodicals, by month
+
+Group: Catalog Records and Items
+
+Sub-group: Collection Statistics
+
+Created on: 2011-06-08 13:03:00
+
+Modified on: 2013-11-17 16:13:42
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    From koha-comm reports library
+
+  </div>
+
+
+----------
+
+SQL: 1128
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT location, substring(itemcallnumber,1,1) AS 'Call Number range', count(*) AS count FROM statistics LEFT JOIN items USING (itemnumber) WHERE statistics.type IN ('issue', 'renew') AND YEAR(datetime) = <<Enter Year>> AND MONTH(datetime) = <<Enter Month>> AND statistics.branch = <<branch|branches>> AND items.itype = <<Item Type|itemtypes>> AND items.ccode = <<ccode|CCODE>> GROUP BY location, substring(itemcallnumber,1,1)
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

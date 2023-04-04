@@ -1,0 +1,76 @@
+.. include:: /include.rst
+
+Report 002854 contents // GHW - Hiawatha Sample
+===============================================
+
+Report technical information: 2854
+----------------------------------
+
+ID number: 2854
+
+Name: GHW - Hiawatha Sample
+
+Group:  HIAWATHA
+
+Created on: 2016-12-15 08:49:55
+
+Modified on: 2021-08-16 20:39:36
+
+Created by: gwilliams
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    
+
+  </div>
+
+
+----------
+
+SQL: 2854
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT
+      message_queue.content
+    FROM
+      message_queue
+    WHERE
+      (message_queue.letter_code = 'OVERDUE' OR
+        message_queue.letter_code = 'FREEZE') AND
+      message_queue.message_transport_type = 'email' AND
+      message_queue.time_queued LIKE CONCAT(<<Enter date|date>>, '%') AND
+      message_queue.from_address LIKE '%hiawathalibrary.org%'
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

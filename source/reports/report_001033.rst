@@ -1,0 +1,67 @@
+.. include:: /include.rst
+
+Report 001033 contents // Fines over $10 by branch
+==================================================
+
+Report technical information: 1033
+----------------------------------
+
+ID number: 1033
+
+Name: Fines over $10 by branch
+
+Group: Circulation
+
+Sub-group: Charges
+
+Created on: 2011-01-24 21:34:31
+
+Modified on: 2013-06-21 13:49:49
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Enhanced - Pick your branch to find patrons with fines over $10 #fines
+
+  </div>
+
+
+----------
+
+SQL: 1033
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT  borrowers.cardnumber, borrowers.surname, borrowers.firstname, Phone, borrowers.altcontactphone, borrowers.email, borrowers.address, borrowers.city, borrowers.zipcode, FORMAT(SUM(accountlines.amountoutstanding),2) as due FROM borrowers LEFT JOIN accountlines USING (borrowernumber) WHERE borrowers.branchcode= <<Pick your branch|branches>> AND accountlines.amountoutstanding != 0 GROUP BY borrowers.cardnumber having SUM(accountlines.amountoutstanding) >10 ORDER BY borrowers.surname ASC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

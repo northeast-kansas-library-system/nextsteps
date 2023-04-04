@@ -1,7 +1,7 @@
 .. include:: /include.rst
 
 Calendar - close on the same day every week
-================================
+===========================================
 
 #. On the home page click on "Tools"
 #. In the right hand column, click on "Calendar"
@@ -14,10 +14,10 @@ Calendar - close on the same day every week
 
 -----
 
-Video on YouTube
-----------------
+Calendar - close on the same day every week: Video on YouTube
+-------------------------------------------------------------
 
-Watch "Check-in is your friend" on YouTube
+Watch "Calendar - close on the same day every week" on YouTube
 
 .. only:: html
 

@@ -1,0 +1,69 @@
+.. include:: /include.rst
+
+Report 001553 contents // Deleted Items By Month
+================================================
+
+Report technical information: 1553
+----------------------------------
+
+ID number: 1553
+
+Name: Deleted Items By Month
+
+Group: Catalog Records and Items
+
+Sub-group: Weeded Already
+
+Created on: 2012-09-19 14:26:14
+
+Modified on: 2015-05-19 11:42:48
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    #special #weeding
+
+  </div>
+
+
+----------
+
+SQL: 1553
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    SELECT MONTH(timestamp), YEAR(timestamp), count(*) as count FROM deleteditems WHERE deleteditems.homebranch = <<Pick your Branch|branches>> GROUP BY MONTH(timestamp), YEAR(timestamp) ORDER BY YEAR(timestamp) DESC, MONTH(timestamp) DESC
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

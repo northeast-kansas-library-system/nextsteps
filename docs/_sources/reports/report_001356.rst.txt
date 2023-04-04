@@ -1,0 +1,71 @@
+.. include:: /include.rst
+
+Report 001356 contents // Barcode Cleanup Report
+================================================
+
+Report technical information: 1356
+----------------------------------
+
+ID number: 1356
+
+Name: Barcode Cleanup Report
+
+Group: Catalog Records and Items
+
+Sub-group: Fix Items
+
+Created on: 2012-04-20 14:27:57
+
+Modified on: 2018-09-20 13:54:54
+
+Created by: hbraum
+
+This file generated: 2023-03-24 16:49:10
+
+Notes:
+
+.. raw:: html
+
+  <div style="border: 1px solid black; padding: 25px;">
+
+    Shows you your short barcodes (less than 13 digits) or blank barcodes. Can edit barcodes directly from the report. Choose your branch to run.
+    
+    HB_Monthly
+
+  </div>
+
+
+----------
+
+SQL: 1356
+---------
+
+.. code-block:: sql
+  :linenos:
+
+    select i.itemnumber, i.dateaccessioned, b.title, i.ccode, i.itype, i.itemcallnumber, i.barcode, CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?op=edititem&biblionumber=',b.biblionumber,'&itemnumber=',i.itemnumber,'#edititem\" target="_blank">'"edit item"'</a>') as "edit barcode" from biblio b left join items i using (biblionumber) where i.notforloan <>'-1' AND i.homebranch=<<branch|branches>> AND (i.barcode IS NULL OR LENGTH(i.barcode) < 13 OR i.barcode LIKE 'eudora%') ORDER BY i.ccode, i.itemcallnumber
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
