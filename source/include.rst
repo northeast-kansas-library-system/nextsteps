@@ -451,7 +451,10 @@
 .. |login_changeover_0020.png| image:: /images/projects/login_changeover/login_changeover_0020.png
     :alt:
 
-.. upgrades
+.. step_sheets
+
+.. |test_server_sheet| image:: /images/step_sheets/test_server.png 
+    :alt: Step-by-step guide to accessing the test server
 
 .. upgrades
 
