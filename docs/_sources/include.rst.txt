@@ -494,7 +494,10 @@
 .. |cataloging_freeze_0080| image:: /images/staff_instruction_sheets/cataloging_freeze/cataloging_freeze_0080.png
     :alt: If you look up any of the items you've marked as withdrawn, their details page should display "Withdrawn during cataloging freeze" badges for those items
 
-.. upgrades
+.. step_sheets
+
+.. |test_server| image:: /images/step_sheets/test_server.png
+    :alt: Steps to locate the test server
 
 .. upgrades
 
