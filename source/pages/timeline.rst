@@ -55,7 +55,7 @@ Next Search Catalog History
 - 2015:
 
   - August - NEKLS staff attend `2nd annual koha-US Conference <http://koha-us.org/learn/conferences/kohacon2015/>`_ in Eerie, Pennsylvania
-  - August - Robin Hastings of NEKLS becomes Koha-NA President (Koha-NA changes its name to koha-US at this time)
+  - August - Robin Hastings of NEKLS becomes Koha-NA President (Koha-NA changes its name to koha-US during her year as president)
   - END OF YEAR: Total circulation - 1754867
 
 - 2016:
