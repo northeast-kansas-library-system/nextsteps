@@ -3,7 +3,7 @@
 Deleting items during the cataloging freeze work-around 
 ======================================================= 
  
-During the first few weeks of April 2023 we will be adding authority control to Next Search Catalog.  During the initial batch loading of the authority records, staff will not be able to delete items from Next Search Catalog in the normal manner. 
+During April and the first few weeks of May 2023 we will be adding authority control to Next Search Catalog.  During the initial batch loading of the authority records, staff will not be able to delete items from Next Search Catalog in the normal manner. 
  
 The work-around for deleting items during the cataloging freeze is to mark the items as "Withdrawn during cataloging freeze" during the cataloging freeze.  Then shortly after the cataloging freeze has ended, NEKLS staff will delete all items marked with a withdrawn status of "Withdrawn during cataloging freeze." 
  
