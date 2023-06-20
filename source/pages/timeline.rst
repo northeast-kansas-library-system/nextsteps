@@ -128,3 +128,5 @@ Next Search Catalog History
 - 2023 
 
   - February - Upgrade to Koha 22.05
+  - May - George Williams of NEKLS is named a Library Journal Mover and Shaker in the Innovaters category along with his colleague, Christopher Brannon, from Coeur d'Alene, Idaho, in recognition of the work that they have done helping the "open source Koha integrated library system (ILS) grow and thrive in U.S. libraries" (`Read the article here <https://www.libraryjournal.com/story/christopher-brannon-and-george-williams-movers-shakers-2023-innovators>`_).
+  - May - The Wetmore Academic Center Library withdraws from Next Search Catalog due to the permanent closure of Wetmore Academic Center.
