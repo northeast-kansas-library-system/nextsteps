@@ -23,8 +23,8 @@ No recording of this meeting will be made |br|
  
 #. Removing the "Female/Male/Other/None specified" buttons on borrower accounts
 
-    - On August 29, 2023, these buttons will disappear
-    - On September 15, 2023, all "Female/Male/Other/None specified" data in Next Search Catalog will be removed
+    - On August 29, 2023, these buttons will be removed from Next
+    - On September 15, 2023, all "Female/Male/Other/None specified" data in Next Search Catalog will be deleted
     - Run report 3752 on or before September 14 if you wish to get a borrower count based on this data 
 
 #. Discuss locations for 2024 Next Search Catalog Meetings 
