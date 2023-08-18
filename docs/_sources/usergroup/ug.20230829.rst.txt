@@ -14,9 +14,19 @@ No recording of this meeting will be made |br|
     - Additions to the agenda 
  
 #. 2024 participation agreement draft 
+
+    - Link to proposed 2024 participation agreement
  
 #. 2024 Privacy and confidentiality statement draft 
+
+    - Link to proposed 2024 confidentiality statement
  
+#. Removing the "Female/Male/Other/None specified" buttons on borrower accounts
+
+    - On August 29, 2023, these buttons will disappear
+    - On September 15, 2023, all "Female/Male/Other/None specified" data in Next Search Catalog will be removed
+    - Run report 3752 on or before September 14 if you wish to get a borrower count based on this data 
+
 #. Discuss locations for 2024 Next Search Catalog Meetings 
  
 #. Next meeting 
