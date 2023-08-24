@@ -15,9 +15,9 @@ Past meetings
    :caption: 2023 meetings:
 
    ug.20231114
-   ug.20230214
    ug.20230829
    ug.20230418
+   ug.20230214
    ug.20230126
 
 .. toctree::
