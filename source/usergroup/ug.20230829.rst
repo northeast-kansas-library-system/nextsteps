@@ -59,7 +59,19 @@ No recording of this meeting will be made |br|
 
     - I'm working on a document that lists and describes every current existing item type
 
+#. Changes to borrower categories coming in 2024:
+
+    - Student (exempt) - school district use only
+    - Student (public library) - public library use only
+    - Teacher/Faculty/Administrator (exempt) - school district use only
+    - Teacher/Faculty/Administrator (public library) - public library use only
+    - Homeschool (proposed new borrower category)
+    - Many borrower category codes will change in 2024
+
 #. Discuss locations for 2024 Next Search Catalog Meetings 
+
+    - First meeting in January at NEKLS 
+    - 3 other meetings outside of Lawrence
  
 #. Next meeting 
  
