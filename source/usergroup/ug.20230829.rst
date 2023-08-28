@@ -17,12 +17,13 @@ No recording of this meeting will be made |br|
  
 #. 2024 participation agreement draft 
 
-    - Link to proposed 2024 participation agreement
+    - `2024 Draft participation agreement <https://raw.githubusercontent.com/northeast-kansas-library-system/nextimages/master/pdf/2024.participation.draft.pdf>`_ 
  
 #. 2024 Privacy and confidentiality statement draft 
 
-    - Link to proposed 2024 confidentiality statement
+    - `2024 Draft confidentiality statement <https://raw.githubusercontent.com/northeast-kansas-library-system/nextimages/master/pdf/2024.privacy.draft.pdf>`_ 
     - We will go over this document piece by piece at this meeting and revew confideniality in general
+    - Sometime by the end of 2024 there will be a "click-through" on the login page of the staff-client
 
 #. 2024 plan to create a Next Search Catalog privacy policy
 
