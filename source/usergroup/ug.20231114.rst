@@ -16,7 +16,15 @@ No recording of this meeting will be made |br|
 #. 2024 participation agreement final 
  
 #. 2024 Privacy and confidentiality statement final 
+
+#. Nex policy manual - Lost items policy
+
+    - Link to policy manual
+    - Discussion of lost item policy
+    - Replacement copies in lieu of payment are not acceptable without permission 
  
+#. Koha bug when createing new borrowers 
+
 #. Next meeting 
  
     - Meeting at NEKLS: January 2024 10:00 a.m. - 12:00 p.m. with Statistical Help Session to follow 
