@@ -1,38 +1,49 @@
 TEst 1      Test 2
 
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-|          Rule           | Options                    |                                      Explanation                                  |br| |
+|          Rule           | Options                    |                                      Explanation                                       |
 +=========================+============================+========================================================================================+
-|                                                               **General settings**                                                       |br| |
+|                                                               **General settings**                                                            |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Library            |br| | All libraries         |br| | Which library does the rule apply to                                              |br| |
-|                         | - OR -                |br| |                                                                                        |
-|                         | Specific library      |br| |                                                                                        |
+| Library                 | All libraries              | Which library does the rule apply to                                                   |
+|                         |                            |                                                                                        |
+|                         | - OR -                     |                                                                                        |
+|                         |                            |                                                                                        |
+|                         | Specific library           |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Borrower category  |br| | All borrowers         |br| | Which borrower category does the rule apply to                                    |br| |
-|                         | - OR -                |br| |                                                                                        |
-|                         | Specific category     |br| |                                                                                        |
+| Borrower category       | All borrowers              | Which borrower category does the                                                       |
+|                         |                            |                                                                                        |
+|                         | - OR -                     | rule apply to                                                                          |
+|                         |                            |                                                                                        |
+|                         | Specific category          |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Item type          |br| | All item types        |br| | Usualy includes the Zen Desk ticket number to document request for change         |br| |
-|                         | - OR -                |br| |                                                                                        |
-|                         | Specific item type    |br| |                                                                                        |
+| Item type               | All item types             | Usualy includes the Zen Desk ticket                                                    |
+|                         |                            |                                                                                        |
+|                         | - OR -                     | number to document request for change                                                  |
+|                         |                            |                                                                                        |
+|                         | Specific item type         |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Note               |br| | Optional field        |br| | Usualy includes the Zen Desk ticket number to document request for change         |br| |
-|                         | (32 characters max)   |br| |                                                                                        |
+| Note                    | Optional field             | Usualy includes the Zen Desk ticket                                                    |
+|                         |                            |                                                                                        |
+|                         | (32 characters max)        | number to document request for change                                                  |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-|                                                                Checkout rules                                                            |br| |
+|                                                                Checkout rules                                                                 |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Current checkouts  |br| | Unlimited             |br| | Maximum total number of items of this item type that a borrower                   |br| |
-| allowed            |br| | - OR -                |br| | can have checked out from this library at any given moment                        |br| |
-|                         | a number between 1-999,999 |                                                                                        |
+| Current checkouts       | Unlimited             |br| | Maximum total number of items of this                                                  |
+|                         |                            |                                                                                        |
+|                         | - OR -                |br| | item type that a borrower                                                              |
+|                         |                            |                                                                                        |
+| allowed                 | a number between 1-999,999 | can have checked out from this library                                                 |
+|                         |                            |                                                                                        |
+|                         |                            | at any given moment                                                                    |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Loan period        |br| | 1-999999              |br| | "Loan period" + "Unit" = how long an item checks out                              |br| |
+| Loan period             | 1-999999              |br| | "Loan period" + "Unit" = how long an item checks out                              |br| |
 +-------------------------+----------------------------|                                                                                        |
-| Unit               |br| | Days/Hours            |br| | If "Loan period" = 21 and "Unit" = Days, items check out for 21 days              |br| |
+| Unit                    | Days/Hours            |br| | If "Loan period" = 21 and "Unit" = Days, items check out for 21 days              |br| |
 |                         | - OR -                |br| | If "Loan period" = 36 and "Unit" = Hours, items check out for 36 hours            |br| |
 |                         | Hours                 |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Days mode          |br| | Default               |br| | Default = follow the system preference "useDaysMode"                              |br| |
+| Days mode               | Default               |br| | Default = follow the system preference "useDaysMode"                              |br| |
 |                         | - OR -                |br| |                                                                                        |
 |                         | Skip closed days      |br| | Skip = circulation rules will skip days the library is closed when calculating    |br| |
 |                         | - OR -                |br| | due dates                                                                         |br| |
@@ -54,7 +65,7 @@ TEst 1      Test 2
 |                         |                            | day listed as closed, push the due date to the next Thursday the                  |br| |
 |                         |                            | calendar shows the library as open.                                               |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Hard due date      |br| | Before                |br| | Items must be returned Before/Exactly on/After                                    |br| |
+| Hard due date           | Before                |br| | Items must be returned Before/Exactly on/After                                    |br| |
 |                         | - OR -                |br| | the due date specified in the preference                                          |br| |
 |                         | Exactly on            |br| |                                                                                        |
 |                         | - OR -                |br| | This is mostly used by schools - i.e. All items checked out are given a due date  |br| |
@@ -65,30 +76,30 @@ TEst 1      Test 2
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
 | Decreased loan period   | Blank                 |br| | Works with decreaseLoanHighHolds, decreaseLoanHighHoldsDuration,                  |br| |
 |                         | - OR -                |br| | decreaseLoanHighHoldsValue, decreaseLoanHighHoldsControl,                         |br| |
-| for high hold      |br| | 1-999,999             |br| | and decreaseLoanHighHoldsIgnoreStatuses system preferences.                       |br| |
+| for high hold           | 1-999,999             |br| | and decreaseLoanHighHoldsIgnoreStatuses system preferences.                       |br| |
 |                         |                            |                                                                                        |
-| (day)              |br| |                            | Allows library to specify reduced loan period if the holds ratio exceeds parameters    |
+| (day)                   |                            | Allows library to specify reduced loan period if the holds ratio exceeds parameters    |
 |                         |                            | set in system preferences.                                                        |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
 |                                                                   Renewals                                                               |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Renewals allowed   |br| | Unlimited             |br| | How many times can an item of this type be renewed                                |br| |
+| Renewals allowed        | Unlimited             |br| | How many times can an item of this type be renewed                                |br| |
 |                         | - OR -                |br| |                                                                                        |
-| (count)            |br| | 0-999,999             |br| |                                                                                        |
+| (count)                 | 0-999,999             |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Renewal period     |br| | 0-999,999             |br| | How many "Unit"s does it renew for                                                |br| |
+| Renewal period          | 0-999,999             |br| | How many "Unit"s does it renew for                                                |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| No renewal before  |br| | Blank                 |br| | Number of "Unit"s before the due date when the auto-renewal process will start    |br| |
+| No renewal before       | Blank                 |br| | Number of "Unit"s before the due date when the auto-renewal process will start    |br| |
 |                         | - OR -                |br| |                                                                                        |
 |                         | 0-999,999             |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Automatic renewal  |br| | Yes                   |br| |                                                                                        |
+| Automatic renewal       | Yes                   |br| |                                                                                        |
 |                         | - OR -                |br| |                                                                                        |
 |                         | No                    |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
 | No automatic renewal    | Blank                 |br| | Number of "Unit"s after the issue date when the auto-renewal process will end     |br| |
 |                         | - OR -                |br| |                                                                                        |
-| renewal after      |br| | 1-999,999             |br| |                                                                                        |
+| renewal after           | 1-999,999             |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
 | No automatic renewal    | Blank                 |br| | Specific date when the auto-renewal process will end                              |br| |
 |                         | - OR -                |br| |                                                                                        |
@@ -96,38 +107,38 @@ TEst 1      Test 2
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
 |                                                                   Requests                                                               |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Requests allowed   |br| | Blank                 |br| | Maximum number of requests a borrower can have at any given moment                |br| |
-| (total)            |br| | - OR -                |br| |                                                                                        |
-|                         | 0-999,999             |br| |                                                                                        |
+| Requests allowed        | Blank                 |br| | Maximum number of requests a borrower can have at any given moment                |br| |
+|                         | - OR -                |br| |                                                                                        |
+| (total)                 | 0-999,999             |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Requests allowed   |br| | Blank                 |br| | Maximum number of requests a borrower can place on this item type in one single day    |
-| (daily)            |br| | - OR -                |br| |                                                                                        |
-|                         | 0-999,999             |br| |                                                                                        |
+| Requests allowed        | Blank                 |br| | Maximum number of requests a borrower can place on this item type in one single day    |
+|                         | - OR -                |br| |                                                                                        |
+| (daily)                 | 0-999,999             |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Requests per record|br| | Blank                 |br| | Maximum number of requests a borrower can place on a single record                |br| |
-| (count)            |br| | - OR -                |br| |                                                                                        |
-|                         | 0-999,999             |br| |                                                                                        |
+| Requests per record     | Blank                 |br| | Maximum number of requests a borrower can place on a single record                |br| |
+|                         | - OR -                |br| |                                                                                        |
+| (count)                 | 0-999,999             |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| On shelf requests  |br| | Yes                   |br| | If this is set to "No" a borrower cannot place requests on a bibliographic        |br| |
-| allowed            |br| | - OR -                |br| | record if a copy of the item they want is currently checked in and available      |br| |
-|                         | No                    |br| |                                                                                        |
+| On shelf requests       | Yes                   |br| | If this is set to "No" a borrower cannot place requests on a bibliographic        |br| |
+|                         | - OR -                |br| | record if a copy of the item they want is currently checked in and available      |br| |
+| allowed                 | No                    |br| |                                                                                        |
 |                         |                            |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Opac item level    |br| | Don't allow           |br| | Can a borrower place an item level request via the OPAC                           |br| |
-| requests           |br| | - OR -                |br| |                                                                                        |
-|                         | Allow                 |br| | Don't allow = no                                                                  |br| |
+| Opac item level         | Don't allow           |br| | Can a borrower place an item level request via the OPAC                           |br| |
+|                         | - OR -                |br| |                                                                                        |
+| requests                | Allow                 |br| | Don't allow = no                                                                  |br| |
 |                         | - OR -                |br| | Allow = yes                                                                       |br| |
 |                         | Force                 |br| | Force = the borrower MUST choose a specific item                                  |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
 |                                                                   Late fees                                                              |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Late fee amount    |br| | 0.00-999,999.99       |br| | Cost of late fees                                                                 |br| |
+| Late fee amount         | 0.00-999,999.99       |br| | Cost of late fees                                                                 |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Fee interval       |br| | Blank                 |br| | per fee interval (in "Unit"s)                                                     |br| |
+| Fee interval            | Blank                 |br| | per fee interval (in "Unit"s)                                                     |br| |
 |                         | - OR -                |br| |                                                                                        |
 |                         | 1-999,999             |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| When to charge     |br| | End of interval       |br| | charged at the (End of/Start of) the Fee interval                                 |br| |
+| When to charge          | End of interval       |br| | charged at the (End of/Start of) the Fee interval                                 |br| |
 |                         | - OR -                |br| |                                                                                        |
 |                         | Start of interval     |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
@@ -145,37 +156,39 @@ TEst 1      Test 2
 |                         |                            | the week or the end of the week - i.e. charge the moment the item is overdue      |br| |
 |                         |                            | or wait until it's been overdue a full 7 days.                                    |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Grace period       |br| | Blank                 |br| | "Grace period" follows the same "Unit" measurement as   loans and late fees       |br| |
+| Grace period            | Blank                 |br| | "Grace period" follows the same "Unit" measurement as   loans and late fees       |br| |
 |                         | - OR -                |br| |                                                                                        |
 |                         | 1-999,999             |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
 | Late fee cap (amount)   | 0.00-999,999.99       |br| | What is the maximum late fee for this type of item                                |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Cap fee at         |br| | Checkbox              |br| | If "Late fee cap" is left blank and this checkbox is checked,   then the          |br| |
-| replacement price  |br| |                            |                                                                                        |
+| Cap fee at              | Checkbox                   | If "Late fee cap" is left blank and this checkbox is checked,   then the          |br| |
+|                         |                            |                                                                                        |
+| replacement price       |                            |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
 |                                                              Things we don't use                                                         |br| |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Current on site    |br| | Unlimited             |br| | Suspension is not widely used in the USA.                                         |br| |
-| checkouts allowed  |br| | - OR -                |br| | Suspension is a type of penalty system where, for example, if a borrower keeps    |br| |
+| Current on site         | Unlimited                  | Suspension is not widely used in the USA.                                         |br| |
+|                         |                            |                                                                                        |
+| checkouts allowed       | - OR -                |br| | Suspension is a type of penalty system where, for example, if a borrower keeps    |br| |
 |                         | 1-999,999             |br| | an item 4 days overdue, their account is suspended for borrowing for 4 days. If you    |
 +-------------------------+----------------------------+ If a borrower keeps something overdue for 180 days, their account is suppended for|br| |
-| Suspension in days |br| | Blank                 |br| | 180 days, etc.                                                                    |br| |
-| (day)              |br| | - OR -                |br| |                                                                                        |
-|                         | 1-999,999             |br| | These settings control the duration of the suspension.                            |br| |
+| Suspension in days      | Blank                 |br| | 180 days, etc.                                                                    |br| |
+|                         | - OR -                |br| |                                                                                        |
+| (day)                   | 1-999,999             |br| | These settings control the duration of the suspension.                            |br| |
 +-------------------------+----------------------------+                                                                                        |
-| Maximum suspension |br| | Blank                 |br| |                                                                                        |
-| duration (day)     |br| | - OR -                |br| |                                                                                        |
-|                         | 1-999,999             |br| |                                                                                        |
+| Maximum suspension      | Blank                 |br| |                                                                                        |
+|                         | - OR -                |br| |                                                                                        |
+| duration (day)          | 1-999,999             |br| |                                                                                        |
 +-------------------------+----------------------------+                                                                                        |
-| Suspension charging|br| | Blank                 |br| |                                                                                        |
-| interval           |br| | - OR -                |br| |                                                                                        |
-|                         | 1-999,999             |br| |                                                                                        |
+| Suspension charging     | Blank                 |br| |                                                                                        |
+|                         | - OR -                |br| |                                                                                        |
+| interval                | 1-999,999             |br| |                                                                                        |
 |                         |                            |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
-| Rental discount    |br| | Blank                 |br| | Rental discount is a feature Next Search Catalog does not currently use           |br| |
-| (percentage)       |br| | - OR -                |br| |                                                                                        |
-|                         | .01-100 (percentage)  |br| |                                                                                        |
+| Rental discount         | Blank                 |br| | Rental discount is a feature Next Search Catalog does not currently use           |br| |
+|                         | - OR -                |br| |                                                                                        |
+| (percentage)            | .01-100 (percentage)  |br| |                                                                                        |
 +-------------------------+----------------------------+----------------------------------------------------------------------------------------+
 
 .. |br| raw:: html
