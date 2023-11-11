@@ -36,7 +36,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.coverage',
     'sphinx.ext.autosectionlabel',
-    'sphinx.ext.todo'
+    'sphinx.ext.todo',
+    'sphinx.ext.graphviz'
 ]
 
 # Display todos by setting to True
@@ -171,3 +172,6 @@ class PatchedHTMLTranslator(HTMLTranslator):
 
 def setup(app):
     app.set_translator('html', PatchedHTMLTranslator)
+
+# -- GraphViz configuration ----------------------------------
+graphviz_output_format = 'svg'

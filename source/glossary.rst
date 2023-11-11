@@ -110,6 +110,32 @@ Notices and slips:
           - Alternate address > Email
       - Please note that a *valid* email address does not necessarily mean the first *working* email address -- *valid* just means the email address meets the IETF standards for a properly formatted email address (see `Valid email address format <https://help.xmatters.com/ondemand/trial/valid_email_format.htm>`_ for more information)
 
+Cataloging 
+---------- 
+
+.. glossary:: 
+
+    Universal Product Code
+      **AKA:**
+
+      UPC
+
+      The barcode found on almost all products throughout the world.  The Universal Product Code on most books is the same as the book's ISBN
+
+    International Standard Book Number 
+      **AKA**
+
+      ISBN 
+
+      A 13 digit number that identifies a book.  ISBNs have been used by publishers since 1970.  In 2007 ISBNs changed from 10 digits to 13 digits. 
+
+    International Standard Serial Number
+      **AKA**
+
+      ISSN 
+
+      An 8 digit number that identifies a serial publication like a magazine or journal. 
+
 Abbreviations:
 ==============
 
@@ -124,6 +150,12 @@ Abbreviations:
     IMLS
       Abbreviation for :term:`Institute of Museum and Library Services`
 
+    ISBN
+      Abbreviation for :term:`International Standard Book Number`
+
+    ISSN
+      Abbreviation for :term:`International Standard Serial Number`
+
     LMS
       Abbreviation for :term:`Library management system<Integrated library system>`
 
@@ -135,3 +167,6 @@ Abbreviations:
 
     SLK
       Abbreviation for :term:`State Library of Kansas`
+
+    UPC
+      Abbreviation for :term:`Universal Product Code`
