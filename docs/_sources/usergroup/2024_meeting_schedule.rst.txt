@@ -20,7 +20,7 @@ Upcoming meetings
 
 2024.01.25 - (Thursday) 10:00 a.m. - 12:00 p.m. - Northeast Kansas Library System / online
 
-2023.04.TBA - Osage City Public Library / online
+2023.04.16 (Tuesday) 10:00 a.m. - 12:00 p.m.  - Osage City Public Library / online
 
 2023.08.TBA - Tonganoxie Public Library / online
 
