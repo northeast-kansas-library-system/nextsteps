@@ -1,14 +1,13 @@
 .. include:: /include.rst
 
-************************************************************
 Search for an existing bibliographic record - best practices
-************************************************************
+============================================================
 
 When you are trying to add an item to Next Search Catalog, the first thing you want to do is to search to see if a copy already exists in the catalog.  The steps below outline the best practices for searching Next Search Catalog thouroughly.
 
 
 1. Search by ISBN
-=================
+-----------------
 
     A. Select "Home > More > Cataloging"
 
@@ -30,7 +29,7 @@ When you are trying to add an item to Next Search Catalog, the first thing you w
 
 
 2. Search by author/title
-=========================
+-------------------------
 
     A. If you do not find a match on the ISBN or UPC number, you should then do a search by title/author. It is possible that a copy exists that matches in every way except ISBN or UPC number. This can especially be true for items that are quite old or have been self-published
 
@@ -44,7 +43,7 @@ When you are trying to add an item to Next Search Catalog, the first thing you w
 
 
 3. Look for records to copy from outside of Next
-================================================
+------------------------------------------------
 
 If you do not find a match already in Next Search Catalog, your next step in adding an item to Next Search Catalog is to look to other cataloging resources.
 

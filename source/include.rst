@@ -15,6 +15,7 @@
 .. include all of these images in all files
 
 .. |soon| image:: /images/default.png
+    :scale: 65%
     :alt: Image coming soon
 
 .. |nexthelp| image:: /images/nexthelp.svg
@@ -34,11 +35,11 @@
 
 .. cataloging_basics
 
-.. |adding_item_to_record_0010| image:: /images/cataloging_basics/adding_item_to_record_0010.*
+.. |adding_item_to_record_0010| image:: /images/cataloging_basics/adding_item_to_record_0010.png
     :scale: 65%
     :alt: Where to find the "New item" button
 
-.. |adding_item_to_record_0020| image:: /images/cataloging_basics/adding_item_to_record_0020.*
+.. |adding_item_to_record_0020| image:: /images/cataloging_basics/adding_item_to_record_0020.png
     :scale: 65%
     :alt: Which fields are essential
 
@@ -66,6 +67,18 @@
     :scale: 65%
     :alt: Results of the "Add multiple copies" process
 
+.. |brief_record_cataloging_0010| image:: /images/cataloging_basics/brief_record_cataloging_0010.*
+    :scale: 65%
+    :alt: 
+
+.. |brief_record_cataloging_0020| image:: /images/cataloging_basics/brief_record_cataloging_0020.*
+    :scale: 65%
+    :alt: 
+
+.. |brief_record_cataloging_0030| image:: /images/cataloging_basics/brief_record_cataloging_0030.*
+    :scale: 65%
+    :alt: 
+
 .. |search_for_existing_0010| image:: /images/cataloging_basics/search_for_existing_0010.png
     :scale: 65%
     :alt: Where to click for "Home > Cataloging"
@@ -85,6 +98,71 @@
 .. |search_for_existing_0050| image:: /images/cataloging_basics/search_for_existing_0050.png
     :scale: 65%
     :alt: Where to find "Cataloging search" box - includes sample title and author input
+
+.. |shareit_0010| image:: /images/cataloging_basics/shareit_0010.*
+    :scale: 65%
+    :alt: ShareIt login screen
+
+.. |shareit_0020| image:: /images/cataloging_basics/shareit_0020.*
+    :scale: 65%
+    :alt: Where to search in ShareIt - Trying an ISBN search first is the best practice
+
+.. |shareit_0030| image:: /images/cataloging_basics/shareit_0030.*
+    :scale: 65%
+    :alt: Click on the book cover to select a title
+
+.. |shareit_0040| image:: /images/cataloging_basics/shareit_0040.*
+    :scale: 65%
+    :alt: Click on "Download" to save the bibliographic record to your computer
+
+.. |shareit_0050| image:: /images/cataloging_basics/shareit_0050.*
+    :scale: 65%
+    :alt: Downloaded files usually go to your downloads folder with a .mrc or .dat filename extension
+
+.. |stage_and_import_records_0010| image:: /images/cataloging_basics/stage_and_import_records_0010.*
+    :scale: 65%
+    :alt: 
+
+.. |stage_and_import_records_0020| image:: /images/cataloging_basics/stage_and_import_records_0020.*
+    :scale: 65%
+    :alt: 
+
+.. |stage_and_import_records_0030| image:: /images/cataloging_basics/stage_and_import_records_0030.*
+    :scale: 65%
+    :alt: 
+
+.. |stage_and_import_records_0040| image:: /images/cataloging_basics/stage_and_import_records_0040.*
+    :scale: 65%
+    :alt: 
+
+.. |stage_and_import_records_0050| image:: /images/cataloging_basics/stage_and_import_records_0050.*
+    :scale: 65%
+    :alt: 
+
+.. |stage_and_import_records_0060| image:: /images/cataloging_basics/stage_and_import_records_0060.*
+    :scale: 65%
+    :alt: 
+
+.. |stage_and_import_records_0070| image:: /images/cataloging_basics/stage_and_import_records_0070.*
+    :scale: 65%
+    :alt: 
+
+.. |stage_and_import_records_0080| image:: /images/cataloging_basics/stage_and_import_records_0080.*
+    :scale: 65%
+    :alt: 
+
+.. |stage_and_import_records_0090| image:: /images/cataloging_basics/stage_and_import_records_0090.*
+    :scale: 65%
+    :alt: 
+
+.. |stage_and_import_records_0100| image:: /images/cataloging_basics/stage_and_import_records_0100.*
+    :scale: 65%
+    :alt: 
+
+.. |stage_and_import_records_0110| image:: /images/cataloging_basics/stage_and_import_records_0110.*
+    :scale: 65%
+    :alt:
+
 
 .. |z39_50_0020| image:: /images/cataloging_basics/z39_50_0020.*
     :scale: 65%
@@ -127,6 +205,33 @@
     :alt: Optional search target location
 
 .. bugs
+
+.. bugs/koha_026520
+
+.. |koha_026520_0010| image:: /images/bugs/koha_026520/koha_026520_0010.*
+    :scale: 65%
+    :alt: Default preferences highlighted on screen
+
+.. |koha_026520_0020| image:: /images/bugs/koha_026520/koha_026520_0020.*
+    :scale: 65%
+    :alt: All default preferences un-checked and pointer to "Save" button
+
+.. |koha_026520_0030| image:: /images/bugs/koha_026520/koha_026520_0030.*
+    :scale: 65%
+    :alt: Failure for un-checked preferences to save highlighted on screen
+
+.. |koha_026520_0040| image:: /images/bugs/koha_026520/koha_026520_0040.*
+    :scale: 65%
+    :alt: Work-around bug 26520 - step 1 highlighted
+
+.. |koha_026520_0050| image:: /images/bugs/koha_026520/koha_026520_0050.*
+    :scale: 65%
+    :alt: All default preferences un-checked and pointer to "Save" button
+
+.. |koha_026520_0060| image:: /images/bugs/koha_026520/koha_026520_0060.*
+    :scale: 65%
+    :alt: Preferences are finally saved on final step of work-around
+
 
 .. |ff106.0010.jpg| image:: /images/bugs/2022_printing/ff106.0010.jpg
     :scale: 65%
@@ -676,7 +781,7 @@
     :scale: 65%
     :alt:
 
-.. reports_training 
+.. reports_training
 
 .. reports_training/000214
 
@@ -688,13 +793,13 @@
     :scale: 65%
     :alt: Report 214 results example
 
-.. reports_training/002731 
+.. reports_training/002731
 
-.. |report_2731_0020| image:: /images/reports_training/002731/report_2731_0020.png 
+.. |report_2731_0020| image:: /images/reports_training/002731/report_2731_0020.png
     :scale: 65%
-    :alt: Configuration for full shelf list 
+    :alt: Configuration for full shelf list
 
-.. |report_2731_0030| image:: /images/reports_training/002731/report_2731_0030.png 
+.. |report_2731_0030| image:: /images/reports_training/002731/report_2731_0030.png
     :scale: 65%
     :alt:  Configuration for items added during a date range shelf list
 

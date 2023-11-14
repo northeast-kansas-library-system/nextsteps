@@ -1,15 +1,14 @@
 .. include:: /include.rst
 
-*************************************
 Adding items to bibliographic records
-*************************************
+=====================================
 
 **When adding items, please be sure that you are adding your items to the correct record.**
 
 Once you've found a bibliographic record that you're going to add an item to, follow these steps:
 
 Adding 1 item to a bibliographic record
-=======================================
+---------------------------------------
 
 1. From the biblographic record, click on "New item" from the "New +" drop-down-button
 
@@ -67,7 +66,7 @@ D. If you only have one item to add to the record, once the fields are filled, c
     |adding_item_to_record_0040|
 
 Adding 2 items to a bibliographic record at once
-================================================
+------------------------------------------------
 
 - If you have two copies of the same title to add to a record, follow all of the steps for adding 1 item but instead of clicking "Add item", click on "Add and duplicate" instead
 
@@ -76,7 +75,7 @@ Adding 2 items to a bibliographic record at once
     |adding_item_to_record_0050|
 
 Adding up to 10 items to a bibliographic record at once
-=======================================================
+-------------------------------------------------------
 
 - If you have more than 2 copies of the same title to add to a record and your barcode numbers are in sequence (1, 2, 3, 4 . . .), once you've finished adding the first, click "Add multiple copies of this item."
 

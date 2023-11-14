@@ -1,0 +1,71 @@
+.. include:: /include.rst
+
+November 2023 - Default messaging preferences bug
+=================================================
+
+This bug only occurs when you create a new borrower **AND** you try to un-check **all** of the default messaging preferences.  Once the borrower has been created, the messaging preferences can be removed, but only *after* the borrower has been created.
+
+This is `Koha bug 26250 <https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=26520>`_ and has existed since at least 2020.  The circumstances to re-create the bug are unusual, though, so no one in our system reported it until 2023.
+
+Steps to re-create the bug 
+--------------------------
+
+1. Follow the normal steps to create a new borrower:
+
+    A. Click on "Patrons"
+    B. Click on "New patron" and choose a borrower category 
+    C. Fill out the new patron form as normal
+    D. Scroll to the "Patron messaging preferences" section at the bottom of the page
+
+2. Note that several of the messaging preferences in this section are checked by default 
+
+    |koha_026520_0010|
+
+3. Un-check **ALL** of the messaging preferences and then click on "Save"
+
+    (this bug only occurs when you un-check **ALL** of the checkboxes) 
+
+    |koha_026520_0020|
+
+4. On the borrower's details page, note that the messaging preferences have all re-set back to their default settings
+
+    |koha_026520_0030|
+
+Steps to work-around the bug
+----------------------------
+
+A. After creating the borrower, click on "Edit"
+
+    |koha_026520_0040|
+
+B. Un-check **ALL** of the messaging preference checkboxes
+
+    |koha_026520_0050|
+
+C. Click on "Save" and note that all of the messaging preferences are now un-checked
+
+    |koha_026520_0060|
+
+Koha bug 26520 video
+---------------------
+
+.. only:: html
+
+  .. raw:: html
+
+        <div class="ytcontainer">
+          <iframe class="responsive-iframe" 
+          src="https://www.youtube.com/embed/n-GecJ1jGnw?si=HWzrf82dS1XoPN5W" 
+          title="YouTube Video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+        </div>
+
+.. only:: latex
+
+   https://youtu.be/Hag1aoLTTQo
+
+|br|
+
+Go directly to the Video on YouTube `<https://youtu.be/n-GecJ1jGnw>`_

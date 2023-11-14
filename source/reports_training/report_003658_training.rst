@@ -92,4 +92,4 @@ This is a sample of the e-mail that will be sent
 
 -----------
 
-.. include:: /reports/report_003658.rst
+`https://northeast-kansas-library-system.github.io/nextkansas.sql/R.003614.html`_

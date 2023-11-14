@@ -1,8 +1,7 @@
 .. include:: /include.rst
 
-*****************
-Cataloging basics
-*****************
+Basic cataloging summary
+========================
 
 This is an update of the basic Next Search Catalog training for 2024.
 
@@ -10,7 +9,7 @@ The cataloging committee organized by Robin Hastings at NEKLS is working on a mo
 
 
 Basic steps to adding a record to Next Search Catalog:
-======================================================
+------------------------------------------------------
 
 There are really only 3 steps to adding an item to Next Search Catalog.  The trouble is that there are 3 possibilities that can happen when you get to step 2
 
@@ -28,7 +27,7 @@ There are really only 3 steps to adding an item to Next Search Catalog.  The tro
 
 
 Step 1: Searching for a bibliographic record
-============================================
+--------------------------------------------
 
   The first step in adding an item to the catalog is to search the existing catalog to see if the title already exists in Next Search Catalog.  The following document has best practices for searching for an existing bibliographic record:
 
@@ -36,13 +35,13 @@ Step 1: Searching for a bibliographic record
 
 
 Step 2A: Record is already in catalog
-=====================================
+-------------------------------------
 
   If your item accurately matches a bibliographic record that already exists in Next Search Catalog, go to :ref:`step 3 <Step 3: Adding an item to a bibliographic record>` and attach your item to the existing bibliographic record
 
 
 Step 2B: Record is not in catalog, but can be found elsewhere
-=============================================================
+-------------------------------------------------------------
 
   If you cannot find an accurate match in Next Search Catalog, the next step is to search for a bibliographic record using the Z39.50 search engine.
 
@@ -57,7 +56,7 @@ Step 2B: Record is not in catalog, but can be found elsewhere
     - :doc:`/cataloging_basics/stage_and_import_record`
 
 Step 2: No record can be found
-==============================
+------------------------------
 
   If you cannot find a bibliogrpahic record from any other source, you can add a brief record by following the instructions below:
 
@@ -65,7 +64,7 @@ Step 2: No record can be found
 
 
 Step 3: Adding an item to a bibliographic record
-================================================
+------------------------------------------------
 
   Once you've found, copied, or created a bibliogrpahic record, you need to add your item to that bibliogrpahic record:
 
@@ -73,7 +72,7 @@ Step 3: Adding an item to a bibliographic record
 
 
 ILL Cataloging
-==============
+--------------
 
 There are several ways to handle ILL records.  Options are described below:
 
@@ -84,7 +83,7 @@ There are several ways to handle ILL records.  Options are described below:
 
 
 On order cataloging
-===================
+-------------------
 
 :doc:`/cataloging_basics/on_order_item`
 
@@ -96,7 +95,7 @@ Adding an "On order" bibliographic record
 
 
 Next Search Catalog classification
-==================================
+----------------------------------
 
 Cataloging and Classification are different things.
 
