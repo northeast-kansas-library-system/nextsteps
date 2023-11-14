@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
-
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Item statuses &mdash; Next Steps 1.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -13,11 +12,11 @@
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
-        <script src="../_static/doctools.js?v=888ff710"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -30,16 +29,12 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-
-          
-          
-          <a href="../index.html" class="icon icon-home">
-            Next Steps
-              <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+            <a href="../index.html" class="icon icon-home"> Next Steps
+            <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -175,9 +170,9 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="../basic.html">Koha basics for library staff</a></li>
-      <li class="breadcrumb-item active">Item statuses</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../basic.html">Koha basics for library staff</a> &raquo;</li>
+      <li>Item statuses</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/pages/item_status.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -187,413 +182,403 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="item-statuses">
-<h1>Item statuses<a class="headerlink" href="#item-statuses" title="Link to this heading"></a></h1>
+  <div class="section" id="item-statuses">
+<h1>Item statuses<a class="headerlink" href="#item-statuses" title="Permalink to this heading"></a></h1>
 <p>This document will endeavor to clear up confusion about what people mean when they talk about an item’s status.</p>
-<section id="what-are-item-statuses-in-next-search-catalog">
-<h2>What are <em>item statuses</em> in Next Search Catalog<a class="headerlink" href="#what-are-item-statuses-in-next-search-catalog" title="Link to this heading"></a></h2>
+<div class="section" id="what-are-item-statuses-in-next-search-catalog">
+<h2>What are <em>item statuses</em> in Next Search Catalog<a class="headerlink" href="#what-are-item-statuses-in-next-search-catalog" title="Permalink to this heading"></a></h2>
 <p>The phrase <em>item status</em> can be confusing in Next Search Catalog because it can describe several different things.  Some <a class="reference internal" href="../glossary.html#term-Integrated-library-system"><span class="xref std std-term">integratd library system</span></a> have on field that can describe an item status, but Koha, the <a class="reference internal" href="../glossary.html#term-ILS"><span class="xref std std-term">ILS</span></a> we use, has several fields that staff often refer to when using the phrase <em>item status.</em></p>
-</section>
-<section id="available-status">
-<h2><em>Available</em> status<a class="headerlink" href="#available-status" title="Link to this heading"></a></h2>
+</div>
+<div class="section" id="available-status">
+<h2><em>Available</em> status<a class="headerlink" href="#available-status" title="Permalink to this heading"></a></h2>
 <p>The <em>status</em> column on a bibliographic record will show the item as “available” if the item is checked in and no other status applies to that item.</p>
 <p><a class="reference internal" href="../_images/item_status_available_0010.png"><img alt="" src="../_images/item_status_available_0010.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></p>
-<section id="what-happens-at-check-in">
-<h3>What happens at check-in<a class="headerlink" href="#what-happens-at-check-in" title="Link to this heading"></a></h3>
+<div class="section" id="what-happens-at-check-in">
+<h3>What happens at check-in<a class="headerlink" href="#what-happens-at-check-in" title="Permalink to this heading"></a></h3>
 <p>When you check in an item that is available:</p>
 <ol class="arabic simple">
-<li><p>The item’s “Last seen” date is updated to the current date</p></li>
-<li><p>The item’s shelving location is temporarily updated to “Recently returned”</p></li>
-<li><p>A check-in messages appears ths should be similar to this:</p></li>
+<li>The item’s “Last seen” date is updated to the current date</li>
+<li>The item’s shelving location is temporarily updated to “Recently returned”</li>
+<li>A check-in messages appears ths should be similar to this:</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/item_status_available_0020.png"><img alt="" src="../_images/item_status_available_0020.png" style="width: 595.4px; height: 140.4px;" /></a></p>
-</div></blockquote>
-</section>
-</section>
-<section id="checked-out-status">
-<h2><em>Checked out</em> status<a class="headerlink" href="#checked-out-status" title="Link to this heading"></a></h2>
+<div><a class="reference internal" href="../_images/item_status_available_0020.png"><img alt="" src="../_images/item_status_available_0020.png" style="width: 595.4px; height: 140.4px;" /></a></div></blockquote>
+</div>
+</div>
+<div class="section" id="checked-out-status">
+<h2><em>Checked out</em> status<a class="headerlink" href="#checked-out-status" title="Permalink to this heading"></a></h2>
 <p>There are, effctively, two “Checked out” statuses:</p>
 <ul class="simple">
-<li><p>Checked out</p></li>
-<li><p>Overdue</p></li>
+<li>Checked out</li>
+<li>Overdue</li>
 </ul>
 <p>From the item’s bibliographic record the status for both checked out and overdue items will say “Checked out to LIBRARYCARD until mm/dd/yyyy.”  The only way to tell that an item is overdue is by looking at the date.</p>
 <p>From a borrower’s record, overdue items will show the due date highlighted in red.</p>
 <p><a class="reference internal" href="../_images/item_status_checked_out_0010.png"><img alt="" src="../_images/item_status_checked_out_0010.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></p>
 <p><a class="reference internal" href="../_images/item_status_checked_out_0020.png"><img alt="" src="../_images/item_status_checked_out_0020.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></p>
-<section id="id1">
-<h3>What happens at check-in<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<div class="section" id="id1">
+<h3>What happens at check-in<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h3>
 <ol class="arabic simple">
-<li><p>The item status will return to “Available,” “In transit,” or “On hold” depending on the item’s home library and any requests placed on it</p></li>
-<li><p>If your library charges late fees, checking an overdue item in will finalize the late fee processes</p></li>
-<li><p>The item’s shelving location will update to “Recently returned”</p></li>
-<li><p>The item’s shelving location is temporarily updated to “Recently returned”</p></li>
-<li><p>A check-in messages appears ths should be similar to this (depending on the circumstances):</p></li>
+<li>The item status will return to “Available,” “In transit,” or “On hold” depending on the item’s home library and any requests placed on it</li>
+<li>If your library charges late fees, checking an overdue item in will finalize the late fee processes</li>
+<li>The item’s shelving location will update to “Recently returned”</li>
+<li>The item’s shelving location is temporarily updated to “Recently returned”</li>
+<li>A check-in messages appears ths should be similar to this (depending on the circumstances):</li>
 </ol>
 <p><a class="reference internal" href="../_images/item_status_checked_out_0030.png"><img alt="" src="../_images/item_status_checked_out_0030.png" style="width: 595.4px; height: 120.9px;" /></a></p>
-</section>
-</section>
-<section id="withdrawn-status">
-<h2><em>Withdrawn</em> status<a class="headerlink" href="#withdrawn-status" title="Link to this heading"></a></h2>
-<section id="current-withdrawn-statuses">
-<h3>Current withdrawn statuses<a class="headerlink" href="#current-withdrawn-statuses" title="Link to this heading"></a></h3>
+</div>
+</div>
+<div class="section" id="withdrawn-status">
+<h2><em>Withdrawn</em> status<a class="headerlink" href="#withdrawn-status" title="Permalink to this heading"></a></h2>
+<div class="section" id="current-withdrawn-statuses">
+<h3>Current withdrawn statuses<a class="headerlink" href="#current-withdrawn-statuses" title="Permalink to this heading"></a></h3>
 <p>There are several withdran statuses at the present time:</p>
 <ul class="simple">
-<li><p>Discard</p></li>
-<li><p>Withdrawn</p></li>
-<li><p>Lost - Not Returnable</p></li>
+<li>Discard</li>
+<li>Withdrawn</li>
+<li>Lost - Not Returnable</li>
 </ul>
 <p>Depending on which library you are working at, you may not see all of these statuses.</p>
-</section>
-<section id="automatic-deletion-of-withdrawn-items">
-<h3>Automatic deletion of “Withdrawn” items<a class="headerlink" href="#automatic-deletion-of-withdrawn-items" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="automatic-deletion-of-withdrawn-items">
+<h3>Automatic deletion of “Withdrawn” items<a class="headerlink" href="#automatic-deletion-of-withdrawn-items" title="Permalink to this heading"></a></h3>
 <p>13 month after setting an item to any of these statuses, the item will be automatically deleted from the catalog.</p>
-</section>
-<section id="seting-a-withdrawn-status">
-<h3>Seting a <em>withdrawn</em> status<a class="headerlink" href="#seting-a-withdrawn-status" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="seting-a-withdrawn-status">
+<h3>Seting a <em>withdrawn</em> status<a class="headerlink" href="#seting-a-withdrawn-status" title="Permalink to this heading"></a></h3>
 <p><a class="reference internal" href="../_images/item_status_withdrawn_0010.png"><img alt="From the item details page, choose the status from the drop down then click on Set status" src="../_images/item_status_withdrawn_0010.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></p>
 <p><a class="reference internal" href="../_images/item_status_withdrawn_0020.png"><img alt="From the add/edit items page, choose the status from the drop down then click on Save changes" src="../_images/item_status_withdrawn_0020.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></p>
-</section>
-<section id="discard">
-<h3>Discard<a class="headerlink" href="#discard" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="discard">
+<h3>Discard<a class="headerlink" href="#discard" title="Permalink to this heading"></a></h3>
 <p>Used to mark a specific item as withdrawn - available to all libraries. (This status is being phased out because it has the exact same effect as “Withdrawn”)</p>
-</section>
-<section id="withdrawn">
-<h3>Withdrawn<a class="headerlink" href="#withdrawn" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="withdrawn">
+<h3>Withdrawn<a class="headerlink" href="#withdrawn" title="Permalink to this heading"></a></h3>
 <p>Used to mark a specific item as withdrawn - available to all libraries.</p>
-</section>
-<section id="lost-not-returnable">
-<h3>Lost - not returnable<a class="headerlink" href="#lost-not-returnable" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="lost-not-returnable">
+<h3>Lost - not returnable<a class="headerlink" href="#lost-not-returnable" title="Permalink to this heading"></a></h3>
 <p>This is a special status used only by Ottawa Library.</p>
-</section>
-<section id="id2">
-<h3>What happens at check-in<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="id2">
+<h3>What happens at check-in<a class="headerlink" href="#id2" title="Permalink to this heading"></a></h3>
 <p>When you check in an item that has a “Withdrawn” status:</p>
 <ol class="arabic simple">
-<li><p>The item is not supposed to be chcked in (i.e. if it was checked out to a borrower when it was marked with a withdrawn status, the item should remain on the borrowers account - but there are some software bugs and this is sometimes an issue)</p></li>
-<li><p>The withdrawn status <strong>is not</strong> removed</p></li>
-<li><p>The item’s shelving location is temporarily updated to “Recently returned”</p></li>
-<li><p>A check-in messages appears ths should be similar to this:</p></li>
+<li>The item is not supposed to be chcked in (i.e. if it was checked out to a borrower when it was marked with a withdrawn status, the item should remain on the borrowers account - but there are some software bugs and this is sometimes an issue)</li>
+<li>The withdrawn status <strong>is not</strong> removed</li>
+<li>The item’s shelving location is temporarily updated to “Recently returned”</li>
+<li>A check-in messages appears ths should be similar to this:</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/item_status_withdrawn_0030.png"><img alt="" src="../_images/item_status_withdrawn_0030.png" style="width: 595.4px; height: 145.6px;" /></a></p>
-</div></blockquote>
-</section>
-<section id="known-bugs">
-<h3>Known bugs<a class="headerlink" href="#known-bugs" title="Link to this heading"></a></h3>
+<div><a class="reference internal" href="../_images/item_status_withdrawn_0030.png"><img alt="" src="../_images/item_status_withdrawn_0030.png" style="width: 595.4px; height: 145.6px;" /></a></div></blockquote>
+</div>
+<div class="section" id="known-bugs">
+<h3>Known bugs<a class="headerlink" href="#known-bugs" title="Permalink to this heading"></a></h3>
 <p>There are some known bugs involved with checkin in items having a withdrawn status and the Koha community is working to resolve these issues.  Specifically, the item shelving location should not be updated to “Recently returned” and, if the item was withdrawn while checked out to a borrower, it should not be removed from the borrower’s account.</p>
-</section>
-</section>
-<section id="lost-status">
-<h2><em>Lost</em> status<a class="headerlink" href="#lost-status" title="Link to this heading"></a></h2>
-<section id="current-lost-statuses">
-<h3>Current lost statuses<a class="headerlink" href="#current-lost-statuses" title="Link to this heading"></a></h3>
+</div>
+</div>
+<div class="section" id="lost-status">
+<h2><em>Lost</em> status<a class="headerlink" href="#lost-status" title="Permalink to this heading"></a></h2>
+<div class="section" id="current-lost-statuses">
+<h3>Current lost statuses<a class="headerlink" href="#current-lost-statuses" title="Permalink to this heading"></a></h3>
 <p>There are several lost statuses at the present time:</p>
 <ul class="simple">
-<li><p>Claims returned</p></li>
-<li><p>In processing</p></li>
-<li><p>Incomplete</p></li>
-<li><p>Lost</p></li>
-<li><p>Lost (Damaged/Replace)</p></li>
-<li><p>Lost (more than  45 days overdue)</p></li>
-<li><p>Lost (more than 45 days overdue)</p></li>
-<li><p>Lost (Patron Claims Returned)</p></li>
-<li><p>Missing (inventory)</p></li>
-<li><p>Missing (unable to locate on shelf)</p></li>
-<li><p>Temporary storage (Carbondale)</p></li>
-<li><p>Temporary storage (HIAWATHA)</p></li>
+<li>Claims returned</li>
+<li>In processing</li>
+<li>Incomplete</li>
+<li>Lost</li>
+<li>Lost (Damaged/Replace)</li>
+<li>Lost (more than  45 days overdue)</li>
+<li>Lost (more than 45 days overdue)</li>
+<li>Lost (Patron Claims Returned)</li>
+<li>Missing (inventory)</li>
+<li>Missing (unable to locate on shelf)</li>
+<li>Temporary storage (Carbondale)</li>
+<li>Temporary storage (HIAWATHA)</li>
 </ul>
 <p>Depending on which library you are working at, you may not see all of these statuses.</p>
-</section>
-<section id="automatic-deletion-of-lost-items">
-<h3>Automatic deletion of “Lost” items<a class="headerlink" href="#automatic-deletion-of-lost-items" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="automatic-deletion-of-lost-items">
+<h3>Automatic deletion of “Lost” items<a class="headerlink" href="#automatic-deletion-of-lost-items" title="Permalink to this heading"></a></h3>
 <p>13 month after setting an item to any of these statuses, the item will be automatically deleted from the catalog.</p>
-</section>
-<section id="seting-a-lost-status">
-<h3>Seting a <em>lost</em> status<a class="headerlink" href="#seting-a-lost-status" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="seting-a-lost-status">
+<h3>Seting a <em>lost</em> status<a class="headerlink" href="#seting-a-lost-status" title="Permalink to this heading"></a></h3>
 <ol class="arabic simple">
-<li><p>“Lost (more than  45 days overdue)”</p></li>
+<li>“Lost (more than  45 days overdue)”</li>
 </ol>
 <blockquote>
 <div><ul class="simple">
-<li><p>This status is applied automatically to items that have been overdue for more than 45 days.</p></li>
+<li>This status is applied automatically to items that have been overdue for more than 45 days.</li>
 </ul>
 </div></blockquote>
 <ol class="arabic simple" start="2">
-<li><p>From the item details page</p></li>
+<li>From the item details page</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/item_status_lost_0010.png"><img alt="" src="../_images/item_status_lost_0010.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="../_images/item_status_lost_0010.png"><img alt="" src="../_images/item_status_lost_0010.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></div></blockquote>
 <ol class="arabic simple" start="3">
-<li><p>From the add/edit item page</p></li>
+<li>From the add/edit item page</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/item_status_lost_0020.png"><img alt="" src="../_images/item_status_lost_0020.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></p>
-</div></blockquote>
-</section>
-<section id="claims-returned">
-<h3>Claims returned<a class="headerlink" href="#claims-returned" title="Link to this heading"></a></h3>
+<div><a class="reference internal" href="../_images/item_status_lost_0020.png"><img alt="" src="../_images/item_status_lost_0020.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></div></blockquote>
+</div>
+<div class="section" id="claims-returned">
+<h3>Claims returned<a class="headerlink" href="#claims-returned" title="Permalink to this heading"></a></h3>
 <p>This status is used by the built-in claims returned feature</p>
-</section>
-<section id="in-processing">
-<h3>In processing<a class="headerlink" href="#in-processing" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="in-processing">
+<h3>In processing<a class="headerlink" href="#in-processing" title="Permalink to this heading"></a></h3>
 <p>This is a status used at a couple of libraries while items are being cataloged</p>
-</section>
-<section id="incomplete">
-<h3>Incomplete<a class="headerlink" href="#incomplete" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="incomplete">
+<h3>Incomplete<a class="headerlink" href="#incomplete" title="Permalink to this heading"></a></h3>
 <p>This is a legacy status that is being phased out</p>
-</section>
-<section id="lost">
-<h3>Lost<a class="headerlink" href="#lost" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="lost">
+<h3>Lost<a class="headerlink" href="#lost" title="Permalink to this heading"></a></h3>
 <p>This is a legacy status that is being phased out</p>
-</section>
-<section id="lost-damaged-replace">
-<h3>Lost (Damaged/Replace)<a class="headerlink" href="#lost-damaged-replace" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="lost-damaged-replace">
+<h3>Lost (Damaged/Replace)<a class="headerlink" href="#lost-damaged-replace" title="Permalink to this heading"></a></h3>
 <p>This is a legacy status that is being phased out</p>
-</section>
-<section id="lost-more-than-45-days-overdue-lost-status-code-2">
-<h3>Lost (more than  45 days overdue) - lost status code 2<a class="headerlink" href="#lost-more-than-45-days-overdue-lost-status-code-2" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="lost-more-than-45-days-overdue-lost-status-code-2">
+<h3>Lost (more than  45 days overdue) - lost status code 2<a class="headerlink" href="#lost-more-than-45-days-overdue-lost-status-code-2" title="Permalink to this heading"></a></h3>
 <p>This status is applied automatically to items that have been overdue for more than 45 days.  The underlying code for this status is lost status 2 and it cannot be added to an item by staff.</p>
-</section>
-<section id="lost-more-than-45-days-overdue-lost-status-code-7">
-<h3>Lost (more than 45 days overdue) - lost status code 7<a class="headerlink" href="#lost-more-than-45-days-overdue-lost-status-code-7" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="lost-more-than-45-days-overdue-lost-status-code-7">
+<h3>Lost (more than 45 days overdue) - lost status code 7<a class="headerlink" href="#lost-more-than-45-days-overdue-lost-status-code-7" title="Permalink to this heading"></a></h3>
 <p>This status looks the same as the one above it, but the underlying code for this status is lost status 7 and staff can add this status to an item record.</p>
-</section>
-<section id="lost-patron-claims-returned">
-<h3>Lost (Patron Claims Returned)<a class="headerlink" href="#lost-patron-claims-returned" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="lost-patron-claims-returned">
+<h3>Lost (Patron Claims Returned)<a class="headerlink" href="#lost-patron-claims-returned" title="Permalink to this heading"></a></h3>
 <p>This is a legacy status that is only used at a couple of libraries.</p>
-</section>
-<section id="missing-inventory">
-<h3>Missing (inventory)<a class="headerlink" href="#missing-inventory" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="missing-inventory">
+<h3>Missing (inventory)<a class="headerlink" href="#missing-inventory" title="Permalink to this heading"></a></h3>
 <p>This is a status used for libraries doing a quick-and-dirty inventory process</p>
-</section>
-<section id="missing-unable-to-locate-on-shelf">
-<h3>Missing (unable to locate on shelf)<a class="headerlink" href="#missing-unable-to-locate-on-shelf" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="missing-unable-to-locate-on-shelf">
+<h3>Missing (unable to locate on shelf)<a class="headerlink" href="#missing-unable-to-locate-on-shelf" title="Permalink to this heading"></a></h3>
 <p>If you cannot find an item that is supposed to be checked in and on the shelf, you should mark the item with this status</p>
-</section>
-<section id="temporary-storage-carbondale">
-<h3>Temporary storage (Carbondale)<a class="headerlink" href="#temporary-storage-carbondale" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="temporary-storage-carbondale">
+<h3>Temporary storage (Carbondale)<a class="headerlink" href="#temporary-storage-carbondale" title="Permalink to this heading"></a></h3>
 <p>This is a legacy status used while Carbondale Public Library was moving to their new building</p>
-</section>
-<section id="temporary-storage-hiawatha">
-<h3>Temporary storage (HIAWATHA)<a class="headerlink" href="#temporary-storage-hiawatha" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="temporary-storage-hiawatha">
+<h3>Temporary storage (HIAWATHA)<a class="headerlink" href="#temporary-storage-hiawatha" title="Permalink to this heading"></a></h3>
 <p>This is a legacy status used while Morrill Public Library was remodeling their library</p>
-</section>
-<section id="id3">
-<h3>What happens at check-in<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="id3">
+<h3>What happens at check-in<a class="headerlink" href="#id3" title="Permalink to this heading"></a></h3>
 <p>When you check in an item that is marked with any of the lost statuses:</p>
 <ol class="arabic simple">
-<li><p>The item’s lost status is removed</p></li>
-<li><p>The item’s “Last seen” date is updated to the current date</p></li>
-<li><p>The item’s shelving location is temporarily updated to “Recently returned”</p></li>
-<li><p>If the last borrower was automatically billed for the replacment cost of the item, that fee should be automatically removed</p></li>
-<li><p>A check-in messages appears ths should be similar to this:</p></li>
+<li>The item’s lost status is removed</li>
+<li>The item’s “Last seen” date is updated to the current date</li>
+<li>The item’s shelving location is temporarily updated to “Recently returned”</li>
+<li>If the last borrower was automatically billed for the replacment cost of the item, that fee should be automatically removed</li>
+<li>A check-in messages appears ths should be similar to this:</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/item_status_lost_0030.png"><img alt="" src="../_images/item_status_lost_0030.png" style="width: 595.4px; height: 179.4px;" /></a></p>
-</div></blockquote>
-</section>
-<section id="id4">
-<h3>Known bugs<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<div><a class="reference internal" href="../_images/item_status_lost_0030.png"><img alt="" src="../_images/item_status_lost_0030.png" style="width: 595.4px; height: 179.4px;" /></a></div></blockquote>
+</div>
+<div class="section" id="id4">
+<h3>Known bugs<a class="headerlink" href="#id4" title="Permalink to this heading"></a></h3>
 <p>Sometimes when you check in an item that has been lost by a borrower, the automatic refund process does not always work as expected.  There are several known bugs in the Koha community that relate to this issue</p>
-</section>
-</section>
-<section id="damaged-status">
-<h2><em>Damaged</em> status<a class="headerlink" href="#damaged-status" title="Link to this heading"></a></h2>
-<section id="current-damaged-statuses">
-<h3>Current Damaged statuses<a class="headerlink" href="#current-damaged-statuses" title="Link to this heading"></a></h3>
+</div>
+</div>
+<div class="section" id="damaged-status">
+<h2><em>Damaged</em> status<a class="headerlink" href="#damaged-status" title="Permalink to this heading"></a></h2>
+<div class="section" id="current-damaged-statuses">
+<h3>Current Damaged statuses<a class="headerlink" href="#current-damaged-statuses" title="Permalink to this heading"></a></h3>
 <ul class="simple">
-<li><p>Damaged</p></li>
-<li><p>Damaged in shipment</p></li>
+<li>Damaged</li>
+<li>Damaged in shipment</li>
 </ul>
 <p>Depending on which library you are working at, you may not see all of these statuses.</p>
-</section>
-<section id="seting-a-damaged-status">
-<h3>Seting a <em>damaged</em> status<a class="headerlink" href="#seting-a-damaged-status" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="seting-a-damaged-status">
+<h3>Seting a <em>damaged</em> status<a class="headerlink" href="#seting-a-damaged-status" title="Permalink to this heading"></a></h3>
 <p><a class="reference internal" href="../_images/item_status_damaged_0010.png"><img alt="" src="../_images/item_status_damaged_0010.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></p>
 <p><a class="reference internal" href="../_images/item_status_damaged_0020.png"><img alt="" src="../_images/item_status_damaged_0020.png" style="width: 1668.55px; height: 888.5500000000001px;" /></a></p>
-</section>
-<section id="damaged">
-<h3>Damaged<a class="headerlink" href="#damaged" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="damaged">
+<h3>Damaged<a class="headerlink" href="#damaged" title="Permalink to this heading"></a></h3>
 <p>Some libraries use this status to indicate that an item is damaged.  This status does not prevent the item from circulating.</p>
-</section>
-<section id="damaged-in-shipment">
-<h3>Damaged in shipment<a class="headerlink" href="#damaged-in-shipment" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="damaged-in-shipment">
+<h3>Damaged in shipment<a class="headerlink" href="#damaged-in-shipment" title="Permalink to this heading"></a></h3>
 <p>Some libraries use this status to indicate that an item was damaged during shipment.  This status does not prevent the item from circulating.</p>
-</section>
-<section id="id5">
-<h3>What happens at check-in<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="id5">
+<h3>What happens at check-in<a class="headerlink" href="#id5" title="Permalink to this heading"></a></h3>
 <p>When you check in an item that has a “damaged” status:</p>
 <ol class="arabic simple">
-<li><p>The item is checked in from the borrower’s account</p></li>
-<li><p>The damaged status <strong>is not</strong> removed</p></li>
-<li><p>The item’s shelving location is temporarily updated to “Recently returned”</p></li>
-<li><p>A check-in message and a damaged message should appear that should be similar to this:</p></li>
+<li>The item is checked in from the borrower’s account</li>
+<li>The damaged status <strong>is not</strong> removed</li>
+<li>The item’s shelving location is temporarily updated to “Recently returned”</li>
+<li>A check-in message and a damaged message should appear that should be similar to this:</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/item_status_damaged_0030.png"><img alt="" src="../_images/item_status_damaged_0030.png" style="width: 595.4px; height: 254.8px;" /></a></p>
-</div></blockquote>
-</section>
-</section>
-<section id="not-for-loan-status">
-<h2><em>Not for loan</em> status<a class="headerlink" href="#not-for-loan-status" title="Link to this heading"></a></h2>
-<section id="current-not-for-loan-statuses">
-<h3>Current not-for-loan statuses<a class="headerlink" href="#current-not-for-loan-statuses" title="Link to this heading"></a></h3>
+<div><a class="reference internal" href="../_images/item_status_damaged_0030.png"><img alt="" src="../_images/item_status_damaged_0030.png" style="width: 595.4px; height: 254.8px;" /></a></div></blockquote>
+</div>
+</div>
+<div class="section" id="not-for-loan-status">
+<h2><em>Not for loan</em> status<a class="headerlink" href="#not-for-loan-status" title="Permalink to this heading"></a></h2>
+<div class="section" id="current-not-for-loan-statuses">
+<h3>Current not-for-loan statuses<a class="headerlink" href="#current-not-for-loan-statuses" title="Permalink to this heading"></a></h3>
 <ul class="simple">
-<li><p>Download or Online Access</p></li>
-<li><p>In Processing</p></li>
-<li><p>Migration</p></li>
-<li><p>Not For Loan</p></li>
-<li><p>Online Access</p></li>
-<li><p>Ordered</p></li>
-<li><p>Paola processing</p></li>
-<li><p>Paola repair/mending</p></li>
-<li><p>Staff Collection</p></li>
-<li><p>Storage (Sabetha Elementary School)</p></li>
+<li>Download or Online Access</li>
+<li>In Processing</li>
+<li>Migration</li>
+<li>Not For Loan</li>
+<li>Online Access</li>
+<li>Ordered</li>
+<li>Paola processing</li>
+<li>Paola repair/mending</li>
+<li>Staff Collection</li>
+<li>Storage (Sabetha Elementary School)</li>
 </ul>
 <p>Depending on which library you are working at, you may not see all of these statuses.</p>
-</section>
-<section id="seting-a-not-for-loan-status">
-<h3>Seting a <em>Not for loan</em> status<a class="headerlink" href="#seting-a-not-for-loan-status" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="seting-a-not-for-loan-status">
+<h3>Seting a <em>Not for loan</em> status<a class="headerlink" href="#seting-a-not-for-loan-status" title="Permalink to this heading"></a></h3>
 <p>Not-for-loan status can only be set on the add/edit items page.</p>
 <p><a class="reference internal" href="../_images/item_status_lost_0030.png"><img alt="" src="../_images/item_status_lost_0030.png" style="width: 595.4px; height: 179.4px;" /></a></p>
-</section>
-<section id="download-or-online">
-<h3>Download or Online<a class="headerlink" href="#download-or-online" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="download-or-online">
+<h3>Download or Online<a class="headerlink" href="#download-or-online" title="Permalink to this heading"></a></h3>
 <p>Used to indicate an item that does not have physical copies.</p>
-</section>
-<section id="id6">
-<h3>In Processing<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="id6">
+<h3>In Processing<a class="headerlink" href="#id6" title="Permalink to this heading"></a></h3>
 <p>Prevents items from being added to the holds queue while the item is in processing</p>
-</section>
-<section id="migration">
-<h3>Migration<a class="headerlink" href="#migration" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="migration">
+<h3>Migration<a class="headerlink" href="#migration" title="Permalink to this heading"></a></h3>
 <p>Used by NEKLS during migrations</p>
-</section>
-<section id="not-for-loan">
-<h3>Not For Loan<a class="headerlink" href="#not-for-loan" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="not-for-loan">
+<h3>Not For Loan<a class="headerlink" href="#not-for-loan" title="Permalink to this heading"></a></h3>
 <p>A generic not-for-loan status</p>
-</section>
-<section id="online-access">
-<h3>Online Access<a class="headerlink" href="#online-access" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="online-access">
+<h3>Online Access<a class="headerlink" href="#online-access" title="Permalink to this heading"></a></h3>
 <p>Used to indicate an item that does not have physical copies.</p>
-</section>
-<section id="ordered">
-<h3>Ordered<a class="headerlink" href="#ordered" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="ordered">
+<h3>Ordered<a class="headerlink" href="#ordered" title="Permalink to this heading"></a></h3>
 <p>Indicates items that have been ordered but have not arrived - borrowers can place requests on these items but the items will not appear in the holds queue until the not-for-loan status has been removed</p>
-</section>
-<section id="paola-processing">
-<h3>Paola Processing<a class="headerlink" href="#paola-processing" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="paola-processing">
+<h3>Paola Processing<a class="headerlink" href="#paola-processing" title="Permalink to this heading"></a></h3>
 <p>Used at Paola Free Library - borrowers can place requests on these items but the items will not appear in the holds queue until the not-for-loan status has been removed</p>
-</section>
-<section id="paola-repair-mending">
-<h3>Paola repair/mending<a class="headerlink" href="#paola-repair-mending" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="paola-repair-mending">
+<h3>Paola repair/mending<a class="headerlink" href="#paola-repair-mending" title="Permalink to this heading"></a></h3>
 <p>Used at Paola Free Library - borrowers can place requests on these items but the items will not appear in the holds queue until the not-for-loan status has been removed</p>
-</section>
-<section id="staff-collection">
-<h3>Staff Collection<a class="headerlink" href="#staff-collection" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="staff-collection">
+<h3>Staff Collection<a class="headerlink" href="#staff-collection" title="Permalink to this heading"></a></h3>
 <p>Indicates the item is for staff use only</p>
-</section>
-<section id="storage-sabetha-elementary-school">
-<h3>Storage (Sabetha Elementary School)<a class="headerlink" href="#storage-sabetha-elementary-school" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="storage-sabetha-elementary-school">
+<h3>Storage (Sabetha Elementary School)<a class="headerlink" href="#storage-sabetha-elementary-school" title="Permalink to this heading"></a></h3>
 <p>Used at Sabetha Elementary</p>
-</section>
-<section id="id7">
-<h3>What happens at check-in<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="id7">
+<h3>What happens at check-in<a class="headerlink" href="#id7" title="Permalink to this heading"></a></h3>
 <p>Because not-for-loan items are considered <em>available</em> items in the catalog, checking in a not-for-loan item is exactly like checking in any other available item.</p>
 <p>When you check in an item that is available:</p>
 <ol class="arabic simple">
-<li><p>The item’s “Last seen” date is updated to the current date</p></li>
-<li><p>The item’s shelving location is temporarily updated to “Recently returned”</p></li>
-<li><p>A check-in messages appears ths should be similar to this:</p></li>
+<li>The item’s “Last seen” date is updated to the current date</li>
+<li>The item’s shelving location is temporarily updated to “Recently returned”</li>
+<li>A check-in messages appears ths should be similar to this:</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/item_status_available_0020.png"><img alt="" src="../_images/item_status_available_0020.png" style="width: 595.4px; height: 140.4px;" /></a></p>
-</div></blockquote>
-</section>
-</section>
-<section id="in-transit-status">
-<h2><em>In transit</em> status<a class="headerlink" href="#in-transit-status" title="Link to this heading"></a></h2>
-<section id="current-in-transit-statuses">
-<h3>Current in transit statuses<a class="headerlink" href="#current-in-transit-statuses" title="Link to this heading"></a></h3>
+<div><a class="reference internal" href="../_images/item_status_available_0020.png"><img alt="" src="../_images/item_status_available_0020.png" style="width: 595.4px; height: 140.4px;" /></a></div></blockquote>
+</div>
+</div>
+<div class="section" id="in-transit-status">
+<h2><em>In transit</em> status<a class="headerlink" href="#in-transit-status" title="Permalink to this heading"></a></h2>
+<div class="section" id="current-in-transit-statuses">
+<h3>Current in transit statuses<a class="headerlink" href="#current-in-transit-statuses" title="Permalink to this heading"></a></h3>
 <ul class="simple">
-<li><p>In transit</p></li>
-<li><p>In transit on hold</p></li>
+<li>In transit</li>
+<li>In transit on hold</li>
 </ul>
 <p>The only way to tell the difference is to read the message in the status column on the item record:</p>
 <p><a class="reference internal" href="../_images/item_status_in_transit_0010.png"><img alt="" src="../_images/item_status_in_transit_0010.png" style="width: 325.65000000000003px; height: 261.95px;" /></a></p>
 <p><a class="reference internal" href="../_images/item_status_in_transit_0020.png"><img alt="" src="../_images/item_status_in_transit_0020.png" style="width: 400.40000000000003px; height: 371.8px;" /></a></p>
-</section>
-<section id="seting-an-in-transit-status">
-<h3>Seting an <em>in transit</em> status<a class="headerlink" href="#seting-an-in-transit-status" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="seting-an-in-transit-status">
+<h3>Seting an <em>in transit</em> status<a class="headerlink" href="#seting-an-in-transit-status" title="Permalink to this heading"></a></h3>
 <p>The in transit process is automatic.  An item with a request for pickup at another library, or an item that needs to be shipped back to its owning library will automatically go into transit when you check it in.</p>
-</section>
-<section id="id8">
-<h3>What happens at check-in<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="id8">
+<h3>What happens at check-in<a class="headerlink" href="#id8" title="Permalink to this heading"></a></h3>
 <p>When you check in an item that has needs to be shipped to another library:</p>
 <ol class="arabic simple">
-<li><p>The item is checked in from the borrower’s account (if it’s checked out)</p></li>
-<li><p>The items’ last seen date is updated</p></li>
-<li><p>The item’s shelving location is temporarily updated to “Recently returned”</p></li>
-<li><p>A check-in message and a damaged message should appear that should be similar to this - if the item does not have any requests:</p></li>
+<li>The item is checked in from the borrower’s account (if it’s checked out)</li>
+<li>The items’ last seen date is updated</li>
+<li>The item’s shelving location is temporarily updated to “Recently returned”</li>
+<li>A check-in message and a damaged message should appear that should be similar to this - if the item does not have any requests:</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/item_status_in_transit_0030.png"><img alt="" src="../_images/item_status_in_transit_0030.png" style="width: 592.8000000000001px; height: 516.1px;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="../_images/item_status_in_transit_0030.png"><img alt="" src="../_images/item_status_in_transit_0030.png" style="width: 592.8000000000001px; height: 516.1px;" /></a></div></blockquote>
 <ol class="arabic simple" start="5">
-<li><p>Or like this - if the item is being shipped to fill a requests:</p></li>
+<li>Or like this - if the item is being shipped to fill a requests:</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/item_status_in_transit_0040.png"><img alt="" src="../_images/item_status_in_transit_0040.png" style="width: 594.1px; height: 570.7px;" /></a></p>
-</div></blockquote>
-</section>
-</section>
-<section id="on-hold">
-<h2><em>On hold</em><a class="headerlink" href="#on-hold" title="Link to this heading"></a></h2>
-<section id="current-on-hold-statuses">
-<h3>Current on hold statuses<a class="headerlink" href="#current-on-hold-statuses" title="Link to this heading"></a></h3>
+<div><a class="reference internal" href="../_images/item_status_in_transit_0040.png"><img alt="" src="../_images/item_status_in_transit_0040.png" style="width: 594.1px; height: 570.7px;" /></a></div></blockquote>
+</div>
+</div>
+<div class="section" id="on-hold">
+<h2><em>On hold</em><a class="headerlink" href="#on-hold" title="Permalink to this heading"></a></h2>
+<div class="section" id="current-on-hold-statuses">
+<h3>Current on hold statuses<a class="headerlink" href="#current-on-hold-statuses" title="Permalink to this heading"></a></h3>
 <ul class="simple">
-<li><p>Waiting</p></li>
+<li>Waiting</li>
 </ul>
 <p><a class="reference internal" href="../_images/item_status_on_hold_0010.png"><img alt="" src="../_images/item_status_on_hold_0010.png" style="width: 536.25px; height: 193.70000000000002px;" /></a></p>
-</section>
-<section id="seting-an-on-hold-status">
-<h3>Seting an <em>on hold</em> status<a class="headerlink" href="#seting-an-on-hold-status" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="seting-an-on-hold-status">
+<h3>Seting an <em>on hold</em> status<a class="headerlink" href="#seting-an-on-hold-status" title="Permalink to this heading"></a></h3>
 <p>The in <em>on hold</em> process is automatic.  An item with a hold on it can only trigger the on hold status when it is checked in at the library where the borrower has requested to pick it up.</p>
-</section>
-<section id="id9">
-<h3>What happens at check-in<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+</div>
+<div class="section" id="id9">
+<h3>What happens at check-in<a class="headerlink" href="#id9" title="Permalink to this heading"></a></h3>
 <p>When you check in an item that has been requested for pickup at your library:</p>
 <ol class="arabic simple">
-<li><p>The item is checked in from the borrower’s account (if it’s checked out)</p></li>
-<li><p>The items’ last seen date is updated</p></li>
-<li><p>The item’s shelving location <em>is not</em> temporarily updated to “Recently returned”</p></li>
-<li><p>Once you click the “Confirm hold” button, the borrower will be automatically contacted by e-mail or text message (if they are configured to receive those automatic messages)</p></li>
-<li><p>A check-in message will appear asking you to confirm the hold</p></li>
+<li>The item is checked in from the borrower’s account (if it’s checked out)</li>
+<li>The items’ last seen date is updated</li>
+<li>The item’s shelving location <em>is not</em> temporarily updated to “Recently returned”</li>
+<li>Once you click the “Confirm hold” button, the borrower will be automatically contacted by e-mail or text message (if they are configured to receive those automatic messages)</li>
+<li>A check-in message will appear asking you to confirm the hold</li>
 </ol>
 <p><a class="reference internal" href="../_images/item_status_on_hold_0020.png"><img alt="" src="../_images/item_status_on_hold_0020.png" style="width: 593.45px; height: 606.45px;" /></a></p>
-</section>
-</section>
-<section id="recently-returned">
-<h2><em>Recently returned</em><a class="headerlink" href="#recently-returned" title="Link to this heading"></a></h2>
+</div>
+</div>
+<div class="section" id="recently-returned">
+<h2><em>Recently returned</em><a class="headerlink" href="#recently-returned" title="Permalink to this heading"></a></h2>
 <p>Recently returned is actually a shelving location, but it works similar to a status and many staff describe it as a status.  The “Recently returned” shelving location is added as a temporary location to items when they are checked in.  Approximately 18 hours after an item is checked in, the “Recently returned” status is removed and the shelving location is restored to its permanent shelving location.</p>
 <p><a class="reference internal" href="../_images/item_status_recently_returned_0010.png"><img alt="" src="../_images/item_status_recently_returned_0010.png" style="width: 759.85px; height: 299.0px;" /></a></p>
-<section id="id10">
-<h3>What happens at check-in<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<div class="section" id="id10">
+<h3>What happens at check-in<a class="headerlink" href="#id10" title="Permalink to this heading"></a></h3>
 <p>When you check in an item that is available:</p>
 <ol class="arabic simple">
-<li><p>The item’s “Last seen” date is updated to the current date</p></li>
-<li><p>The item’s shelving location is temporarily updated to “Recently returned”</p></li>
-<li><p>A check-in messages appears ths should be similar to this:</p></li>
+<li>The item’s “Last seen” date is updated to the current date</li>
+<li>The item’s shelving location is temporarily updated to “Recently returned”</li>
+<li>A check-in messages appears ths should be similar to this:</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/item_status_available_0020.png"><img alt="" src="../_images/item_status_available_0020.png" style="width: 595.4px; height: 140.4px;" /></a></p>
-</div></blockquote>
-</section>
-</section>
-</section>
+<div><a class="reference internal" href="../_images/item_status_available_0020.png"><img alt="" src="../_images/item_status_available_0020.png" style="width: 595.4px; height: 140.4px;" /></a></div></blockquote>
+</div>
+</div>
+</div>
 
 
            </div>

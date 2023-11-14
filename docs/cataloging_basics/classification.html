@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
-
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Next Search Catalog classification &mdash; Next Steps 1.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -13,16 +12,16 @@
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
-        <script src="../_static/doctools.js?v=888ff710"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Bugs" href="../bugs/index.html" />
-    <link rel="prev" title="On order item cataloging" href="on_order_item.html" /> 
+    <link rel="prev" title="On order record cataloging" href="on_order_record.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -30,16 +29,12 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-
-          
-          
-          <a href="../index.html" class="icon icon-home">
-            Next Steps
-              <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+            <a href="../index.html" class="icon icon-home"> Next Steps
+            <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -65,11 +60,17 @@
 <li class="toctree-l2"><a class="reference internal" href="stage_and_import_record.html">Stage and import a Marc record</a></li>
 <li class="toctree-l2"><a class="reference internal" href="brief_record_cataloging.html">Brief record cataloging</a></li>
 <li class="toctree-l2"><a class="reference internal" href="adding_item_to_record.html">Adding items to bibliographic records</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ill_brief_record_cataloging.html">ILL brief record cataloging</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ill_stub_record_cataloging.html">ILL stub record cataloging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ill_brief_record_cataloging.html">ILL brief record cataloging</a></li>
 <li class="toctree-l2"><a class="reference internal" href="on_order_record.html">On order record cataloging</a></li>
-<li class="toctree-l2"><a class="reference internal" href="on_order_item.html">On order item cataloging</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Next Search Catalog classification</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Next Search Catalog classification</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#home-library">Home library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#shelving-location">Shelving location</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#item-type">Item type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#collection-code">Collection code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#item-call-number">Item call number</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -99,9 +100,9 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="index.html">Basic cataloging guide</a></li>
-      <li class="breadcrumb-item active">Next Search Catalog classification</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Basic cataloging guide</a> &raquo;</li>
+      <li>Next Search Catalog classification</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/cataloging_basics/classification.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -111,15 +112,847 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="next-search-catalog-classification">
-<h1>Next Search Catalog classification<a class="headerlink" href="#next-search-catalog-classification" title="Link to this heading"></a></h1>
-</section>
+  <div class="section" id="next-search-catalog-classification">
+<h1>Next Search Catalog classification<a class="headerlink" href="#next-search-catalog-classification" title="Permalink to this heading"></a></h1>
+<p>Using the Next Search Catalog catalog to find items shelved as member libraries requires that items follow some basic classification rules. The Next Search Catalog classification scheme is based on:</p>
+<ul class="simple">
+<li>the item’s home library</li>
+<li>shelving location</li>
+<li>item type</li>
+<li>collection code</li>
+<li>call number</li>
+<li>author</li>
+<li>title</li>
+</ul>
+<p>A visual overview of how items are classified would look something like this:</p>
+<p><a class="reference internal" href="../_images/classification_0010.jpg"><img alt="" src="../_images/classification_0010.jpg" style="width: 246.35px; height: 261.95px;" /></a></p>
+<div class="section" id="home-library">
+<h2>Home library<a class="headerlink" href="#home-library" title="Permalink to this heading"></a></h2>
+<p>Each item <strong>must</strong> include a home library that is defined by the drop-down list of current Next Search Catalog libraries. Library codes and names are set at the system level and cannot be added, changed, or updated by staff at member libraries.</p>
+<p>Patrons will only ever see a library’s name in the OPAC. Staff will usually see library names but may also see library codes - especially when running reports.</p>
+<p>The current library codes/names are:</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="83%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Library name</th>
+<th class="head">Library Code</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Atchison Public Library</td>
+<td>ATCHISON</td>
+</tr>
+<tr class="row-odd"><td>Baldwin City Public Library</td>
+<td>BALDWIN</td>
+</tr>
+<tr class="row-even"><td>Basehor Community Library</td>
+<td>BASEHOR</td>
+</tr>
+<tr class="row-odd"><td>Bern Community Library</td>
+<td>BERN</td>
+</tr>
+<tr class="row-even"><td>Bonner Springs City Library</td>
+<td>BONNERSPGS</td>
+</tr>
+<tr class="row-odd"><td>Burlingame Community Library</td>
+<td>BURLINGAME</td>
+</tr>
+<tr class="row-even"><td>Carbondale City Library</td>
+<td>CARBONDALE</td>
+</tr>
+<tr class="row-odd"><td>Centralia Community Library</td>
+<td>CENTRALIA</td>
+</tr>
+<tr class="row-even"><td>Corning City Library</td>
+<td>CORNING</td>
+</tr>
+<tr class="row-odd"><td>Digital Content</td>
+<td>DIGITAL</td>
+</tr>
+<tr class="row-even"><td>Doniphan County Library - Elwood</td>
+<td>DONIELWD</td>
+</tr>
+<tr class="row-odd"><td>Doniphan County Library - Highland</td>
+<td>DONIHIGH</td>
+</tr>
+<tr class="row-even"><td>Doniphan County Library - Troy</td>
+<td>DONITROY</td>
+</tr>
+<tr class="row-odd"><td>Doniphan County Library - Wathena</td>
+<td>DONIWATH</td>
+</tr>
+<tr class="row-even"><td>Effingham Community Library</td>
+<td>EFFINGHAM</td>
+</tr>
+<tr class="row-odd"><td>Eudora Community Library</td>
+<td>EUDORA</td>
+</tr>
+<tr class="row-even"><td>Everest, Barnes Reading Room</td>
+<td>EVEREST</td>
+</tr>
+<tr class="row-odd"><td>Hiawatha, Morrill Public Library</td>
+<td>HIAWATHA</td>
+</tr>
+<tr class="row-even"><td>Highland Community College</td>
+<td>HIGH_CC</td>
+</tr>
+<tr class="row-odd"><td>Holton, Beck-Bookman Library</td>
+<td>HOLTON</td>
+</tr>
+<tr class="row-even"><td>Horton Public Library</td>
+<td>HORTON</td>
+</tr>
+<tr class="row-odd"><td>Lansing Community Library</td>
+<td>LANSING</td>
+</tr>
+<tr class="row-even"><td>Leavenworth Public Library</td>
+<td>LEAVENWRTH</td>
+</tr>
+<tr class="row-odd"><td>Linwood Community Library</td>
+<td>LINWOOD</td>
+</tr>
+<tr class="row-even"><td>Louisburg Library</td>
+<td>LOUISBURG</td>
+</tr>
+<tr class="row-odd"><td>Lyndon Carnegie Library</td>
+<td>LYNDON</td>
+</tr>
+<tr class="row-even"><td>McLouth Public Library</td>
+<td>MCLOUTH</td>
+</tr>
+<tr class="row-odd"><td>Meriden-Ozawkie Public Library</td>
+<td>MERIDEN</td>
+</tr>
+<tr class="row-even"><td>Northeast Kansas Library System</td>
+<td>NEKLS</td>
+</tr>
+<tr class="row-odd"><td>Nortonville Public Library</td>
+<td>NORTONVLLE</td>
+</tr>
+<tr class="row-even"><td>Osage City Library</td>
+<td>OSAGECITY</td>
+</tr>
+<tr class="row-odd"><td>Osawatomie Public Library</td>
+<td>OSAWATOMIE</td>
+</tr>
+<tr class="row-even"><td>Oskaloosa Public Library</td>
+<td>OSKALOOSA</td>
+</tr>
+<tr class="row-odd"><td>Ottawa Library</td>
+<td>OTTAWA</td>
+</tr>
+<tr class="row-even"><td>Overbrook Public Library</td>
+<td>OVERBROOK</td>
+</tr>
+<tr class="row-odd"><td>Paola Free Library</td>
+<td>PAOLA</td>
+</tr>
+<tr class="row-even"><td>Perry-Lecompton Community Library</td>
+<td>PERRY</td>
+</tr>
+<tr class="row-odd"><td>Pomona Community Library</td>
+<td>POMONA</td>
+</tr>
+<tr class="row-even"><td>Prairie Hills Schools - Axtell Public School</td>
+<td>PHAXTELL</td>
+</tr>
+<tr class="row-odd"><td>Prairie Hills Schools - Sabetha Elementary School</td>
+<td>PHSES</td>
+</tr>
+<tr class="row-even"><td>Prairie Hills Schools - Sabetha High School</td>
+<td>PHSHS</td>
+</tr>
+<tr class="row-odd"><td>Prairie Hills Schools - Sabetha Middle School</td>
+<td>PHSMS</td>
+</tr>
+<tr class="row-even"><td>Prairie Hills Schools - Wetmore Academic Center (Permanently closed)</td>
+<td>PHWAC</td>
+</tr>
+<tr class="row-odd"><td>Richmond Public Library</td>
+<td>RICHMOND</td>
+</tr>
+<tr class="row-even"><td>Rossville Community Library</td>
+<td>ROSSVILLE</td>
+</tr>
+<tr class="row-odd"><td>Sabetha, Mary Cotton Library</td>
+<td>SABETHA</td>
+</tr>
+<tr class="row-even"><td>Seneca Free Library</td>
+<td>SENECA</td>
+</tr>
+<tr class="row-odd"><td>Silver Lake Library</td>
+<td>SILVERLAKE</td>
+</tr>
+<tr class="row-even"><td>Tonganoxie Public Library</td>
+<td>TONGANOXIE</td>
+</tr>
+<tr class="row-odd"><td>Valley Falls, Delaware Township Library</td>
+<td>VALLEYFALL</td>
+</tr>
+<tr class="row-even"><td>Wellsville City Library</td>
+<td>WELLSVILLE</td>
+</tr>
+<tr class="row-odd"><td>Wetmore Public Library</td>
+<td>WETMORE</td>
+</tr>
+<tr class="row-even"><td>Williamsburg Community Library</td>
+<td>WILLIAMSBG</td>
+</tr>
+<tr class="row-odd"><td>Winchester Public Library</td>
+<td>WINCHESTER</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="shelving-location">
+<h2>Shelving location<a class="headerlink" href="#shelving-location" title="Permalink to this heading"></a></h2>
+<p>Each item record <strong>must</strong> include a shelving location that is defined by the drop-down list of current Next Search Catalog shelving locations. Shelving locations are set at the system level and cannot be added, changed, or updated by staff at member libraries.</p>
+<p>Rather than being names of actual shelving locations, Next Search Catalog has primarily used the shelving location to denote whether an item is an “Adult,” “Childrens,” or “Young adult” item for the purposes of gathering statistical data. Virtually every item in Next Search Catalog has an “Adult,” “Childrens,” or “Young adult.”</p>
+<p>However, there are a handful of other shelving locations. Some of them are locations created by the software for system use and some have been created to help specific libraries gather statistical data on display items.</p>
+<p>Additionally, it is currently possible to add an item with no shelving location. This is not recommended because it will cause problems with your library’s monthly and annual reports.</p>
+<p>Patrons will only ever see a shelving location’s name in the OPAC. Staff will usually see shelving location’s name but may also see shelving location codes - especially when running reports.</p>
+<p>The current shelving location codes/names are:</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="67%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">lib</th>
+<th class="head">authorised_value</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Adult</td>
+<td>L_AD</td>
+</tr>
+<tr class="row-odd"><td>Childrens</td>
+<td>L_JU</td>
+</tr>
+<tr class="row-even"><td>Young adult</td>
+<td>L_YA</td>
+</tr>
+<tr class="row-odd"><td>~Display - BALDWIN - Adult</td>
+<td>D_AD_BALD</td>
+</tr>
+<tr class="row-even"><td>~Display - BALDWIN - Childrens</td>
+<td>D_JU_BALD</td>
+</tr>
+<tr class="row-odd"><td>~Display - BALDWIN - Young Adult</td>
+<td>D_YA_BALD</td>
+</tr>
+<tr class="row-even"><td>~Display - LEAVENWRTH - Adult</td>
+<td>D_AD_LEAV</td>
+</tr>
+<tr class="row-odd"><td>~Display - LEAVENWRTH - Children’s</td>
+<td>D_JU_LEAV</td>
+</tr>
+<tr class="row-even"><td>~Display - LEAVENWRTH - Young Adult</td>
+<td>D_YA_LEAV</td>
+</tr>
+<tr class="row-odd"><td>~Display - PAOLA - Adult</td>
+<td>D_AD_PAOL</td>
+</tr>
+<tr class="row-even"><td>~Display - PAOLA - Children’s</td>
+<td>D_JU_PAOL</td>
+</tr>
+<tr class="row-odd"><td>~Display - PAOLA - Young Adult</td>
+<td>D_YA_PAOL</td>
+</tr>
+<tr class="row-even"><td>Cataloging</td>
+<td>CATALOGING</td>
+</tr>
+<tr class="row-odd"><td>Processing Center</td>
+<td>PROC</td>
+</tr>
+<tr class="row-even"><td>Recently returned</td>
+<td>CART</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="item-type">
+<h2>Item type<a class="headerlink" href="#item-type" title="Permalink to this heading"></a></h2>
+<p>Each item record _**must**_ include an item type that is defined by the drop-down list of current Next Search Catalog item types. Item types are set at the system level and cannot be added, changed, or updated by staff at member libraries.</p>
+<p>An item record cannot be saved without an item type. Beyond describing an item, the major function of an item’s type is to control its circulation rules.</p>
+<p>Patrons will only ever see an item type name in the OPAC. Staff will usually see an item type name but may also see item type codes - especially when running reports.</p>
+<p>The current shelving location codes/names are:</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="83%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Item type</th>
+<th class="head">Item type code</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>(Unclassified)</td>
+<td>PUNC</td>
+</tr>
+<tr class="row-odd"><td>Audiobook</td>
+<td>N_AB</td>
+</tr>
+<tr class="row-even"><td>AUDIOBOOK</td>
+<td>AUDIOBOOK</td>
+</tr>
+<tr class="row-odd"><td>Audiobook (media player)</td>
+<td>N_AB_M</td>
+</tr>
+<tr class="row-even"><td>AUDIOBOOK (MEDIA PLAYER)</td>
+<td>FLPLAYAWAY</td>
+</tr>
+<tr class="row-odd"><td>AUDIOBOOK (NEW)</td>
+<td>NAUDNEW</td>
+</tr>
+<tr class="row-even"><td>Audiobook (new)</td>
+<td>N_AB_NEW</td>
+</tr>
+<tr class="row-odd"><td>Book</td>
+<td>BOOK</td>
+</tr>
+<tr class="row-even"><td>Book (local requests only)</td>
+<td>LOCALHOLD2</td>
+</tr>
+<tr class="row-odd"><td>Book (new)</td>
+<td>PBBKNEW</td>
+</tr>
+<tr class="row-even"><td>Book (no requests allowed)</td>
+<td>PBBKWALK</td>
+</tr>
+<tr class="row-odd"><td>Book club set</td>
+<td>PBBKCLUB</td>
+</tr>
+<tr class="row-even"><td>Computers and internet : Laptop computer</td>
+<td>R_CMP_LAP</td>
+</tr>
+<tr class="row-odd"><td>Computers and internet : Launchpad tablet</td>
+<td>LAUNCHPAD</td>
+</tr>
+<tr class="row-even"><td>Computers and internet : Public computer</td>
+<td>COMPUTER</td>
+</tr>
+<tr class="row-odd"><td>Computers and internet : Software</td>
+<td>NSOFT</td>
+</tr>
+<tr class="row-even"><td>Computers and internet : Tablets, e-readers, and personal computing devices</td>
+<td>NELECT</td>
+</tr>
+<tr class="row-odd"><td>COMPUTERS AND INTERNET : WIRELESS INTERNET HOTSPOT</td>
+<td>MIFI</td>
+</tr>
+<tr class="row-even"><td>Computers and internet : Wireless internet hotspot</td>
+<td>R_WIFI</td>
+</tr>
+<tr class="row-odd"><td>E-content : Digital content</td>
+<td>DIGITAL</td>
+</tr>
+<tr class="row-even"><td>E-content : E-learning course</td>
+<td>NELECOURSE</td>
+</tr>
+<tr class="row-odd"><td>INTER-LIBRARY LOAN</td>
+<td>ILL</td>
+</tr>
+<tr class="row-even"><td>Inter-library loan</td>
+<td>I_ILL</td>
+</tr>
+<tr class="row-odd"><td>Inter-library loan - 07 day loan</td>
+<td>I_ILL_07</td>
+</tr>
+<tr class="row-even"><td>Inter-library loan - 14 day loan</td>
+<td>I_ILL_14</td>
+</tr>
+<tr class="row-odd"><td>Inter-library loan - 21 day loan</td>
+<td>I_ILL_21</td>
+</tr>
+<tr class="row-even"><td>Inter-library loan - 28 day loan</td>
+<td>I_ILL_28</td>
+</tr>
+<tr class="row-odd"><td>Key</td>
+<td>NEQKEY</td>
+</tr>
+<tr class="row-even"><td>Kit or multi-part set</td>
+<td>KITS</td>
+</tr>
+<tr class="row-odd"><td>Magazine</td>
+<td>P_MAG</td>
+</tr>
+<tr class="row-even"><td>MAGAZINE</td>
+<td>MAGAZINE</td>
+</tr>
+<tr class="row-odd"><td>MAGAZINE (NEW)</td>
+<td>PMAGNEW</td>
+</tr>
+<tr class="row-even"><td>Magazine (new)</td>
+<td>P_MAG_N</td>
+</tr>
+<tr class="row-odd"><td>Music</td>
+<td>MUSIC</td>
+</tr>
+<tr class="row-even"><td>Pamphlet</td>
+<td>PPHAM</td>
+</tr>
+<tr class="row-odd"><td>Reference material</td>
+<td>P_REF</td>
+</tr>
+<tr class="row-even"><td>Reserve desk : Highland Community College</td>
+<td>HCC_RES</td>
+</tr>
+<tr class="row-odd"><td>Room</td>
+<td>NROOM</td>
+</tr>
+<tr class="row-even"><td>Special collections (local requests only)</td>
+<td>LOCALHOLD</td>
+</tr>
+<tr class="row-odd"><td>Special collections (no requests allowed)</td>
+<td>PSPECIAL</td>
+</tr>
+<tr class="row-even"><td>Story walk</td>
+<td>R_K_STW</td>
+</tr>
+<tr class="row-odd"><td>Things : Artwork</td>
+<td>R_ART</td>
+</tr>
+<tr class="row-even"><td>Things : Audio-visual equipment</td>
+<td>R_EQ_AV</td>
+</tr>
+<tr class="row-odd"><td>Things : Bicycles (and bicycle accessories)</td>
+<td>NREL_BIKE</td>
+</tr>
+<tr class="row-even"><td>Things : Board games, dolls, puzzles, and toys</td>
+<td>NREL_TOY</td>
+</tr>
+<tr class="row-odd"><td>Things : Clothing, costumes, and masks</td>
+<td>NREL_CLOTH</td>
+</tr>
+<tr class="row-even"><td>Things : Cooking equipment</td>
+<td>NREL_COOK</td>
+</tr>
+<tr class="row-odd"><td>Things : Die cut equipment</td>
+<td>NEQUDIE</td>
+</tr>
+<tr class="row-even"><td>Things : Equipment</td>
+<td>EQUIPMENT</td>
+</tr>
+<tr class="row-odd"><td>Things : Kansas Parks Pass</td>
+<td>R_PAS_PARK</td>
+</tr>
+<tr class="row-even"><td>Things : Museum pass / event pass</td>
+<td>NPASS</td>
+</tr>
+<tr class="row-odd"><td>Things : Musical insturments and accessories</td>
+<td>R_INST</td>
+</tr>
+<tr class="row-even"><td>Things : Recreation and sports</td>
+<td>R_REC</td>
+</tr>
+<tr class="row-odd"><td>Things : Tools</td>
+<td>NREL_TOOL</td>
+</tr>
+<tr class="row-even"><td>Video</td>
+<td>NVIDEO</td>
+</tr>
+<tr class="row-odd"><td>Video (Local requests only)</td>
+<td>NVIDLH</td>
+</tr>
+<tr class="row-even"><td>Video (New)</td>
+<td>NVIDNEW</td>
+</tr>
+<tr class="row-odd"><td>Video (No requests allowed)</td>
+<td>NVIDWALK</td>
+</tr>
+<tr class="row-even"><td>Video (Television)</td>
+<td>NVIDTV</td>
+</tr>
+<tr class="row-odd"><td>Video game</td>
+<td>GAME</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="collection-code">
+<h2>Collection code<a class="headerlink" href="#collection-code" title="Permalink to this heading"></a></h2>
+<p>Each item record _should_ include a collection code that is defined by the drop-down list of current Next Search Catalog collection codes. Collection codes are set at the system level and cannot be added, changed, or updated by staff at member libraries.</p>
+<p>Patrons will only ever see collection code names in the OPAC. Staff will usually see collection code names but may also see collection code codes - especially when running reports.</p>
+<p>The current shelving location codes/names are:</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="84%" />
+<col width="16%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Collection code name</th>
+<th class="head">Code</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>(Unclassified)</td>
+<td>XXX</td>
+</tr>
+<tr class="row-even"><td>Action &amp; Adventure</td>
+<td>F_ACT_ADV</td>
+</tr>
+<tr class="row-odd"><td>Adult literacy</td>
+<td>LIT_A</td>
+</tr>
+<tr class="row-even"><td>African American history and literature</td>
+<td>M_AFRICAN</td>
+</tr>
+<tr class="row-odd"><td>Archival materials</td>
+<td>ARCHIVE</td>
+</tr>
+<tr class="row-even"><td>Atlas</td>
+<td>ATLAS</td>
+</tr>
+<tr class="row-odd"><td>Audiobook (cassette)</td>
+<td>BOOKONCASS</td>
+</tr>
+<tr class="row-even"><td>Audiobook (CD)</td>
+<td>BOOKONCD</td>
+</tr>
+<tr class="row-odd"><td>Audiobook (downloadable)</td>
+<td>DLAUDIO</td>
+</tr>
+<tr class="row-even"><td>Audiobook (media player)</td>
+<td>BOOKONMP</td>
+</tr>
+<tr class="row-odd"><td>Audiovisual equipment</td>
+<td>R_AV</td>
+</tr>
+<tr class="row-even"><td>Bakeware</td>
+<td>BAKEWARE</td>
+</tr>
+<tr class="row-odd"><td>Battle of the books</td>
+<td>BOB</td>
+</tr>
+<tr class="row-even"><td>Bicycle</td>
+<td>BICYCLE</td>
+</tr>
+<tr class="row-odd"><td>Bilingual</td>
+<td>BILINGUAL</td>
+</tr>
+<tr class="row-even"><td>Binder</td>
+<td>BINDER</td>
+</tr>
+<tr class="row-odd"><td>Biography</td>
+<td>BIOGRAPHY</td>
+</tr>
+<tr class="row-even"><td>Blu-ray player</td>
+<td>R_BLU</td>
+</tr>
+<tr class="row-odd"><td>Board Book</td>
+<td>BOARDBK</td>
+</tr>
+<tr class="row-even"><td>Chapter Books</td>
+<td>JYA_CHAP</td>
+</tr>
+<tr class="row-odd"><td>Classics</td>
+<td>CLASSICS</td>
+</tr>
+<tr class="row-even"><td>Contemporary Issues</td>
+<td>F_CONTEMP</td>
+</tr>
+<tr class="row-odd"><td>Downloadable Book</td>
+<td>DLBOOK</td>
+</tr>
+<tr class="row-even"><td>Downloadable Graphic Novel</td>
+<td>DLGRAPHIC</td>
+</tr>
+<tr class="row-odd"><td>Downloadable Magazine</td>
+<td>DLMAG</td>
+</tr>
+<tr class="row-even"><td>Downloadable Movie</td>
+<td>DLVIDEO</td>
+</tr>
+<tr class="row-odd"><td>Downloadable Music</td>
+<td>DLMUSIC</td>
+</tr>
+<tr class="row-even"><td>Downloadable TV Show</td>
+<td>DLTV</td>
+</tr>
+<tr class="row-odd"><td>Easy Reader</td>
+<td>READER</td>
+</tr>
+<tr class="row-even"><td>Education</td>
+<td>EDUCATION</td>
+</tr>
+<tr class="row-odd"><td>Fiction</td>
+<td>FICTION</td>
+</tr>
+<tr class="row-even"><td>Gadget</td>
+<td>GADGET</td>
+</tr>
+<tr class="row-odd"><td>Genealogy</td>
+<td>GENEALOGY</td>
+</tr>
+<tr class="row-even"><td>Graphic Novel</td>
+<td>GRAPHIC</td>
+</tr>
+<tr class="row-odd"><td>Historical</td>
+<td>F_HIST</td>
+</tr>
+<tr class="row-even"><td>Holiday</td>
+<td>HOLIDAY</td>
+</tr>
+<tr class="row-odd"><td>Holiday video</td>
+<td>VIDHOLIDAY</td>
+</tr>
+<tr class="row-even"><td>Inspirational</td>
+<td>INSPRATION</td>
+</tr>
+<tr class="row-odd"><td>Interlibrary Loan</td>
+<td>ILL</td>
+</tr>
+<tr class="row-even"><td>Kansas</td>
+<td>KANSAS</td>
+</tr>
+<tr class="row-odd"><td>Kansas notable books</td>
+<td>NOTABLE</td>
+</tr>
+<tr class="row-even"><td>Large Print</td>
+<td>LARGEPRINT</td>
+</tr>
+<tr class="row-odd"><td>Large Print Non-Fiction</td>
+<td>LARGEPRNF</td>
+</tr>
+<tr class="row-even"><td>LGBTQ+</td>
+<td>LGBTQ</td>
+</tr>
+<tr class="row-odd"><td>Lynda.com course</td>
+<td>LYNDA</td>
+</tr>
+<tr class="row-even"><td>Magazine</td>
+<td>MAGAZINE</td>
+</tr>
+<tr class="row-odd"><td>Map</td>
+<td>MAP</td>
+</tr>
+<tr class="row-even"><td>McNaughton Fiction</td>
+<td>MCNA_FIC</td>
+</tr>
+<tr class="row-odd"><td>McNaughton Non-fiction</td>
+<td>MCNA_NON</td>
+</tr>
+<tr class="row-even"><td>Miscellaneous</td>
+<td>MISC</td>
+</tr>
+<tr class="row-odd"><td>Music : compact disc</td>
+<td>MUSIC</td>
+</tr>
+<tr class="row-even"><td>Music : record</td>
+<td>MUSIC_LP</td>
+</tr>
+<tr class="row-odd"><td>Musical instrument : brass instruments</td>
+<td>R_INST_B</td>
+</tr>
+<tr class="row-even"><td>Musical instrument : drums and percussion</td>
+<td>R_INST_P</td>
+</tr>
+<tr class="row-odd"><td>Musical instrument : misceleaneous</td>
+<td>R_INST_M</td>
+</tr>
+<tr class="row-even"><td>Musical instrument : stringed instruments</td>
+<td>R_INST_S</td>
+</tr>
+<tr class="row-odd"><td>Musical instrument : woodwind instruments</td>
+<td>R_INST_W</td>
+</tr>
+<tr class="row-even"><td>Mystery</td>
+<td>MYSTERY</td>
+</tr>
+<tr class="row-odd"><td>Mystery-Cozy</td>
+<td>MYST_COZY</td>
+</tr>
+<tr class="row-even"><td>Non-Fiction</td>
+<td>NONFICTION</td>
+</tr>
+<tr class="row-odd"><td>On Display</td>
+<td>DISPLAY</td>
+</tr>
+<tr class="row-even"><td>Online Resource</td>
+<td>ERESOURCE</td>
+</tr>
+<tr class="row-odd"><td>Oversize</td>
+<td>OVERSIZE</td>
+</tr>
+<tr class="row-even"><td>Paperback</td>
+<td>PAPERBACK</td>
+</tr>
+<tr class="row-odd"><td>Parenting</td>
+<td>PARENTING</td>
+</tr>
+<tr class="row-even"><td>Periodical - Comic books</td>
+<td>PER_COM</td>
+</tr>
+<tr class="row-odd"><td>Picture Book</td>
+<td>EASY</td>
+</tr>
+<tr class="row-even"><td>Professional Collection</td>
+<td>PROFCOLL</td>
+</tr>
+<tr class="row-odd"><td>Public Computer</td>
+<td>COMPUTER</td>
+</tr>
+<tr class="row-even"><td>Puzzles &amp; Board Games</td>
+<td>PUZZLESBDG</td>
+</tr>
+<tr class="row-odd"><td>Read and listen - easy reader</td>
+<td>RL_EASY</td>
+</tr>
+<tr class="row-even"><td>Read and listen - fiction</td>
+<td>RL_FIC</td>
+</tr>
+<tr class="row-odd"><td>Read and listen - non-fiction</td>
+<td>RL_NF</td>
+</tr>
+<tr class="row-even"><td>Read and listen - picture book</td>
+<td>RL_PIC</td>
+</tr>
+<tr class="row-odd"><td>Record player</td>
+<td>R_REC</td>
+</tr>
+<tr class="row-even"><td>Recreation : athletic / sports equipment</td>
+<td>R_REC_S</td>
+</tr>
+<tr class="row-odd"><td>Recreation : basketball equipment</td>
+<td>R_REC_B</td>
+</tr>
+<tr class="row-even"><td>Recreation : fishing equipment</td>
+<td>R_REC_F</td>
+</tr>
+<tr class="row-odd"><td>Recreation : football equipment</td>
+<td>R_REC_C</td>
+</tr>
+<tr class="row-even"><td>Recreation : softball / baseball equipment</td>
+<td>R_REC_A</td>
+</tr>
+<tr class="row-odd"><td>Recreation : tennis equipment</td>
+<td>R_REC_T</td>
+</tr>
+<tr class="row-even"><td>Reference</td>
+<td>REFERENCE</td>
+</tr>
+<tr class="row-odd"><td>Romance</td>
+<td>ROMANCE</td>
+</tr>
+<tr class="row-even"><td>Sci Fi-Fantasy</td>
+<td>SF-FANT</td>
+</tr>
+<tr class="row-odd"><td>Software</td>
+<td>SOFTWARE</td>
+</tr>
+<tr class="row-even"><td>Spanish</td>
+<td>SPANISH</td>
+</tr>
+<tr class="row-odd"><td>Special collection - Dyslexic and Autistic Reading Engagement</td>
+<td>SPC_DARE</td>
+</tr>
+<tr class="row-even"><td>Sports &amp; Recreation</td>
+<td>F_SPORTS</td>
+</tr>
+<tr class="row-odd"><td>VG–Videogame</td>
+<td>VIDEOGAME</td>
+</tr>
+<tr class="row-even"><td>VG-Gameboy</td>
+<td>GAMEBOY</td>
+</tr>
+<tr class="row-odd"><td>VG-Nintendo 3DS</td>
+<td>NINTNDO3DS</td>
+</tr>
+<tr class="row-even"><td>VG-Nintendo DS</td>
+<td>NINTENDODS</td>
+</tr>
+<tr class="row-odd"><td>VG-Nintendo Gamecube</td>
+<td>GAMECUBE</td>
+</tr>
+<tr class="row-even"><td>VG-Nintendo Switch</td>
+<td>SWITCH</td>
+</tr>
+<tr class="row-odd"><td>VG-Nintendo Wii</td>
+<td>WII</td>
+</tr>
+<tr class="row-even"><td>VG-Nintendo Wii U</td>
+<td>WIIU</td>
+</tr>
+<tr class="row-odd"><td>VG-PlayStation 2 (PS2)</td>
+<td>PS2</td>
+</tr>
+<tr class="row-even"><td>VG-PlayStation 3 (PS3)</td>
+<td>PS3</td>
+</tr>
+<tr class="row-odd"><td>VG-PlayStation 4 (PS4)</td>
+<td>PS4</td>
+</tr>
+<tr class="row-even"><td>VG-PlayStation 5 (PS5)</td>
+<td>PS5</td>
+</tr>
+<tr class="row-odd"><td>VG-PlayStation Portable (PSP)</td>
+<td>PSP</td>
+</tr>
+<tr class="row-even"><td>VG-XBox</td>
+<td>XBOX</td>
+</tr>
+<tr class="row-odd"><td>VG-XBox 360</td>
+<td>XBOX360</td>
+</tr>
+<tr class="row-even"><td>VG-XBox One</td>
+<td>XBOXONE</td>
+</tr>
+<tr class="row-odd"><td>VG-XBox X</td>
+<td>XBOXX</td>
+</tr>
+<tr class="row-even"><td>Video (Blu-ray)</td>
+<td>VID_B</td>
+</tr>
+<tr class="row-odd"><td>Video (Blu-ray/DVD combined edition)</td>
+<td>VID_C</td>
+</tr>
+<tr class="row-even"><td>Video (DVD)</td>
+<td>VID_D</td>
+</tr>
+<tr class="row-odd"><td>Video (media player)</td>
+<td>VID_M</td>
+</tr>
+<tr class="row-even"><td>Video (VHS cassette)</td>
+<td>VHS</td>
+</tr>
+<tr class="row-odd"><td>Video-TV series (Blu-ray)</td>
+<td>VID_B_T</td>
+</tr>
+<tr class="row-even"><td>Video-TV series (Blu-ray/DVD combined edition)</td>
+<td>VID_C_T</td>
+</tr>
+<tr class="row-odd"><td>Video-TV series (DVD)</td>
+<td>VID_D_T</td>
+</tr>
+<tr class="row-even"><td>Video-TV series (media player)</td>
+<td>VID_M_T</td>
+</tr>
+<tr class="row-odd"><td>Western</td>
+<td>WESTERN</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="item-call-number">
+<h2>Item call number<a class="headerlink" href="#item-call-number" title="Permalink to this heading"></a></h2>
+<p>Each item record _should_ include a call number. Call numbers are not set at the system level and must be added by staff at the library cataloging an item. The call numbers used should follow the rules each library uses in defining their call numbers.</p>
+<p>If a bibliographic record has a call number in the 080$a field, the system will attempt to use that number as an item’s default call number. If, however, nothing is defined in the 080$a, the call number field in the item record will be blank.</p>
+</div>
+</div>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="on_order_item.html" class="btn btn-neutral float-left" title="On order item cataloging" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="on_order_record.html" class="btn btn-neutral float-left" title="On order record cataloging" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="../bugs/index.html" class="btn btn-neutral float-right" title="Bugs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

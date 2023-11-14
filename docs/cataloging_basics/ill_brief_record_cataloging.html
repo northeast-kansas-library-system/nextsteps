@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
-
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ILL brief record cataloging &mdash; Next Steps 1.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -13,16 +12,16 @@
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
-        <script src="../_static/doctools.js?v=888ff710"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="ILL stub record cataloging" href="ill_stub_record_cataloging.html" />
-    <link rel="prev" title="Adding items to bibliographic records" href="adding_item_to_record.html" /> 
+    <link rel="next" title="On order record cataloging" href="on_order_record.html" />
+    <link rel="prev" title="ILL stub record cataloging" href="ill_stub_record_cataloging.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -30,16 +29,12 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-
-          
-          
-          <a href="../index.html" class="icon icon-home">
-            Next Steps
-              <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+            <a href="../index.html" class="icon icon-home"> Next Steps
+            <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -65,10 +60,9 @@
 <li class="toctree-l2"><a class="reference internal" href="stage_and_import_record.html">Stage and import a Marc record</a></li>
 <li class="toctree-l2"><a class="reference internal" href="brief_record_cataloging.html">Brief record cataloging</a></li>
 <li class="toctree-l2"><a class="reference internal" href="adding_item_to_record.html">Adding items to bibliographic records</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">ILL brief record cataloging</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ill_stub_record_cataloging.html">ILL stub record cataloging</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">ILL brief record cataloging</a></li>
 <li class="toctree-l2"><a class="reference internal" href="on_order_record.html">On order record cataloging</a></li>
-<li class="toctree-l2"><a class="reference internal" href="on_order_item.html">On order item cataloging</a></li>
 <li class="toctree-l2"><a class="reference internal" href="classification.html">Next Search Catalog classification</a></li>
 </ul>
 </li>
@@ -99,9 +93,9 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="index.html">Basic cataloging guide</a></li>
-      <li class="breadcrumb-item active">ILL brief record cataloging</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Basic cataloging guide</a> &raquo;</li>
+      <li>ILL brief record cataloging</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/cataloging_basics/ill_brief_record_cataloging.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -111,16 +105,56 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="ill-brief-record-cataloging">
-<h1>ILL brief record cataloging<a class="headerlink" href="#ill-brief-record-cataloging" title="Link to this heading"></a></h1>
-</section>
+  <div class="section" id="ill-brief-record-cataloging">
+<h1>ILL brief record cataloging<a class="headerlink" href="#ill-brief-record-cataloging" title="Permalink to this heading"></a></h1>
+<p>Some libraries use brief ILL records to track inter-library-loans.</p>
+<p>In this workflow, the library creates a new, temporary bibliographic record and item each time an item arrives from ShareIt or OCLC to fill an ILL request.</p>
+<p>The advantage of this workflow is that the borrower has access to more information in their library account about the title they’ve borrowed.</p>
+<p>The disadvantage is that you need to create records and items for every item that you borrow through ILL.  Additionally, since these records are temporary, there is more work needed to remove the temporary records when the items are returned.</p>
+<p>To create a brief temporary bibliographic record for an ILL item:</p>
+<ol class="upperalpha">
+<li><p class="first">Go to Cataloging</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/brief_record_cataloging_0010.png"><img alt="" src="../_images/brief_record_cataloging_0010.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p class="first">Choose New Record –&gt; Fast add for ILL or temporary circulation</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/ill_brief_record_cataloging_0010.png"><img alt="" src="../_images/ill_brief_record_cataloging_0010.png" style="width: 837.2px; height: 473.2px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p class="first">Fill in the following fields accordingly, if applicable:</p>
+<blockquote>
+<div><ul class="simple">
+<li>100 – Author (if applicable)</li>
+<li>245 – Inter Library Loan</li>
+<li>942 Koha elements
+- e - Location: Adult / Childrens / Young adult (you choose)
+- c - Item type: Borrowed from another library
+- h - Collection code: Interlibrary loan
+- n - Suppress in OPAC: Suppressed</li>
+</ul>
+<p><a class="reference internal" href="../_images/ill_brief_record_cataloging_0020.png"><img alt="" src="../_images/ill_brief_record_cataloging_0020.png" style="width: 650.0px; height: 787.15px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p class="first">Once the bibliographic record is created, you need to add an item to the record</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/ill_brief_record_cataloging_0030.png"><img alt="" src="../_images/ill_brief_record_cataloging_0030.png" style="width: 650.0px; height: 640.25px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p class="first">Once the record and the item are created, you check them out to the borrower just like any normal item</p>
+</li>
+<li><p class="first">When the item is returned, you need to delete the item and the bibliographic record</p>
+</li>
+</ol>
+</div>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="adding_item_to_record.html" class="btn btn-neutral float-left" title="Adding items to bibliographic records" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="ill_stub_record_cataloging.html" class="btn btn-neutral float-right" title="ILL stub record cataloging" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="ill_stub_record_cataloging.html" class="btn btn-neutral float-left" title="ILL stub record cataloging" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="on_order_record.html" class="btn btn-neutral float-right" title="On order record cataloging" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

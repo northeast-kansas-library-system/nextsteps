@@ -79,6 +79,46 @@
     :scale: 65%
     :alt: 
 
+.. |classification_0010| image:: /images/cataloging_basics/classification_0010.*
+    :scale: 65%
+    :alt: 
+
+.. |ill_brief_record_cataloging_0010| image:: /images/cataloging_basics/ill_brief_record_cataloging_0010.*
+    :scale: 65%
+    :alt: 
+
+.. |ill_brief_record_cataloging_0020| image:: /images/cataloging_basics/ill_brief_record_cataloging_0020.*
+    :scale: 65%
+    :alt: 
+
+.. |ill_brief_record_cataloging_0030| image:: /images/cataloging_basics/ill_brief_record_cataloging_0030.*
+    :scale: 65%
+    :alt: 
+
+.. |ill_stub_record_cataloging_0010| image:: /images/cataloging_basics/ill_stub_record_cataloging_0010.*
+    :scale: 65%
+    :alt: 
+
+.. |ill_stub_record_cataloging_0020| image:: /images/cataloging_basics/ill_stub_record_cataloging_0020.*
+    :scale: 65%
+    :alt: 
+
+.. |on_order_record_0010| image:: /images/cataloging_basics/on_order_record_0010.*
+    :scale: 65%
+    :alt: 
+
+.. |on_order_record_0020| image:: /images/cataloging_basics/on_order_record_0020.*
+    :scale: 65%
+    :alt: 
+
+.. |on_order_record_0030| image:: /images/cataloging_basics/on_order_record_0030.*
+    :scale: 65%
+    :alt: 
+
+.. |on_order_record_0030| image:: /images/cataloging_basics/on_order_record_0040.*
+    :scale: 65%
+    :alt: 
+
 .. |search_for_existing_0010| image:: /images/cataloging_basics/search_for_existing_0010.png
     :scale: 65%
     :alt: Where to click for "Home > Cataloging"
