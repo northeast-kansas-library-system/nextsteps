@@ -1,0 +1,81 @@
+.. include:: /include.rst
+
+***********************************************
+How to copy a bibliographic record using Z39.50
+***********************************************
+
+**Don't forget to search for a title first** *before* **you bring in a new record via Z39.50**
+
+Please refer to the serching instructions :ref:`here <Search for an existing bibliographic record - best practices>` for more information.
+
+Searching Z39.50
+================
+
+    A. Select "Home > More > Cataloging"
+
+        |search_for_existing_0010|
+
+    B. Click on the "New from Z39.50" button
+
+        |z39_50_0020|
+
+    C. Enter the :term:`ISBN` number or :term:`UPC` number from the item you are searching for and click "Search"
+
+        - NOTE:  The ISBN number is ususally embedded in the UPC, so scanning the UPC on a book usually populates the ISBN - however, the official ISBN for a book is usually found on the back of the book's title page
+        - NOTE:  Self-published titles often do not include an ISBN
+
+        |z39_50_0030|
+
+    D. If you do not get any results, you should try searching again by author or title
+
+        |z39_50_0040|
+
+    E. If you find a match, click on the action button on the right and choose "MARC" or "Card" to pre-view the record and make sure that the record is a good match
+
+        - NOTE:  Generally speaking, the more data you see in the "Card" preview, the better the record
+
+        |z39_50_0050|
+
+    F. If you find a match and the top results are highlighted in yellow and the server name is "#NEXT SEARCH CATALOG" it means that we already have a bibliographic record in the catalog that matches your search terms
+
+        - If this happens, please double check and make sure that the record already in Next does not match the record you're trying to add
+
+        |z39_50_0055|
+
+    F. If you do find a matching record you want to add to Next, click on "Import" to add the record to our catalog
+
+        |z39_50_0060|
+
+    G. Once the record has been imported you can make changes to the MARC record as necessary and then click the "Save" button to finalize the import.
+
+        - Specifically, you must update the record's 942$e, 942$c, and 942$h
+
+          |z39_50_0070|
+
+        - If the item does not have a 040$d and you do not know the OCLC code for your library, please input "cz5" (the NEKLS OCLC code - it's OK, it works just fine for our purposes)
+
+          |z39_50_0080|
+
+    H. After the bibliographic record has been saved, you will be redirected to the add items page so you can add your items to the new record.
+
+          |z39_50_0090|
+
+
+No results found in Z39.50 after first attempt
+==============================================
+
+If you don't find any items via a Z39.50 it is not a bad idea to repeat the search a couple of different ways.
+
+  - You can re-do the search using different data.
+
+          |z39_50_0040|
+
+  - You can select different catalogs to search in (not all catalogs are searched by default).
+
+          |z39_50_0110|
+
+
+No results found in Z39.50 after several attempts
+=================================================
+
+If no search returns a result in Z39.50, you should move on to :doc:`searching for the item in ShareIt </cataloging_basics/shareit>`

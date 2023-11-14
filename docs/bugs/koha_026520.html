@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>November 2023 - Default messaging preferences bug &mdash; Next Steps 1.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/override.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Koha basics for library staff" href="../basic.html" />
+    <link rel="prev" title="2020.09.08 - Agenda and notes" href="../usergroup/ug.20200908.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Next Steps
+              <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Next Search Catalog:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about_us.html">About us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usergroup/index.html">Usergroup meetings</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Highlighted training:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">November 2023 - Default messaging preferences bug</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#steps-to-re-create-the-bug">Steps to re-create the bug</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#steps-to-work-around-the-bug">Steps to work-around the bug</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#koha-bug-26520-video">Koha bug 26520 video</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Basic training for staff:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../basic.html">Koha basics for library staff</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cataloging_basics/index.html">Basic cataloging guide</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Bugs:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Bugs</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Training for library directors:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reports_training/index.html">Reports training index</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Special documents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Next Steps</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">November 2023 - Default messaging preferences bug</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/bugs/koha_026520.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="november-2023-default-messaging-preferences-bug">
+<h1>November 2023 - Default messaging preferences bug<a class="headerlink" href="#november-2023-default-messaging-preferences-bug" title="Link to this heading"></a></h1>
+<p>This bug only occurs when you create a new borrower <strong>AND</strong> you try to un-check <strong>all</strong> of the default messaging preferences.  Once the borrower has been created, the messaging preferences can be removed, but only <em>after</em> the borrower has been created.</p>
+<p>This is <a class="reference external" href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=26520" target="_blank">Koha bug 26250</a> and has existed since at least 2020.  The circumstances to re-create the bug are unusual, though, so no one in our system reported it until 2023.</p>
+<section id="steps-to-re-create-the-bug">
+<h2>Steps to re-create the bug<a class="headerlink" href="#steps-to-re-create-the-bug" title="Link to this heading"></a></h2>
+<ol class="arabic">
+<li><p>Follow the normal steps to create a new borrower:</p>
+<blockquote>
+<div><ol class="upperalpha simple">
+<li><p>Click on “Patrons”</p></li>
+<li><p>Click on “New patron” and choose a borrower category</p></li>
+<li><p>Fill out the new patron form as normal</p></li>
+<li><p>Scroll to the “Patron messaging preferences” section at the bottom of the page</p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Note that several of the messaging preferences in this section are checked by default</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/koha_026520_0010.png"><img alt="Default preferences highlighted on screen" src="../_images/koha_026520_0010.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>Un-check <strong>ALL</strong> of the messaging preferences and then click on “Save”</p>
+<blockquote>
+<div><p>(this bug only occurs when you un-check <strong>ALL</strong> of the checkboxes)</p>
+<p><a class="reference internal" href="../_images/koha_026520_0020.png"><img alt="All default preferences un-checked and pointer to &quot;Save&quot; button" src="../_images/koha_026520_0020.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>On the borrower’s details page, note that the messaging preferences have all re-set back to their default settings</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/koha_026520_0030.png"><img alt="Failure for un-checked preferences to save highlighted on screen" src="../_images/koha_026520_0030.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="steps-to-work-around-the-bug">
+<h2>Steps to work-around the bug<a class="headerlink" href="#steps-to-work-around-the-bug" title="Link to this heading"></a></h2>
+<ol class="upperalpha">
+<li><p>After creating the borrower, click on “Edit”</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/koha_026520_0040.png"><img alt="Work-around bug 26520 - step 1 highlighted" src="../_images/koha_026520_0040.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>Un-check <strong>ALL</strong> of the messaging preference checkboxes</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/koha_026520_0050.png"><img alt="All default preferences un-checked and pointer to &quot;Save&quot; button" src="../_images/koha_026520_0050.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>Click on “Save” and note that all of the messaging preferences are now un-checked</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/koha_026520_0060.png"><img alt="Preferences are finally saved on final step of work-around" src="../_images/koha_026520_0060.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="koha-bug-26520-video">
+<h2>Koha bug 26520 video<a class="headerlink" href="#koha-bug-26520-video" title="Link to this heading"></a></h2>
+<div class="ytcontainer">
+  <iframe class="responsive-iframe"
+  src="https://www.youtube.com/embed/n-GecJ1jGnw?si=HWzrf82dS1XoPN5W"
+  title="YouTube Video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+</div><p><br /></p>
+<p>Go directly to the Video on YouTube <a class="reference external" href="https://youtu.be/n-GecJ1jGnw" target="_blank">https://youtu.be/n-GecJ1jGnw</a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../usergroup/ug.20200908.html" class="btn btn-neutral float-left" title="2020.09.08 - Agenda and notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../basic.html" class="btn btn-neutral float-right" title="Koha basics for library staff" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Northeast Kansas Library System.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  
+    <p><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+    <p>Next Search Catalog contact info:<br />NEKLS: 785-838-4090<br />(toll free: 888-296-6963)<br />After hours: 785-813-1356</p>
+     <img src="https://raw.githubusercontent.com/northeast-kansas-library-system/nextimages/master/nexthelp.svg" alt="Nexthelp email address" />
+     
+
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

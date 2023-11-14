@@ -8,4 +8,4 @@ Bugs
     :maxdepth: 2
     :caption: Current bugs:
 
-    /bugs/firefox106.print
+    /bugs/*

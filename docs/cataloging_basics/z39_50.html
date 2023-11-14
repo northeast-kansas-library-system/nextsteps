@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to copy a bibliographic record using Z39.50 &mdash; Next Steps 1.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/override.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="How to copy a bibliographic record using ShareIt" href="shareit.html" />
+    <link rel="prev" title="Search for an existing bibliographic record - best practices" href="search_for_exitsting_record.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Next Steps
+              <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Next Search Catalog:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about_us.html">About us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usergroup/index.html">Usergroup meetings</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Highlighted training:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../bugs/koha_026520.html">November 2023 - Default messaging preferences bug</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Basic training for staff:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic.html">Koha basics for library staff</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Basic cataloging guide</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="summary.html">Basic cataloging summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="search_for_exitsting_record.html">Search for an existing bibliographic record - best practices</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">How to copy a bibliographic record using Z39.50</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#searching-z39-50">Searching Z39.50</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#no-results-found-in-z39-50-after-first-attempt">No results found in Z39.50 after first attempt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#no-results-found-in-z39-50-after-several-attempts">No results found in Z39.50 after several attempts</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="shareit.html">How to copy a bibliographic record using ShareIt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stage_and_import_record.html">Stage and import a Marc record</a></li>
+<li class="toctree-l2"><a class="reference internal" href="brief_record_cataloging.html">Brief record cataloging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adding_item_to_record.html">Adding items to bibliographic records</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ill_brief_record_cataloging.html">ILL brief record cataloging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ill_stub_record_cataloging.html">ILL stub record cataloging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="on_order_record.html">On order record cataloging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="on_order_item.html">On order item cataloging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="classification.html">Next Search Catalog classification</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Bugs:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../bugs/index.html">Bugs</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Training for library directors:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reports_training/index.html">Reports training index</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Special documents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Next Steps</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Basic cataloging guide</a></li>
+      <li class="breadcrumb-item active">How to copy a bibliographic record using Z39.50</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/cataloging_basics/z39_50.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="how-to-copy-a-bibliographic-record-using-z39-50">
+<h1>How to copy a bibliographic record using Z39.50<a class="headerlink" href="#how-to-copy-a-bibliographic-record-using-z39-50" title="Link to this heading"></a></h1>
+<p><strong>Don’t forget to search for a title first</strong> <em>before</em> <strong>you bring in a new record via Z39.50</strong></p>
+<p>Please refer to the serching instructions <a class="reference internal" href="search_for_exitsting_record.html#search-for-an-existing-bibliographic-record-best-practices"><span class="std std-ref">here</span></a> for more information.</p>
+<section id="searching-z39-50">
+<h2>Searching Z39.50<a class="headerlink" href="#searching-z39-50" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ol class="upperalpha">
+<li><p>Select “Home &gt; More &gt; Cataloging”</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/search_for_existing_0010.png"><img alt="Where to click for &quot;Home &gt; Cataloging&quot;" src="../_images/search_for_existing_0010.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>Click on the “New from Z39.50” button</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/z39_50_0020.png"><img alt="Where to find &quot;New from Z39.50&quot; button" src="../_images/z39_50_0020.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>Enter the <a class="reference internal" href="../glossary.html#term-ISBN"><span class="xref std std-term">ISBN</span></a> number or <a class="reference internal" href="../glossary.html#term-UPC"><span class="xref std std-term">UPC</span></a> number from the item you are searching for and click “Search”</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>NOTE:  The ISBN number is ususally embedded in the UPC, so scanning the UPC on a book usually populates the ISBN - however, the official ISBN for a book is usually found on the back of the book’s title page</p></li>
+<li><p>NOTE:  Self-published titles often do not include an ISBN</p></li>
+</ul>
+<p><a class="reference internal" href="../_images/z39_50_0030.png"><img alt="ISBN input on Z39.50 interface" src="../_images/z39_50_0030.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>If you do not get any results, you should try searching again by author or title</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/z39_50_0040.png"><img alt="Other inputs on Z39.50 interface" src="../_images/z39_50_0040.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>If you find a match, click on the action button on the right and choose “MARC” or “Card” to pre-view the record and make sure that the record is a good match</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>NOTE:  Generally speaking, the more data you see in the “Card” preview, the better the record</p></li>
+</ul>
+<p><a class="reference internal" href="../_images/z39_50_0050.gif"><img alt="Action button options on Z39.50 interface" src="../_images/z39_50_0050.gif" style="width: 821.6px; height: 457.6px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>If you find a match and the top results are highlighted in yellow and the server name is “#NEXT SEARCH CATALOG” it means that we already have a bibliographic record in the catalog that matches your search terms</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>If this happens, please double check and make sure that the record already in Next does not match the record you’re trying to add</p></li>
+</ul>
+<p><a class="reference internal" href="../_images/z39_50_0055.png"><img alt="Results owned by Next Search Catalog appear in yellow" src="../_images/z39_50_0055.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+</ol>
+<ol class="upperalpha" start="6">
+<li><p>If you do find a matching record you want to add to Next, click on “Import” to add the record to our catalog</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/z39_50_0060.png"><img alt="&quot;Import&quot; button location" src="../_images/z39_50_0060.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>Once the record has been imported you can make changes to the MARC record as necessary and then click the “Save” button to finalize the import.</p>
+<blockquote>
+<div><ul>
+<li><p>Specifically, you must update the record’s 942$e, 942$c, and 942$h</p>
+<p><a class="reference internal" href="../_images/z39_50_0070.png"><img alt="Record level required fields" src="../_images/z39_50_0070.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</li>
+<li><p>If the item does not have a 040$d and you do not know the OCLC code for your library, please input “cz5” (the NEKLS OCLC code - it’s OK, it works just fine for our purposes)</p>
+<p><a class="reference internal" href="../_images/z39_50_0080.png"><img alt="040$d may need to be filled" src="../_images/z39_50_0080.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>After the bibliographic record has been saved, you will be redirected to the add items page so you can add your items to the new record.</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/z39_50_0090.png"><img alt="Successful Z39.50 import opens &quot;Add item&quot; page" src="../_images/z39_50_0090.png" style="width: 833.3000000000001px; height: 1080.95px;" /></a></p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</section>
+<section id="no-results-found-in-z39-50-after-first-attempt">
+<h2>No results found in Z39.50 after first attempt<a class="headerlink" href="#no-results-found-in-z39-50-after-first-attempt" title="Link to this heading"></a></h2>
+<p>If you don’t find any items via a Z39.50 it is not a bad idea to repeat the search a couple of different ways.</p>
+<blockquote>
+<div><ul>
+<li><p>You can re-do the search using different data.</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/z39_50_0040.png"><img alt="Other inputs on Z39.50 interface" src="../_images/z39_50_0040.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
+</div></blockquote>
+</li>
+<li><p>You can select different catalogs to search in (not all catalogs are searched by default).</p>
+<blockquote>
+<div><p><a class="reference internal" href="../_images/z39_50_0110.png"><img alt="Optional search target location" src="../_images/z39_50_0110.png" style="width: 575.9px; height: 509.6px;" /></a></p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</section>
+<section id="no-results-found-in-z39-50-after-several-attempts">
+<h2>No results found in Z39.50 after several attempts<a class="headerlink" href="#no-results-found-in-z39-50-after-several-attempts" title="Link to this heading"></a></h2>
+<p>If no search returns a result in Z39.50, you should move on to <a class="reference internal" href="shareit.html"><span class="doc">searching for the item in ShareIt</span></a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="search_for_exitsting_record.html" class="btn btn-neutral float-left" title="Search for an existing bibliographic record - best practices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="shareit.html" class="btn btn-neutral float-right" title="How to copy a bibliographic record using ShareIt" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Northeast Kansas Library System.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  
+    <p><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+    <p>Next Search Catalog contact info:<br />NEKLS: 785-838-4090<br />(toll free: 888-296-6963)<br />After hours: 785-813-1356</p>
+     <img src="https://raw.githubusercontent.com/northeast-kansas-library-system/nextimages/master/nexthelp.svg" alt="Nexthelp email address" />
+     
+
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

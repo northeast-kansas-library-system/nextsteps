@@ -11,10 +11,8 @@ Welcome to Next Steps: a training site for Next Search Catalog
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Next Search Catalog:
 
-   /foundations
-   /basic
    /about_us
    /usergroup/index
 
@@ -24,21 +22,21 @@ Welcome to Next Steps: a training site for Next Search Catalog
    :maxdepth: 2
    :caption: Highlighted training:
 
-   /staff_instruction_sheets/cataloging_freeze_withdrawn
+   /bugs/koha_026520
 
 ----------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Upgrades:
+   :caption: Basic training for staff:
 
-   /upgrades/21.11/master
-   /upgrades/22_05/22_05_master
+   /basic
+   /cataloging_basics/index
 
 ----------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Bugs:
 
    /bugs/index
@@ -47,8 +45,9 @@ Welcome to Next Steps: a training site for Next Search Catalog
 
 .. toctree::
    :maxdepth: 1
-   :caption: Reports:
+   :caption: Training for library directors:
 
+    
    /reports_training/index
 
 ----------
