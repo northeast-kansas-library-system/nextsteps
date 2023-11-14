@@ -68,6 +68,6 @@ Agenda
 #. Next meeting
 
     - Meeting at NEKLS: January 2024 10:00 a.m. - 12:00 p.m. with Statistical Help Session to follow
-    - April 2024 (date TBA) - ?Osage City?
+    - April 16, 2024 (Tuesday) - 10:00 a.m. - 12:00 p.m. Osage City Library
     - August 2024 (date TBA) - Tonganoxie
     - November 2024 (date TBA) - ?Sabetha?
