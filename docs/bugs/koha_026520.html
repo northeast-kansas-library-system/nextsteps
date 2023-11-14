@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>November 2023 - Default messaging preferences bug &mdash; Next Steps 1.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -12,11 +13,11 @@
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-        <script src="../_static/doctools.js"></script>
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -29,12 +30,16 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../index.html" class="icon icon-home"> Next Steps
-            <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Next Steps
+              <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -85,8 +90,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>November 2023 - Default messaging preferences bug</li>
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">November 2023 - Default messaging preferences bug</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/bugs/koha_026520.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -96,63 +101,63 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="november-2023-default-messaging-preferences-bug">
-<h1>November 2023 - Default messaging preferences bug<a class="headerlink" href="#november-2023-default-messaging-preferences-bug" title="Permalink to this heading"></a></h1>
+  <section id="november-2023-default-messaging-preferences-bug">
+<h1>November 2023 - Default messaging preferences bug<a class="headerlink" href="#november-2023-default-messaging-preferences-bug" title="Link to this heading"></a></h1>
 <p>This bug only occurs when you create a new borrower <strong>AND</strong> you try to un-check <strong>all</strong> of the default messaging preferences.  Once the borrower has been created, the messaging preferences can be removed, but only <em>after</em> the borrower has been created.</p>
 <p>This is <a class="reference external" href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=26520" target="_blank">Koha bug 26250</a> and has existed since at least 2020.  The circumstances to re-create the bug are unusual, though, so no one in our system reported it until 2023.</p>
-<div class="section" id="steps-to-re-create-the-bug">
-<h2>Steps to re-create the bug<a class="headerlink" href="#steps-to-re-create-the-bug" title="Permalink to this heading"></a></h2>
+<section id="steps-to-re-create-the-bug">
+<h2>Steps to re-create the bug<a class="headerlink" href="#steps-to-re-create-the-bug" title="Link to this heading"></a></h2>
 <ol class="arabic">
-<li><p class="first">Follow the normal steps to create a new borrower:</p>
+<li><p>Follow the normal steps to create a new borrower:</p>
 <blockquote>
 <div><ol class="upperalpha simple">
-<li>Click on “Patrons”</li>
-<li>Click on “New patron” and choose a borrower category</li>
-<li>Fill out the new patron form as normal</li>
-<li>Scroll to the “Patron messaging preferences” section at the bottom of the page</li>
+<li><p>Click on “Patrons”</p></li>
+<li><p>Click on “New patron” and choose a borrower category</p></li>
+<li><p>Fill out the new patron form as normal</p></li>
+<li><p>Scroll to the “Patron messaging preferences” section at the bottom of the page</p></li>
 </ol>
 </div></blockquote>
 </li>
-<li><p class="first">Note that several of the messaging preferences in this section are checked by default</p>
+<li><p>Note that several of the messaging preferences in this section are checked by default</p>
 <blockquote>
 <div><p><a class="reference internal" href="../_images/koha_026520_0010.png"><img alt="Default preferences highlighted on screen" src="../_images/koha_026520_0010.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
 </div></blockquote>
 </li>
-<li><p class="first">Un-check <strong>ALL</strong> of the messaging preferences and then click on “Save”</p>
+<li><p>Un-check <strong>ALL</strong> of the messaging preferences and then click on “Save”</p>
 <blockquote>
 <div><p>(this bug only occurs when you un-check <strong>ALL</strong> of the checkboxes)</p>
 <p><a class="reference internal" href="../_images/koha_026520_0020.png"><img alt="All default preferences un-checked and pointer to &quot;Save&quot; button" src="../_images/koha_026520_0020.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
 </div></blockquote>
 </li>
-<li><p class="first">On the borrower’s details page, note that the messaging preferences have all re-set back to their default settings</p>
+<li><p>On the borrower’s details page, note that the messaging preferences have all re-set back to their default settings</p>
 <blockquote>
 <div><p><a class="reference internal" href="../_images/koha_026520_0030.png"><img alt="Failure for un-checked preferences to save highlighted on screen" src="../_images/koha_026520_0030.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
 </div></blockquote>
 </li>
 </ol>
-</div>
-<div class="section" id="steps-to-work-around-the-bug">
-<h2>Steps to work-around the bug<a class="headerlink" href="#steps-to-work-around-the-bug" title="Permalink to this heading"></a></h2>
+</section>
+<section id="steps-to-work-around-the-bug">
+<h2>Steps to work-around the bug<a class="headerlink" href="#steps-to-work-around-the-bug" title="Link to this heading"></a></h2>
 <ol class="upperalpha">
-<li><p class="first">After creating the borrower, click on “Edit”</p>
+<li><p>After creating the borrower, click on “Edit”</p>
 <blockquote>
 <div><p><a class="reference internal" href="../_images/koha_026520_0040.png"><img alt="Work-around bug 26520 - step 1 highlighted" src="../_images/koha_026520_0040.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
 </div></blockquote>
 </li>
-<li><p class="first">Un-check <strong>ALL</strong> of the messaging preference checkboxes</p>
+<li><p>Un-check <strong>ALL</strong> of the messaging preference checkboxes</p>
 <blockquote>
 <div><p><a class="reference internal" href="../_images/koha_026520_0050.png"><img alt="All default preferences un-checked and pointer to &quot;Save&quot; button" src="../_images/koha_026520_0050.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
 </div></blockquote>
 </li>
-<li><p class="first">Click on “Save” and note that all of the messaging preferences are now un-checked</p>
+<li><p>Click on “Save” and note that all of the messaging preferences are now un-checked</p>
 <blockquote>
 <div><p><a class="reference internal" href="../_images/koha_026520_0060.png"><img alt="Preferences are finally saved on final step of work-around" src="../_images/koha_026520_0060.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
 </div></blockquote>
 </li>
 </ol>
-</div>
-<div class="section" id="koha-bug-26520-video">
-<h2>Koha bug 26520 video<a class="headerlink" href="#koha-bug-26520-video" title="Permalink to this heading"></a></h2>
+</section>
+<section id="koha-bug-26520-video">
+<h2>Koha bug 26520 video<a class="headerlink" href="#koha-bug-26520-video" title="Link to this heading"></a></h2>
 <div class="ytcontainer">
   <iframe class="responsive-iframe"
   src="https://www.youtube.com/embed/n-GecJ1jGnw?si=HWzrf82dS1XoPN5W"
@@ -162,8 +167,8 @@
   allowfullscreen></iframe>
 </div><p><br /></p>
 <p>Go directly to the Video on YouTube <a class="reference external" href="https://youtu.be/n-GecJ1jGnw" target="_blank">https://youtu.be/n-GecJ1jGnw</a></p>
-</div>
-</div>
+</section>
+</section>
 
 
            </div>

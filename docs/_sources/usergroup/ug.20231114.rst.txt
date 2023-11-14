@@ -70,4 +70,4 @@ Agenda
     - Meeting at NEKLS: January 2024 10:00 a.m. - 12:00 p.m. with Statistical Help Session to follow
     - April 2024 (date TBA) - ?Osage City?
     - August 2024 (date TBA) - Tonganoxie
-    - November 2024 (date TBA) - Sabetha
+    - November 2024 (date TBA) - ?Sabetha?

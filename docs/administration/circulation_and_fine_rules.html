@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Circulation, late fee, and request rules &mdash; Next Steps 1.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -12,11 +13,11 @@
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-        <script src="../_static/doctools.js"></script>
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" /> 
@@ -27,12 +28,16 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../index.html" class="icon icon-home"> Next Steps
-            <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Next Steps
+              <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -78,8 +83,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Circulation, late fee, and request rules</li>
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Circulation, late fee, and request rules</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/administration/circulation_and_fine_rules.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -89,303 +94,292 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="circulation-late-fee-and-request-rules">
-<h1>Circulation, late fee, and request rules<a class="headerlink" href="#circulation-late-fee-and-request-rules" title="Permalink to this heading"></a></h1>
-<div class="section" id="circulation-and-late-fee-rules">
-<h2>Circulation and late fee rules<a class="headerlink" href="#circulation-and-late-fee-rules" title="Permalink to this heading"></a></h2>
+  <section id="circulation-late-fee-and-request-rules">
+<h1>Circulation, late fee, and request rules<a class="headerlink" href="#circulation-late-fee-and-request-rules" title="Link to this heading"></a></h1>
+<section id="circulation-and-late-fee-rules">
+<h2>Circulation and late fee rules<a class="headerlink" href="#circulation-and-late-fee-rules" title="Link to this heading"></a></h2>
 <p>Circulation and late fee rules are defined by these criteria:</p>
 <ol class="arabic simple">
-<li>The rules at <strong>the library where the item is being checked out</strong></li>
-<li>The borrower category of the account checking the materials out</li>
-<li>The item type of the item being checked out</li>
+<li><p>The rules at <strong>the library where the item is being checked out</strong></p></li>
+<li><p>The borrower category of the account checking the materials out</p></li>
+<li><p>The item type of the item being checked out</p></li>
 </ol>
 <p>Collection codes, call numbers, shelving locations, etc. have no bearing on any lending, fee, or request policies.</p>
 <p>Because Next Search Catalog has 54 library locations; 39 borrower categories; and 60 item types, this means that there are potentially 134200 circulation rules in our system.  Currently there are approximately 2250 active rules.</p>
 <p>Rules are applied from most specific to less specific, using the first found in this order:</p>
 <blockquote>
-<div>^ <strong>same</strong> library, <strong>same</strong> patron category, <strong>same</strong> item type
+<div><p>^ <strong>same</strong> library, <strong>same</strong> patron category, <strong>same</strong> item type
 - <strong>same</strong> library, <strong>same</strong> patron category, all item types
 - <strong>same</strong> library, all patron categories, <strong>same</strong> item type
 - <strong>same</strong> library, all patron categories, all item types
 - default (all libraries), <strong>same</strong> patron category, <strong>same</strong> item type
 - default (all libraries), <strong>same</strong> patron category, all item types
 - default (all libraries), all patron categories, <strong>same</strong> item type
-- default (all libraries), all patron categories, all item types</div></blockquote>
+- default (all libraries), all patron categories, all item types</p>
+</div></blockquote>
 <p>So if the circulation rules follows these examples:</p>
-<table border="1" class="docutils align-default">
-<colgroup>
-<col width="24%" />
-<col width="23%" />
-<col width="26%" />
-<col width="27%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Library</th>
-<th class="head">Category</th>
-<th class="head">Item type</th>
-<th class="head">CKO Rule</th>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Library</p></th>
+<th class="head"><p>Category</p></th>
+<th class="head"><p>Item type</p></th>
+<th class="head"><p>CKO Rule</p></th>
 </tr>
 </thead>
-<tbody valign="top">
-<tr class="row-even"><td>MY_LIBRARY</td>
-<td>ADULT</td>
-<td>VIDEO</td>
-<td>3 day checkout</td>
+<tbody>
+<tr class="row-even"><td><p>MY_LIBRARY</p></td>
+<td><p>ADULT</p></td>
+<td><p>VIDEO</p></td>
+<td><p>3 day checkout</p></td>
 </tr>
-<tr class="row-odd"><td>MY_LIBRARY</td>
-<td>HOMEBOUND</td>
-<td>ALL</td>
-<td>28 day checkout</td>
+<tr class="row-odd"><td><p>MY_LIBRARY</p></td>
+<td><p>HOMEBOUND</p></td>
+<td><p>ALL</p></td>
+<td><p>28 day checkout</p></td>
 </tr>
-<tr class="row-even"><td>MY_LIBRARY</td>
-<td>ALL</td>
-<td>GAME</td>
-<td>7 day checkout</td>
+<tr class="row-even"><td><p>MY_LIBRARY</p></td>
+<td><p>ALL</p></td>
+<td><p>GAME</p></td>
+<td><p>7 day checkout</p></td>
 </tr>
-<tr class="row-odd"><td>MY_LIBRARY</td>
-<td>ALL</td>
-<td>ALL</td>
-<td>21 day checkout</td>
+<tr class="row-odd"><td><p>MY_LIBRARY</p></td>
+<td><p>ALL</p></td>
+<td><p>ALL</p></td>
+<td><p>21 day checkout</p></td>
 </tr>
-<tr class="row-even"><td>ALL_LIBRARIES</td>
-<td>ADULT_OTHER</td>
-<td>MUSIC CD</td>
-<td>12 day checkout</td>
+<tr class="row-even"><td><p>ALL_LIBRARIES</p></td>
+<td><p>ADULT_OTHER</p></td>
+<td><p>MUSIC CD</p></td>
+<td><p>12 day checkout</p></td>
 </tr>
-<tr class="row-odd"><td>ALL_LIBRARIES</td>
-<td>DIGITAL ONLY</td>
-<td>ALL</td>
-<td>0 day checkout</td>
+<tr class="row-odd"><td><p>ALL_LIBRARIES</p></td>
+<td><p>DIGITAL ONLY</p></td>
+<td><p>ALL</p></td>
+<td><p>0 day checkout</p></td>
 </tr>
-<tr class="row-even"><td>ALL_LIBRARIES</td>
-<td>ALL</td>
-<td>(Unclassified)</td>
-<td>0 day checkout</td>
+<tr class="row-even"><td><p>ALL_LIBRARIES</p></td>
+<td><p>ALL</p></td>
+<td><p>(Unclassified)</p></td>
+<td><p>0 day checkout</p></td>
 </tr>
-<tr class="row-odd"><td>ALL_LIBRARIES</td>
-<td>ALL</td>
-<td>ALL</td>
-<td>21 day checkout</td>
+<tr class="row-odd"><td><p>ALL_LIBRARIES</p></td>
+<td><p>ALL</p></td>
+<td><p>ALL</p></td>
+<td><p>21 day checkout</p></td>
 </tr>
 </tbody>
 </table>
 <p>An ADULT at MY_LIBRARY checking out a VIDEO will follow the most specific rule at the top of the table because the Library, Category, and Item type all match.</p>
 <p>A MINOR at MY_LIBRARY checking out a VIDEO will follow the “MY_LIBRARY, ALL, ALL” rule in the 4th row down (i.e the item will check out for 21 days) because there is no specific rule that matches MY_LIBRARY: MINOR : VIDEO.</p>
 <p>If a MY_LIBRARY : ALL : ALL rule is set for each library, the ALL_LIBRARIES only serve as backups in case of a software problem.</p>
-</div>
-<div class="section" id="request-rules">
-<h2>Request rules<a class="headerlink" href="#request-rules" title="Permalink to this heading"></a></h2>
+</section>
+<section id="request-rules">
+<h2>Request rules<a class="headerlink" href="#request-rules" title="Link to this heading"></a></h2>
 <p>Request rules are defined by these criteria:</p>
 <ol class="arabic simple">
-<li>The rules at <strong>the library that owns the item</strong></li>
-<li>The borrower category of the account checking the materials out</li>
-<li>The item type of the item being checked out</li>
+<li><p>The rules at <strong>the library that owns the item</strong></p></li>
+<li><p>The borrower category of the account checking the materials out</p></li>
+<li><p>The item type of the item being checked out</p></li>
 </ol>
 <p>Request rules follow the same priority criteria as circulation and fee rules.</p>
 <p>So if the request rules follows these examples:</p>
-<table border="1" class="docutils align-default">
-<colgroup>
-<col width="25%" />
-<col width="23%" />
-<col width="26%" />
-<col width="26%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Library</th>
-<th class="head">Category</th>
-<th class="head">Item type</th>
-<th class="head">Request
-Rules</th>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Library</p></th>
+<th class="head"><p>Category</p></th>
+<th class="head"><p>Item type</p></th>
+<th class="head"><p>Request
+Rules</p></th>
 </tr>
 </thead>
-<tbody valign="top">
-<tr class="row-even"><td>MY_LIBRARY</td>
-<td>ADULT</td>
-<td>LAPTOP
-COMPUTER</td>
-<td>LOCAL REQUEST
-ONLY</td>
+<tbody>
+<tr class="row-even"><td><p>MY_LIBRARY</p></td>
+<td><p>ADULT</p></td>
+<td><p>LAPTOP
+COMPUTER</p></td>
+<td><p>LOCAL REQUEST
+ONLY</p></td>
 </tr>
-<tr class="row-odd"><td>MY_LIBRARY</td>
-<td>HOMEBOUND</td>
-<td>ALL</td>
-<td>Allowed</td>
+<tr class="row-odd"><td><p>MY_LIBRARY</p></td>
+<td><p>HOMEBOUND</p></td>
+<td><p>ALL</p></td>
+<td><p>Allowed</p></td>
 </tr>
-<tr class="row-even"><td>MY_LIBRARY</td>
-<td>ALL</td>
-<td>SPECIAL
-COLLECTIONS</td>
-<td>NO REQUESTS
-ALLOWED</td>
+<tr class="row-even"><td><p>MY_LIBRARY</p></td>
+<td><p>ALL</p></td>
+<td><p>SPECIAL
+COLLECTIONS</p></td>
+<td><p>NO REQUESTS
+ALLOWED</p></td>
 </tr>
-<tr class="row-odd"><td>MY_LIBRARY</td>
-<td>ALL</td>
-<td>ALL</td>
-<td>Allowed</td>
+<tr class="row-odd"><td><p>MY_LIBRARY</p></td>
+<td><p>ALL</p></td>
+<td><p>ALL</p></td>
+<td><p>Allowed</p></td>
 </tr>
-<tr class="row-even"><td>ALL_LIBRARIES</td>
-<td>ADULT_OTHER</td>
-<td>MUSIC CD</td>
-<td>Allowed</td>
+<tr class="row-even"><td><p>ALL_LIBRARIES</p></td>
+<td><p>ADULT_OTHER</p></td>
+<td><p>MUSIC CD</p></td>
+<td><p>Allowed</p></td>
 </tr>
-<tr class="row-odd"><td>ALL_LIBRARIES</td>
-<td>DIGITAL ONLY</td>
-<td>ALL</td>
-<td>No requests
-allowed</td>
+<tr class="row-odd"><td><p>ALL_LIBRARIES</p></td>
+<td><p>DIGITAL ONLY</p></td>
+<td><p>ALL</p></td>
+<td><p>No requests
+allowed</p></td>
 </tr>
-<tr class="row-even"><td>ALL_LIBRARIES</td>
-<td>ALL</td>
-<td>(Unclassified)</td>
-<td>Allowed</td>
+<tr class="row-even"><td><p>ALL_LIBRARIES</p></td>
+<td><p>ALL</p></td>
+<td><p>(Unclassified)</p></td>
+<td><p>Allowed</p></td>
 </tr>
-<tr class="row-odd"><td>ALL_LIBRARIES</td>
-<td>ALL</td>
-<td>ALL</td>
-<td>Allowed</td>
+<tr class="row-odd"><td><p>ALL_LIBRARIES</p></td>
+<td><p>ALL</p></td>
+<td><p>ALL</p></td>
+<td><p>Allowed</p></td>
 </tr>
 </tbody>
 </table>
 <p>If an ADULT at YOUR_LIBRARY tries request a LAPTOP COMPUTER, to have it shipped to YOUR_LIBRARY they will not be able to request that item from MY_LIBRARY because the request rules for LAPTOPs at MY_LIBRARY only allow for those items to be picked up at MY_LIBRARY.</p>
 <p>And no one can place a request on SPECIAL COLLECTIONS materials at MY_LIBRARY.</p>
-</div>
-<div class="section" id="circulation-late-fee-request-rules-matrix">
-<h2>Circulation, late fee, request rules matrix<a class="headerlink" href="#circulation-late-fee-request-rules-matrix" title="Permalink to this heading"></a></h2>
-<div class="section" id="general-rules">
-<h3>General rules<a class="headerlink" href="#general-rules" title="Permalink to this heading"></a></h3>
-<div class="section" id="library">
-<h4>Library<a class="headerlink" href="#library" title="Permalink to this heading"></a></h4>
+</section>
+<section id="circulation-late-fee-request-rules-matrix">
+<h2>Circulation, late fee, request rules matrix<a class="headerlink" href="#circulation-late-fee-request-rules-matrix" title="Link to this heading"></a></h2>
+<section id="general-rules">
+<h3>General rules<a class="headerlink" href="#general-rules" title="Link to this heading"></a></h3>
+<section id="library">
+<h4>Library<a class="headerlink" href="#library" title="Link to this heading"></a></h4>
 <p>Options:</p>
 <blockquote>
 <div><ul class="simple">
-<li>All libraries</li>
-<li>SPECIFIC LIBRARY</li>
+<li><p>All libraries</p></li>
+<li><p>SPECIFIC LIBRARY</p></li>
 </ul>
 </div></blockquote>
 <p>This part of the circulation rules matrix defines which library the rule applies to.</p>
 <p>In Next Search Catalog:</p>
 <blockquote>
 <div><ul class="simple">
-<li>circulation rules and late fee rules apply to the library where an item is checked out</li>
-<li>request rules apply to the library that owns the item</li>
+<li><p>circulation rules and late fee rules apply to the library where an item is checked out</p></li>
+<li><p>request rules apply to the library that owns the item</p></li>
 </ul>
 </div></blockquote>
 <p>Generally speaking</p>
-</div>
-<div class="section" id="item-type">
-<h4>Item type<a class="headerlink" href="#item-type" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="note">
-<h4>Note<a class="headerlink" href="#note" title="Permalink to this heading"></a></h4>
-</div>
-</div>
-<div class="section" id="circulation-rules">
-<h3>Circulation rules<a class="headerlink" href="#circulation-rules" title="Permalink to this heading"></a></h3>
-<div class="section" id="current-checkouts-allowed">
-<h4>Current checkouts allowed<a class="headerlink" href="#current-checkouts-allowed" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="current-on-site-checkouts-allowed">
-<h4>Current on^site checkouts allowed<a class="headerlink" href="#current-on-site-checkouts-allowed" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="loan-period">
-<h4>Loan period<a class="headerlink" href="#loan-period" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="days-mode">
-<h4>Days mode<a class="headerlink" href="#days-mode" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="unit">
-<h4>Unit<a class="headerlink" href="#unit" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="hard-due-date">
-<h4>Hard due date<a class="headerlink" href="#hard-due-date" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="decreased-loan-period-for-high-holds-day">
-<h4>Decreased loan period for high holds (day)<a class="headerlink" href="#decreased-loan-period-for-high-holds-day" title="Permalink to this heading"></a></h4>
-</div>
-</div>
-<div class="section" id="late-fee-and-suspension-rules">
-<h3>Late fee and suspension rules<a class="headerlink" href="#late-fee-and-suspension-rules" title="Permalink to this heading"></a></h3>
-<div class="section" id="fine-amount">
-<h4>Fine amount<a class="headerlink" href="#fine-amount" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="fine-charging-interval">
-<h4>Fine charging interval<a class="headerlink" href="#fine-charging-interval" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="when-to-charge">
-<h4>When to charge<a class="headerlink" href="#when-to-charge" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="fine-suspension-grace-period">
-<h4>Fine/suspension grace period<a class="headerlink" href="#fine-suspension-grace-period" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="overdue-fines-cap-amount">
-<h4>Overdue fines cap (amount)<a class="headerlink" href="#overdue-fines-cap-amount" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="cap-fine-at-replacement-price">
-<h4>Cap fine at replacement price<a class="headerlink" href="#cap-fine-at-replacement-price" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="suspension-in-days-day">
-<h4>Suspension in days (day)<a class="headerlink" href="#suspension-in-days-day" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="max-suspension-duration-day">
-<h4>Max. suspension duration (day)<a class="headerlink" href="#max-suspension-duration-day" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="suspension-charging-interval">
-<h4>Suspension charging interval<a class="headerlink" href="#suspension-charging-interval" title="Permalink to this heading"></a></h4>
-</div>
-</div>
-<div class="section" id="renewal-rules">
-<h3>Renewal rules<a class="headerlink" href="#renewal-rules" title="Permalink to this heading"></a></h3>
-<div class="section" id="renewals-allowed-count">
-<h4>Renewals allowed (count)<a class="headerlink" href="#renewals-allowed-count" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="renewal-period">
-<h4>Renewal period<a class="headerlink" href="#renewal-period" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="no-renewal-before">
-<h4>No renewal before<a class="headerlink" href="#no-renewal-before" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="no-automatic-renewal-before">
-<h4>No automatic renewal before<a class="headerlink" href="#no-automatic-renewal-before" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="automatic-renewal">
-<h4>Automatic renewal<a class="headerlink" href="#automatic-renewal" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="no-automatic-renewal-after">
-<h4>No automatic renewal after<a class="headerlink" href="#no-automatic-renewal-after" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="no-automatic-renewal-after-hard-limit">
-<h4>No automatic renewal after (hard limit)<a class="headerlink" href="#no-automatic-renewal-after-hard-limit" title="Permalink to this heading"></a></h4>
-</div>
-</div>
-<div class="section" id="id1">
-<h3>Request rules<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h3>
-<div class="section" id="holds-allowed-total">
-<h4>Holds allowed (total)<a class="headerlink" href="#holds-allowed-total" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="holds-allowed-daily">
-<h4>Holds allowed (daily)<a class="headerlink" href="#holds-allowed-daily" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="holds-per-record-count">
-<h4>Holds per record (count)<a class="headerlink" href="#holds-per-record-count" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="on-shelf-holds-allowed">
-<h4>On shelf holds allowed<a class="headerlink" href="#on-shelf-holds-allowed" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="opac-item-level-holds">
-<h4>OPAC item level holds<a class="headerlink" href="#opac-item-level-holds" title="Permalink to this heading"></a></h4>
-</div>
-<div class="section" id="holds-pickup-period-day">
-<h4>Holds pickup period (day)<a class="headerlink" href="#holds-pickup-period-day" title="Permalink to this heading"></a></h4>
-</div>
-</div>
-<div class="section" id="rental-discount-rules">
-<h3>Rental discount rules<a class="headerlink" href="#rental-discount-rules" title="Permalink to this heading"></a></h3>
-<div class="section" id="rental-discount">
-<h4>Rental discount (%)<a class="headerlink" href="#rental-discount" title="Permalink to this heading"></a></h4>
-</div>
-</div>
-</div>
-</div>
+</section>
+<section id="item-type">
+<h4>Item type<a class="headerlink" href="#item-type" title="Link to this heading"></a></h4>
+</section>
+<section id="note">
+<h4>Note<a class="headerlink" href="#note" title="Link to this heading"></a></h4>
+</section>
+</section>
+<section id="circulation-rules">
+<h3>Circulation rules<a class="headerlink" href="#circulation-rules" title="Link to this heading"></a></h3>
+<section id="current-checkouts-allowed">
+<h4>Current checkouts allowed<a class="headerlink" href="#current-checkouts-allowed" title="Link to this heading"></a></h4>
+</section>
+<section id="current-on-site-checkouts-allowed">
+<h4>Current on^site checkouts allowed<a class="headerlink" href="#current-on-site-checkouts-allowed" title="Link to this heading"></a></h4>
+</section>
+<section id="loan-period">
+<h4>Loan period<a class="headerlink" href="#loan-period" title="Link to this heading"></a></h4>
+</section>
+<section id="days-mode">
+<h4>Days mode<a class="headerlink" href="#days-mode" title="Link to this heading"></a></h4>
+</section>
+<section id="unit">
+<h4>Unit<a class="headerlink" href="#unit" title="Link to this heading"></a></h4>
+</section>
+<section id="hard-due-date">
+<h4>Hard due date<a class="headerlink" href="#hard-due-date" title="Link to this heading"></a></h4>
+</section>
+<section id="decreased-loan-period-for-high-holds-day">
+<h4>Decreased loan period for high holds (day)<a class="headerlink" href="#decreased-loan-period-for-high-holds-day" title="Link to this heading"></a></h4>
+</section>
+</section>
+<section id="late-fee-and-suspension-rules">
+<h3>Late fee and suspension rules<a class="headerlink" href="#late-fee-and-suspension-rules" title="Link to this heading"></a></h3>
+<section id="fine-amount">
+<h4>Fine amount<a class="headerlink" href="#fine-amount" title="Link to this heading"></a></h4>
+</section>
+<section id="fine-charging-interval">
+<h4>Fine charging interval<a class="headerlink" href="#fine-charging-interval" title="Link to this heading"></a></h4>
+</section>
+<section id="when-to-charge">
+<h4>When to charge<a class="headerlink" href="#when-to-charge" title="Link to this heading"></a></h4>
+</section>
+<section id="fine-suspension-grace-period">
+<h4>Fine/suspension grace period<a class="headerlink" href="#fine-suspension-grace-period" title="Link to this heading"></a></h4>
+</section>
+<section id="overdue-fines-cap-amount">
+<h4>Overdue fines cap (amount)<a class="headerlink" href="#overdue-fines-cap-amount" title="Link to this heading"></a></h4>
+</section>
+<section id="cap-fine-at-replacement-price">
+<h4>Cap fine at replacement price<a class="headerlink" href="#cap-fine-at-replacement-price" title="Link to this heading"></a></h4>
+</section>
+<section id="suspension-in-days-day">
+<h4>Suspension in days (day)<a class="headerlink" href="#suspension-in-days-day" title="Link to this heading"></a></h4>
+</section>
+<section id="max-suspension-duration-day">
+<h4>Max. suspension duration (day)<a class="headerlink" href="#max-suspension-duration-day" title="Link to this heading"></a></h4>
+</section>
+<section id="suspension-charging-interval">
+<h4>Suspension charging interval<a class="headerlink" href="#suspension-charging-interval" title="Link to this heading"></a></h4>
+</section>
+</section>
+<section id="renewal-rules">
+<h3>Renewal rules<a class="headerlink" href="#renewal-rules" title="Link to this heading"></a></h3>
+<section id="renewals-allowed-count">
+<h4>Renewals allowed (count)<a class="headerlink" href="#renewals-allowed-count" title="Link to this heading"></a></h4>
+</section>
+<section id="renewal-period">
+<h4>Renewal period<a class="headerlink" href="#renewal-period" title="Link to this heading"></a></h4>
+</section>
+<section id="no-renewal-before">
+<h4>No renewal before<a class="headerlink" href="#no-renewal-before" title="Link to this heading"></a></h4>
+</section>
+<section id="no-automatic-renewal-before">
+<h4>No automatic renewal before<a class="headerlink" href="#no-automatic-renewal-before" title="Link to this heading"></a></h4>
+</section>
+<section id="automatic-renewal">
+<h4>Automatic renewal<a class="headerlink" href="#automatic-renewal" title="Link to this heading"></a></h4>
+</section>
+<section id="no-automatic-renewal-after">
+<h4>No automatic renewal after<a class="headerlink" href="#no-automatic-renewal-after" title="Link to this heading"></a></h4>
+</section>
+<section id="no-automatic-renewal-after-hard-limit">
+<h4>No automatic renewal after (hard limit)<a class="headerlink" href="#no-automatic-renewal-after-hard-limit" title="Link to this heading"></a></h4>
+</section>
+</section>
+<section id="id1">
+<h3>Request rules<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<section id="holds-allowed-total">
+<h4>Holds allowed (total)<a class="headerlink" href="#holds-allowed-total" title="Link to this heading"></a></h4>
+</section>
+<section id="holds-allowed-daily">
+<h4>Holds allowed (daily)<a class="headerlink" href="#holds-allowed-daily" title="Link to this heading"></a></h4>
+</section>
+<section id="holds-per-record-count">
+<h4>Holds per record (count)<a class="headerlink" href="#holds-per-record-count" title="Link to this heading"></a></h4>
+</section>
+<section id="on-shelf-holds-allowed">
+<h4>On shelf holds allowed<a class="headerlink" href="#on-shelf-holds-allowed" title="Link to this heading"></a></h4>
+</section>
+<section id="opac-item-level-holds">
+<h4>OPAC item level holds<a class="headerlink" href="#opac-item-level-holds" title="Link to this heading"></a></h4>
+</section>
+<section id="holds-pickup-period-day">
+<h4>Holds pickup period (day)<a class="headerlink" href="#holds-pickup-period-day" title="Link to this heading"></a></h4>
+</section>
+</section>
+<section id="rental-discount-rules">
+<h3>Rental discount rules<a class="headerlink" href="#rental-discount-rules" title="Link to this heading"></a></h3>
+<section id="rental-discount">
+<h4>Rental discount (%)<a class="headerlink" href="#rental-discount" title="Link to this heading"></a></h4>
+</section>
+</section>
+</section>
+</section>
 
 
            </div>
