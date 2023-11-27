@@ -93,6 +93,7 @@ Next Search Catalog History
   - June - Upgrade to Koha 18.11
   - August - Next drops Lynda.com content due to changes in the Lynda.com policies regarding patron data
   - September - NEKLS staff attend the `6th annual koha-US Conference <http://koha-us.org/learn/conferences/kohacon2019/>`_ in Pueblo, Colorado
+  - October - George Williams from NEKLS and Bob Benhof from CLiC speak at the Koha Summit in Salt Lake City, Utah
   - December - Upgrade to Koha 19.05
   - END OF YEAR: Next Search Catalog includes 44 public libraries; 1 school district; and 1 community college library
   - END OF YEAR: Total circulation - 1458904 \| Total patrons - 119204 \| Total titles - 407228 \| Total items - 1030825
@@ -112,6 +113,7 @@ Next Search Catalog History
   - February - Upgrade to Koha 20.05
   - August - patch to Koha version 20.05.14.000 (Updated 2021-08-19)
   - August - George Williams from NEKLS and Christopher Brannon from Coeur d'Alene Public Library begin the second season of their video training series for koha-US `See https://koha-us.org/learn/ for more information <https://koha-us.org/learn/>`_
+  - September - George Williams from NEKLS speaks, via Zoom, at the 2021 koha-US conference in McKinney, Texas (`koha-US 2021 conference website <https://koha-us.org/events/conferences/conference2021/>`_)
   - December - George Williams from NEKLS talks, via Zoom, about Next Search Catalog and koha-US at KohaCon21 in Pakistan
   - END OF YEAR: Next Search Catalog includes 44 public libraries; 1 school district; and 1 community college library
   - END OF YEAR: Total circulation - 990017 \| Total patrons - 115455 \| Total titles - 402030 \| Total items - 1011992
@@ -120,7 +122,7 @@ Next Search Catalog History
 
   - January - Upgrade to Koha 21.05
   - August - Upgrade to Koha 21.11
-  - September - NEKLS, SEKLS, and CKLS co-host the joint koha-US/KohaCon22 conference in Lawrence, KS
+  - September - NEKLS, SEKLS, and CKLS co-host the joint koha-US/KohaCon22 conference in Lawrence, KS (`koha-US 2022/KohaCon22 conference website <https://koha-us.org/events/conferences/kohacon22/>`_)
   - Jim Minges and Liz Rea (former NEKLS staff members) deliver the Keynote address at the joint koha-US/KohaCon22
   - END OF YEAR: Next Search Catalog includes 44 public libraries; 1 school district; and 1 community college library
   - END OF YEAR: Total circulation - 1073284 \| Total patrons - 108652 \| Total titles -  403279 \| Total items - 1005962
@@ -128,5 +130,8 @@ Next Search Catalog History
 - 2023 
 
   - February - Upgrade to Koha 22.05
+  - February - Robin Hastings and George Williams from NEKLS speak at a Koha Summit in Derby, Kansas
   - May - George Williams of NEKLS is named a Library Journal Mover and Shaker in the Innovaters category along with his colleague, Christopher Brannon, from Coeur d'Alene, Idaho, in recognition of the work that they have done helping the "open source Koha integrated library system (ILS) grow and thrive in U.S. libraries" (`Read the article here <https://www.libraryjournal.com/story/christopher-brannon-and-george-williams-movers-shakers-2023-innovators>`_).
   - May - The Wetmore Academic Center Library withdraws from Next Search Catalog due to the permanent closure of Wetmore Academic Center.
+  - August - Upgrade to Koha 22.11
+  - September - George Williams and Greg Gantz from NEKLS attend the koha-US conference in Portsmouth, New Hampshire (`koha-US 2023 conference website <https://koha-us.org/events/conferences/2023-koha-us-annual-conference-portsmouth-nh/>`_).

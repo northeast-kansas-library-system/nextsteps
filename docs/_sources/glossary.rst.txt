@@ -17,6 +17,9 @@ Agencies:
     Kansas Library Express
       Kansas Library Express (AKA :term:`KLE`) is the courier system that ships materials between member libraries in Kansas.  KLE also allows libraries to ship materials to couriers on the Blue Sky courier system in Colorado and Trans Amigos in other states. Northeast Kansas Library System administers the courier system.  For more information see the KLE website at `https://kslibexpress.mykansaslibrary.org/ <https://kslibexpress.mykansaslibrary.org/>`_
 
+    KICNET
+      KICNET (AKA **K**ansas **I**nterlibrary loan **C**ouncil **NET**work) is the statewide interlibrary loan network.  KICNET uses the :term:`ShareIt` software by AutoGraphics to manage interlibrary loans througout the state of Kansas.  For more information see the `Kansas State Library's ILL website <https://kslib.info/440/Interlibrary-Loan>`_
+
     Northeast Kansas Library System
       Northeast Kansas Library System (AKA :term:`NEKLS`) is one of seven regional library systems in Kansas.  You can learn more about the Kansas regional library systems at the `State Library of Kansas page on regional library systems <https://kslib.info/573/Regional-Library-Systems>`_
 
@@ -51,8 +54,8 @@ Software, languages, and outside services:
     SIP2
       Standard Interchange Protocol, version 2 - A protocol for sending messages between an ILS and third party software.  An update to the original SIP protocol developed by 3M in the 1980s.
 
-System related terms:
-=====================
+Next Search Catalog and Koha related terms:
+===========================================
 
 .. glossary::
 
@@ -69,7 +72,7 @@ System related terms:
       User permissions are set by the Next Search Catalog system administrators and determine which components of the system staff members have access to when they log in.
 
     Password
-      (***AKA PIN***) |br|
+      (**AKA PIN**) |br|
 
     Shelving location
       Shelving locations describe where an item is located in the library.  Next Search Catalog uses 3 basic shelving locations, Adult, Childrens, and Young adult.  For a full list of shelving locations, run report

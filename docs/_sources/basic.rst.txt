@@ -1,8 +1,8 @@
 .. include:: /include.rst
 
-#############################
-Koha basics for library staff
-#############################
+#################################
+Koha basics for all library staff
+#################################
 
 .. toctree::
     :maxdepth: 2

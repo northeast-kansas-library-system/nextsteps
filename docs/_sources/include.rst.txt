@@ -695,6 +695,23 @@
     :scale: 65%
     :alt:
 
+.. |staff_password_self_reset_0010| image:: /images/pages/logging_in/staff_password_self_reset_0010.png
+    :alt: 
+
+.. |staff_password_self_reset_0020| image:: /images/pages/logging_in/staff_password_self_reset_0020.png
+    :alt: 
+
+.. |staff_password_self_reset_0030| image:: /images/pages/logging_in/staff_password_self_reset_0030.png
+    :alt: 
+
+.. |staff_password_self_reset_0040| image:: /images/pages/logging_in/staff_password_self_reset_0040.png
+    :alt: 
+
+.. |staff_password_self_reset_0050| image:: /images/pages/logging_in/staff_password_self_reset_0050.png 
+    :alt: 
+
+
+
 .. pages/reports/3658
 
 .. |r3658.0050.png| image:: /images/pages/reports/3658/r3658.0050.png

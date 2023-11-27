@@ -15,7 +15,7 @@ There are 6 basic account types in Next Search Catalog:
 Administrator
 -------------
 
-- Administrators have access to all adminstrative functions of the system
+- Administrators have access to all system functions
 
 .. _director_permissions:
 
