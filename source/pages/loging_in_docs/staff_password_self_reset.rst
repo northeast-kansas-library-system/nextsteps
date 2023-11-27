@@ -51,3 +51,8 @@ If you find that your staff login account for Next Search Catalog is locked, the
       |staff_password_self_reset_0050|
 
   - If you see a different message or you still cannot log in, contact your library director
+
+Downloadable handout
+^^^^^^^^^^^^^^^^^^^^
+
+:download:`Download a document covering these basic steps </_files/staff_password_self_reset.pdf>`
