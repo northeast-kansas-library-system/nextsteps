@@ -1,13 +1,13 @@
 .. include:: /include.rst
 
-2024-01 - Agenda and notes
+2024-01-25 - Agenda and notes
 ==========================
 
 2021-01-25 - (Thursday) 10:00 a.m. - 12:00 p.m. - Northeast Kansas Library System / online
 
-Zoom link 
+  `Zoom link <https://kslib.zoom.us/j/91005110542?pwd=b3ZMUU5oODRsSW41eE13RHBGajlSZz09>`_
 
-Zoom passcode: 7858384090
+  Zoom passcode 7858384090
 
 No recordings of this meeting will be made
 
@@ -21,3 +21,4 @@ Agenda
 
 #. Next meeting 
  
+    - 2023.04.TBA - Osage City Public Library / online

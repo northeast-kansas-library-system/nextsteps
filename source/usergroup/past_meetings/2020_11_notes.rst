@@ -1,7 +1,7 @@
 .. include:: /include.rst
 
 2020.11.05 - Agenda with notes
-==============================  -
+==============================
 
 ..
   https://northeast-kansas-library-system.github.io/next/usergroup/ug.20201105notes.html

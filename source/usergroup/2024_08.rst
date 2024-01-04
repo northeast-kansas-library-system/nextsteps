@@ -1,14 +1,13 @@
 .. include:: /include.rst
 
-2024-08
- - Agenda and notes
-==========================
+2024-08-27 - Agenda and notes
+=============================
 
-date - (day) time - location / online
+2023-08-27 (Tuesday) - Tonganoxie Public Library / online
 
-Zoom link 
+  `Zoom link <https://kslib.zoom.us/j/91574973702?pwd=Y0Z6V0ROdzF1bXdmUW9wMXFpeHVmdz09>`_
 
-Zoom passcode: 7858384090
+  Zoom passcode 7858384090
 
 No recordings of this meeting will be made
 
@@ -19,5 +18,9 @@ Agenda
  
     - Introductions 
     - Additions to the agenda 
+
+#. 2025 Next Search Catalog participation agreement - first draft
+
+#. 2025 Next Search Catalog privacy and confidentiality statement - first draft
 
 #. Next meeting 
