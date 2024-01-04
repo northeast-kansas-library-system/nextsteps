@@ -1,13 +1,14 @@
-.. include:: /include.rst
+.. include:: /include.rst2023\.04\.16
 
-2024-04 - Agenda and notes
+2024-04-16 - Agenda and notes
 ==========================
 
-date - (day) time - location / online
+2023-04-16 (Tuesday) 10:00 a.m. - 12:00 p.m.  - Osage City Public Library / online
 
-Zoom link 
+  `Zoom link <https://kslib.zoom.us/j/93500509305?pwd=KzYyMXNlalNwcU9vS1krMDFsOStndz09>`_
 
-Zoom passcode: 7858384090
+  Zoom passcode 7858384090
+
 
 No recordings of this meeting will be made
 
