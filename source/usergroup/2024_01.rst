@@ -19,6 +19,57 @@ Agenda
     - Introductions 
     - Additions to the agenda 
 
+#. Last week's upgrade
+
+    - Hold fill digests (show email)
+      - New message 
+      - Selected by default for new borrowers
+      - All old borrowers will be updated soon
+    - Relatives charges and fees in the OPAC (Use 5098675309 as an example)
+    - Update to "Charges for patron's guarantees message" (Use 5098675309 as an example)
+    - Limit editing ability to groups natively (bug to mention)
+    - No more leading/trailing whitespaces in catalog records
+    - Records that cannot be batch deleted/batch modified are highlighted better
+    - Mark items as returned in batch item modification 
+    - List/export batch modification results
+    - Call numbers added to accountline information
+    - 
+
+#. Advanced Reading Copies and Bootleg materials
+
+    A. Advance Reading Copies
+
+      - AKA: Galleys; ARCs; Review Copies
+      - Cataloging and circulating is confusing to borrowers
+      - Cataloging and circulating is unethical
+      - Cataloging and circulating is not a best practice
+
+    B. Bootleg or pirated materials
+
+      - Circulating bootleg or pirated materials is illegal 
+      - Buy from a reputable seller
+      - If buying on Amazon, make sure the item is "Sold by Amazon.com"
+  
+    C. Addition to the policy manual
+
+      - Link to proposed policy change (Write policy)
+      - Voting starts tomorrow lasts two weeks (Create voting survey)
+
+#. Aspen Discovery 
+
+    - On-boarding starts in March
+    - Customization March-July
+    - Training for library staff in August
+    - Demo-ish stuff (set up links)
+    - https://pathfinder.catalog.ckls.org/MyAccount/SelectInterface?noRememberThis=true
+    - https://catalog.aspencat.info/MyAccount/SelectInterface?noRememberThis=true
+    - https://mcpl.aspendiscovery.org/?browseCategory=mcpl_new
+    -  
+
 #. Next meeting 
  
-    - 2023.04.TBA - Osage City Public Library / online
+    - 2023.04.16 (Tuesday) 10:00 a.m. - 12:00 p.m. - Osage City Public Library / online
+    - 2023.08.27 (Tuesday) 10:00 a.m. - 12:00 p.m. - Tonganoxie Public Library / online
+    - 2023.11.14 (Thursday) 10:00 a.m. - 12:00 p.m. - Mary Cotton Library, Sabetha / online
+
+
