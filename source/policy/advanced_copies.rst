@@ -6,7 +6,7 @@ Proposed change to policy manual
 Advanced copies and Pirated material policy
 -------------------------------------------
 
-The Next Search Catalog administrators reserve the right to remove any advanced copies or pirated materials found cataloged in Next Search Catalog.
+The Next Search Catalog administrators reserve the right to remove any advanced copies or pirated materials found in Next Search Catalog.
 
 Advanced copies
 ---------------
