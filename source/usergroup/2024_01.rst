@@ -21,16 +21,19 @@ Agenda
 
 #. Last week's upgrade
 
-    - Hold fill digests (show email)
+    - Hold fill digests
 
-      - New message 
-      - Selected by default for new borrowers
+      - New message option
+      - Selected by default for all new borrowers
       - All old borrowers will be updated soon
+      - :download:`Example message </_files/2024_01_25_holdsdgst.pdf>`
   
-    - Relatives charges and fees in the OPAC (Use 5098675309 as an example)
-    - Update to "Charges for patron's guarantees message" (Use 5098675309 as an example)
-    - Limit editing ability to groups natively (bug to mention)
-    - No more leading/trailing whitespaces in catalog records
+    - Guarantor - guarantee stuff
+
+      - Relatives charges and fees in the OPAC
+      - Update to "Charges for patron's guarantees message"
+
+    - Limit editing ability to groups natively (bug)
     - Records that cannot be batch deleted/batch modified are highlighted better
     - Mark items as returned in batch item modification 
     - List/export batch modification results
@@ -39,12 +42,21 @@ Agenda
 
 #. Advanced Reading Copies and Bootleg materials
 
-    A. Advance Reading Copies
+    A. Advance reading copies
 
-      - AKA: Galleys; ARCs; Review Copies (See https://www.liveabout.com/arc-what-is-an-arc-advanced-reader-s-copy-1360460)
-      - Cataloging and circulating is confusing to borrowers
-      - Cataloging and circulating is unethical
-      - Cataloging and circulating is not a best practice
+      - AKA: Galleys; ARCs; Review Copies
+      
+        - `See document at <https://www.liveabout.com/arc-what-is-an-arc-advanced-reader-s-copy-1360460>`_
+
+      - ARCs are for the purpose of reviewing books before publication for sites like
+      
+        - `Book Marks https://bookmarks.reviews/`_
+        - `Library Journal https://www.libraryjournal.com/section/reviews+`_
+        - `Book Reporter https://www.bookreporter.com/`_
+
+      - Cataloging and circulating ARCs is confusing to borrowers
+      - Cataloging and circulating ARCs is unethical
+      - Cataloging and circulating ARCs is not a best practice
 
     B. Bootleg or pirated materials
 
@@ -55,7 +67,7 @@ Agenda
   
     C. Addition to the policy manual
 
-      - Link to proposed policy change (Write policy)
+      - :doc:`Proposed addition to the policy manual </policy/advanced_copies>`
       - Voting starts tomorrow lasts two weeks (Create voting survey)
 
 #. Aspen Discovery 
@@ -63,11 +75,8 @@ Agenda
     - On-boarding starts in March
     - Customization March-July
     - Training for library staff in August
-    - Demo-ish stuff (set up links)
-    - https://pathfinder.catalog.ckls.org/MyAccount/SelectInterface?noRememberThis=true
-    - https://catalog.aspencat.info/MyAccount/SelectInterface?noRememberThis=true
-    - https://mcpl.aspendiscovery.org/?browseCategory=mcpl_new
-    -  
+    - Demo-ish stuff
+    - Lida App
 
 #. Next meeting 
  
