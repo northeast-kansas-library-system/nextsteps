@@ -19,6 +19,8 @@ Agenda
     - Introductions 
     - Additions to the agenda 
 
+#. Cataloging committee update
+
 #. Last week's upgrade 
 
     - Hold fill digests 
@@ -38,6 +40,7 @@ Agenda
     - Mark items as returned in batch item modification 
     - List/export batch modification results 
     - Call numbers added to accountline information 
+    - Cancel holds on second check-in (new option)
 
 #. Advanced Reading Copies and Bootleg materials 
 
