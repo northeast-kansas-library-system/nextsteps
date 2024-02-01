@@ -1,78 +1,87 @@
-.. include:: /include.rst
+.. include:: /include.rst 
 
-2024-01-25 - Agenda and notes
-==========================
+2024-01-25 - Agenda and notes 
+========================== 
 
-2021-01-25 - (Thursday) 10:00 a.m. - 12:00 p.m. - Northeast Kansas Library System / online
+2021-01-25 - (Thursday) 10:00 a.m. - 12:00 p.m. - Northeast Kansas Library System / online 
 
-  `Zoom link <https://kslib.zoom.us/j/91005110542?pwd=b3ZMUU5oODRsSW41eE13RHBGajlSZz09>`_
+  `Zoom link <https://kslib.zoom.us/j/95571141270?pwd=VTF1ekxwMERUSmpYbndHbGJjbWFPdz09>`_ 
 
-  Zoom passcode 7858384090
+  Zoom passcode 7858384090 
 
-No recordings of this meeting will be made
+No recordings of this meeting will be made 
 
-Agenda
-^^^^^^
+Agenda 
+^^^^^^ 
 
 1. Announcements, news, brief items, etc. 
- 
+
     - Introductions 
     - Additions to the agenda 
 
-#. Last week's upgrade
+#. Cataloging committee update
 
-    - Hold fill digests (show email)
+#. Last week's upgrade 
 
-      - New message 
-      - Selected by default for new borrowers
-      - All old borrowers will be updated soon
-  
-    - Relatives charges and fees in the OPAC (Use 5098675309 as an example)
-    - Update to "Charges for patron's guarantees message" (Use 5098675309 as an example)
-    - Limit editing ability to groups natively (bug to mention)
-    - No more leading/trailing whitespaces in catalog records
-    - Records that cannot be batch deleted/batch modified are highlighted better
+    - Hold fill digests 
+
+      - New message option 
+      - Selected by default for all new borrowers 
+      - All old borrowers will be updated soon 
+      - :download:`Example message </_files/2024_01_25_holdsdgst.pdf>` 
+
+    - Guarantor - guarantee stuff 
+
+      - Relatives charges and fees in the OPAC 
+      - Update to "Charges for patron's guarantees message" 
+
+    - Limit editing ability to groups natively (bug) 
+    - Records that cannot be batch deleted/batch modified are highlighted better 
     - Mark items as returned in batch item modification 
-    - List/export batch modification results
-    - Call numbers added to accountline information
+    - List/export batch modification results 
+    - Call numbers added to accountline information 
+    - Cancel holds on second check-in (new option)
 
+#. Advanced Reading Copies and Bootleg materials 
 
-#. Advanced Reading Copies and Bootleg materials
+    A. Advance reading copies 
 
-    A. Advance Reading Copies
+      - AKA: Galleys; ARCs; Review Copies 
 
-      - AKA: Galleys; ARCs; Review Copies (See https://www.liveabout.com/arc-what-is-an-arc-advanced-reader-s-copy-1360460)
-      - Cataloging and circulating is confusing to borrowers
-      - Cataloging and circulating is unethical
-      - Cataloging and circulating is not a best practice
+        - `What is an "ARC" <https://www.liveabout.com/arc-what-is-an-arc-advanced-reader-s-copy-1360460>`_ 
 
-    B. Bootleg or pirated materials
+      - ARCs are for the purpose of reviewing books before publication for sites like 
 
-      - Pirated DVDs/Blu-rays/CDs/Books are illegaly made copies of media sold without paying royalties to the producers of the original media
+        - `Book Marks <https://bookmarks.reviews>`_ 
+        - `Library Journal <https://www.libraryjournal.com/section/reviews+>`_ 
+        - `Book Reporter <https://www.bookreporter.com>`_ 
+
+      - Cataloging and circulating ARCs is confusing to borrowers 
+      - Cataloging and circulating ARCs is unethical 
+      - Cataloging and circulating ARCs is not a best practice 
+
+    B. Bootleg or pirated materials 
+
+      - Pirated DVDs/Blu-rays/CDs/Books are illegaly made copies of media sold without paying royalties to the producers of the original media 
       - Circulating bootleg or pirated materials is illegal 
-      - Buy from a reputable seller - Midwest Tapes is a good example
-      - If buying on Amazon, make sure the item is "Sold by Amazon.com"
-  
-    C. Addition to the policy manual
+      - Buy from a reputable seller - Midwest Tapes is a good example 
+      - If buying on Amazon, make sure the item is "Sold by Amazon.com" 
 
-      - Link to proposed policy change (Write policy)
-      - Voting starts tomorrow lasts two weeks (Create voting survey)
+    C. Addition to the policy manual 
+
+      - :doc:`Proposed addition to the policy manual </policy/advanced_copies>` 
+      - Voting starts tomorrow lasts two weeks (Create voting survey) 
 
 #. Aspen Discovery 
 
-    - On-boarding starts in March
-    - Customization March-July
-    - Training for library staff in August
-    - Demo-ish stuff (set up links)
-    - https://pathfinder.catalog.ckls.org/MyAccount/SelectInterface?noRememberThis=true
-    - https://catalog.aspencat.info/MyAccount/SelectInterface?noRememberThis=true
-    - https://mcpl.aspendiscovery.org/?browseCategory=mcpl_new
-    -  
+    - On-boarding starts in March 
+    - Customization March-July 
+    - Training for library staff in August 
+    - Demo-ish stuff 
+    - Lida App 
 
 #. Next meeting 
- 
-    - 2023.04.16 (Tuesday) 10:00 a.m. - 12:00 p.m. - Osage City Public Library / online
-    - 2023.08.27 (Tuesday) 10:00 a.m. - 12:00 p.m. - Tonganoxie Public Library / online
-    - 2023.11.14 (Thursday) 10:00 a.m. - 12:00 p.m. - Mary Cotton Library, Sabetha / online
 
-
+    - 2024.04.16 (Tuesday) 10:00 a.m. - 12:00 p.m. - Osage City Public Library / online 
+    - 2024.08.27 (Tuesday) 10:00 a.m. - 12:00 p.m. - Tonganoxie Public Library / online 
+    - 2024.11.14 (Thursday) 10:00 a.m. - 12:00 p.m. - Mary Cotton Library, Sabetha / online 
