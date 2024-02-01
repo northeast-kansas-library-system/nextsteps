@@ -1,0 +1,113 @@
+<!--- Meeting announcement 1 - starts 21 days before meeting; ends 8 days before meeting  --->
+<div class='next_news-meeting'>
+  <p>
+    The Next Users Group will meet on:
+  </p>
+  <section class='next_news-meeting_date'>
+    <p>
+      Weekday, Month Day, <br />
+      10:00 AM - 12:00 PM
+    </p>
+  </section>
+  <section class='next_news-meeting_location'>
+    <p>
+      This meeting will be:
+    </p>
+    <ul>
+      <li>
+        In person at <a href='Google maps link' target='_blank' rel='noopener noreferrer'>Name of library</a>
+      </li>
+      <li>
+        On Zoom (Link and passcode coming soon)
+      </li>
+    </ul>
+  </section>
+  <section class='next_news-meeting_registration'>
+    <p>
+      If you wish to attend this event in person, please register before noon on THURSDAY or MONDAY BEFORE THE MEETING: <a href='SURVEY MONKEY LINK' target='_blank' rel='noopener noreferrer'>Registration form</a>
+    </p>
+  </section>
+  <section class='next_news-meeting_agenda'>
+    <p>
+      If you would like to add anything to the agenda, please send an e-mail to <a href='mailto:nexthelp@nekls.org?subject=Agenda%20item&amp;bcc=gwilliams@nekls.org' rel='noopener noreferrer'>nexthelp@nekls.org</a>
+    </p>
+    <p>
+      The agenda (in progress) is available here: <a href='LINK TO AGENDA' target='_blank' rel='noopener noreferrer'>go to the agenda</a>.
+    </p>
+  </section>
+</div>
+
+<!--- Meeting announcement 2 - starts 7 days before meeting; ends Thursday before meeting (for Tuesday meetings), Monday before meeting (for Thursday meetings) --->
+
+<div class='next_news-meeting'>
+  <p>The Next Users Group will meet on:</p>
+  <section class='next_news-meeting_date'>
+    <p>
+      Weekday, Month Day, <br />
+      10:00 AM - 12:00 PM
+    </p>
+  </section>
+  <section class='next_news-meeting_location'>
+    <p>
+      This meeting will be held:
+    </p>
+    <ul>
+      <li>
+        In person at <a href='Google maps link' target='_blank' rel='noopener noreferrer'>Name of library</a>
+      </li>
+      <li>
+        Online: <a href='ZOOM LINK URL' target='_blank' rel='noopener noreferrer'>Zoom link</a><br />
+        Zoom passcode: 7858384090
+      </li>
+    </ul>
+  </section>
+  <section class='next_news-meeting_registration'>
+    <p>
+      If you wish to attend this event in person, please register before noon on THURSDAY or MONDAY BEFORE THE MEETING: <a href='SURVEY MONKEY LINK' target='_blank' rel='noopener noreferrer'>Registration form</a>
+    </p>
+  </section>
+  <section class='next_news-meeting_agenda'>
+    <p>
+      If you would like to add anything to the agenda, please send an e-mail to <a href='mailto:nexthelp@nekls.org?subject=Agenda%20item&amp;bcc=gwilliams@nekls.org' rel='noopener noreferrer'>nexthelp@nekls.org</a>
+    </p>
+    <p>
+      The agenda (in progress) is available here: <a href='LINK TO AGENDA' target='_blank' rel='noopener noreferrer'>go to the agenda</a>.
+    </p>
+  </section>
+</div>
+
+<!--- Meeting announcement 3 - starts Friday (for Tuesday meetings) or Tuesday (for Thursday meetings) before meeting; ends day after meeting --->
+
+<div class='next_news-meeting'>
+  <p>The Next Users Group will meet on:</p>
+  <section class='next_news-meeting_date'>
+    <p>
+      Weekday, Month Day, <br />
+      10:00 AM - 12:00 PM
+    </p>
+  </section>
+  <section class='next_news-meeting_location'>
+    <p>
+      This meeting will be held:
+    </p>
+    <ul>
+      <li>
+        In person at <a href='Google maps link' target='_blank' rel='noopener noreferrer'>Name of library</a>
+      </li>
+      <li>
+        Online: <a href='ZOOM LINK URL' target='_blank' rel='noopener noreferrer'>Zoom link</a><br />
+        Zoom passcode: 7858384090
+      </li>
+    </ul>
+  </section>
+  <section class='next_news-meeting_registration'>
+    <p>
+      Registration for this event has closed.
+    </p>
+  </section>
+  <section class='next_news-meeting_agenda'>
+    <p>
+      The agenda is available here: <a href='LINK TO AGENDA' target='_blank' rel='noopener noreferrer'>go to the agenda</a>.
+    </p>
+  </section>
+</div>
