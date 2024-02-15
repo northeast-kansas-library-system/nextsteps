@@ -12,6 +12,14 @@
 
     </strike>
 
+.. |bb| raw:: html 
+
+    <span style="font-weight: 900">
+
+.. |spane| raw:: html 
+
+    </span>
+
 .. include all of these images in all files
 
 .. |soon| image:: /images/default.png

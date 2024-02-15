@@ -15,13 +15,16 @@ Agencies:
       Institute of Museum and Library Services (AKA :term:`IMLS`) is an independent federal agency that provides library grants, museum grants, policy development, and research.  You can learn more about the Institute of Museum and Library services at the `IMLS website <https://www.imls.gov/>`_
 
     Kansas Library Express
-      Kansas Library Express (AKA :term:`KLE`) is the courier system that ships materials between member libraries in Kansas.  KLE also allows libraries to ship materials to couriers on the Blue Sky courier system in Colorado and Trans Amigos in other states. Northeast Kansas Library System administers the courier system.  For more information see the KLE website at `https://kslibexpress.mykansaslibrary.org/ <https://kslibexpress.mykansaslibrary.org/>`_
+      Kansas Library Express (AKA :term:`KLE`) is the courier system that ships materials between member libraries in Kansas.  KLE also allows libraries to ship materials to couriers on the Blue Sky courier system in Colorado and Trans Amigos in other states. Northeast Kansas Library System administers the courier system.  For more information see the `KLE website <https://kslibexpress.mykansaslibrary.org/>`_
 
     KICNET
-      KICNET (AKA **K**ansas **I**nterlibrary loan **C**ouncil **NET**work) is the statewide interlibrary loan network.  KICNET uses the :term:`ShareIt` software by AutoGraphics to manage interlibrary loans througout the state of Kansas.  For more information see the `Kansas State Library's ILL website <https://kslib.info/440/Interlibrary-Loan>`_
+      KICNET (AKA -K-ansas -I-nterlibrary loan -C-ouncil -NET-work) is the statewide interlibrary loan network.  KICNET uses the :term:`ShareIt` software by AutoGraphics to manage interlibrary loans througout the state of Kansas.  For more information see the `Kansas State Library's ILL website <https://kslib.info/440/Interlibrary-Loan>`_
 
     Northeast Kansas Library System
       Northeast Kansas Library System (AKA :term:`NEKLS`) is one of seven regional library systems in Kansas.  You can learn more about the Kansas regional library systems at the `State Library of Kansas page on regional library systems <https://kslib.info/573/Regional-Library-Systems>`_
+
+    OCLC 
+      OCLC (originally -O-hio -C-ollege -L-ibrary -C-enter; later -O-nline -C-omputer -L-ibrary -C-enter; now officially -OCLC, Inc.-) is a non-profit cooperative library technology organization.  OCLC is best known worldwide for maintaining the `Dewey Decimal Classification <https://www.oclc.org/en/dewey/resources.html>`_ standard; and for operating `WorldCat <https://search.worldcat.org/>`_.  For more information see `the OCLC website <https://www.oclc.org/en/home.html>`_
 
     State Library of Kansas
       The State Library of Kansas (AKA :term:`SLK`) acts as the library for the governmental offices of Kansas and helps provide library services to all residents of the state of Kansas.  You can learn more about the State Library of Kansas at the `State Library of Kansas website <https://kslib.info/>`_
@@ -32,7 +35,7 @@ Software, languages, and outside services:
 .. glossary::
 
     Integrated library system
-      **AKA:**
+      -AKA:-
 
       - ILS
       - ILMS
@@ -46,7 +49,7 @@ Software, languages, and outside services:
       Koha is the name of the open source integrated library system software used by Next Search Catalog.  You can learn more about Koha at `the Koha Community website <https://koha-community.org/>`_
 
     ShareIt
-      (***AKA Agent***) |br| The software system used to manage the statewide ILL service.
+      (-*AKA Agent-*) |br| The software system used to manage the statewide ILL service.
 
     SIP
       Standard Interchange Protocol - A protocol for sending messages between an ILS and third party software.  SIP was originally developed by 3M in the 1980s.
@@ -72,7 +75,7 @@ Next Search Catalog and Koha related terms:
       User permissions are set by the Next Search Catalog system administrators and determine which components of the system staff members have access to when they log in.
 
     Password
-      (**AKA PIN**) |br|
+      (-AKA PIN-) |br|
 
     Shelving location
       Shelving locations describe where an item is located in the library.  Next Search Catalog uses 3 basic shelving locations, Adult, Childrens, and Young adult.  For a full list of shelving locations, run report
@@ -119,21 +122,21 @@ Cataloging
 .. glossary:: 
 
     Universal Product Code
-      **AKA:**
+      -AKA:-
 
       UPC
 
       The barcode found on almost all products throughout the world.  The Universal Product Code on most books is the same as the book's ISBN
 
     International Standard Book Number 
-      **AKA**
+      -AKA-
 
       ISBN 
 
       A 13 digit number that identifies a book.  ISBNs have been used by publishers since 1970.  In 2007 ISBNs changed from 10 digits to 13 digits. 
 
     International Standard Serial Number
-      **AKA**
+      -AKA-
 
       ISSN 
 
