@@ -301,6 +301,12 @@
     :scale: 65%
     :alt: Make sure your Firefox matches these settings
 
+.. /koha_pages/home
+
+.. |home_0010| image:: /images/koha_pages/home/home_0010.png
+    :scale: 65%
+    :alt: Koha staff interface home page
+
 .. pages/cataloging_original_brief
 
 .. |cataloging_original_brief_010| image:: /images/pages/cataloging_original_brief/cataloging_original_brief_010.png
