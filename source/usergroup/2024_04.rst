@@ -1,4 +1,4 @@
-.. include:: /include.rst2023\.04\.16
+.. include:: /include.rst
 
 2024-04-16 - Agenda and notes
 ==========================
@@ -20,4 +20,28 @@ Agenda
     - Introductions 
     - Additions to the agenda 
 
+#. Aspen Discovery timelines
+
+  - Outline of timeline |hidespan| need to write |spane|
+  - Server is up at `<https://nekls.aspendiscovery.org/>`_
+
+#. Results of vote on policy manual change
+
+  - Updated policy manual at |hidespan| link |spane|
+
+#. New policy manual items
+
+  - Expectations for libraries |hidespan| need to write |spane|
+  - What happens when expectations are not met |hidespan| need to write |spane|
+
+#. Draft of cataloging manual
+
+  - |hidespan| need to find a place to store this document |spane|
+
+#. Borrower category cleanup 
+
+  - |hidespan| need to write cleanup procedure |spane|
+
 #. Next meeting 
+
+  - 2023.08.27 (Tuesday) - Tonganoxie Public Library / online

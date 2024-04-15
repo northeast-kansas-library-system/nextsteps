@@ -16,6 +16,10 @@
 
     <span style="font-weight: 900">
 
+.. |hidespan| raw:: html
+
+    <span style="display: none;">
+
 .. |spane| raw:: html 
 
     </span>
