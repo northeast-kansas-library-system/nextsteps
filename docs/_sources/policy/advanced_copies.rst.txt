@@ -28,3 +28,17 @@ Pirated material
 Pirated materials (also known as bootlegs; camrips; unauthorized copies; black-market editions; and various other names) are editions of materials that are produced without authorization from the copyright owner.
 
 Adding pirated copies of materials to a public catalog is illegal.  Pirated materials are made with the express intent of selling materials that the poducer of the materials does not have the legal right to sell.
+
+-----
+
+Voting 
+------
+
+During the month of February, 2024, the 44 Next Search Catalog directors were asked to vote "Yes" or "No" to add this policy to Next Search Catalog.
+
+34 of the directors voted.  Of those 34, 33 voted in favor of adding this policy and 1 voted against adding this policy.
+
+NEKLS executive board
+---------------------
+
+The NEKLS executive board will be asked to review and approve this policy at their next meeting.

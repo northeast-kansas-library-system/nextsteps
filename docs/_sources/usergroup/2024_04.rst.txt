@@ -1,4 +1,4 @@
-.. include:: /include.rst2023\.04\.16
+.. include:: /include.rst
 
 2024-04-16 - Agenda and notes
 ==========================
@@ -9,9 +9,6 @@
 
   Zoom passcode 7858384090
 
-
-No recordings of this meeting will be made
-
 Agenda
 ^^^^^^
 
@@ -20,4 +17,61 @@ Agenda
     - Introductions 
     - Additions to the agenda 
 
+2. Aspen Discovery
+
+  - Recap of the Aspen Discovery Conference `(see slides) <https://docs.google.com/presentation/d/1COI_WgeWz3v4kiTY7mjViy6oq3CJBOVCw6r--muzc34/edit?usp=sharing>`_
+  - Outline of timeline for implementation `(see slides) <https://docs.google.com/presentation/d/1COI_WgeWz3v4kiTY7mjViy6oq3CJBOVCw6r--muzc34/edit?usp=sharing>`_
+  - Server is up at `<https://nekls.aspendiscovery.org/>`_
+  - Find your interface at \http:// **your_branchcode** .aspendiscovery.org 
+  - Challenges 
+
+    - Cataloging challenges
+    - Patron record challenges 
+    - Logistics
+    - Training
+
+3. Cataloging
+
+  - :download:`Cataloging manual 1.0 </_files/cataloging_manual_1.0.pdf>`
+  - :download:`Genre terms </_files/genre_terms_1.0.pdf>`
+  - Removing no-longer-necessary frameworks 
+  - Tightening up existing frameworks
+  - Adding new frameworks
+
+4. Cataloging - other 
+
+  - Two replacements for OCLC Classify
+
+5. Borrower categories 
+
+  - Borrowers in 3 "exempt" categories will be moved to non-exempt categories by May 31
+
+    - "Staff - library associate (exempt)" borrowers will become "Adult - library associate"
+    - "Student (exempt)" borrowers at public libraries will become "Student (public library)"
+    - "Teacher/Faculty/Administrator (exempt)" borrowers will become "Teacher/Faculty/Administrator (public library)"
+
+  - After this process is complete, "Staff - library associate (exempt)" will be removed from the system
+  - After this process is complete, "Student (exempt)" and "Teacher/Faculty/Administrator (exempt)" will be limited to school district borrowers
+  - All libraries using "Other" borrower categories will be asked to evaluate their use of those categories to see if they are, in fact, necessary or useful
+  - System login conversion update
+
+6. Results of vote on policy manual change
+
+  - Survey sent to 44 library directors
+  - 34 voted
+  - 33 voted in favor of adopting the policy - 1 voted against
+  - NEKLS executive board needs to approve
+
+7. New policy manual items
+
+  - It would be nice to have: 
+
+    - Cataloging policy
+    - Sharing policy 
+    - Enforcement policy
+
 #. Next meeting 
+
+  - 2023.08.27 (Tuesday) - Tonganoxie Public Library / online
+
+

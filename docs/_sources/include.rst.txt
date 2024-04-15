@@ -12,6 +12,18 @@
 
     </strike>
 
+.. |bb| raw:: html 
+
+    <span style="font-weight: 900">
+
+.. |hidespan| raw:: html
+
+    <span style="display: none;">
+
+.. |spane| raw:: html 
+
+    </span>
+
 .. include all of these images in all files
 
 .. |soon| image:: /images/default.png
@@ -292,6 +304,12 @@
 .. |ff106.0050.png| image:: /images/bugs/2022_printing/ff106.0050.png
     :scale: 65%
     :alt: Make sure your Firefox matches these settings
+
+.. /koha_pages/home
+
+.. |home_0010| image:: /images/koha_pages/home/home_0010.png
+    :scale: 65%
+    :alt: Koha staff interface home page
 
 .. pages/cataloging_original_brief
 
