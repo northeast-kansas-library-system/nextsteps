@@ -16,6 +16,7 @@ Agenda
  
     - Introductions 
     - Additions to the agenda 
+    - Slides from this meeting will be at `<https://docs.google.com/presentation/d/1COI_WgeWz3v4kiTY7mjViy6oq3CJBOVCw6r--muzc34/edit?usp=sharing>`_
 
 2. Aspen Discovery
 
@@ -70,7 +71,9 @@ Agenda
     - Sharing policy 
     - Enforcement policy
 
-#. Next meeting 
+  - Policy committee reboot is needed
+
+8. Next meeting 
 
   - 2023.08.27 (Tuesday) - Tonganoxie Public Library / online
 
