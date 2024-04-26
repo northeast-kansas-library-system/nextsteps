@@ -24,6 +24,10 @@
 
     </span>
 
+.. |nocopy| raw:: html
+
+    <span style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
+
 .. include all of these images in all files
 
 .. |soon| image:: /images/default.png
@@ -765,6 +769,37 @@
 .. |rfinding040.png| image:: /images/pages/reports/finding/rfinding040.png
     :scale: 65%
     :alt: Click on "Run" to start the report
+
+.. pages/selfcheck
+
+.. |self_check_out-0010| image:: /images/pages/selfcheck/self_check_out-0010.png
+    :scale: 65% 
+    :alt: Staff login screen example
+
+.. |self_check_out-0020| image:: /images/pages/selfcheck/self_check_out-0020.png
+    :scale: 65% 
+    :alt: Patron login screen example
+
+.. |self_check_out-0030| image:: /images/pages/selfcheck/self_check_out-0030.png
+    :scale: 65% 
+    :alt: URL bar showing logout URL
+
+.. |self_check_out-0040| image:: /images/pages/selfcheck/self_check_out-0040.png
+    :scale: 65% 
+    :alt: Patron login screen showing step-by-step
+
+.. |self_check_out-0050| image:: /images/pages/selfcheck/self_check_out-0050.png
+    :scale: 65% 
+    :alt: Patron check-out page example
+
+.. |self_check_out-0060| image:: /images/pages/selfcheck/self_check_out-0060.png
+    :scale: 65% 
+    :alt: Scan of book illustrating library barcode and UPC barcode difference
+
+.. |self_check_out-0070| image:: /images/pages/selfcheck/self_check_out-0070.png
+    :scale: 65% 
+    :alt: End Session screen example
+
 
 .. Pages / Tools
 
