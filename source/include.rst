@@ -774,39 +774,39 @@
 
 .. |self_check_in-0010| image:: /images/pages/selfcheck/self_check_in-0010.png
     :scale: 65% 
-    :alt: 
+    :alt: Staff self check-in login screen example
 
 .. |self_check_in-0020| image:: /images/pages/selfcheck/self_check_in-0020.png
     :scale: 65% 
-    :alt: 
+    :alt: Self check-in "Enter item barcode number" example
 
 .. |self_check_in-0030| image:: /images/pages/selfcheck/self_check_in-0030.png
     :scale: 65% 
-    :alt: 
+    :alt: Self check-in log-out example
 
 .. |self_check_in-0040| image:: /images/pages/selfcheck/self_check_in-0040.png
     :scale: 65% 
-    :alt: 
+    :alt: Self check-in "Enter item barcode number" example
 
 .. |self_check_in-0050| image:: /images/pages/selfcheck/self_check_in-0050.png
     :scale: 65% 
-    :alt: 
+    :alt: Self check-in list example
 
 .. |self_check_in-0060| image:: /images/pages/selfcheck/self_check_in-0060.png
     :scale: 65% 
-    :alt: 
+    :alt: Self check-in "Finish" example
 
 .. |self_check_out-0010| image:: /images/pages/selfcheck/self_check_out-0010.png
     :scale: 65% 
-    :alt: Staff login screen example
+    :alt: Staff self check-out login screen example
 
 .. |self_check_out-0010| image:: /images/pages/selfcheck/self_check_out-0010.png
     :scale: 65% 
-    :alt: Staff login screen example
+    :alt: Staff self check-out login screen example
 
 .. |self_check_out-0020| image:: /images/pages/selfcheck/self_check_out-0020.png
     :scale: 65% 
-    :alt: Patron login screen example
+    :alt: Patron self check-out login screen example
 
 .. |self_check_out-0030| image:: /images/pages/selfcheck/self_check_out-0030.png
     :scale: 65% 
@@ -814,11 +814,11 @@
 
 .. |self_check_out-0040| image:: /images/pages/selfcheck/self_check_out-0040.png
     :scale: 65% 
-    :alt: Patron login screen showing step-by-step
+    :alt: Patron self check-out login screen showing step-by-step
 
 .. |self_check_out-0050| image:: /images/pages/selfcheck/self_check_out-0050.png
     :scale: 65% 
-    :alt: Patron check-out page example
+    :alt: Patron self check-out page example
 
 .. |self_check_out-0060| image:: /images/pages/selfcheck/self_check_out-0060.png
     :scale: 65% 
@@ -826,7 +826,7 @@
 
 .. |self_check_out-0070| image:: /images/pages/selfcheck/self_check_out-0070.png
     :scale: 65% 
-    :alt: End Session screen example
+    :alt: End Self-check session screen example
 
 
 .. Pages / Tools
