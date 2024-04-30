@@ -3,14 +3,15 @@
 Staff account types
 ===================
 
-There are 6 basic account types in Next Search Catalog:
+There are 7 basic account types in Next Search Catalog:
 
 - Administrator
 - Director
 - Technical services
 - Circulation
 - Aide
-- Self checkout
+- Outreach
+- Self check
 
 Administrator
 -------------
@@ -108,7 +109,14 @@ Aide
   - check in and check out materials
   - place and modify requests for borrowers
 
+Outreach
+--------
 
+- Outreach accounts have the ability to
+
+  - log into the staff interface
+  - check in and check out materials
+  - place and modify requests for borrowers
 
 Self checkout
 -------------
