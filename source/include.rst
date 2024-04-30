@@ -772,6 +772,34 @@
 
 .. pages/selfcheck
 
+.. |self_check_in-0010| image:: /images/pages/selfcheck/self_check_in-0010.png
+    :scale: 65% 
+    :alt: 
+
+.. |self_check_in-0020| image:: /images/pages/selfcheck/self_check_in-0020.png
+    :scale: 65% 
+    :alt: 
+
+.. |self_check_in-0030| image:: /images/pages/selfcheck/self_check_in-0030.png
+    :scale: 65% 
+    :alt: 
+
+.. |self_check_in-0040| image:: /images/pages/selfcheck/self_check_in-0040.png
+    :scale: 65% 
+    :alt: 
+
+.. |self_check_in-0050| image:: /images/pages/selfcheck/self_check_in-0050.png
+    :scale: 65% 
+    :alt: 
+
+.. |self_check_in-0060| image:: /images/pages/selfcheck/self_check_in-0060.png
+    :scale: 65% 
+    :alt: 
+
+.. |self_check_out-0010| image:: /images/pages/selfcheck/self_check_out-0010.png
+    :scale: 65% 
+    :alt: Staff login screen example
+
 .. |self_check_out-0010| image:: /images/pages/selfcheck/self_check_out-0010.png
     :scale: 65% 
     :alt: Staff login screen example
