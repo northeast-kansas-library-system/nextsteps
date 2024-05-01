@@ -15,3 +15,5 @@ secret index
     *
 
 ----------
+
+This is my secret index
