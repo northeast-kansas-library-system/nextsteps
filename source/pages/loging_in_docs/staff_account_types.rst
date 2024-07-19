@@ -3,20 +3,25 @@
 Staff account types
 ===================
 
-There are 7 basic account types in Next Search Catalog:
+There are 8 basic account types in Next Search Catalog:
 
-- Administrator
-- Director
-- Technical services
-- Circulation
-- Aide
-- Outreach
-- Self check
+- :ref:`superlibrarian_permissions`
+- :ref:`director_permissions`
+- :ref:`tech_permissions`
+- :ref:`circ_permissions`
+- :ref:`aide_permissions`
+- :ref:`outreach_permissions`
+- :ref:`sco_permission`
+- :ref:`sci_permission`
 
-Administrator
--------------
+You can find more information about staff permissions in the `permissions section of the Koha manual <https://koha-community.org/manual/latest/en/html/patrons.html#patron-permissions>`_
 
-- Administrators have access to all system functions
+.. _superlibrarian_permissions:
+
+Superlibrarian
+--------------
+
+- Superlibrarians have access to all system functions and are reserved for NEKLS staff
 
 .. _director_permissions:
 
@@ -54,6 +59,8 @@ These accounts are assigned to library directors and give them the ability to ch
   - set notice/status triggers
   - manage staff passwords
 
+.. _tech_permissions:
+
 Technical services
 ------------------
 
@@ -85,6 +92,8 @@ These accounts have the ability to catalog materials, run reports, add and edit 
   - create and edit clubs
   - enroll borrowers in clubs
 
+.. _circ_permissions:
+
 Circulation
 -----------
 
@@ -108,6 +117,8 @@ These accounts have the ability to accept fee payments; add and edit patron reco
   - execute reports
   - enroll borrowers in clubs
 
+.. _aide_permissions:
+
 Aide
 ----
 
@@ -118,6 +129,8 @@ These accounts have the ability to check out materials to library card holders f
   - log into the staff interface
   - check in and check out materials
   - place requests for borrowers
+
+.. _outreach_permissions:
 
 Outreach
 --------
@@ -132,9 +145,24 @@ These accounts have the ability to check out materials to library card holders w
   - check in and check out materials
   - place requests for borrowers
 
-Self checkout
+.. _sco_permission:
+
+Self check-out
 -------------
 
-- Self check staff have the ability to log into the self-checkout module via the OPAC
+- Self check-out accounts have the ability to log into the self check-out module via the Koha OPAC
 
-  - No other accounts have the ability to log into the self-checkout module
+  - No other accounts have the ability to log into the self check-out module
+
+  - NEKLS strongly recommends having 1 self check-out account per self check-out machine - this allows library staff to see circulation statistics for each separate self check-out machine
+
+.. _sci_permission:
+
+Self check-in
+-------------
+
+- Self check-in accounts have the ability to log into the self check-in module via the Koha OPAC
+
+  - No other accounts have the ability to log into the self check-in module
+
+  - NEKLS strongly recommends having 1 self check-in account per self checkin machine - this allows library staff to see circulation statistics for each separate self check-out machine

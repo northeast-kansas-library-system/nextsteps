@@ -17,7 +17,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Next Steps'
-copyright = '2022, Northeast Kansas Library System'
+copyright = '2024, Northeast Kansas Library System'
 author = 'Northeast Kansas Library System'
 
 # The full version, including alpha/beta/rc tags

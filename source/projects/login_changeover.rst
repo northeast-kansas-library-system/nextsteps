@@ -4,17 +4,21 @@
 Move from generic logins to individualized logins
 #################################################
 
-Due to security concerns, all Next Search Catalog staff accounts used to access the staff interface will be moved from generic logins to individual logins during 2023 with few exceptions.
+Due to security concerns, all Next Search Catalog staff accounts used to access the staff interface will be moved from generic logins to individual logins during 2024 with few exceptions.
 
 As far as the security concerns go, in Kansas, library records regarding individual library users are not considered public records and are not available for public inspection.  In short, a person's library record is considered confidential.  Accessing a patron's confidential information for anything other than normal library business is a breach of confidentialty and, in fact, a crime.  In the past year we have had several instances where former library staff members have accessed the staff interface using their library's generic login and password.
 
-Currently libraries generally have the following accounts:
+Currently Next Search Catalog uses the following types of accounts:
 
-- `BRANCHDIRECTOR <https://northeast-kansas-library-system.github.io/nextsteps/pages/logging_in.html#director>`_
-- `BRANCHTECH <https://northeast-kansas-library-system.github.io/nextsteps/pages/logging_in.html#technical-services>`_ 
-- `BRANCHCIRC <https://northeast-kansas-library-system.github.io/nextsteps/pages/logging_in.html#circulation>`_
-- `BRANCHAIDE <https://northeast-kansas-library-system.github.io/nextsteps/pages/logging_in.html#aide>`_
-- `BRANCHSELFCHECK <https://northeast-kansas-library-system.github.io/nextsteps/pages/logging_in.html#self-checkout>`_
+- :ref:`superlibrarian_permissions`
+- :ref:`director_permissions`
+- :ref:`tech_permissions`
+- :ref:`circ_permissions`
+- :ref:`aide_permissions`
+- :ref:`outreach_permissions`
+- :ref:`sco_permission`
+- :ref:`sci_permission`
+
 
 When this project is completed, only the BRANCHAIDE and BRANCHSELFCHECK accounts will remain.  All other staff will be given an individualized login to use when accessing the staff interface.
 
