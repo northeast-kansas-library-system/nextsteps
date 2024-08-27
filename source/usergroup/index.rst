@@ -9,15 +9,12 @@ Usergroup meetings
 Past meetings
 =============
 
-.. 
-   .. toctree::
+.. toctree::
    :maxdepth: 1
-   :caption: 2023:
+   :caption: 2024:
 
-   /usergroup/past_meetings/2024_11
-   /usergroup/past_meetings/2024_08
    /usergroup/past_meetings/2024_04
-   /usergroup/past_meetings/2023_01
+   /usergroup/past_meetings/2024_01
 
 .. toctree::
    :maxdepth: 1

@@ -941,6 +941,22 @@
     :scale: 65%
     :alt:  Configuration for items added during a date range shelf list
 
+.. staff_instruction_sheets/best_practices_buying_videos
+
+.. |best_practices_buying_videos_0010| image:: /images/staff_instruction_sheets/best_practices_buying_videos/best_practices_buying_videos_0010.png
+    :scale: 65%
+    :alt: Ships from "Stackey store" / Sold by "Stackey store" - Red flags
+
+.. |best_practices_buying_videos_0020| image:: /images/staff_instruction_sheets/best_practices_buying_videos/best_practices_buying_videos_0020.png
+    :scale: 65%
+    :alt: Ships from Amazon.com / Sold by Amazon.com - should be good to go!
+
+.. |best_practices_buying_videos_0030| image:: /images/staff_instruction_sheets/best_practices_buying_videos/best_practices_buying_videos_0030.png
+    :scale: 65%
+    :alt: Apple TV movie titles are not normally released on DVD or Blu-ray
+
+
+
 .. staff_instruction_sheets/cataloging_freeze
 
 .. |cataloging_freeze_0010| image:: /images/staff_instruction_sheets/cataloging_freeze/cataloging_freeze_0010.png
