@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en" data-content_root="../">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Report 214 Training &mdash; Next Steps 1.0 documentation</title>
-      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/override.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/override.css?v=7243ceeb" />
+
+  
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-        <script src="../_static/doctools.js"></script>
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -29,12 +32,16 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../index.html" class="icon icon-home"> Next Steps
-            <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Next Steps
+              <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -92,9 +99,9 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="index.html">Reports training index</a> &raquo;</li>
-      <li>Report 214 Training</li>
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Reports training index</a></li>
+      <li class="breadcrumb-item active">Report 214 Training</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/reports_training/report_000214_training.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -104,29 +111,29 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="report-214-training">
-<h1>Report 214 Training<a class="headerlink" href="#report-214-training" title="Permalink to this heading"></a></h1>
-<div class="section" id="purpose-of-report-214">
-<h2>Purpose of report 214<a class="headerlink" href="#purpose-of-report-214" title="Permalink to this heading"></a></h2>
+  <section id="report-214-training">
+<h1>Report 214 Training<a class="headerlink" href="#report-214-training" title="Link to this heading"></a></h1>
+<section id="purpose-of-report-214">
+<h2>Purpose of report 214<a class="headerlink" href="#purpose-of-report-214" title="Link to this heading"></a></h2>
 <p>The purpose of this report is to identify items that have incomplete or problematic item record fields.  For example, if you chceck out an item that has no replacement price entered, if the item is never returned the lost item process will automatically bill the borrower $0.00 for the replacement because, as far as the system is concerned, the item has no price.  Similarly, if an item has a blank item type, the item will not check out for the proper length of time and borrowers may not be able to place requests on the item because an item type is crucial in the circulation rules matrix.</p>
-</div>
-<div class="section" id="frequency-for-running-report-214">
-<h2>Frequency for running report 214<a class="headerlink" href="#frequency-for-running-report-214" title="Permalink to this heading"></a></h2>
+</section>
+<section id="frequency-for-running-report-214">
+<h2>Frequency for running report 214<a class="headerlink" href="#frequency-for-running-report-214" title="Link to this heading"></a></h2>
 <p>Ideally, each library should run this report and try to resolve the issues with these items once a month.</p>
-</div>
-<div class="section" id="finding-report-214">
-<h2>Finding report 214<a class="headerlink" href="#finding-report-214" title="Permalink to this heading"></a></h2>
+</section>
+<section id="finding-report-214">
+<h2>Finding report 214<a class="headerlink" href="#finding-report-214" title="Link to this heading"></a></h2>
 <p>You can find report 214 following the instructions in <a class="reference internal" href="finding.html#finding-a-report-by-number"><span class="std std-ref">“Finding a report by number”</span></a></p>
-</div>
-<div class="section" id="using-report-214">
-<h2>Using report 214<a class="headerlink" href="#using-report-214" title="Permalink to this heading"></a></h2>
+</section>
+<section id="using-report-214">
+<h2>Using report 214<a class="headerlink" href="#using-report-214" title="Link to this heading"></a></h2>
 <p>When you run report 214 you’ll be given options to choose a library and to choose a problem type.  The report is very flexible and allows you to view all items with problems, or just items with one or two specific problems.</p>
 <p><a class="reference internal" href="../_images/report_214_0010.png"><img alt="3 steps to run the report" src="../_images/report_214_0010.png" style="width: 833.3000000000001px; height: 469.3px;" /></a></p>
 <p>The report results include links to the item’s bibliographic record and its item record.  The column on the far right indicates what type of problem the item is experiencing.</p>
 <p><a class="reference internal" href="../_images/report_214_0020.png"><img alt="Report 214 results example" src="../_images/report_214_0020.png" style="width: 1253.8500000000001px; height: 602.5500000000001px;" /></a></p>
 <hr class="docutils" />
-</div>
-</div>
+</section>
+</section>
 
 
            </div>
@@ -139,7 +146,7 @@
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2022, Northeast Kansas Library System.</p>
+    <p>&#169; Copyright 2024, Northeast Kansas Library System.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a

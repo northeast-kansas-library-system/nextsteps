@@ -24,6 +24,10 @@
 
     </span>
 
+.. |nocopy| raw:: html
+
+    <span style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
+
 .. include all of these images in all files
 
 .. |soon| image:: /images/default.png
@@ -766,6 +770,65 @@
     :scale: 65%
     :alt: Click on "Run" to start the report
 
+.. pages/selfcheck
+
+.. |self_check_in-0010| image:: /images/pages/selfcheck/self_check_in-0010.png
+    :scale: 65% 
+    :alt: Staff self check-in login screen example
+
+.. |self_check_in-0020| image:: /images/pages/selfcheck/self_check_in-0020.png
+    :scale: 65% 
+    :alt: Self check-in "Enter item barcode number" example
+
+.. |self_check_in-0030| image:: /images/pages/selfcheck/self_check_in-0030.png
+    :scale: 65% 
+    :alt: Self check-in log-out example
+
+.. |self_check_in-0040| image:: /images/pages/selfcheck/self_check_in-0040.png
+    :scale: 65% 
+    :alt: Self check-in "Enter item barcode number" example
+
+.. |self_check_in-0050| image:: /images/pages/selfcheck/self_check_in-0050.png
+    :scale: 65% 
+    :alt: Self check-in list example
+
+.. |self_check_in-0060| image:: /images/pages/selfcheck/self_check_in-0060.png
+    :scale: 65% 
+    :alt: Self check-in "Finish" example
+
+.. |self_check_out-0010| image:: /images/pages/selfcheck/self_check_out-0010.png
+    :scale: 65% 
+    :alt: Staff self check-out login screen example
+
+.. |self_check_out-0010| image:: /images/pages/selfcheck/self_check_out-0010.png
+    :scale: 65% 
+    :alt: Staff self check-out login screen example
+
+.. |self_check_out-0020| image:: /images/pages/selfcheck/self_check_out-0020.png
+    :scale: 65% 
+    :alt: Patron self check-out login screen example
+
+.. |self_check_out-0030| image:: /images/pages/selfcheck/self_check_out-0030.png
+    :scale: 65% 
+    :alt: URL bar showing logout URL
+
+.. |self_check_out-0040| image:: /images/pages/selfcheck/self_check_out-0040.png
+    :scale: 65% 
+    :alt: Patron self check-out login screen showing step-by-step
+
+.. |self_check_out-0050| image:: /images/pages/selfcheck/self_check_out-0050.png
+    :scale: 65% 
+    :alt: Patron self check-out page example
+
+.. |self_check_out-0060| image:: /images/pages/selfcheck/self_check_out-0060.png
+    :scale: 65% 
+    :alt: Scan of book illustrating library barcode and UPC barcode difference
+
+.. |self_check_out-0070| image:: /images/pages/selfcheck/self_check_out-0070.png
+    :scale: 65% 
+    :alt: End Self-check session screen example
+
+
 .. Pages / Tools
 
 .. Pages / tools / calendar
@@ -877,6 +940,22 @@
 .. |report_2731_0030| image:: /images/reports_training/002731/report_2731_0030.png
     :scale: 65%
     :alt:  Configuration for items added during a date range shelf list
+
+.. staff_instruction_sheets/best_practices_buying_videos
+
+.. |best_practices_buying_videos_0010| image:: /images/staff_instruction_sheets/best_practices_buying_videos/best_practices_buying_videos_0010.png
+    :scale: 65%
+    :alt: Ships from "Stackey store" / Sold by "Stackey store" - Red flags
+
+.. |best_practices_buying_videos_0020| image:: /images/staff_instruction_sheets/best_practices_buying_videos/best_practices_buying_videos_0020.png
+    :scale: 65%
+    :alt: Ships from Amazon.com / Sold by Amazon.com - should be good to go!
+
+.. |best_practices_buying_videos_0030| image:: /images/staff_instruction_sheets/best_practices_buying_videos/best_practices_buying_videos_0030.png
+    :scale: 65%
+    :alt: Apple TV movie titles are not normally released on DVD or Blu-ray
+
+
 
 .. staff_instruction_sheets/cataloging_freeze
 
