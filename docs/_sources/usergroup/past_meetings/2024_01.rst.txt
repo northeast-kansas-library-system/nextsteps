@@ -1,0 +1,104 @@
+.. include:: /include.rst 
+
+2024-01-25 - Agenda and notes 
+============================= 
+
+2021-01-25 - (Thursday) 10:00 a.m. - 12:00 p.m. - Northeast Kansas Library System / online 
+
+Agenda 
+^^^^^^
+
+1. Announcements, news, brief items, etc. 
+
+    - Introductions 
+    - Additions to the agenda 
+
+#. Cataloging committee update
+
+#. Last week's upgrade 
+
+    - Hold fill digests 
+
+      - New message option 
+      - Selected by default for all new borrowers 
+      - All old borrowers will be updated soon 
+      - :download:`Example message </_files/2024_01_25_holdsdgst.pdf>` 
+
+    - Guarantor - guarantee stuff 
+
+      - Relatives charges and fees in the OPAC 
+      - Update to "Charges for patron's guarantees message" 
+
+    - Limit editing ability to groups natively (bug) 
+    - Records that cannot be batch deleted/batch modified are highlighted better 
+    - Mark items as returned in batch item modification 
+    - List/export batch modification results 
+    - Call numbers added to accountline information 
+    - Cancel holds on second check-in (new option)
+
+#. Advanced Reading Copies and Bootleg materials 
+
+    A. Advance reading copies 
+
+      - AKA: Galleys; ARCs; Review Copies 
+
+        - `What is an "ARC" <https://www.liveabout.com/arc-what-is-an-arc-advanced-reader-s-copy-1360460>`_ 
+
+      - ARCs are for the purpose of reviewing books before publication for sites like 
+
+        - `Book Marks <https://bookmarks.reviews>`_ 
+        - `Library Journal <https://www.libraryjournal.com/section/reviews+>`_ 
+        - `Book Reporter <https://www.bookreporter.com>`_ 
+
+      - Cataloging and circulating ARCs is confusing to borrowers 
+      - Cataloging and circulating ARCs is unethical 
+      - Cataloging and circulating ARCs is not a best practice 
+
+    B. Bootleg or pirated materials 
+
+      - Pirated DVDs/Blu-rays/CDs/Books are illegaly made copies of media sold without paying royalties to the producers of the original media 
+      - Circulating bootleg or pirated materials is illegal 
+      - Buy from a reputable seller - Midwest Tapes is a good example 
+      - If buying on Amazon, make sure the item is "Sold by Amazon.com" 
+
+    C. Addition to the policy manual 
+
+      - :doc:`Proposed addition to the policy manual </policy/advanced_copies>` 
+      - Voting starts tomorrow lasts two weeks (Create voting survey) 
+
+#. Aspen Discovery 
+
+    - On-boarding starts in March 
+    - Customization March-July 
+    - Training for library staff in August 
+    - Demo-ish stuff 
+    - Lida App 
+
+#. Next meeting 
+
+    - 2024.04.16 (Tuesday) 10:00 a.m. - 12:00 p.m. - Osage City Public Library / online 
+    - 2024.08.27 (Tuesday) 10:00 a.m. - 12:00 p.m. - Tonganoxie Public Library / online 
+    - 2024.11.14 (Thursday) 10:00 a.m. - 12:00 p.m. - Mary Cotton Library, Sabetha / online 
+
+Video recording on YouTube
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Watch a video recording of this meeting on YouTube
+
+.. only:: html
+
+  .. raw:: html
+
+        <div class="ytcontainer">
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/w5BzkY1188I?si=neyi5RK89sv83zHN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+.. only:: latex
+
+   https://youtu.be/w5BzkY1188I
+
+|br|
+
+Go directly to the video on YouTube `<https://youtu.be/w5BzkY1188I>`_
+
+-----

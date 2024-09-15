@@ -1,0 +1,122 @@
+.. include:: /include.rst
+
+2024-08-27 - Agenda and notes
+=============================
+
+2023-08-27 (Tuesday) - Tonganoxie Public Library / online
+
+Agenda 
+^^^^^^
+
+
+1. Announcements, news, brief items, etc. 
+ 
+    - Introductions 
+    - Additions to the agenda 
+
+#. Refresher on creating state library eCards
+
+  - See Jessi's slides on this topic at `Google slides <https://docs.google.com/presentation/d/1Ku1oOKtYY9f2Sg--hfnB8wmGpxySV0HsglOuEKFdwME/edit#slide=id.p>`_
+
+#. Things coming up 
+
+  - Koha update Coming soon
+
+    - All training for this update will be online 
+    - Some new features, all good stuff
+
+  - Training for Aspen Discovery for Directors and Administrators September 8 - September 21
+  - Training for all staff September 29 - October 14
+  - Go live with Aspen Discovery target date October 22
+
+  .. Show google slides to get an idea of what's up
+
+3. 2025 Next Search Catalog participation agreement - first draft
+
+    - :download:`Download 2025 participation agreement draft as PDF </_files/2025.participation.agreement.draft.pdf>`
+
+#. 2025 Next Search Catalog privacy and confidentiality statement - unchanged from last year 
+
+    - :download:`Download 2025 privacy and confidentiality statement as PDF </_files/2025.next.privacy.statement.draft.pdf>`
+
+#. Policy manual
+
+    - Policy on "Advanced copies and Pirated material policy" (adopted by vote of 33-1 - 10 abstentions)
+
+      - `Search Next for "Next policy" <https://staff.nextkansas.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=801505>`_ to find the policy manual
+
+    - Best practices to avoid buying pirated DVDs
+
+      - :doc:`Best practices for buying videos online </staff_instruction_sheets/best_practices_buying_videos>`
+
+    - Further policy manual update still needed (in progress)
+
+      - Cataloging policy
+      - Sharing policy 
+      - Enforcement policy
+
+#. Aspen Discovery 
+
+  - Update 
+
+    - Hoopla connection has been added and is working
+
+    .. Demonstrate with Jeeves book
+    
+    - Cloud library connection is set up - still working on State Library Card integration (state's fault - not ours)
+
+    .. Demonstrate with Jeeves book
+
+    - Accelerated Reader integration is running well
+
+    .. Hidden Cottage Poppy Green
+
+    - New York Times bestseller list integration is running well
+
+    .. Examples Add NYT audio by itself - then crete a monster
+
+    - OMDB integration is running (Movie and TV cover images)
+
+    .. Examples - not perfect https://nekls.aspendiscovery.org/Record/1315565?searchId=248622&recordIndex=13&page=5450&referred=resultIndex
+
+    - Permissions being set up for all staff 
+
+    .. Examples
+
+    - Training is in the works (See above)
+
+  - Things we still need to work on 
+
+    - Closed dates in Koha - translate to Aspen 
+
+    - Create State Library Card for all new users 
+
+    
+7. Next meeting 
+
+  - 2023-11-14 (Thursday) - Mary Cotton Library, Sabetha + online
+
+Video recording on YouTube
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Watch a video recording of this meeting on YouTube
+
+.. only:: html
+
+  .. raw:: html
+
+        <div class="ytcontainer">
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/x3riXaIDLLI?si=KihNe7ym9-GO2oJ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+.. only:: latex
+
+   https://youtu.be/x3riXaIDLLI
+
+|br|
+
+Go directly to the video on YouTube `<https://youtu.be/x3riXaIDLLI>`_
+
+-----
+
+
