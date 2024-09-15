@@ -90,15 +90,15 @@ Watch a video recording of this meeting on YouTube
   .. raw:: html
 
         <div class="ytcontainer">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/w5BzkY1188I?si=neyi5RK89sv83zHN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/BiK_bdumhMg?si=neyi5RK89sv83zHN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 .. only:: latex
 
-   https://youtu.be/w5BzkY1188I
+   https://youtu.be/BiK_bdumhMg
 
 |br|
 
-Go directly to the video on YouTube `<https://youtu.be/w5BzkY1188I>`_
+Go directly to the video on YouTube `<https://youtu.be/BiK_bdumhMg>`_
 
 -----
