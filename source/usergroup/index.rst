@@ -13,6 +13,7 @@ Past meetings
    :maxdepth: 1
    :caption: 2024:
 
+   /usergroup/past_meetings/2024_08
    /usergroup/past_meetings/2024_04
    /usergroup/past_meetings/2024_01
 

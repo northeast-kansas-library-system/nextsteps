@@ -8,10 +8,11 @@
   https://northeast-kansas-library-system.github.io/next/usergroup/ug.20210902.html
 
 |ss| Northeast Kansas Library System \ |se| |br| Meeting switched to Zoom only |br|
-`Click here for Zoom <https://kslib.zoom.us/j/96708696231?pwd=SWx6MFNLbmNTUTAyYWtjalE4UWZndz09>`_ |br|
-Zoom passcode 7858384090 |br|
-No recording of this meeting will be made |br|
 
+No recording of this meeting was made
+
+Agenda 
+^^^^^^
 
 #. Announcements, news, brief items, etc.
 

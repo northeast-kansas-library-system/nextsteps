@@ -6,11 +6,11 @@ Upcoming Next Search Catalog meeting schedule
 Next meeting
 ------------
 
-2023.08.27 (Tuesday) 10:00 a.m. - 12:00 p.m.  - Tonganoxie Public Library / online
+2023.11.14 (Thursday) - Mary Cotton Library, Sabetha / online
 
-  :doc:`2024_08`
+  :doc:`2024_11`
 
-  `Zoom link <https://kslib.zoom.us/j/91574973702?pwd=Y0Z6V0ROdzF1bXdmUW9wMXFpeHVmdz09>`_
+  `Zoom link <https://kslib.zoom.us/j/92890518696?pwd=Z0ZzNU84VDBtN0tydVZDQktJR1JGZz09>`_
 
   Zoom passcode 7858384090
 

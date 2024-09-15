@@ -1,18 +1,12 @@
 .. include:: /include.rst 
 
 2024-01-25 - Agenda and notes 
-========================== 
+============================= 
 
 2021-01-25 - (Thursday) 10:00 a.m. - 12:00 p.m. - Northeast Kansas Library System / online 
 
-  `Zoom link <https://kslib.zoom.us/j/95571141270?pwd=VTF1ekxwMERUSmpYbndHbGJjbWFPdz09>`_ 
-
-  Zoom passcode 7858384090 
-
-No recordings of this meeting will be made 
-
 Agenda 
-^^^^^^ 
+^^^^^^
 
 1. Announcements, news, brief items, etc. 
 
@@ -85,3 +79,26 @@ Agenda
     - 2024.04.16 (Tuesday) 10:00 a.m. - 12:00 p.m. - Osage City Public Library / online 
     - 2024.08.27 (Tuesday) 10:00 a.m. - 12:00 p.m. - Tonganoxie Public Library / online 
     - 2024.11.14 (Thursday) 10:00 a.m. - 12:00 p.m. - Mary Cotton Library, Sabetha / online 
+
+Video recording on YouTube
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Watch a video recording of this meeting on YouTube
+
+.. only:: html
+
+  .. raw:: html
+
+        <div class="ytcontainer">
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/w5BzkY1188I?si=neyi5RK89sv83zHN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+.. only:: latex
+
+   https://youtu.be/w5BzkY1188I
+
+|br|
+
+Go directly to the video on YouTube `<https://youtu.be/w5BzkY1188I>`_
+
+-----

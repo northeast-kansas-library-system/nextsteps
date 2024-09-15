@@ -5,19 +5,18 @@
 
 2023-08-27 (Tuesday) - Tonganoxie Public Library / online
 
-  `Zoom link <https://kslib.zoom.us/j/91574973702?pwd=Y0Z6V0ROdzF1bXdmUW9wMXFpeHVmdz09>`_
-
-  Zoom passcode 7858384090
-
-No recordings of this meeting will be made
-
-Agenda
+Agenda 
 ^^^^^^
+
 
 1. Announcements, news, brief items, etc. 
  
     - Introductions 
     - Additions to the agenda 
+
+#. Refresher on creating state library eCards
+
+  - See Jessi's slides on this topic at `Google slides <https://docs.google.com/presentation/d/1Ku1oOKtYY9f2Sg--hfnB8wmGpxySV0HsglOuEKFdwME/edit#slide=id.p>`_
 
 #. Things coming up 
 
@@ -96,3 +95,28 @@ Agenda
 7. Next meeting 
 
   - 2023-11-14 (Thursday) - Mary Cotton Library, Sabetha + online
+
+Video recording on YouTube
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Watch a video recording of this meeting on YouTube
+
+.. only:: html
+
+  .. raw:: html
+
+        <div class="ytcontainer">
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/x3riXaIDLLI?si=KihNe7ym9-GO2oJ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+.. only:: latex
+
+   https://youtu.be/x3riXaIDLLI
+
+|br|
+
+Go directly to the video on YouTube `<https://youtu.be/x3riXaIDLLI>`_
+
+-----
+
+
