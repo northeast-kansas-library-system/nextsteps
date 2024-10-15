@@ -260,6 +260,33 @@
     :scale: 65%
     :alt: Optional search target location
 
+.. aspen_discovery
+
+.. aspen_discovery\how_to 
+
+.. aspen_discovery\how_to\import_lists_from_koha 
+
+.. |import_lists_from_koha-0030| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0030.png
+    :scale: 65%
+    :alt: Your lists
+
+.. |import_lists_from_koha-0041| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0041.png
+    :scale: 65%
+    :alt: Import from old catalog
+
+.. |import_lists_from_koha-0050| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0050.png
+    :scale: 65%
+    :alt: Lists are built from old data
+    
+.. |import_lists_from_koha-0060| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0060.png
+    :scale: 65%
+    :alt: Lists appear in "Your lists"
+    
+.. |import_lists_from_koha-0070| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0070.png
+    :scale: 65%
+    :alt: Lists have same contents as list in Koha OPAC
+    
+
 .. bugs
 
 .. bugs/koha_026520
