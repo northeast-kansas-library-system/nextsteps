@@ -26,3 +26,8 @@ If a borrower had created lists in the Koha OPAC and they want to transfer those
 5. When you open the list in Aspen Discovery it will have the same contents as the list in the Koha OPAC 
 
   |import_lists_from_koha-0070|
+
+Download a 3-step instruction sheet 
+-----------------------------------
+
+- :download:`Download a 3-step instruction sheet </_files/aspen-import_lists_from_old_catalog.pdf>`

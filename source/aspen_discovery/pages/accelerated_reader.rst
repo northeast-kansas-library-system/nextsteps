@@ -69,4 +69,4 @@ D. then click on "Find"
 Download a 3-step instruction sheet 
 -----------------------------------
 
-- :download:`Download a 3-step instruction sheet </_files/accelerated_reader_search.pdf>`
+- :download:`Download a 3-step instruction sheet </_files/aspen-accelerated_reader_search.pdf>`
