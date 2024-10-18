@@ -9,3 +9,5 @@ Aspen Discovery basics for all library staff
     :caption: Contents:
 
     /aspen_discovery/how_to/import_lists_from_koha
+    /aspen_discovery/pages/accelerated_reader
+

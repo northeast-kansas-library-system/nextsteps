@@ -285,7 +285,50 @@
 .. |import_lists_from_koha-0070| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0070.png
     :scale: 65%
     :alt: Lists have same contents as list in Koha OPAC
-    
+
+C:\Users\George\Documents\github\nextsteps\source\images\aspen_discovery\pages\accelerated_reader_basics-0010.png
+
+.. aspen_discovery\pages
+
+.. |accelerated_reader_basics-0010| image:: /images/aspen_discovery/pages/accelerated_reader_basics-0010.png
+    :scale: 65%
+    :alt: Accelerated Reader data in search results
+
+.. |accelerated_reader_basics-0020| image:: /images/aspen_discovery/pages/accelerated_reader_basics-0020.png
+    :scale: 65%
+    :alt: Accelerated Reader data on grouped work page
+
+.. |accelerated_reader_basics-0030| image:: /images/aspen_discovery/pages/accelerated_reader_basics-0030.png
+    :scale: 65%
+    :alt: Accelerated Reader data on bibliographic record page
+
+.. |accelerated_reader_search-0110| image:: /images/aspen_discovery/pages/accelerated_reader_search-0110.png
+    :scale: 65%
+    :alt: Go to the Advanced Search page
+
+.. |accelerated_reader_search-0120| image:: /images/aspen_discovery/pages/accelerated_reader_search-0120.png
+    :scale: 65%
+    :alt: Find the Accelerated Reader options
+
+.. |accelerated_reader_search-0130| image:: /images/aspen_discovery/pages/accelerated_reader_search-0130.png
+    :scale: 65%
+    :alt: Accelerated Reader interest level
+
+.. |accelerated_reader_search-0140| image:: /images/aspen_discovery/pages/accelerated_reader_search-0140.png
+    :scale: 65%
+    :alt: Accelerated Reader reading level
+
+.. |accelerated_reader_search-0150| image:: /images/aspen_discovery/pages/accelerated_reader_search-0150.png
+    :scale: 65%
+    :alt: Accelerated Reader point value
+
+.. |accelerated_reader_search-0160| image:: /images/aspen_discovery/pages/accelerated_reader_search-0160.png
+    :scale: 65%
+    :alt: Accelerated Reader combine levels and values to narrow your search
+
+.. |accelerated_reader_search-0170| image:: /images/aspen_discovery/pages/accelerated_reader_search-0170.png
+    :scale: 65%
+    :alt: Resulst will show the filters you used
 
 .. bugs
 
