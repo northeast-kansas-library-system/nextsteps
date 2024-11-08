@@ -264,6 +264,36 @@
 
 .. aspen_discovery\how_to 
 
+.. aspen_discovery\how_to\atchison_newspapers_com
+
+.. |atchison_newspapers_com-0010| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0010.png
+    :scale: 65%
+    :alt: https://atchison.nextkansas.org/
+
+.. |atchison_newspapers_com-0020| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0020.png
+    :scale: 65%
+    :alt: NEWSPAPERS.COM link
+
+.. |atchison_newspapers_com-0030| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0030.png
+    :scale: 65%
+    :alt: "Open Resource" button
+
+.. |atchison_newspapers_com-0040| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0040.png
+    :scale: 65%
+    :alt: newspapers.com login page
+
+.. |atchison_newspapers_com-0050| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0050.png
+    :scale: 65%
+    :alt: Successful login
+
+.. |atchison_newspapers_com-0060| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0060.png
+    :scale: 65%
+    :alt: Aspen Discovery error message
+
+.. |atchison_newspapers_com-0070| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0070.png
+    :scale: 65%
+    :alt: newspapers.com error message
+
 .. aspen_discovery\how_to\import_lists_from_koha 
 
 .. |import_lists_from_koha-0030| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0030.png
@@ -285,8 +315,6 @@
 .. |import_lists_from_koha-0070| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0070.png
     :scale: 65%
     :alt: Lists have same contents as list in Koha OPAC
-
-C:\Users\George\Documents\github\nextsteps\source\images\aspen_discovery\pages\accelerated_reader_basics-0010.png
 
 .. aspen_discovery\pages
 
