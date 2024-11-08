@@ -37,7 +37,7 @@ Welcome to Next Steps: a training site for Next Search Catalog
 
 .. toctree::
    :maxdepth: 2
-   :caption: Basic Aspen Discovery training for staff:
+   :caption: Aspen Discovery training:
 
    /aspen_discovery_basics
 
