@@ -22,7 +22,7 @@ Welcome to Next Steps: a training site for Next Search Catalog
    :maxdepth: 2
    :caption: Highlighted training:
 
-   /bugs/koha_026520
+   /pages/cataloging_docs/cover_image
 
 ----------
 
