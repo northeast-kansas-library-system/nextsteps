@@ -358,6 +358,22 @@
     :scale: 65%
     :alt: Resulst will show the filters you used
 
+.. |force_reindex-0010| image:: /images/aspen_discovery/pages/force_reindex-0010.png
+    :scale: 65%
+    :alt: Find the bibliographic record in Aspen Discovery and go to Staff View
+
+.. |force_reindex-0020| image:: /images/aspen_discovery/pages/force_reindex-0020.png
+    :scale: 65%
+    :alt: Click on "Force Reindex"
+
+.. |force_reindex-0030| image:: /images/aspen_discovery/pages/force_reindex-0030.png
+    :scale: 65%
+    :alt: Clear the dialog box
+
+.. |force_reindex-0040| image:: /images/aspen_discovery/pages/force_reindex-0040.png
+    :scale: 65%
+    :alt: Reload the page
+
 .. bugs
 
 .. bugs/koha_026520
@@ -412,6 +428,32 @@
 .. |home_0010| image:: /images/koha_pages/home/home_0010.png
     :scale: 65%
     :alt: Koha staff interface home page
+
+.. pages/cataloging_docs
+
+.. |cover_images-0010| image:: /images/pages/cataloging_docs/cover_images-0010.png
+    :scale: 65%
+    :alt: Google image search
+
+.. |cover_images-0020| image:: /images/pages/cataloging_docs/cover_images-0020.png
+    :scale: 65%
+    :alt: Images tab and upload button
+
+.. |cover_images-0030| image:: /images/pages/cataloging_docs/cover_images-0030.png
+    :scale: 65%
+    :alt: Drop or click
+
+.. |cover_images-0040| image:: /images/pages/cataloging_docs/cover_images-0040.png
+    :scale: 65%
+    :alt: Process the image
+
+.. |cover_images-0050| image:: /images/pages/cataloging_docs/cover_images-0050.png
+    :scale: 65%
+    :alt: Images should appear in Koha
+
+.. |cover_images-0060| image:: /images/pages/cataloging_docs/cover_images-0060.png
+    :scale: 65%
+    :alt: Image should appear in Aspen Discovery after reindexing
 
 .. pages/cataloging_original_brief
 
