@@ -1,5 +1,9 @@
 .. include:: /include.rst
 
+.. raw:: html
+
+  <p style="display: none;" class="nsc_hashtags">#howto, #koha, #log in</p>
+
 *****************************************
 How to log in to the Koha staff interface
 *****************************************
