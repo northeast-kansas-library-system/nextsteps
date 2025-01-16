@@ -3,11 +3,16 @@
 Staff account types
 ===================
 
-There are 8 basic account types in Next Search Catalog:
+Koha staff account types
+------------------------
+
+There are 10 basic Koha account types in Next Search Catalog:
 
 - :ref:`superlibrarian_permissions`
 - :ref:`director_permissions`
+- :ref:`director_limited`
 - :ref:`tech_permissions`
+- :ref:`tech_limited`
 - :ref:`circ_permissions`
 - :ref:`aide_permissions`
 - :ref:`outreach_permissions`
@@ -59,12 +64,49 @@ These accounts are assigned to library directors and give them the ability to ch
   - set notice/status triggers
   - manage staff passwords
 
+.. _director_limited:
+
+Director (limited)
+--------
+
+These accounts are assigned to library directors and give them the ability to change passwords for other library staff.
+
+Essentially these accounts are exactly like the regular director accounts, just without the ability to add or edit bibliographic records.  These accounts are usually given to new directors that have not yet had cataloging training.
+
+- Library directors have the ability to
+
+  - log into the staff interface
+  - check in and check out materials
+  - manage borrower account restrictions
+  - override blocked renewals
+  - add, modify, and delete borrower accounts
+  - view borrower information
+  - place and modify requests for borrowers
+  - create and edit item records
+  - manage borrower fees
+  - manage borrower suggestions
+  - export and import bibliographic records
+  - use the item batch deletion and batch modification tools
+  - create and print labels
+  - manage borrower lists
+  - manage rotating collections
+  - upload files and cover images
+  - access the inventory tools
+  - moderate borrower comments
+  - moderate borrower tags
+  - execute reports
+  - create and edit clubs
+  - enroll borrowers in clubs
+  - manage the library's calendar
+  - set notice/status triggers
+  - manage staff passwords
+
 .. _tech_permissions:
 
-Technical services
-------------------
+Technical services (full permission)
+------------------------------------
 
-These accounts have the ability to catalog materials, run reports, add and edit patron records, accept fee payments, and circulate materials.
+These accounts have the ability to catalog materials, add and edit item records, run reports, add and edit patron records, accept fee payments, and circulate materials.
 
 - Technical services staff have the ability to:
 
@@ -76,6 +118,40 @@ These accounts have the ability to catalog materials, run reports, add and edit 
   - view borrower information
   - place and modify requests for borrowers
   - create and edit bibliographic records
+  - create and edit item records
+  - manage borrower fees
+  - manage borrower suggestions
+  - export and import bibliographic records
+  - use the item batch deletion and batch modification tools
+  - create and print labels
+  - manage borrower lists
+  - manage rotating collections
+  - upload files and cover images
+  - access the inventory tools
+  - moderate borrower comments
+  - moderate borrower tags
+  - execute reports
+  - create and edit clubs
+  - enroll borrowers in clubs
+
+.. _tech_limited:
+
+Technical services (limited permission)
+------------------------------------
+
+These accounts have the ability to add and edit item records, run reports, add and edit patron records, accept fee payments, and circulate materials.
+
+These accounts are exactly like the "Technical services (full permission)," just without the ability to add or edit bibliographic records.  These accounts are usually given to new technical services staff that have not yet had cataloging training or staff that need the ability to add or edit items but are not given the ability to do more advanced cataloging work.
+
+- Technical services staff have the ability to:
+
+  - log into the staff interface
+  - check in and check out materials
+  - manage borrower account restrictions
+  - override blocked renewals
+  - add, modify, and delete borrower accounts
+  - view borrower information
+  - place and modify requests for borrowers
   - create and edit item records
   - manage borrower fees
   - manage borrower suggestions

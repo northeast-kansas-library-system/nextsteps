@@ -30,6 +30,10 @@
 
 .. include all of these images in all files
 
+.. |default_image| image:: /images/default_image.png
+    :scale: 65%
+    :alt: Default image
+
 .. |soon| image:: /images/default.png
     :scale: 65%
     :alt: Image coming soon
@@ -1323,3 +1327,24 @@
 .. |suggestion_form_enhancement_0020| image:: /images/upgrades/22_05/suggestion_form_enhancement_0020.png
     :scale: 65%
     :alt:
+
+.. aspen discovery images
+
+.. aspen discovery
+
+.. aspen discovery\how_to
+
+
+.. koha images
+
+.. koha
+
+.. |next_search_catalog_home_page| image:: /images/koha/next_search_catalog_home_page.png
+    :scale: 65%
+    :alt: Next Search Catalog home page
+
+.. koha\how_to
+
+.. |koha_how_to_log_in-0010| image:: /images/koha/how_to/koha_how_to_log_in-0010.png
+    :scale: 65%
+    :alt: Koha staff client login page - 4 step login instructions

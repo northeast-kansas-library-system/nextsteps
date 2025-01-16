@@ -102,11 +102,15 @@
              
   <section id="staff-account-types">
 <h1>Staff account types<a class="headerlink" href="#staff-account-types" title="Link to this heading"></a></h1>
-<p>There are 8 basic account types in Next Search Catalog:</p>
+<section id="koha-staff-account-types">
+<h2>Koha staff account types<a class="headerlink" href="#koha-staff-account-types" title="Link to this heading"></a></h2>
+<p>There are 10 basic Koha account types in Next Search Catalog:</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#superlibrarian-permissions"><span class="std std-ref">Superlibrarian</span></a></p></li>
 <li><p><a class="reference internal" href="#director-permissions"><span class="std std-ref">Director</span></a></p></li>
-<li><p><a class="reference internal" href="#tech-permissions"><span class="std std-ref">Technical services</span></a></p></li>
+<li><p><a class="reference internal" href="#director-limited"><span class="std std-ref">Director (limited)</span></a></p></li>
+<li><p><a class="reference internal" href="#tech-permissions"><span class="std std-ref">Technical services (full permission)</span></a></p></li>
+<li><p><a class="reference internal" href="#tech-limited"><span class="std std-ref">Technical services (limited permission)</span></a></p></li>
 <li><p><a class="reference internal" href="#circ-permissions"><span class="std std-ref">Circulation</span></a></p></li>
 <li><p><a class="reference internal" href="#aide-permissions"><span class="std std-ref">Aide</span></a></p></li>
 <li><p><a class="reference internal" href="#outreach-permissions"><span class="std std-ref">Outreach</span></a></p></li>
@@ -114,6 +118,7 @@
 <li><p><a class="reference internal" href="#sci-permission"><span class="std std-ref">Self check-in</span></a></p></li>
 </ul>
 <p>You can find more information about staff permissions in the <a class="reference external" href="https://koha-community.org/manual/latest/en/html/patrons.html#patron-permissions" target="_blank">permissions section of the Koha manual</a></p>
+</section>
 <section id="superlibrarian">
 <span id="superlibrarian-permissions"></span><h2>Superlibrarian<a class="headerlink" href="#superlibrarian" title="Link to this heading"></a></h2>
 <ul class="simple">
@@ -156,9 +161,45 @@
 </li>
 </ul>
 </section>
-<section id="technical-services">
-<span id="tech-permissions"></span><h2>Technical services<a class="headerlink" href="#technical-services" title="Link to this heading"></a></h2>
-<p>These accounts have the ability to catalog materials, run reports, add and edit patron records, accept fee payments, and circulate materials.</p>
+<section id="director-limited">
+<span id="id1"></span><h2>Director (limited)<a class="headerlink" href="#director-limited" title="Link to this heading"></a></h2>
+<p>These accounts are assigned to library directors and give them the ability to change passwords for other library staff.</p>
+<p>Essentially these accounts are exactly like the regular director accounts, just without the ability to add or edit bibliographic records.  These accounts are usually given to new directors that have not yet had cataloging training.</p>
+<ul class="simple">
+<li><p>Library directors have the ability to</p>
+<ul>
+<li><p>log into the staff interface</p></li>
+<li><p>check in and check out materials</p></li>
+<li><p>manage borrower account restrictions</p></li>
+<li><p>override blocked renewals</p></li>
+<li><p>add, modify, and delete borrower accounts</p></li>
+<li><p>view borrower information</p></li>
+<li><p>place and modify requests for borrowers</p></li>
+<li><p>create and edit item records</p></li>
+<li><p>manage borrower fees</p></li>
+<li><p>manage borrower suggestions</p></li>
+<li><p>export and import bibliographic records</p></li>
+<li><p>use the item batch deletion and batch modification tools</p></li>
+<li><p>create and print labels</p></li>
+<li><p>manage borrower lists</p></li>
+<li><p>manage rotating collections</p></li>
+<li><p>upload files and cover images</p></li>
+<li><p>access the inventory tools</p></li>
+<li><p>moderate borrower comments</p></li>
+<li><p>moderate borrower tags</p></li>
+<li><p>execute reports</p></li>
+<li><p>create and edit clubs</p></li>
+<li><p>enroll borrowers in clubs</p></li>
+<li><p>manage the library’s calendar</p></li>
+<li><p>set notice/status triggers</p></li>
+<li><p>manage staff passwords</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="technical-services-full-permission">
+<span id="tech-permissions"></span><h2>Technical services (full permission)<a class="headerlink" href="#technical-services-full-permission" title="Link to this heading"></a></h2>
+<p>These accounts have the ability to catalog materials, add and edit item records, run reports, add and edit patron records, accept fee payments, and circulate materials.</p>
 <ul class="simple">
 <li><p>Technical services staff have the ability to:</p>
 <ul>
@@ -170,6 +211,39 @@
 <li><p>view borrower information</p></li>
 <li><p>place and modify requests for borrowers</p></li>
 <li><p>create and edit bibliographic records</p></li>
+<li><p>create and edit item records</p></li>
+<li><p>manage borrower fees</p></li>
+<li><p>manage borrower suggestions</p></li>
+<li><p>export and import bibliographic records</p></li>
+<li><p>use the item batch deletion and batch modification tools</p></li>
+<li><p>create and print labels</p></li>
+<li><p>manage borrower lists</p></li>
+<li><p>manage rotating collections</p></li>
+<li><p>upload files and cover images</p></li>
+<li><p>access the inventory tools</p></li>
+<li><p>moderate borrower comments</p></li>
+<li><p>moderate borrower tags</p></li>
+<li><p>execute reports</p></li>
+<li><p>create and edit clubs</p></li>
+<li><p>enroll borrowers in clubs</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="technical-services-limited-permission">
+<span id="tech-limited"></span><h2>Technical services (limited permission)<a class="headerlink" href="#technical-services-limited-permission" title="Link to this heading"></a></h2>
+<p>These accounts have the ability to add and edit item records, run reports, add and edit patron records, accept fee payments, and circulate materials.</p>
+<p>These accounts are exactly like the “Technical services (full permission),” just without the ability to add or edit bibliographic records.  These accounts are usually given to new technical services staff that have not yet had cataloging training or staff that need the ability to add or edit items but are not given the ability to do more advanced cataloging work.</p>
+<ul class="simple">
+<li><p>Technical services staff have the ability to:</p>
+<ul>
+<li><p>log into the staff interface</p></li>
+<li><p>check in and check out materials</p></li>
+<li><p>manage borrower account restrictions</p></li>
+<li><p>override blocked renewals</p></li>
+<li><p>add, modify, and delete borrower accounts</p></li>
+<li><p>view borrower information</p></li>
+<li><p>place and modify requests for borrowers</p></li>
 <li><p>create and edit item records</p></li>
 <li><p>manage borrower fees</p></li>
 <li><p>manage borrower suggestions</p></li>
