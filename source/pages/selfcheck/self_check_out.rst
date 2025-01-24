@@ -13,7 +13,7 @@ Requirements
 
 To log in to the self check-out module you need:
 
-1. The URL for self check-out `(https://nextkansas.org/cgi-bin/koha/sco/sco-main.pl) <https://nextkansas.org/cgi-bin/koha/sco/sco-main.pl>`_
+1. The URL for self check-out `(https://nekls.bywatersolutions.com/cgi-bin/koha/sco/sco-main.pl) <https://nekls.bywatersolutions.com/cgi-bin/koha/sco/sco-main.pl>`_
 2. A staff login with permission to access the self check-out module
 
 For patrons to use the built in self-checkout module, patrons must have:
@@ -25,7 +25,7 @@ B. The password that goes with their account
 For staff
 ---------
 
-1. Go to https://nextkansas.org/cgi-bin/koha/sco/sco-main.pl
+1. Go to https://nekls.bywatersolutions.com/cgi-bin/koha/sco/sco-main.pl
 2. Enter the staff username and password and click submit
 
   - If you don't have a username and password, contact |nocopy| nexthelp\@nekls.org |spane| to ask for help with self check
@@ -36,7 +36,7 @@ For staff
 
   |self_check_out-0020|
 
-4. When self check-out is no longer needed, go to `(https://nextkansas.org/cgi-bin/koha/opac-main.pl?logout.x=1) <https://nextkansas.org/cgi-bin/koha/opac-main.pl?logout.x=1>`_ to log out of the self check-out system
+4. When self check-out is no longer needed, go to `(https://nekls.bywatersolutions.com/cgi-bin/koha/opac-main.pl?logout.x=1) <https://nekls.bywatersolutions.com/cgi-bin/koha/opac-main.pl?logout.x=1>`_ to log out of the self check-out system
    
   - (After 10 hours of inactivity, the self check-out system will automatically log off)
   - (At approximately 2:00 a.m. every day, the self check-out system will automatically log off)
