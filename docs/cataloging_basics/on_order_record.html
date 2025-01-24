@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" data-content_root="../">
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>On order record cataloging &mdash; Next Steps 1.0 documentation</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
-      <link rel="stylesheet" type="text/css" href="../_static/override.css?v=7243ceeb" />
-
-  
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/override.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
-        <script src="../_static/doctools.js?v=9a2dae69"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -32,16 +29,12 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-
-          
-          
-          <a href="../index.html" class="icon icon-home">
-            Next Steps
-              <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+            <a href="../index.html" class="icon icon-home"> Next Steps
+            <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -104,9 +97,9 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="index.html">Basic cataloging guide</a></li>
-      <li class="breadcrumb-item active">On order record cataloging</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Basic cataloging guide</a> &raquo;</li>
+      <li>On order record cataloging</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/cataloging_basics/on_order_record.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -116,73 +109,72 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="on-order-record-cataloging">
-<h1>On order record cataloging<a class="headerlink" href="#on-order-record-cataloging" title="Link to this heading"></a></h1>
+  <div class="section" id="on-order-record-cataloging">
+<h1>On order record cataloging<a class="headerlink" href="#on-order-record-cataloging" title="Permalink to this heading"></a></h1>
 <p>Some libraries add “On order” records to the catalog when they order new titles.  This allows borrowers to place requests on titles before they are published.</p>
 <ol class="arabic">
-<li><p>First search to see if the title has already been added as an “On order” record already</p>
+<li><p class="first">First search to see if the title has already been added as an “On order” record already</p>
 <blockquote>
 <div><p>If a record already exists, go to step 4</p>
 <p><span class="xref std std-doc">See the searching best practices for help in searching for a bibliographic record</span></p>
 </div></blockquote>
 </li>
-<li><p>If the title can not be found, find or create a bibliographic record for the title</p></li>
-<li><p>Once you have a record in Next Search Catalog add “[On order]” or “(Street date mm/dd/yyyy)” to the end of the 245$a field.</p>
+<li><p class="first">If the title can not be found, find or create a bibliographic record for the title</p>
+</li>
+<li><p class="first">Once you have a record in Next Search Catalog add “[On order]” or “(Street date mm/dd/yyyy)” to the end of the 245$a field.</p>
 <blockquote>
 <div><p><a class="reference internal" href="../_images/on_order_record_0010.png"><img alt="" src="../_images/on_order_record_0010.png" style="width: 837.2px; height: 473.2px;" /></a></p>
 </div></blockquote>
 </li>
-<li><p>Add an item record, but make the following changes to the item record:</p></li>
+<li><p class="first">Add an item record, but make the following changes to the item record:</p>
+</li>
 </ol>
 <blockquote>
 <div><ol class="upperalpha">
-<li><p>Change the “Not for loan” status of the item to “Ordered” (This step is required)</p>
+<li><p class="first">Change the “Not for loan” status of the item to “Ordered” (This step is required)</p>
 <blockquote>
 <div><p>“Ordered” is a priveledged status in Next Search Catalog.  It is the only “Not-for-loan” status that allows for requests.  Requests placed on an “Ordered” item will move across the holds queue like any other request, but “Ordered” items will not appear in the holds queue until the “Ordered” status has been removed.</p>
 </div></blockquote>
 </li>
-<li><p>If you want to place item level requests on this item, you _must_ add a barcode number</p>
+<li><p class="first">If you want to place item level requests on this item, you _must_ add a barcode number</p>
 <blockquote>
 <div><p>(see the note below)</p>
 </div></blockquote>
 </li>
-<li><p>Add a public note to the item record indicating the publisher’s release date (optional)</p></li>
+<li><p class="first">Add a public note to the item record indicating the publisher’s release date (optional)</p>
+</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/on_order_record_0020.png"><img alt="" src="../_images/on_order_record_0020.png" style="width: 650.0px; height: 640.25px;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="../_images/on_order_record_0020.png"><img alt="" src="../_images/on_order_record_0020.png" style="width: 650.0px; height: 640.25px;" /></a></div></blockquote>
 </div></blockquote>
 <ol class="arabic simple" start="5">
-<li><p>When you receive the item you need to make the following changes to the bibliographic record:</p></li>
+<li>When you receive the item you need to make the following changes to the bibliographic record:</li>
 </ol>
 <blockquote>
 <div><ol class="upperalpha simple">
-<li><p>Remove the “[On order]” or “(Street date mm/dd/yyyy)” notations from the 245$a field</p></li>
-<li><p>Update and make any other changes to the bibliographic record as needed</p></li>
+<li>Remove the “[On order]” or “(Street date mm/dd/yyyy)” notations from the 245$a field</li>
+<li>Update and make any other changes to the bibliographic record as needed</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="../_images/on_order_record_0040.png"><img alt="" src="../_images/on_order_record_0040.png" style="width: 650.0px; height: 726.7px;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="../_images/on_order_record_0040.png"><img alt="" src="../_images/on_order_record_0040.png" style="width: 650.0px; height: 726.7px;" /></a></div></blockquote>
 </div></blockquote>
 <ol class="arabic simple" start="6">
-<li><p>When you receive the item you need to make the following changes to the item records</p></li>
+<li>When you receive the item you need to make the following changes to the item records</li>
 </ol>
 <blockquote>
 <div><ol class="upperalpha simple">
-<li><p>Remove the not for loan status</p></li>
-<li><p>If you added a barcode number, you can update that number if you wish</p></li>
-<li><p>Remove the public note indicating the release update</p></li>
-<li><p>Any other changes as necessary for cataloging the order_item</p></li>
+<li>Remove the not for loan status</li>
+<li>If you added a barcode number, you can update that number if you wish</li>
+<li>Remove the public note indicating the release update</li>
+<li>Any other changes as necessary for cataloging the order_item</li>
 </ol>
 <blockquote>
-<div><p><a href="#id1"><span class="problematic" id="id2">|on_order_record_0040|</span></a></p>
-</div></blockquote>
+<div><a href="#id1"><span class="problematic" id="id2">|on_order_record_0040|</span></a></div></blockquote>
 </div></blockquote>
 <p>Note:</p>
 <blockquote>
-<div><p>If you create an item record and do not add a barcode number to the record <strong>AND</strong> someone puts an <em>item specific</em> request on the item with no barcode, the request will <strong>never</strong> be filled.  When an item level request is placed, the request is tied to the barcode number on the item.  If the item being requested doesn’t have a barcode number, the barcode number in the request is recorded as an empty string - i.e. “”.  If that happens, only barcode number “” can fill the request.  Since you can’t check in “”, the request will <strong>never</strong> be filled.</p>
-</div></blockquote>
-</section>
+<div>If you create an item record and do not add a barcode number to the record <strong>AND</strong> someone puts an <em>item specific</em> request on the item with no barcode, the request will <strong>never</strong> be filled.  When an item level request is placed, the request is tied to the barcode number on the item.  If the item being requested doesn’t have a barcode number, the barcode number in the request is recorded as an empty string - i.e. “”.  If that happens, only barcode number “” can fill the request.  Since you can’t check in “”, the request will <strong>never</strong> be filled.</div></blockquote>
+</div>
 
 
            </div>

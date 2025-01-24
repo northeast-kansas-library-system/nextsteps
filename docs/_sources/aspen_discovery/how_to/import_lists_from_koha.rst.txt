@@ -1,5 +1,9 @@
 .. include:: /include.rst
 
+.. raw:: html
+
+  <p style="display: none;" class="nsc_hashtags">#howto, #aspen, #lists</p>
+
 How to import lists from Koha
 =============================
 

@@ -57,7 +57,6 @@ That makes the grand total 53 locations.
     - Prairie Hills Schools - Sabetha Elementary School
     - Prairie Hills Schools - Sabetha High School
     - Prairie Hills Schools - Sabetha Middle School
-    - Prairie Hills Schools - Wetmore Academic Center
 
 - Pomona Community Library
 - Richmond Public Library

@@ -1,5 +1,9 @@
 .. include:: /include.rst
 
+.. raw:: html
+
+  <p style="display: none;" class="nsc_hashtags">#howto, #aspen, #atchison, #newspapers.com</p>
+
 How to log into newspapers.com at ATCHISON
 ==========================================
 
