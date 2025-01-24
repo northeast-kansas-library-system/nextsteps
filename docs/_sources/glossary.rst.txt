@@ -119,19 +119,33 @@ Cataloging
 
 .. glossary:: 
 
-    Universal Product Code
-      -AKA:-
+    Amazon Standard Identification Number
+      -AKA-
 
-      UPC
+      ASIN 
 
-      The barcode found on almost all products throughout the world.  The Universal Product Code on most books is the same as the book's ISBN
+      A unique 10 letter code Amazon uses to identify products on its website.  Every item sold by Amazon has an ASIN, but only books sold by Amazon have an ISBN.
+
+    European Article Number
+      -AKA-
+
+      EAN (or EAN/UPC)
+
+      A unique inventory identifier that has been replaced by the GTIN system and is mainly used outside of North America.
+
+    Global Trade Item Number 
+      -AKA-
+
+      GTIN
+
+      A unique inventory identifier issued by the Global Data Synchronization Network.
 
     International Standard Book Number 
       -AKA-
 
       ISBN 
 
-      A 13 digit number that identifies a book.  ISBNs have been used by publishers since 1970.  In 2007 ISBNs changed from 10 digits to 13 digits. 
+      A 13 digit number that identifies a book usually found on the title page of a book.  ISBNs have been used by publishers since 1970.  In 2007 ISBNs changed from 10 digits to 13 digits.  In most (but not all) cases, the UPC barcode on a book is the book's ISBN.
 
     International Standard Serial Number
       -AKA-
@@ -140,10 +154,40 @@ Cataloging
 
       An 8 digit number that identifies a serial publication like a magazine or journal. 
 
+    Stock Keeping Unit
+      -AKA-
+
+      SKU 
+
+      Generic name for a unique identifier used by businesses to manage inventory of products or goods used in their businesses.  i.e. All UPCs, ISBNs, library barcode numbers, etc. can generiaclly be called SKUs.
+
+    Target Catalog Identification Number
+      -AKA-
+
+      TCIN
+
+      A unique identifier for a product in the inventory of the Target Corporation.
+
+    Universal Product Code
+      -AKA:-
+
+      UPC
+
+      The barcode found on almost all products throughout the world.  The Universal Product Code on most books is the same as the book's ISBN
+
 Abbreviations:
 ==============
 
 .. glossary::
+
+    ASIN
+      Abbreviation for :term:`Amazon Standard Identification Number`
+
+    EAN
+      Abbreviation for :term:`European Article Number`
+
+    GTIN
+      Abbreviation for :term:`Global Trade Item Number`
 
     ILS
       Abbreviation for :term:`Integrated library system`
@@ -169,8 +213,14 @@ Abbreviations:
     NEKLS
       Abbreviation for :term:`Northeast Kansas Library System`
 
+    SKU
+      Abbreviation for :term:`Stock Keeping Unit`
+
     SLK
       Abbreviation for :term:`State Library of Kansas`
+
+    TCIN
+      Abbreviation for :term:`Target Catalog Identification Number`
 
     UPC
       Abbreviation for :term:`Universal Product Code`

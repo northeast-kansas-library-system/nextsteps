@@ -1,0 +1,43 @@
+.. include:: /include.rst
+
+.. raw:: html
+
+  <p style="display: none;" class="nsc_hashtags">#aspen, #koha, #howto</p>
+
+************
+How to . . .
+************
+
+Steps to do the thing
+=====================
+
+# Step 1
+# Step 2
+# Step 3
+
+Screenshots
+-----------
+
+|default|
+
+Handout 
+-------
+
+`URL for PDF file on Aspen Discovery <http://nextkansas.org/WebBuilder/DownloadPDF?id=16>`_
+
+Problems you may encounter
+==========================
+
+Problem 1
+---------
+
+Description of problem
+
+Description of solution or link to document with solution
+
+Problem 2
+---------
+
+Description of problem
+
+Description of solution or link to document with solution

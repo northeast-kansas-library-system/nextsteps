@@ -30,6 +30,10 @@
 
 .. include all of these images in all files
 
+.. |default_image| image:: /images/default_image.png
+    :scale: 65%
+    :alt: Default image
+
 .. |soon| image:: /images/default.png
     :scale: 65%
     :alt: Image coming soon
@@ -260,6 +264,120 @@
     :scale: 65%
     :alt: Optional search target location
 
+.. aspen_discovery
+
+.. aspen_discovery\how_to 
+
+.. aspen_discovery\how_to\atchison_newspapers_com
+
+.. |atchison_newspapers_com-0010| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0010.png
+    :scale: 65%
+    :alt: https://atchison.nextkansas.org/
+
+.. |atchison_newspapers_com-0020| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0020.png
+    :scale: 65%
+    :alt: NEWSPAPERS.COM link
+
+.. |atchison_newspapers_com-0030| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0030.png
+    :scale: 65%
+    :alt: "Open Resource" button
+
+.. |atchison_newspapers_com-0040| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0040.png
+    :scale: 65%
+    :alt: newspapers.com login page
+
+.. |atchison_newspapers_com-0050| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0050.png
+    :scale: 65%
+    :alt: Successful login
+
+.. |atchison_newspapers_com-0060| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0060.png
+    :scale: 65%
+    :alt: Aspen Discovery error message
+
+.. |atchison_newspapers_com-0070| image:: /images/aspen_discovery/how_to/atchison_newspapers_com/atchison_newspapers_com-0070.png
+    :scale: 65%
+    :alt: newspapers.com error message
+
+.. aspen_discovery\how_to\import_lists_from_koha 
+
+.. |import_lists_from_koha-0030| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0030.png
+    :scale: 65%
+    :alt: Your lists
+
+.. |import_lists_from_koha-0041| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0041.png
+    :scale: 65%
+    :alt: Import from old catalog
+
+.. |import_lists_from_koha-0050| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0050.png
+    :scale: 65%
+    :alt: Lists are built from old data
+    
+.. |import_lists_from_koha-0060| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0060.png
+    :scale: 65%
+    :alt: Lists appear in "Your lists"
+    
+.. |import_lists_from_koha-0070| image:: /images/aspen_discovery/how_to/import_lists_from_koha/import_lists_from_koha-0070.png
+    :scale: 65%
+    :alt: Lists have same contents as list in Koha OPAC
+
+.. aspen_discovery\pages
+
+.. |accelerated_reader_basics-0010| image:: /images/aspen_discovery/pages/accelerated_reader_basics-0010.png
+    :scale: 65%
+    :alt: Accelerated Reader data in search results
+
+.. |accelerated_reader_basics-0020| image:: /images/aspen_discovery/pages/accelerated_reader_basics-0020.png
+    :scale: 65%
+    :alt: Accelerated Reader data on grouped work page
+
+.. |accelerated_reader_basics-0030| image:: /images/aspen_discovery/pages/accelerated_reader_basics-0030.png
+    :scale: 65%
+    :alt: Accelerated Reader data on bibliographic record page
+
+.. |accelerated_reader_search-0110| image:: /images/aspen_discovery/pages/accelerated_reader_search-0110.png
+    :scale: 65%
+    :alt: Go to the Advanced Search page
+
+.. |accelerated_reader_search-0120| image:: /images/aspen_discovery/pages/accelerated_reader_search-0120.png
+    :scale: 65%
+    :alt: Find the Accelerated Reader options
+
+.. |accelerated_reader_search-0130| image:: /images/aspen_discovery/pages/accelerated_reader_search-0130.png
+    :scale: 65%
+    :alt: Accelerated Reader interest level
+
+.. |accelerated_reader_search-0140| image:: /images/aspen_discovery/pages/accelerated_reader_search-0140.png
+    :scale: 65%
+    :alt: Accelerated Reader reading level
+
+.. |accelerated_reader_search-0150| image:: /images/aspen_discovery/pages/accelerated_reader_search-0150.png
+    :scale: 65%
+    :alt: Accelerated Reader point value
+
+.. |accelerated_reader_search-0160| image:: /images/aspen_discovery/pages/accelerated_reader_search-0160.png
+    :scale: 65%
+    :alt: Accelerated Reader combine levels and values to narrow your search
+
+.. |accelerated_reader_search-0170| image:: /images/aspen_discovery/pages/accelerated_reader_search-0170.png
+    :scale: 65%
+    :alt: Resulst will show the filters you used
+
+.. |force_reindex-0010| image:: /images/aspen_discovery/pages/force_reindex-0010.png
+    :scale: 65%
+    :alt: Find the bibliographic record in Aspen Discovery and go to Staff View
+
+.. |force_reindex-0020| image:: /images/aspen_discovery/pages/force_reindex-0020.png
+    :scale: 65%
+    :alt: Click on "Force Reindex"
+
+.. |force_reindex-0030| image:: /images/aspen_discovery/pages/force_reindex-0030.png
+    :scale: 65%
+    :alt: Clear the dialog box
+
+.. |force_reindex-0040| image:: /images/aspen_discovery/pages/force_reindex-0040.png
+    :scale: 65%
+    :alt: Reload the page
+
 .. bugs
 
 .. bugs/koha_026520
@@ -314,6 +432,32 @@
 .. |home_0010| image:: /images/koha_pages/home/home_0010.png
     :scale: 65%
     :alt: Koha staff interface home page
+
+.. pages/cataloging_docs
+
+.. |cover_images-0010| image:: /images/pages/cataloging_docs/cover_images-0010.png
+    :scale: 65%
+    :alt: Google image search
+
+.. |cover_images-0020| image:: /images/pages/cataloging_docs/cover_images-0020.png
+    :scale: 65%
+    :alt: Images tab and upload button
+
+.. |cover_images-0030| image:: /images/pages/cataloging_docs/cover_images-0030.png
+    :scale: 65%
+    :alt: Drop or click
+
+.. |cover_images-0040| image:: /images/pages/cataloging_docs/cover_images-0040.png
+    :scale: 65%
+    :alt: Process the image
+
+.. |cover_images-0050| image:: /images/pages/cataloging_docs/cover_images-0050.png
+    :scale: 65%
+    :alt: Images should appear in Koha
+
+.. |cover_images-0060| image:: /images/pages/cataloging_docs/cover_images-0060.png
+    :scale: 65%
+    :alt: Image should appear in Aspen Discovery after reindexing
 
 .. pages/cataloging_original_brief
 
@@ -1183,3 +1327,24 @@
 .. |suggestion_form_enhancement_0020| image:: /images/upgrades/22_05/suggestion_form_enhancement_0020.png
     :scale: 65%
     :alt:
+
+.. aspen discovery images
+
+.. aspen discovery
+
+.. aspen discovery\how_to
+
+
+.. koha images
+
+.. koha
+
+.. |next_search_catalog_home_page| image:: /images/koha/next_search_catalog_home_page.png
+    :scale: 65%
+    :alt: Next Search Catalog home page
+
+.. koha\how_to
+
+.. |koha_how_to_log_in-0010| image:: /images/koha/how_to/koha_how_to_log_in-0010.png
+    :scale: 65%
+    :alt: Koha staff client login page - 4 step login instructions

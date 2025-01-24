@@ -113,8 +113,6 @@ The current library codes/names are:
 +----------------------------------------------------------------------+--------------+
 | Prairie Hills Schools - Sabetha Middle School                        | PHSMS        |
 +----------------------------------------------------------------------+--------------+
-| Prairie Hills Schools - Wetmore Academic Center (Permanently closed) | PHWAC        |
-+----------------------------------------------------------------------+--------------+
 | Richmond Public Library                                              | RICHMOND     |
 +----------------------------------------------------------------------+--------------+
 | Rossville Community Library                                          | ROSSVILLE    |
