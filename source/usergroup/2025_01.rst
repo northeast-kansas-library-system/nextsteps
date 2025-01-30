@@ -25,6 +25,7 @@ Agenda
 3. Koha upgrade between March 3 and 9 - Koha 24.11
 
     - Exciting features
+
       - Force password change for new patrons entered by staff
       - Add a preferred name field to patrons
       - Changes to clais returned
@@ -73,6 +74,7 @@ Agenda
 9. Self-check-out / self-check-in documentation updated - demo
 
     - instructions are at
+    
       - `Self-check-out <https://northeast-kansas-library-system.github.io/nextsteps/pages/selfcheck/self_check_out.html>`_
       - `Self-check-in <https://northeast-kansas-library-system.github.io/nextsteps/pages/selfcheck/self_check_in.html>`_
 
