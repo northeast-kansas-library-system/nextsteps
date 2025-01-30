@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en" data-content_root="../">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>October 2022 - Firefox 106 printer margin problem &mdash; Next Steps 1.0 documentation</title>
-      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/override.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/override.css?v=7243ceeb" />
+
+  
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-        <script src="../_static/doctools.js"></script>
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -29,12 +32,16 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../index.html" class="icon icon-home"> Next Steps
-            <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Next Steps
+              <img src="../_static/next.steps.logo.dark.1.1.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -88,9 +95,9 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="index.html">Bugs</a> &raquo;</li>
-      <li>October 2022 - Firefox 106 printer margin problem</li>
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Bugs</a></li>
+      <li class="breadcrumb-item active">October 2022 - Firefox 106 printer margin problem</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/bugs/firefox106.print.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -100,46 +107,46 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="october-2022-firefox-106-printer-margin-problem">
-<h1>October 2022 - Firefox 106 printer margin problem<a class="headerlink" href="#october-2022-firefox-106-printer-margin-problem" title="Permalink to this heading"></a></h1>
+  <section id="october-2022-firefox-106-printer-margin-problem">
+<h1>October 2022 - Firefox 106 printer margin problem<a class="headerlink" href="#october-2022-firefox-106-printer-margin-problem" title="Link to this heading"></a></h1>
 <p>There is a change in the way some of the newer versions of Firefox are handling printing and it’s creating situations where the left margin of a receipt is not printing properly.  Additionally, the header and the footer may print unintended blank spaces at the top and bottom of the page.</p>
 <p><a class="reference internal" href="../_images/ff106.0010.jpg"><img alt="Receipt with bad left margin" src="../_images/ff106.0010.jpg" style="width: 1960.4px; height: 2610.4px;" /></a></p>
 <p>In order to fix these problems, you can do the following:</p>
 <ol class="arabic simple">
-<li>Open a new window in Firefox and type “<a class="reference external" href="about:config" target="_blank">about:config</a>” and click on the button that says “Accept the Risk and Continue”</li>
+<li><p>Open a new window in Firefox and type “<a class="reference external" href="about:config" target="_blank">about:config</a>” and click on the button that says “Accept the Risk and Continue”</p></li>
 </ol>
 <p><a class="reference internal" href="../_images/ff106.0020.png"><img alt="Go to &quot;about:config&quot; in Firefox and click on &quot;Accept the Risk and Continue&quot;" src="../_images/ff106.0020.png" style="width: 833.3000000000001px; height: 543.4px;" /></a></p>
 <ol class="arabic simple" start="2">
-<li>Type “print.printer” in the search bar</li>
+<li><p>Type “print.printer” in the search bar</p></li>
 </ol>
 <p><a class="reference internal" href="../_images/ff106.0030.png"><img alt="Search for &quot;print.printer&quot;" src="../_images/ff106.0030.png" style="width: 833.3000000000001px; height: 468.0px;" /></a></p>
 <ol class="arabic simple" start="3">
-<li>Scroll through the results looking for the name of your receipt printer after “print.printer” - in my case my receipt printer is named “EPSON_TM-T88III_ReceiptE4”</li>
+<li><p>Scroll through the results looking for the name of your receipt printer after “print.printer” - in my case my receipt printer is named “EPSON_TM-T88III_ReceiptE4”</p></li>
 </ol>
 <p><a class="reference internal" href="../_images/ff106.0040.png"><img alt="Then look for &quot;print.printer&quot; and the name of your receipt printer" src="../_images/ff106.0040.png" style="width: 833.3000000000001px; height: 468.0px;" /></a></p>
 <ol class="arabic simple" start="4">
-<li>Set all of the following settings for your printer to:</li>
+<li><p>Set all of the following settings for your printer to:</p></li>
 </ol>
 <ul class="simple">
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_bgcolor = false</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_bgimages = false</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_footercenter = (blank)</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_footerleft = (blank)</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_footerright = (blank)</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_headercenter = (blank)</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_headerleft = (blank)</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_headerright = (blank)</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_ignore_unwriteable_margins = false</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_margin_bottom = 0</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_margin_left = 0</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_margin_right = 0</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_margin_top = 0</li>
-<li>print.printer_YOUR_RECEIPT_PRINTER.print_shrink_to_fit = true</li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_bgcolor = false</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_bgimages = false</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_footercenter = (blank)</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_footerleft = (blank)</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_footerright = (blank)</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_headercenter = (blank)</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_headerleft = (blank)</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_headerright = (blank)</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_ignore_unwriteable_margins = false</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_margin_bottom = 0</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_margin_left = 0</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_margin_right = 0</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_margin_top = 0</p></li>
+<li><p>print.printer_YOUR_RECEIPT_PRINTER.print_shrink_to_fit = true</p></li>
 </ul>
 <p>There may be other “print.printer_YOUR_RECEIPT_PRINTER” settings, but, in general, they can be ignored so long as these are set correctly.</p>
 <p><a class="reference internal" href="../_images/ff106.0050.png"><img alt="Make sure your Firefox matches these settings" src="../_images/ff106.0050.png" style="width: 833.3000000000001px; height: 468.0px;" /></a></p>
 <p>If this does not solve your problem or if you have other printing issues please let us know at <img alt="Next help &#64; nekls.org e-mail address" src="../_images/nexthelp.svg" /></p>
-</div>
+</section>
 
 
            </div>
