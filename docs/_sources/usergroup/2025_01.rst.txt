@@ -1,0 +1,95 @@
+.. include:: /include.rst
+
+2025-01-29 - Agenda and notes
+=============================
+
+2025-01-29 (Thursday) - Northeast Kansas Library System, Lawrence / online
+
+  `Zoom link <https://kslib.zoom.us/j/86710380453?pwd=m8rTZGlzkARh61xZol3MQObaEIHix1.1>`_
+
+  Zoom passcode 7858384090
+
+Agenda
+^^^^^^
+
+1. Announcements, news, brief items, etc. 
+ 
+    - Introductions 
+    - Additions to the agenda 
+
+2. Policy documents
+
+    - `2025 participation agreement <https://nextkansas.org/Files/18/ViewPDF>`_
+    - `Privacy and confidentiality statement <https://nextkansas.org/Files/17/ViewPDF>`_
+
+3. Koha upgrade between March 3 and 9 - Koha 24.11
+
+    - Exciting features
+      - Force password change for new patrons entered by staff
+      - Add a preferred name field to patrons
+      - Changes to clais returned
+
+4. Questions about statistics
+
+    - What determines "books," "audio," "video," and "other" in 9.1b, 9.1c, 9.2, 9.4
+    - What determines "WiFi hotspot" in 10.5a
+    - Adult vs non-adult and print vs non-print in the 11-11.4 series of questions
+    - What is the ILL Count based on
+    - Why don't these numbers make any sense
+
+5. Aspen Lida app demo
+
+.. notes
+    Show App in App store
+    Open App
+    Log in to NEKLS library 
+    -- IF Show how to choose location
+    -- IF Show account information
+    -- IF Place hold
+    -- IF download cloud library item
+    -- Show whatever you can think of
+
+6. Twillio messaging - next big project
+
+.. notes
+    -- set up for a trial run
+    -- need A2P 10DLC setup 
+
+7. Cataloging changes - self-setting indicators
+
+    - `See video on YouTube <https://youtu.be/odW1leyBZ6k>`_
+
+.. notes
+    -- show changes to indicators
+    -- point everyone to video
+
+8. Cataloging multi-part sets
+
+    - Written instructions and vido coming soon
+
+.. notes
+    -- walk through the process
+
+9. Self-check-out / self-check-in documentation updated - demo
+
+    - instructions are at
+      - `Self-check-out <https://northeast-kansas-library-system.github.io/nextsteps/pages/selfcheck/self_check_out.html>`_
+      - `Self-check-in <https://northeast-kansas-library-system.github.io/nextsteps/pages/selfcheck/self_check_in.html>`_
+
+10. Forms on Aspen Discovery for reporting problems
+
+    - See `<https://nextkansas.org/staff-help>`_
+
+11. Long term projects 
+
+    - Bibliographic frameworks
+    - Cake pan cleanup
+    - Realia cleanup / updates 
+    - Find new authority control vendor
+    - Notices and slips re-writes/simplifications
+
+12. Next meetings
+
+    - Spring - April - date TBD - Mary Cotton Library, Sabetha / online
+    - Early Fall - Late August - Northeast / Online
+    - Late Fall - Late October/Early November - South / Online

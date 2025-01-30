@@ -1,0 +1,39 @@
+.. include:: /include.rst
+
+2025-01-29 - Agenda and notes
+=============================
+
+2025-01-29 (Thursday) - Northeast Kansas Library System, Lawrence / online
+
+  `Zoom link <https://kslib.zoom.us/j/86710380453?pwd=m8rTZGlzkARh61xZol3MQObaEIHix1.1>`_
+
+  Zoom passcode 7858384090
+
+No recordings of this meeting will be made
+
+Agenda
+^^^^^^
+
+
+1. Announcements, news, brief items, etc. 
+ 
+    - Introductions 
+    - Additions to the agenda 
+
+#. Aspen Lida app demo
+
+#. Twillio messaging
+
+#. Cataloging changes 
+
+#. Cataloging multi-part sets
+
+    - Good instructions coming soon
+
+#. Self-check-out / self-check-in documentation updated - demo
+
+#. Forms on Aspen Discovery for reporting problems
+
+    - See `https://nextkansas.org/staff-help`_`
+
+#. Next meeting 
