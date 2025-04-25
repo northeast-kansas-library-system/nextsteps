@@ -459,6 +459,42 @@
     :scale: 65%
     :alt: Image should appear in Aspen Discovery after reindexing
 
+.. |942n_0010| image:: /images/pages/cataloging_docs/942n_0010.png 
+    :scale: 65%
+    :alt: Suppressed record - search results 
+
+.. |942n_0020| image:: /images/pages/cataloging_docs/942n_0020.png 
+    :scale: 65%
+    :alt: Suppressed record - details page
+
+.. |942n_0030| image:: /images/pages/cataloging_docs/942n_0030.png 
+    :scale: 65%
+    :alt: Suppressed record - add/edit item page
+
+.. |942n_0040| image:: /images/pages/cataloging_docs/942n_0040.png 
+    :scale: 65%
+    :alt: Suppressed record - go to record, click on edit
+
+.. |942n_0050| image:: /images/pages/cataloging_docs/942n_0050.png 
+    :scale: 65%
+    :alt: Suppressed record - go to the 9 tab, set 942n field to "Not visible in Aspen Discovery," then click on "Save"
+
+.. |942n_0060| image:: /images/pages/cataloging_docs/942n_0060.png 
+    :scale: 65%
+    :alt: Suppressed record - This record is now suppressed
+
+.. |942n_0070| image:: /images/pages/cataloging_docs/942n_0070.png 
+    :scale: 65%
+    :alt: Suppressed record - go to record, click on edit
+
+.. |942n_0080| image:: /images/pages/cataloging_docs/942n_0080.png 
+    :scale: 65%
+    :alt: Suppressed record - go to the 9 tab, clear the 942n field, then click on "Save"
+
+.. |942n_0090| image:: /images/pages/cataloging_docs/942n_0090.png 
+    :scale: 65%
+    :alt: Suppressed record - this record is no longer suppressed
+
 .. pages/cataloging_original_brief
 
 .. |cataloging_original_brief_010| image:: /images/pages/cataloging_original_brief/cataloging_original_brief_010.png
