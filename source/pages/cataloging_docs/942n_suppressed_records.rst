@@ -11,39 +11,39 @@ Identify a suppressed record
 
 Suppressed records are now identified in search results, in the bibliographic details, and in the add/edit item interface
 
-|942n_0010| - search results
+|942n_0010|
 
-|942n_0020| - bibliograpic details
+|942n_0020|
 
-|942n_0030| - add/edit item
+|942n_0030|
 
 To suppress a record
 --------------------
 
-# Go to the details page for the record and click on "Edit record" 
+#. Go to the details page for the record and click on "Edit record" 
 
-|942n_0040|
+    |942n_0040|
 
-# Go to the 900s tab and change the drop-down for the 942$n field to "Not visible in Aspen Discovery" then click "Save" to save the record
+#. Go to the 900s tab and change the drop-down for the 942$n field to "Not visible in Aspen Discovery" then click "Save" to save the record
 
-|942n_0050|
+    |942n_0050|
 
-# When you're done, you'll see the suppressed record message
+#. When you're done, you'll see the suppressed record message
 
-|942n_0060|
+    |942n_0060|
 
 
 To un-suppress a record 
 -----------------------
 
-# Go to the details page for the record anc click on "Edit record"
+#. Go to the details page for the record anc click on "Edit record"
 
-|942n_0070|
+    |942n_0070|
 
-# Go to the 900s tab, click the "X" on the right-hand side of the 942$n field then click "Save" to save the record
+#. Go to the 900s tab, click the "X" on the right-hand side of the 942$n field then click "Save" to save the record
 
-|942n_0080|
+    |942n_0080|
 
-# When you're done, you will no longer see the suppressed record message
+#. When you're done, you will no longer see the suppressed record message
 
-|942n_0090|
+    |942n_0090|
