@@ -47,3 +47,12 @@ To un-suppress a record
 #. When you're done, you will no longer see the suppressed record message
 
     |942n_0090|
+
+Documents
+---------
+
+The following documents are available for download:
+
+- How to identify suppressed records 
+- How to suppress a record 
+- How to un-suppress a record 

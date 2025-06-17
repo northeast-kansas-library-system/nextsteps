@@ -135,3 +135,11 @@ Next Search Catalog History
   - May - The Wetmore Academic Center Library withdraws from Next Search Catalog due to the permanent closure of Wetmore Academic Center.
   - August - Upgrade to Koha 22.11
   - September - George Williams and Greg Gantz from NEKLS attend the koha-US conference in Portsmouth, New Hampshire (`koha-US 2023 conference website <https://koha-us.org/events/conferences/2023-koha-us-annual-conference-portsmouth-nh/>`_).
+
+- 2024 
+
+  - Coming soon 
+
+- 2025 
+
+  - June - Nikki Hansen joined NEKLS as the Next Search Catalog Support Specialist
