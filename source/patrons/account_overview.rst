@@ -31,3 +31,6 @@ Patron messaging preferences
 
     |unified.search.0010|
 
+.. dropdown:: Shot of screen 
+
+    |unified.search.0010|
