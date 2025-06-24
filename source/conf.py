@@ -37,8 +37,13 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.todo',
-    'sphinx.ext.graphviz'
+    'sphinx.ext.graphviz',
+    'sphinx_toolbox.collapse',
+    "myst_parser", 
+    "sphinx_design"
 ]
+
+myst_enable_extensions = ["colon_fence"]
 
 # Display todos by setting to True
 todo_include_todos = True
