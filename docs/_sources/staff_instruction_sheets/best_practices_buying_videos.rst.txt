@@ -28,7 +28,7 @@ Third party sellers on Amazon can open a new storefront on Amazon in a matter or
 
 A new sign that a feature film you're purchasing might be pirated is if it was produced by Apple TV+.
 
-Currently Apptle TV+ has an unofficial policy of *not* releasing the movies they produce on physical media.  Apple TV+ is in the business of making content for their streaming platform and their unoficial policy is designed to force consumers to sign up for Apple TV+ if they want to see movies like KILLERS OF THE FLOWER MOON or GREYHOUND.
+Currently Apple TV+ has an unofficial policy of *not* releasing the movies they produce on physical media.  Apple TV+ is in the business of making content for their streaming platform and their unoficial policy is designed to force consumers to sign up for Apple TV+ if they want to see movies like KILLERS OF THE FLOWER MOON or GREYHOUND.
 
 |best_practices_buying_videos_0030|
 

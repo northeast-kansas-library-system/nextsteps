@@ -51,7 +51,9 @@ Step 2B: Record is not in catalog, but can be found elsewhere
 
     - :doc:`/cataloging_basics/shareit`
 
-  Some libraries have access to cataloging through OCLC's WorldCat service, through their book vendor, or through other services.  If you cannot find a record through Z39.50 or ShrareIt, you can add a record using these other services if you are able.  Getting the record to your computer will vary depending on the service.  Once you have the record, though, the process would follow the steps outlined here.
+  Some libraries have access to cataloging records through OCLC's Record Manager service, through their book vendor, or through other services.  If you cannot find a record through Z39.50 or ShrareIt, you can add a record using these other services if you are able.  Getting the record to your computer will vary depending on the service, you should consult the training available for those services for more information on how to download those records.  
+  
+  Once you have the record, though, the process would follow the steps outlined here.
 
     - :doc:`/cataloging_basics/stage_and_import_record`
 
